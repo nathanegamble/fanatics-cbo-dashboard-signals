@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T20:23:26.025048+00:00",
+  "generated_at": "2026-07-14T20:24:06.984407+00:00",
   "as_of": "2026-07-14",
   "source": "Public ESPN RSS feeds; Yahoo Scout/browser scrape path pending validation",
   "version": "0.1",
@@ -113,125 +113,6 @@
       "window_end": "2026-07-14",
       "items": [
         {
-          "headline": "MLBPA rips salary cap ad campaign as 'perverse'",
-          "detail": "MLB commissioner Rob Manfred and MLBPA head Bruce Meyer shared differing views on the league's \"Level the Field\" ad campaign expressing its desire for a salary cap.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49358929/mlbpa-head-criticizes-mlb-salary-cap-ad-campaign-perverse",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ]
-        },
-        {
-          "headline": "Sources: MLB in LA28 facing hurdles with MLBPA",
-          "detail": "Though support is growing for MLB to participate in the Olympics in 2028, it's complicated by disagreements with the MLBPA, according to sources.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49357692/issues-tickets-rooms-complicate-mlb-playing-olympics",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ]
-        },
-        {
-          "headline": "Signed presidential baseballs top $3M at auction",
-          "detail": "A set of 21 presidential autographed baseballs, featuring every president of the United States since Theodore Roosevelt, has sold via Hunt Auctions' MLB All-Star live auction for $3,055,000 during All-Star week.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49361242/set-21-signed-presidential-baseballs-sells-3055-million",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market",
-            "seasonality"
-          ]
-        },
-        {
-          "headline": "Walker hopes Derby win stirs Black kids to play",
-          "detail": "Cardinals outfielder Jordan Walker wants to be a role model, and he hopes his victory in the Home Run Derby inspires more Black kids to play baseball.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49358712/jordan-walker-hopes-home-run-derby-win-inspires-black-kids",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ]
-        },
-        {
-          "headline": "Ohtani rookie card sells for a record $3.365M",
-          "detail": "A 1-of-1 rookie card of MLB star Shohei Ohtani has sold privately for a record $3.365 million.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49358926/unique-ohtani-rookie-card-sells-privately-record-3365m",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context"
-          ]
-        },
-        {
-          "headline": "Walker walks it off: Cards slugger wins HR Derby",
-          "detail": "Jordan Walker homered on his last six swings to beat hometown favorite Kyle Schwarber, becoming the first Cardinal to win the Home Run Derby.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49355213/jordan-walker-homers-last-six-swings-win-home-run-derby",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context"
-          ]
-        },
-        {
-          "headline": "Harper denies giving FanDuel consent for fan video...",
-          "detail": "Phillies star Bryce Harper said Monday that he did not know how FanDuel would use a personalized video he made for a customer, who has since accused the sportsbook in a lawsuit of taking advantage of his gambling addiction.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49352243/bryce-harper-denies-giving-fanduel-consent-video-customer",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ]
-        },
-        {
-          "headline": "Schwarber to lead off for NL; 3 new AL starters",
-          "detail": "The Phillies' Kyle Schwarber will lead off for the NL in the All-Star Game as the replacement for Shohei Ohtani, while Riley Greene, Ben Rice and Cody Bellinger will start for the AL.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49351976/phillies-kyle-schwarber-lead-nl-all-star-game",
-          "confidence": "medium",
-          "relevance": [
-            "seasonality"
-          ]
-        },
-        {
-          "headline": "\ud83d\udc40 Giants draft Barry Bonds' nephew in 3rd round",
-          "detail": "Peyton Bonds hit .352 with six home runs and 13 stolen bases for Rutgers this past season.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49339137/mlb-draft-2026-barry-bonds-peyton-bonds-san-francisco-giants",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market",
-            "seasonality"
-          ]
-        },
-        {
           "headline": "From unranked in high school to summer league stan...",
           "detail": "Once overlooked as recruits, these summer league rookies are proving why they were first-round draft picks.",
           "date": "2026-07-14",
@@ -269,6 +150,123 @@
           "confidence": "medium",
           "relevance": [
             "seasonality"
+          ]
+        },
+        {
+          "headline": "Police investigation of Jets' Smith no longer acti...",
+          "detail": "An investigation of Geno Smith for an incident in which a woman accused him of battery last month is no longer active, and the New York Jets quarterback will not be charged.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49361039/investigation-alleged-battery-jets-smith-no-longer-active",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Rams' Jackson won't face felony charge for arrest",
+          "detail": "The Rams' Alaric Jackson will not face a felony charge after he was arrested on a domestic violence charge in June, the Los Angeles County District Attorney's Office confirmed to ESPN.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49351981/rams-alaric-jackson-face-felony-charge-june-arrest",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Packers sign LB McDuffie to one-year extension",
+          "detail": "The Packers signed veteran linebacker Isaiah McDuffie to a contract extension Monday.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49352279/packers-sign-lb-isaiah-mcduffie-one-year-contract-extension",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market"
+          ]
+        },
+        {
+          "headline": "Free agent Diggs: No WR2 in NFL better than me",
+          "detail": "Free agent Stefon Diggs says he is better than any No. 2 wide receiver currently on an NFL roster.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49343916/stefon-diggs-says-there-no-wr2-nfl-better-me",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market"
+          ]
+        },
+        {
+          "headline": "Niners part owner agrees to purchase Seahawks",
+          "detail": "A group led by Niners limited partner Vinod Khosla has agreed to purchase the Seahawks, with sources telling ESPN the selling price will be a record $9.612 billion. The Khosla family will be required to divest its interest in the 49ers.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49337716/khosla-led-group-agrees-buy-seahawks-sources-say-96-billion",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ]
+        },
+        {
+          "headline": "No GPS tracker for Arnold, can work out for teams",
+          "detail": "Former Lions cornerback Terrion Arnold does not need to wear a GPS tracker as a condition of his release, a Florida judge ruled Friday, allowing him to continue to work out with NFL teams in an effort to get re-signed after being cut.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49325177/no-gps-tracker-terrion-arnold-work-nfl-teams",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market"
+          ]
+        },
+        {
+          "headline": "Study: NFLers die from dementia at higher rate",
+          "detail": "NFL players are four times more likely than the general population to die of neurodegenerative diseases such as dementia and Parkinson's, according to a study released Wednesday.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49317702/study-nfl-players-4-s-more-likely-die-neurodegenerative-disease",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Commanders to retire No. 44 of HOF RB Riggins",
+          "detail": "The Commanders are retiring the No. 44 worn by Hall of Famer and franchise rushing leader John Riggins -- more than 40 years after one of the most famous runs in Super Bowl history.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49315574/commanders-retire-no-44-worn-hall-famer-john-riggins",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "\ud83c\udfc8 Meet the family set to buy the Seahawks",
+          "detail": "Vinod Khosla is a prominent venture capitalist, and his wife, Neeru, is an education philanthropist.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49358800/khosla-family-vinod-neeru-neal-san-francisco-49ers-seattle-seahawks",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
           ]
         }
       ]
@@ -278,125 +276,6 @@
       "window_end": "2026-07-21",
       "items": [
         {
-          "headline": "MLBPA rips salary cap ad campaign as 'perverse'",
-          "detail": "MLB commissioner Rob Manfred and MLBPA head Bruce Meyer shared differing views on the league's \"Level the Field\" ad campaign expressing its desire for a salary cap.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49358929/mlbpa-head-criticizes-mlb-salary-cap-ad-campaign-perverse",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ]
-        },
-        {
-          "headline": "Sources: MLB in LA28 facing hurdles with MLBPA",
-          "detail": "Though support is growing for MLB to participate in the Olympics in 2028, it's complicated by disagreements with the MLBPA, according to sources.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49357692/issues-tickets-rooms-complicate-mlb-playing-olympics",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ]
-        },
-        {
-          "headline": "Signed presidential baseballs top $3M at auction",
-          "detail": "A set of 21 presidential autographed baseballs, featuring every president of the United States since Theodore Roosevelt, has sold via Hunt Auctions' MLB All-Star live auction for $3,055,000 during All-Star week.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49361242/set-21-signed-presidential-baseballs-sells-3055-million",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market",
-            "seasonality"
-          ]
-        },
-        {
-          "headline": "Walker hopes Derby win stirs Black kids to play",
-          "detail": "Cardinals outfielder Jordan Walker wants to be a role model, and he hopes his victory in the Home Run Derby inspires more Black kids to play baseball.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49358712/jordan-walker-hopes-home-run-derby-win-inspires-black-kids",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ]
-        },
-        {
-          "headline": "Ohtani rookie card sells for a record $3.365M",
-          "detail": "A 1-of-1 rookie card of MLB star Shohei Ohtani has sold privately for a record $3.365 million.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49358926/unique-ohtani-rookie-card-sells-privately-record-3365m",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context"
-          ]
-        },
-        {
-          "headline": "Walker walks it off: Cards slugger wins HR Derby",
-          "detail": "Jordan Walker homered on his last six swings to beat hometown favorite Kyle Schwarber, becoming the first Cardinal to win the Home Run Derby.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49355213/jordan-walker-homers-last-six-swings-win-home-run-derby",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context"
-          ]
-        },
-        {
-          "headline": "Harper denies giving FanDuel consent for fan video...",
-          "detail": "Phillies star Bryce Harper said Monday that he did not know how FanDuel would use a personalized video he made for a customer, who has since accused the sportsbook in a lawsuit of taking advantage of his gambling addiction.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49352243/bryce-harper-denies-giving-fanduel-consent-video-customer",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ]
-        },
-        {
-          "headline": "Schwarber to lead off for NL; 3 new AL starters",
-          "detail": "The Phillies' Kyle Schwarber will lead off for the NL in the All-Star Game as the replacement for Shohei Ohtani, while Riley Greene, Ben Rice and Cody Bellinger will start for the AL.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49351976/phillies-kyle-schwarber-lead-nl-all-star-game",
-          "confidence": "medium",
-          "relevance": [
-            "seasonality"
-          ]
-        },
-        {
-          "headline": "\ud83d\udc40 Giants draft Barry Bonds' nephew in 3rd round",
-          "detail": "Peyton Bonds hit .352 with six home runs and 13 stolen bases for Rutgers this past season.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49339137/mlb-draft-2026-barry-bonds-peyton-bonds-san-francisco-giants",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market",
-            "seasonality"
-          ]
-        },
-        {
           "headline": "From unranked in high school to summer league stan...",
           "detail": "Once overlooked as recruits, these summer league rookies are proving why they were first-round draft picks.",
           "date": "2026-07-14",
@@ -434,6 +313,123 @@
           "confidence": "medium",
           "relevance": [
             "seasonality"
+          ]
+        },
+        {
+          "headline": "Police investigation of Jets' Smith no longer acti...",
+          "detail": "An investigation of Geno Smith for an incident in which a woman accused him of battery last month is no longer active, and the New York Jets quarterback will not be charged.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49361039/investigation-alleged-battery-jets-smith-no-longer-active",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Rams' Jackson won't face felony charge for arrest",
+          "detail": "The Rams' Alaric Jackson will not face a felony charge after he was arrested on a domestic violence charge in June, the Los Angeles County District Attorney's Office confirmed to ESPN.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49351981/rams-alaric-jackson-face-felony-charge-june-arrest",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Packers sign LB McDuffie to one-year extension",
+          "detail": "The Packers signed veteran linebacker Isaiah McDuffie to a contract extension Monday.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49352279/packers-sign-lb-isaiah-mcduffie-one-year-contract-extension",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market"
+          ]
+        },
+        {
+          "headline": "Free agent Diggs: No WR2 in NFL better than me",
+          "detail": "Free agent Stefon Diggs says he is better than any No. 2 wide receiver currently on an NFL roster.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49343916/stefon-diggs-says-there-no-wr2-nfl-better-me",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market"
+          ]
+        },
+        {
+          "headline": "Niners part owner agrees to purchase Seahawks",
+          "detail": "A group led by Niners limited partner Vinod Khosla has agreed to purchase the Seahawks, with sources telling ESPN the selling price will be a record $9.612 billion. The Khosla family will be required to divest its interest in the 49ers.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49337716/khosla-led-group-agrees-buy-seahawks-sources-say-96-billion",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ]
+        },
+        {
+          "headline": "No GPS tracker for Arnold, can work out for teams",
+          "detail": "Former Lions cornerback Terrion Arnold does not need to wear a GPS tracker as a condition of his release, a Florida judge ruled Friday, allowing him to continue to work out with NFL teams in an effort to get re-signed after being cut.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49325177/no-gps-tracker-terrion-arnold-work-nfl-teams",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market"
+          ]
+        },
+        {
+          "headline": "Study: NFLers die from dementia at higher rate",
+          "detail": "NFL players are four times more likely than the general population to die of neurodegenerative diseases such as dementia and Parkinson's, according to a study released Wednesday.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49317702/study-nfl-players-4-s-more-likely-die-neurodegenerative-disease",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Commanders to retire No. 44 of HOF RB Riggins",
+          "detail": "The Commanders are retiring the No. 44 worn by Hall of Famer and franchise rushing leader John Riggins -- more than 40 years after one of the most famous runs in Super Bowl history.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49315574/commanders-retire-no-44-worn-hall-famer-john-riggins",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "\ud83c\udfc8 Meet the family set to buy the Seahawks",
+          "detail": "Vinod Khosla is a prominent venture capitalist, and his wife, Neeru, is an education philanthropist.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49358800/khosla-family-vinod-neeru-neal-san-francisco-49ers-seattle-seahawks",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
           ]
         }
       ]
@@ -443,125 +439,6 @@
       "window_end": "2026-08-13",
       "items": [
         {
-          "headline": "MLBPA rips salary cap ad campaign as 'perverse'",
-          "detail": "MLB commissioner Rob Manfred and MLBPA head Bruce Meyer shared differing views on the league's \"Level the Field\" ad campaign expressing its desire for a salary cap.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49358929/mlbpa-head-criticizes-mlb-salary-cap-ad-campaign-perverse",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ]
-        },
-        {
-          "headline": "Sources: MLB in LA28 facing hurdles with MLBPA",
-          "detail": "Though support is growing for MLB to participate in the Olympics in 2028, it's complicated by disagreements with the MLBPA, according to sources.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49357692/issues-tickets-rooms-complicate-mlb-playing-olympics",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ]
-        },
-        {
-          "headline": "Signed presidential baseballs top $3M at auction",
-          "detail": "A set of 21 presidential autographed baseballs, featuring every president of the United States since Theodore Roosevelt, has sold via Hunt Auctions' MLB All-Star live auction for $3,055,000 during All-Star week.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49361242/set-21-signed-presidential-baseballs-sells-3055-million",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market",
-            "seasonality"
-          ]
-        },
-        {
-          "headline": "Walker hopes Derby win stirs Black kids to play",
-          "detail": "Cardinals outfielder Jordan Walker wants to be a role model, and he hopes his victory in the Home Run Derby inspires more Black kids to play baseball.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49358712/jordan-walker-hopes-home-run-derby-win-inspires-black-kids",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ]
-        },
-        {
-          "headline": "Ohtani rookie card sells for a record $3.365M",
-          "detail": "A 1-of-1 rookie card of MLB star Shohei Ohtani has sold privately for a record $3.365 million.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49358926/unique-ohtani-rookie-card-sells-privately-record-3365m",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context"
-          ]
-        },
-        {
-          "headline": "Walker walks it off: Cards slugger wins HR Derby",
-          "detail": "Jordan Walker homered on his last six swings to beat hometown favorite Kyle Schwarber, becoming the first Cardinal to win the Home Run Derby.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49355213/jordan-walker-homers-last-six-swings-win-home-run-derby",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context"
-          ]
-        },
-        {
-          "headline": "Harper denies giving FanDuel consent for fan video...",
-          "detail": "Phillies star Bryce Harper said Monday that he did not know how FanDuel would use a personalized video he made for a customer, who has since accused the sportsbook in a lawsuit of taking advantage of his gambling addiction.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49352243/bryce-harper-denies-giving-fanduel-consent-video-customer",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ]
-        },
-        {
-          "headline": "Schwarber to lead off for NL; 3 new AL starters",
-          "detail": "The Phillies' Kyle Schwarber will lead off for the NL in the All-Star Game as the replacement for Shohei Ohtani, while Riley Greene, Ben Rice and Cody Bellinger will start for the AL.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49351976/phillies-kyle-schwarber-lead-nl-all-star-game",
-          "confidence": "medium",
-          "relevance": [
-            "seasonality"
-          ]
-        },
-        {
-          "headline": "\ud83d\udc40 Giants draft Barry Bonds' nephew in 3rd round",
-          "detail": "Peyton Bonds hit .352 with six home runs and 13 stolen bases for Rutgers this past season.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T21:18:44+00:00",
-          "league": "MLB",
-          "source_name": "ESPN MLB",
-          "source_url": "https://www.espn.com/mlb/story/_/id/49339137/mlb-draft-2026-barry-bonds-peyton-bonds-san-francisco-giants",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market",
-            "seasonality"
-          ]
-        },
-        {
           "headline": "From unranked in high school to summer league stan...",
           "detail": "Once overlooked as recruits, these summer league rookies are proving why they were first-round draft picks.",
           "date": "2026-07-14",
@@ -599,6 +476,123 @@
           "confidence": "medium",
           "relevance": [
             "seasonality"
+          ]
+        },
+        {
+          "headline": "Police investigation of Jets' Smith no longer acti...",
+          "detail": "An investigation of Geno Smith for an incident in which a woman accused him of battery last month is no longer active, and the New York Jets quarterback will not be charged.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49361039/investigation-alleged-battery-jets-smith-no-longer-active",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Rams' Jackson won't face felony charge for arrest",
+          "detail": "The Rams' Alaric Jackson will not face a felony charge after he was arrested on a domestic violence charge in June, the Los Angeles County District Attorney's Office confirmed to ESPN.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49351981/rams-alaric-jackson-face-felony-charge-june-arrest",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Packers sign LB McDuffie to one-year extension",
+          "detail": "The Packers signed veteran linebacker Isaiah McDuffie to a contract extension Monday.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49352279/packers-sign-lb-isaiah-mcduffie-one-year-contract-extension",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market"
+          ]
+        },
+        {
+          "headline": "Free agent Diggs: No WR2 in NFL better than me",
+          "detail": "Free agent Stefon Diggs says he is better than any No. 2 wide receiver currently on an NFL roster.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49343916/stefon-diggs-says-there-no-wr2-nfl-better-me",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market"
+          ]
+        },
+        {
+          "headline": "Niners part owner agrees to purchase Seahawks",
+          "detail": "A group led by Niners limited partner Vinod Khosla has agreed to purchase the Seahawks, with sources telling ESPN the selling price will be a record $9.612 billion. The Khosla family will be required to divest its interest in the 49ers.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49337716/khosla-led-group-agrees-buy-seahawks-sources-say-96-billion",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ]
+        },
+        {
+          "headline": "No GPS tracker for Arnold, can work out for teams",
+          "detail": "Former Lions cornerback Terrion Arnold does not need to wear a GPS tracker as a condition of his release, a Florida judge ruled Friday, allowing him to continue to work out with NFL teams in an effort to get re-signed after being cut.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49325177/no-gps-tracker-terrion-arnold-work-nfl-teams",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market"
+          ]
+        },
+        {
+          "headline": "Study: NFLers die from dementia at higher rate",
+          "detail": "NFL players are four times more likely than the general population to die of neurodegenerative diseases such as dementia and Parkinson's, according to a study released Wednesday.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49317702/study-nfl-players-4-s-more-likely-die-neurodegenerative-disease",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Commanders to retire No. 44 of HOF RB Riggins",
+          "detail": "The Commanders are retiring the No. 44 worn by Hall of Famer and franchise rushing leader John Riggins -- more than 40 years after one of the most famous runs in Super Bowl history.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49315574/commanders-retire-no-44-worn-hall-famer-john-riggins",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "\ud83c\udfc8 Meet the family set to buy the Seahawks",
+          "detail": "Vinod Khosla is a prominent venture capitalist, and his wife, Neeru, is an education philanthropist.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:47:09+00:00",
+          "league": "NFL",
+          "source_name": "ESPN NFL",
+          "source_url": "https://www.espn.com/nfl/story/_/id/49358800/khosla-family-vinod-neeru-neal-san-francisco-49ers-seattle-seahawks",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
           ]
         }
       ]
