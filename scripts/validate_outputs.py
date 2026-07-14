@@ -50,16 +50,31 @@ def validate_events(obj: dict) -> None:
             assert item["source_url"].startswith("http"), f"source_url not URL: {item['source_url']}"
 
 
+def validate_notes(obj: dict) -> None:
+    for key in ["generated_at", "as_of", "status", "warnings", "candidates"]:
+        assert key in obj, f"contextual-notes-candidates missing {key}"
+    assert isinstance(obj["candidates"], list) and obj["candidates"], "contextual note candidates empty"
+    for note in obj["candidates"]:
+        for k in ["id", "topic", "note_type", "dashboard_slots", "summary", "why_it_matters", "confidence", "sources"]:
+            assert k in note, f"candidate missing {k}"
+        assert isinstance(note["dashboard_slots"], list), f"dashboard_slots not list: {note.get('id')}"
+        assert isinstance(note["sources"], list) and note["sources"], f"candidate missing sources: {note.get('id')}"
+        for source in note["sources"]:
+            assert source.get("url", "").startswith("http"), f"candidate source_url not URL: {note.get('id')}"
+
+
 def main() -> int:
     facts_path = DATA / "sports-facts.json"
     events_path = DATA / "sports-events.json"
+    notes_path = DATA / "contextual-notes-candidates.json"
     manifest_path = DATA / "manifest.json"
-    for path in [facts_path, events_path, manifest_path]:
+    for path in [facts_path, events_path, notes_path, manifest_path]:
         assert path.exists(), f"missing {path}"
         json.loads(path.read_text())
         assert_no_obvious_secret(path)
     validate_facts(json.loads(facts_path.read_text()))
     validate_events(json.loads(events_path.read_text()))
+    validate_notes(json.loads(notes_path.read_text()))
     print("validation ok")
     return 0
 

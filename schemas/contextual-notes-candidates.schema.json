@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fanatics contextual notes candidates feed",
+  "type": "object",
+  "required": ["generated_at", "as_of", "status", "warnings", "candidates"],
+  "properties": {
+    "generated_at": {"type": "string"},
+    "as_of": {"type": "string"},
+    "source": {"type": "string"},
+    "version": {"type": "string"},
+    "status": {"enum": ["ok", "partial", "error"]},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "candidate_count": {"type": "integer"},
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "topic", "note_type", "dashboard_slots", "summary", "why_it_matters", "confidence", "sources"],
+        "properties": {
+          "id": {"type": "string"},
+          "generated_from": {"type": "string"},
+          "topic": {"type": "string"},
+          "league": {"type": "string"},
+          "note_type": {"type": "string"},
+          "dashboard_slots": {"type": "array", "items": {"type": "string"}},
+          "summary": {"type": "string"},
+          "why_it_matters": {"type": "string"},
+          "supporting_facts": {"type": "array", "items": {"type": "string"}},
+          "suggested_copy": {"type": "string"},
+          "confidence": {"enum": ["high", "medium", "low"]},
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "url", "type"],
+              "properties": {
+                "name": {"type": "string"},
+                "url": {"type": "string"},
+                "type": {"type": "string"},
+                "published_at": {"type": ["string", "null"]}
+              }
+            }
+          },
+          "warnings": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    }
+  }
+}

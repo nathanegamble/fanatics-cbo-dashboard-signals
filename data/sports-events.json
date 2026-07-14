@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T20:24:06.984407+00:00",
+  "generated_at": "2026-07-14T20:41:38.649991+00:00",
   "as_of": "2026-07-14",
   "source": "Public ESPN RSS feeds; Yahoo Scout/browser scrape path pending validation",
   "version": "0.1",
@@ -113,39 +113,12 @@
       "window_end": "2026-07-14",
       "items": [
         {
-          "headline": "From unranked in high school to summer league stan...",
-          "detail": "Once overlooked as recruits, these summer league rookies are proving why they were first-round draft picks.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:59:43+00:00",
-          "league": "NBA",
-          "source_name": "ESPN NBA",
-          "source_url": "https://www.espn.com/mens-college-basketball/story/_/id/49345173/nba-draft-first-round-picks-unranked-sc-next-100-high-school-recruits-summer-league-rookies",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market",
-            "historical_context"
-          ]
-        },
-        {
-          "headline": "NBA summer league: First impressions of rookies an...",
-          "detail": "2026 summer league is in full swing! Our NBA insiders break down first impressions of top rookie debuts.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:59:43+00:00",
-          "league": "NBA",
-          "source_name": "ESPN NBA",
-          "source_url": "https://www.espn.com/nba/story/_/id/49324634/2026-las-vegas-nba-summer-league-first-impressions-rookie-draft-class-aj-dybantsa-darryn-peterson-cameron-boozer",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context"
-          ]
-        },
-        {
           "headline": "Live updates: France, Spain meet with World Cup fi...",
           "detail": "null",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:59:12+00:00",
+          "published_at": "2026-07-14T21:36:33+00:00",
           "league": "Soccer",
-          "source_name": "ESPN Top Headlines",
+          "source_name": "ESPN Soccer",
           "source_url": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
           "confidence": "medium",
           "relevance": [
@@ -153,117 +126,144 @@
           ]
         },
         {
-          "headline": "Police investigation of Jets' Smith no longer acti...",
-          "detail": "An investigation of Geno Smith for an incident in which a woman accused him of battery last month is no longer active, and the New York Jets quarterback will not be charged.",
+          "headline": "Balogun: Red card 'controversy' affected USMNT",
+          "detail": "United States striker Folarin Balogun revealed that he predicted President Donald Trump's involvement in overturning his World Cup suspension would \"cause a lot of controversy.\"",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49361039/investigation-alleged-battery-jets-smith-no-longer-active",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49358886/united-states-folarin-balogun-world-cup-ban-overturn-affected-teammates",
+          "confidence": "medium",
+          "relevance": [
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "Infantino reported to IOC over Trump ties at WC",
+          "detail": "A complaint alleging FIFA president Gianni Infantino has breached rules on political neutrality in his dealings with President Donald Trump has been submitted to the International Olympic Committee.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49357803/gianni-infantino-reported-ioc-donald-trump-ties-world-cup",
           "confidence": "medium",
           "relevance": [
             "culture"
           ]
         },
         {
-          "headline": "Rams' Jackson won't face felony charge for arrest",
-          "detail": "The Rams' Alaric Jackson will not face a felony charge after he was arrested on a domestic violence charge in June, the Los Angeles County District Attorney's Office confirmed to ESPN.",
+          "headline": "Man United sign Villa's Tielemans in $47M deal",
+          "detail": "Manchester United have announced the signing of midfielder Youri Tielemans from Aston Villa.",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49351981/rams-alaric-jackson-face-felony-charge-june-arrest",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ]
-        },
-        {
-          "headline": "Packers sign LB McDuffie to one-year extension",
-          "detail": "The Packers signed veteran linebacker Isaiah McDuffie to a contract extension Monday.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49352279/packers-sign-lb-isaiah-mcduffie-one-year-contract-extension",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49356683/manchester-united-sign-midfielder-youri-tielemans-aston-villa",
           "confidence": "medium",
           "relevance": [
             "roster_market"
           ]
         },
         {
-          "headline": "Free agent Diggs: No WR2 in NFL better than me",
-          "detail": "Free agent Stefon Diggs says he is better than any No. 2 wide receiver currently on an NFL roster.",
+          "headline": "New Napoli coach Allegri regrets collapse at Milan...",
+          "detail": "Massimiliano Allegri is not looking for redemption at Napoli despite still being troubled by the end of his second spell in charge of AC Milan.",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49343916/stefon-diggs-says-there-no-wr2-nfl-better-me",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market"
-          ]
-        },
-        {
-          "headline": "Niners part owner agrees to purchase Seahawks",
-          "detail": "A group led by Niners limited partner Vinod Khosla has agreed to purchase the Seahawks, with sources telling ESPN the selling price will be a record $9.612 billion. The Khosla family will be required to divest its interest in the 49ers.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49337716/khosla-led-group-agrees-buy-seahawks-sources-say-96-billion",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context"
-          ]
-        },
-        {
-          "headline": "No GPS tracker for Arnold, can work out for teams",
-          "detail": "Former Lions cornerback Terrion Arnold does not need to wear a GPS tracker as a condition of his release, a Florida judge ruled Friday, allowing him to continue to work out with NFL teams in an effort to get re-signed after being cut.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49325177/no-gps-tracker-terrion-arnold-work-nfl-teams",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market"
-          ]
-        },
-        {
-          "headline": "Study: NFLers die from dementia at higher rate",
-          "detail": "NFL players are four times more likely than the general population to die of neurodegenerative diseases such as dementia and Parkinson's, according to a study released Wednesday.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49317702/study-nfl-players-4-s-more-likely-die-neurodegenerative-disease",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49360634/napoli-coach-allegri-milan-collapse-weighed-me",
           "confidence": "medium",
           "relevance": [
             "culture"
           ]
         },
         {
-          "headline": "Commanders to retire No. 44 of HOF RB Riggins",
-          "detail": "The Commanders are retiring the No. 44 worn by Hall of Famer and franchise rushing leader John Riggins -- more than 40 years after one of the most famous runs in Super Bowl history.",
+          "headline": "Mac Allister may draw on PL experience vs England",
+          "detail": "Argentina midfielder Alexis Mac Allister said playing in the Premier League with Liverpool may be helpful when facing England on Wednesday in Atlanta.",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49315574/commanders-retire-no-44-worn-hall-famer-john-riggins",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49360330/experience-facing-england-premier-league-stars-help-world-cup-semifinal-alexis-mac-allister",
           "confidence": "medium",
           "relevance": [
             "culture"
           ]
         },
         {
-          "headline": "\ud83c\udfc8 Meet the family set to buy the Seahawks",
-          "detail": "Vinod Khosla is a prominent venture capitalist, and his wife, Neeru, is an education philanthropist.",
+          "headline": "Kane: England can't focus on Argentina history",
+          "detail": "Harry Kane says a World Cup semifinal against historic rivals Argentina is \"as big as it gets\" but stressed England cannot be drawn into the emotional baggage surrounding the fixture.",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49358800/khosla-family-vinod-neeru-neal-san-francisco-49ers-seattle-seahawks",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49358709/harry-kane-england-argentina-world-cup-2026-semifinal",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context",
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "Sources: Unimpressed Atleti end Greenwood talks",
+          "detail": "Marseille forward Mason Greenwood is nearing a four-year deal deal with Fenerbah\u00e7e after Atl\u00e9tico Madrid dropped their pursuit of the former Manchester United player -- saying he was unreachable, sources told ESPN.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49360000/mason-greenwood-agrees-deal-fenerbahce-atletico-madrid-drop-pursuit-sources",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Besiktas, Arsenal agree $22.8M deal for Trossard",
+          "detail": "Besiktas have agreed a deal with Arsenal for winger Leandro Trossard, the north London club have announced.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49357898/besiktas-agree-deal-arsenal-winger-leandro-trossard",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "\ud83e\udd64 Why hydration breaks could be here to stay",
+          "detail": "FIFA's mandated three-minute breaks have been a talking point throughout the 2026 World Cup.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49326566/hydration-breaks-world-cup-soccer-broadcast-rights",
+          "confidence": "medium",
+          "relevance": [
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "MLBPA rips salary cap ad campaign as 'perverse'",
+          "detail": "MLB commissioner Rob Manfred and MLBPA head Bruce Meyer shared differing views on the league's \"Level the Field\" ad campaign expressing its desire for a salary cap.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49358929/mlbpa-head-criticizes-mlb-salary-cap-ad-campaign-perverse",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Sources: MLB in LA28 facing hurdles with MLBPA",
+          "detail": "Though support is growing for MLB to participate in the Olympics in 2028, it's complicated by disagreements with the MLBPA, according to sources.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49357692/issues-tickets-rooms-complicate-mlb-playing-olympics",
           "confidence": "medium",
           "relevance": [
             "culture"
@@ -276,39 +276,12 @@
       "window_end": "2026-07-21",
       "items": [
         {
-          "headline": "From unranked in high school to summer league stan...",
-          "detail": "Once overlooked as recruits, these summer league rookies are proving why they were first-round draft picks.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:59:43+00:00",
-          "league": "NBA",
-          "source_name": "ESPN NBA",
-          "source_url": "https://www.espn.com/mens-college-basketball/story/_/id/49345173/nba-draft-first-round-picks-unranked-sc-next-100-high-school-recruits-summer-league-rookies",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market",
-            "historical_context"
-          ]
-        },
-        {
-          "headline": "NBA summer league: First impressions of rookies an...",
-          "detail": "2026 summer league is in full swing! Our NBA insiders break down first impressions of top rookie debuts.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:59:43+00:00",
-          "league": "NBA",
-          "source_name": "ESPN NBA",
-          "source_url": "https://www.espn.com/nba/story/_/id/49324634/2026-las-vegas-nba-summer-league-first-impressions-rookie-draft-class-aj-dybantsa-darryn-peterson-cameron-boozer",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context"
-          ]
-        },
-        {
           "headline": "Live updates: France, Spain meet with World Cup fi...",
           "detail": "null",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:59:12+00:00",
+          "published_at": "2026-07-14T21:36:33+00:00",
           "league": "Soccer",
-          "source_name": "ESPN Top Headlines",
+          "source_name": "ESPN Soccer",
           "source_url": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
           "confidence": "medium",
           "relevance": [
@@ -316,117 +289,144 @@
           ]
         },
         {
-          "headline": "Police investigation of Jets' Smith no longer acti...",
-          "detail": "An investigation of Geno Smith for an incident in which a woman accused him of battery last month is no longer active, and the New York Jets quarterback will not be charged.",
+          "headline": "Balogun: Red card 'controversy' affected USMNT",
+          "detail": "United States striker Folarin Balogun revealed that he predicted President Donald Trump's involvement in overturning his World Cup suspension would \"cause a lot of controversy.\"",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49361039/investigation-alleged-battery-jets-smith-no-longer-active",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49358886/united-states-folarin-balogun-world-cup-ban-overturn-affected-teammates",
+          "confidence": "medium",
+          "relevance": [
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "Infantino reported to IOC over Trump ties at WC",
+          "detail": "A complaint alleging FIFA president Gianni Infantino has breached rules on political neutrality in his dealings with President Donald Trump has been submitted to the International Olympic Committee.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49357803/gianni-infantino-reported-ioc-donald-trump-ties-world-cup",
           "confidence": "medium",
           "relevance": [
             "culture"
           ]
         },
         {
-          "headline": "Rams' Jackson won't face felony charge for arrest",
-          "detail": "The Rams' Alaric Jackson will not face a felony charge after he was arrested on a domestic violence charge in June, the Los Angeles County District Attorney's Office confirmed to ESPN.",
+          "headline": "Man United sign Villa's Tielemans in $47M deal",
+          "detail": "Manchester United have announced the signing of midfielder Youri Tielemans from Aston Villa.",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49351981/rams-alaric-jackson-face-felony-charge-june-arrest",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ]
-        },
-        {
-          "headline": "Packers sign LB McDuffie to one-year extension",
-          "detail": "The Packers signed veteran linebacker Isaiah McDuffie to a contract extension Monday.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49352279/packers-sign-lb-isaiah-mcduffie-one-year-contract-extension",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49356683/manchester-united-sign-midfielder-youri-tielemans-aston-villa",
           "confidence": "medium",
           "relevance": [
             "roster_market"
           ]
         },
         {
-          "headline": "Free agent Diggs: No WR2 in NFL better than me",
-          "detail": "Free agent Stefon Diggs says he is better than any No. 2 wide receiver currently on an NFL roster.",
+          "headline": "New Napoli coach Allegri regrets collapse at Milan...",
+          "detail": "Massimiliano Allegri is not looking for redemption at Napoli despite still being troubled by the end of his second spell in charge of AC Milan.",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49343916/stefon-diggs-says-there-no-wr2-nfl-better-me",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market"
-          ]
-        },
-        {
-          "headline": "Niners part owner agrees to purchase Seahawks",
-          "detail": "A group led by Niners limited partner Vinod Khosla has agreed to purchase the Seahawks, with sources telling ESPN the selling price will be a record $9.612 billion. The Khosla family will be required to divest its interest in the 49ers.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49337716/khosla-led-group-agrees-buy-seahawks-sources-say-96-billion",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context"
-          ]
-        },
-        {
-          "headline": "No GPS tracker for Arnold, can work out for teams",
-          "detail": "Former Lions cornerback Terrion Arnold does not need to wear a GPS tracker as a condition of his release, a Florida judge ruled Friday, allowing him to continue to work out with NFL teams in an effort to get re-signed after being cut.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49325177/no-gps-tracker-terrion-arnold-work-nfl-teams",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market"
-          ]
-        },
-        {
-          "headline": "Study: NFLers die from dementia at higher rate",
-          "detail": "NFL players are four times more likely than the general population to die of neurodegenerative diseases such as dementia and Parkinson's, according to a study released Wednesday.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49317702/study-nfl-players-4-s-more-likely-die-neurodegenerative-disease",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49360634/napoli-coach-allegri-milan-collapse-weighed-me",
           "confidence": "medium",
           "relevance": [
             "culture"
           ]
         },
         {
-          "headline": "Commanders to retire No. 44 of HOF RB Riggins",
-          "detail": "The Commanders are retiring the No. 44 worn by Hall of Famer and franchise rushing leader John Riggins -- more than 40 years after one of the most famous runs in Super Bowl history.",
+          "headline": "Mac Allister may draw on PL experience vs England",
+          "detail": "Argentina midfielder Alexis Mac Allister said playing in the Premier League with Liverpool may be helpful when facing England on Wednesday in Atlanta.",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49315574/commanders-retire-no-44-worn-hall-famer-john-riggins",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49360330/experience-facing-england-premier-league-stars-help-world-cup-semifinal-alexis-mac-allister",
           "confidence": "medium",
           "relevance": [
             "culture"
           ]
         },
         {
-          "headline": "\ud83c\udfc8 Meet the family set to buy the Seahawks",
-          "detail": "Vinod Khosla is a prominent venture capitalist, and his wife, Neeru, is an education philanthropist.",
+          "headline": "Kane: England can't focus on Argentina history",
+          "detail": "Harry Kane says a World Cup semifinal against historic rivals Argentina is \"as big as it gets\" but stressed England cannot be drawn into the emotional baggage surrounding the fixture.",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49358800/khosla-family-vinod-neeru-neal-san-francisco-49ers-seattle-seahawks",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49358709/harry-kane-england-argentina-world-cup-2026-semifinal",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context",
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "Sources: Unimpressed Atleti end Greenwood talks",
+          "detail": "Marseille forward Mason Greenwood is nearing a four-year deal deal with Fenerbah\u00e7e after Atl\u00e9tico Madrid dropped their pursuit of the former Manchester United player -- saying he was unreachable, sources told ESPN.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49360000/mason-greenwood-agrees-deal-fenerbahce-atletico-madrid-drop-pursuit-sources",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Besiktas, Arsenal agree $22.8M deal for Trossard",
+          "detail": "Besiktas have agreed a deal with Arsenal for winger Leandro Trossard, the north London club have announced.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49357898/besiktas-agree-deal-arsenal-winger-leandro-trossard",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "\ud83e\udd64 Why hydration breaks could be here to stay",
+          "detail": "FIFA's mandated three-minute breaks have been a talking point throughout the 2026 World Cup.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49326566/hydration-breaks-world-cup-soccer-broadcast-rights",
+          "confidence": "medium",
+          "relevance": [
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "MLBPA rips salary cap ad campaign as 'perverse'",
+          "detail": "MLB commissioner Rob Manfred and MLBPA head Bruce Meyer shared differing views on the league's \"Level the Field\" ad campaign expressing its desire for a salary cap.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49358929/mlbpa-head-criticizes-mlb-salary-cap-ad-campaign-perverse",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Sources: MLB in LA28 facing hurdles with MLBPA",
+          "detail": "Though support is growing for MLB to participate in the Olympics in 2028, it's complicated by disagreements with the MLBPA, according to sources.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49357692/issues-tickets-rooms-complicate-mlb-playing-olympics",
           "confidence": "medium",
           "relevance": [
             "culture"
@@ -439,39 +439,12 @@
       "window_end": "2026-08-13",
       "items": [
         {
-          "headline": "From unranked in high school to summer league stan...",
-          "detail": "Once overlooked as recruits, these summer league rookies are proving why they were first-round draft picks.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:59:43+00:00",
-          "league": "NBA",
-          "source_name": "ESPN NBA",
-          "source_url": "https://www.espn.com/mens-college-basketball/story/_/id/49345173/nba-draft-first-round-picks-unranked-sc-next-100-high-school-recruits-summer-league-rookies",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market",
-            "historical_context"
-          ]
-        },
-        {
-          "headline": "NBA summer league: First impressions of rookies an...",
-          "detail": "2026 summer league is in full swing! Our NBA insiders break down first impressions of top rookie debuts.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:59:43+00:00",
-          "league": "NBA",
-          "source_name": "ESPN NBA",
-          "source_url": "https://www.espn.com/nba/story/_/id/49324634/2026-las-vegas-nba-summer-league-first-impressions-rookie-draft-class-aj-dybantsa-darryn-peterson-cameron-boozer",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context"
-          ]
-        },
-        {
           "headline": "Live updates: France, Spain meet with World Cup fi...",
           "detail": "null",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:59:12+00:00",
+          "published_at": "2026-07-14T21:36:33+00:00",
           "league": "Soccer",
-          "source_name": "ESPN Top Headlines",
+          "source_name": "ESPN Soccer",
           "source_url": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
           "confidence": "medium",
           "relevance": [
@@ -479,117 +452,144 @@
           ]
         },
         {
-          "headline": "Police investigation of Jets' Smith no longer acti...",
-          "detail": "An investigation of Geno Smith for an incident in which a woman accused him of battery last month is no longer active, and the New York Jets quarterback will not be charged.",
+          "headline": "Balogun: Red card 'controversy' affected USMNT",
+          "detail": "United States striker Folarin Balogun revealed that he predicted President Donald Trump's involvement in overturning his World Cup suspension would \"cause a lot of controversy.\"",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49361039/investigation-alleged-battery-jets-smith-no-longer-active",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49358886/united-states-folarin-balogun-world-cup-ban-overturn-affected-teammates",
+          "confidence": "medium",
+          "relevance": [
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "Infantino reported to IOC over Trump ties at WC",
+          "detail": "A complaint alleging FIFA president Gianni Infantino has breached rules on political neutrality in his dealings with President Donald Trump has been submitted to the International Olympic Committee.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49357803/gianni-infantino-reported-ioc-donald-trump-ties-world-cup",
           "confidence": "medium",
           "relevance": [
             "culture"
           ]
         },
         {
-          "headline": "Rams' Jackson won't face felony charge for arrest",
-          "detail": "The Rams' Alaric Jackson will not face a felony charge after he was arrested on a domestic violence charge in June, the Los Angeles County District Attorney's Office confirmed to ESPN.",
+          "headline": "Man United sign Villa's Tielemans in $47M deal",
+          "detail": "Manchester United have announced the signing of midfielder Youri Tielemans from Aston Villa.",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49351981/rams-alaric-jackson-face-felony-charge-june-arrest",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ]
-        },
-        {
-          "headline": "Packers sign LB McDuffie to one-year extension",
-          "detail": "The Packers signed veteran linebacker Isaiah McDuffie to a contract extension Monday.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49352279/packers-sign-lb-isaiah-mcduffie-one-year-contract-extension",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49356683/manchester-united-sign-midfielder-youri-tielemans-aston-villa",
           "confidence": "medium",
           "relevance": [
             "roster_market"
           ]
         },
         {
-          "headline": "Free agent Diggs: No WR2 in NFL better than me",
-          "detail": "Free agent Stefon Diggs says he is better than any No. 2 wide receiver currently on an NFL roster.",
+          "headline": "New Napoli coach Allegri regrets collapse at Milan...",
+          "detail": "Massimiliano Allegri is not looking for redemption at Napoli despite still being troubled by the end of his second spell in charge of AC Milan.",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49343916/stefon-diggs-says-there-no-wr2-nfl-better-me",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market"
-          ]
-        },
-        {
-          "headline": "Niners part owner agrees to purchase Seahawks",
-          "detail": "A group led by Niners limited partner Vinod Khosla has agreed to purchase the Seahawks, with sources telling ESPN the selling price will be a record $9.612 billion. The Khosla family will be required to divest its interest in the 49ers.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49337716/khosla-led-group-agrees-buy-seahawks-sources-say-96-billion",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context"
-          ]
-        },
-        {
-          "headline": "No GPS tracker for Arnold, can work out for teams",
-          "detail": "Former Lions cornerback Terrion Arnold does not need to wear a GPS tracker as a condition of his release, a Florida judge ruled Friday, allowing him to continue to work out with NFL teams in an effort to get re-signed after being cut.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49325177/no-gps-tracker-terrion-arnold-work-nfl-teams",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market"
-          ]
-        },
-        {
-          "headline": "Study: NFLers die from dementia at higher rate",
-          "detail": "NFL players are four times more likely than the general population to die of neurodegenerative diseases such as dementia and Parkinson's, according to a study released Wednesday.",
-          "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49317702/study-nfl-players-4-s-more-likely-die-neurodegenerative-disease",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49360634/napoli-coach-allegri-milan-collapse-weighed-me",
           "confidence": "medium",
           "relevance": [
             "culture"
           ]
         },
         {
-          "headline": "Commanders to retire No. 44 of HOF RB Riggins",
-          "detail": "The Commanders are retiring the No. 44 worn by Hall of Famer and franchise rushing leader John Riggins -- more than 40 years after one of the most famous runs in Super Bowl history.",
+          "headline": "Mac Allister may draw on PL experience vs England",
+          "detail": "Argentina midfielder Alexis Mac Allister said playing in the Premier League with Liverpool may be helpful when facing England on Wednesday in Atlanta.",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49315574/commanders-retire-no-44-worn-hall-famer-john-riggins",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49360330/experience-facing-england-premier-league-stars-help-world-cup-semifinal-alexis-mac-allister",
           "confidence": "medium",
           "relevance": [
             "culture"
           ]
         },
         {
-          "headline": "\ud83c\udfc8 Meet the family set to buy the Seahawks",
-          "detail": "Vinod Khosla is a prominent venture capitalist, and his wife, Neeru, is an education philanthropist.",
+          "headline": "Kane: England can't focus on Argentina history",
+          "detail": "Harry Kane says a World Cup semifinal against historic rivals Argentina is \"as big as it gets\" but stressed England cannot be drawn into the emotional baggage surrounding the fixture.",
           "date": "2026-07-14",
-          "published_at": "2026-07-14T20:47:09+00:00",
-          "league": "NFL",
-          "source_name": "ESPN NFL",
-          "source_url": "https://www.espn.com/nfl/story/_/id/49358800/khosla-family-vinod-neeru-neal-san-francisco-49ers-seattle-seahawks",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49358709/harry-kane-england-argentina-world-cup-2026-semifinal",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context",
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "Sources: Unimpressed Atleti end Greenwood talks",
+          "detail": "Marseille forward Mason Greenwood is nearing a four-year deal deal with Fenerbah\u00e7e after Atl\u00e9tico Madrid dropped their pursuit of the former Manchester United player -- saying he was unreachable, sources told ESPN.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49360000/mason-greenwood-agrees-deal-fenerbahce-atletico-madrid-drop-pursuit-sources",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Besiktas, Arsenal agree $22.8M deal for Trossard",
+          "detail": "Besiktas have agreed a deal with Arsenal for winger Leandro Trossard, the north London club have announced.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49357898/besiktas-agree-deal-arsenal-winger-leandro-trossard",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "\ud83e\udd64 Why hydration breaks could be here to stay",
+          "detail": "FIFA's mandated three-minute breaks have been a talking point throughout the 2026 World Cup.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:22:28+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Soccer",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49326566/hydration-breaks-world-cup-soccer-broadcast-rights",
+          "confidence": "medium",
+          "relevance": [
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "MLBPA rips salary cap ad campaign as 'perverse'",
+          "detail": "MLB commissioner Rob Manfred and MLBPA head Bruce Meyer shared differing views on the league's \"Level the Field\" ad campaign expressing its desire for a salary cap.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49358929/mlbpa-head-criticizes-mlb-salary-cap-ad-campaign-perverse",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Sources: MLB in LA28 facing hurdles with MLBPA",
+          "detail": "Though support is growing for MLB to participate in the Olympics in 2028, it's complicated by disagreements with the MLBPA, according to sources.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49357692/issues-tickets-rooms-complicate-mlb-playing-olympics",
           "confidence": "medium",
           "relevance": [
             "culture"

@@ -25,26 +25,30 @@ def main() -> int:
     DATA.mkdir(exist_ok=True)
     results = {}
     exit_code = 0
-    for script in ["refresh_api_sports.py", "refresh_events.py"]:
+    for script in ["refresh_api_sports.py", "refresh_events.py", "refresh_contextual_notes.py"]:
         code, output = run(script)
         results[script] = {"exit_code": code, "output": output[-2000:]}
         if code != 0:
             exit_code = code
     facts = load("sports-facts.json")
     events = load("sports-events.json")
+    notes = load("contextual-notes-candidates.json")
     raw_base = "https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data"
+    ok_statuses = {"ok", "partial"}
     manifest = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "status": "ok" if facts.get("status") in {"ok", "partial"} and events.get("status") in {"ok", "partial"} else "error",
+        "status": "ok" if facts.get("status") in ok_statuses and events.get("status") in ok_statuses and notes.get("status") in ok_statuses else "error",
         "version": "0.1",
         "files": {
             "sports_facts": {"path": "data/sports-facts.json", "raw_url": f"{raw_base}/sports-facts.json", "status": facts.get("status"), "as_of": facts.get("as_of")},
             "sports_events": {"path": "data/sports-events.json", "raw_url": f"{raw_base}/sports-events.json", "status": events.get("status"), "as_of": events.get("as_of")},
+            "contextual_notes_candidates": {"path": "data/contextual-notes-candidates.json", "raw_url": f"{raw_base}/contextual-notes-candidates.json", "status": notes.get("status"), "as_of": notes.get("as_of"), "candidate_count": notes.get("candidate_count")},
         },
         "run_results": results,
         "consumer_notes": [
             "sports-facts.json includes derived season_phase plus phase_detail, phase_basis, and phase_confidence.",
             "sports-events.json keeps Cowork's window concept but nests each window as {window_start, window_end, items} for date clarity.",
+            "contextual-notes-candidates.json provides source-backed candidate notes and dashboard-slot hints for Cowork to adapt, not final prose.",
             "All committed outputs are public sports facts/news references; no API keys or credentials are written.",
         ],
     }

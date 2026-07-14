@@ -6,6 +6,7 @@ This document explains the v0.1 enhancements beyond the original brief.
 
 - Facts: `data/sports-facts.json`
 - Events: `data/sports-events.json`
+- Contextual Note candidates: `data/contextual-notes-candidates.json`
 - Status/index: `data/manifest.json`
 
 Use raw GitHub URLs from `manifest.json` or the README.
@@ -64,6 +65,21 @@ Event items include `relevance`, an array such as:
 
 These are intended to help map external signals to dashboard Contextual Note slots.
 
+### 5. Contextual Note candidates
+
+`contextual-notes-candidates.json` is a bridge layer generated from the facts and events feeds. It gives Cowork a shortlist of source-backed note ideas with:
+
+- `note_type`
+- `dashboard_slots`
+- `summary`
+- `why_it_matters`
+- `supporting_facts`
+- `suggested_copy`
+- `confidence`
+- `sources`
+
+Important: these are candidates, not final dashboard copy. Cowork should adapt wording, suppress low-confidence items, and decide whether a note belongs in the dashboard.
+
 ## Known v0.1 limitations
 
 - WNBA is not confirmed in API-Sports basketball league search; v0.1 uses a low-confidence public seasonal calendar fallback.
@@ -80,7 +96,7 @@ These are intended to help map external signals to dashboard Contextual Note slo
 
 ## Future additions Horatio recommends
 
-1. `data/contextual-notes-candidates.json`: curated, source-backed candidate notes ready for Cowork to adapt.
-2. X/social trend layer for player/team/league spikes, clearly separated from factual schedule/results data.
-3. Competitor and retail-watch feeds: Nike, Adidas, Lids, Dick's, league shops, collectible launches.
-4. More precise standings/results once we tune API request budget per league.
+1. X/social trend layer for player/team/league spikes, clearly separated from factual schedule/results data.
+2. Competitor and retail-watch feeds: Nike, Adidas, Lids, Dick's, league shops, collectible launches.
+3. More precise standings/results once we tune API request budget per league.
+4. Yahoo Scout/browser validation as a supplemental source for cultural context and richer source discovery.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T20:24:07.903876+00:00",
+  "generated_at": "2026-07-14T20:41:39.576541+00:00",
   "status": "ok",
   "version": "0.1",
   "files": {
@@ -14,6 +14,13 @@
       "raw_url": "https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/sports-events.json",
       "status": "ok",
       "as_of": "2026-07-14"
+    },
+    "contextual_notes_candidates": {
+      "path": "data/contextual-notes-candidates.json",
+      "raw_url": "https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/contextual-notes-candidates.json",
+      "status": "ok",
+      "as_of": "2026-07-14",
+      "candidate_count": 23
     }
   },
   "run_results": {
@@ -24,11 +31,16 @@
     "refresh_events.py": {
       "exit_code": 0,
       "output": "{\n  \"wrote\": \"data/sports-events.json\",\n  \"status\": \"ok\",\n  \"items_collected\": 149\n}"
+    },
+    "refresh_contextual_notes.py": {
+      "exit_code": 0,
+      "output": "{\n  \"wrote\": \"data/contextual-notes-candidates.json\",\n  \"status\": \"ok\",\n  \"candidate_count\": 23\n}"
     }
   },
   "consumer_notes": [
     "sports-facts.json includes derived season_phase plus phase_detail, phase_basis, and phase_confidence.",
     "sports-events.json keeps Cowork's window concept but nests each window as {window_start, window_end, items} for date clarity.",
+    "contextual-notes-candidates.json provides source-backed candidate notes and dashboard-slot hints for Cowork to adapt, not final prose.",
     "All committed outputs are public sports facts/news references; no API keys or credentials are written."
   ]
 }

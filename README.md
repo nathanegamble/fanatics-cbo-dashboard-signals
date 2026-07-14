@@ -6,6 +6,7 @@ Public JSON feed for external sports/context signals consumed by Claude Cowork a
 
 - `sports-facts.json`: https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/sports-facts.json
 - `sports-events.json`: https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/sports-events.json
+- `contextual-notes-candidates.json`: https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/contextual-notes-candidates.json
 - `manifest.json`: https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/manifest.json
 
 ## Files
@@ -53,6 +54,26 @@ Each window is represented as:
 ```
 
 Each item includes a `source_url`, `source_name`, `league`, `confidence`, and relevance tags. v0.1 uses public ESPN RSS feeds for reliable automation and source URLs. The Yahoo Scout/browser path requested by Cowork is documented as a POC path to validate next; it can publish into the same schema without changing consumer code.
+
+### `data/contextual-notes-candidates.json`
+
+A bridge layer derived from `sports-facts.json` and `sports-events.json`. These are **candidate** Contextual Notes for Cowork to adapt, not final executive copy.
+
+Each candidate includes:
+
+- `topic`
+- `league`
+- `note_type`
+- `dashboard_slots`
+- `summary`
+- `why_it_matters`
+- `supporting_facts`
+- `suggested_copy`
+- `confidence`
+- `sources`
+- `warnings`
+
+Dashboard slot hints currently include values such as `today_read`, `league_momentum`, `bigger_picture`, `what_moving`, `creative_programs`, and `structural_signals`.
 
 ### `data/manifest.json`
 
@@ -109,4 +130,5 @@ Recommended consumption pattern:
 1. Fetch `manifest.json` first.
 2. If `status` is `ok` or `partial`, fetch `sports-facts.json` and `sports-events.json`.
 3. Use `phase_basis`, `phase_confidence`, and `warnings` to avoid overclaiming uncertain seasonality.
-4. For Contextual Notes, prefer event items with `confidence: high|medium`, a valid `source_url`, and relevance tags matching the dashboard slot.
+4. Use `contextual-notes-candidates.json` as a shortlist of source-backed note ideas; adapt tone and placement rather than copying blindly.
+5. For Contextual Notes, prefer candidates/events with `confidence: high|medium`, a valid source URL, and dashboard slots matching the target section.
