@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fanatics sports facts feed",
+  "type": "object",
+  "required": ["generated_at", "as_of", "status", "warnings", "leagues"],
+  "properties": {
+    "generated_at": {"type": "string"},
+    "as_of": {"type": "string"},
+    "status": {"enum": ["ok", "partial", "error"]},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "leagues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["league", "season_phase", "phase_detail", "phase_basis", "phase_confidence", "season", "as_of"],
+        "properties": {
+          "league": {"type": "string"},
+          "season_phase": {"enum": ["off-season", "pre-season", "in-season", "post-season", "unknown"]},
+          "phase_detail": {"type": "string"},
+          "phase_basis": {"type": "string"},
+          "phase_confidence": {"enum": ["high", "medium", "low"]},
+          "season": {"type": "object"},
+          "recent_results": {"type": "array"},
+          "standings_top": {"type": "array"},
+          "warnings": {"type": "array"}
+        }
+      }
+    }
+  }
+}

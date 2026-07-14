@@ -1,0 +1,612 @@
+{
+  "generated_at": "2026-07-14T20:23:26.025048+00:00",
+  "as_of": "2026-07-14",
+  "source": "Public ESPN RSS feeds; Yahoo Scout/browser scrape path pending validation",
+  "version": "0.1",
+  "status": "ok",
+  "warnings": [
+    "Automated v0.1 uses public RSS sources with URLs for reliability; Yahoo Scout browser collection remains a separately documented POC path."
+  ],
+  "source_detail": {
+    "feeds_attempted": [
+      "ESPN Top Headlines",
+      "ESPN NFL",
+      "ESPN MLB",
+      "ESPN NBA",
+      "ESPN NHL",
+      "ESPN Soccer",
+      "ESPN College Football",
+      "ESPN College Basketball",
+      "ESPN WNBA"
+    ],
+    "items_collected": 149
+  },
+  "windows": {
+    "yesterday": {
+      "window_start": "2026-07-13",
+      "window_end": "2026-07-13",
+      "items": [
+        {
+          "headline": "Ex-Kansas player charged with attempted murder",
+          "detail": "Lagerald Vick, a member of the Kansas Jayhawks' Final Four basketball team in 2018, has been charged with attempted first-degree murder in Tennessee.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T22:45:21+00:00",
+          "league": "NCAA Basketball",
+          "source_name": "ESPN College Basketball",
+          "source_url": "https://www.espn.com/mens-college-basketball/story/_/id/49350117/ex-kansas-player-lagerald-vick-charged-attempted-murder",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context",
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "Sources: Brown HC Martin becomes U-M assistant",
+          "detail": "Mike Martin, the winningest basketball coach at Brown, is leaving the Bears to become an assistant on Mike Boynton's staff at Michigan, sources told ESPN.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T21:44:08+00:00",
+          "league": "NCAA Basketball",
+          "source_name": "ESPN College Basketball",
+          "source_url": "https://www.espn.com/mens-college-basketball/story/_/id/49352528/sources-brown-hc-mike-martin-takes-job-michigan-assistant",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Ranking top coaches: Can Curt Cignetti win this ti...",
+          "detail": "Our reporters make -- and defend -- their picks for the coaches they'd want to lead their team.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T20:43:07+00:00",
+          "league": "NCAA Football",
+          "source_name": "ESPN College Football",
+          "source_url": "https://www.espn.com/college-football/story/_/id/49215318/ranking-college-football-top-coaches-2026-cignetti-smart-kiffin-day-freeman-lanning-sarkisian",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "2026 WNBA championship odds: Lynx remain on top; V...",
+          "detail": "Entering the week at 17-7, the Golden State Valkyries now have the fourth-shortest odds to win the WNBA title.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T19:13:01+00:00",
+          "league": "WNBA",
+          "source_name": "ESPN WNBA",
+          "source_url": "https://www.espn.com/espn/betting/story/_/id/48417601/2026-wnba-championship-odds-playoffs-mvp",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ]
+        },
+        {
+          "headline": "Prospects watch: The future is not quite now",
+          "detail": "Eric Karabell reports from the MLB draft and Futures Game to let fantasy managers know whose names you need to know.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T17:12:34+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/fantasy/baseball/story/_/id/49350007/2026-fantasy-baseball-prospects-dynasty-leagues-rising-falling-mlb-futures",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market"
+          ]
+        },
+        {
+          "headline": "Ohtani, Witt and ... Pete Alonso! First-half MVPs ...",
+          "detail": "We name each club's top performer so far -- and how many All-Stars they'd have in a perfect world.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T16:27:41+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49288476/2026-mlb-first-half-mvps-all-stars-playoff-odds-all-30-teams",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context",
+            "seasonality"
+          ]
+        }
+      ]
+    },
+    "today": {
+      "window_start": "2026-07-14",
+      "window_end": "2026-07-14",
+      "items": [
+        {
+          "headline": "MLBPA rips salary cap ad campaign as 'perverse'",
+          "detail": "MLB commissioner Rob Manfred and MLBPA head Bruce Meyer shared differing views on the league's \"Level the Field\" ad campaign expressing its desire for a salary cap.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49358929/mlbpa-head-criticizes-mlb-salary-cap-ad-campaign-perverse",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Sources: MLB in LA28 facing hurdles with MLBPA",
+          "detail": "Though support is growing for MLB to participate in the Olympics in 2028, it's complicated by disagreements with the MLBPA, according to sources.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49357692/issues-tickets-rooms-complicate-mlb-playing-olympics",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Signed presidential baseballs top $3M at auction",
+          "detail": "A set of 21 presidential autographed baseballs, featuring every president of the United States since Theodore Roosevelt, has sold via Hunt Auctions' MLB All-Star live auction for $3,055,000 during All-Star week.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49361242/set-21-signed-presidential-baseballs-sells-3055-million",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market",
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "Walker hopes Derby win stirs Black kids to play",
+          "detail": "Cardinals outfielder Jordan Walker wants to be a role model, and he hopes his victory in the Home Run Derby inspires more Black kids to play baseball.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49358712/jordan-walker-hopes-home-run-derby-win-inspires-black-kids",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Ohtani rookie card sells for a record $3.365M",
+          "detail": "A 1-of-1 rookie card of MLB star Shohei Ohtani has sold privately for a record $3.365 million.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49358926/unique-ohtani-rookie-card-sells-privately-record-3365m",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ]
+        },
+        {
+          "headline": "Walker walks it off: Cards slugger wins HR Derby",
+          "detail": "Jordan Walker homered on his last six swings to beat hometown favorite Kyle Schwarber, becoming the first Cardinal to win the Home Run Derby.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49355213/jordan-walker-homers-last-six-swings-win-home-run-derby",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ]
+        },
+        {
+          "headline": "Harper denies giving FanDuel consent for fan video...",
+          "detail": "Phillies star Bryce Harper said Monday that he did not know how FanDuel would use a personalized video he made for a customer, who has since accused the sportsbook in a lawsuit of taking advantage of his gambling addiction.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49352243/bryce-harper-denies-giving-fanduel-consent-video-customer",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Schwarber to lead off for NL; 3 new AL starters",
+          "detail": "The Phillies' Kyle Schwarber will lead off for the NL in the All-Star Game as the replacement for Shohei Ohtani, while Riley Greene, Ben Rice and Cody Bellinger will start for the AL.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49351976/phillies-kyle-schwarber-lead-nl-all-star-game",
+          "confidence": "medium",
+          "relevance": [
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "\ud83d\udc40 Giants draft Barry Bonds' nephew in 3rd round",
+          "detail": "Peyton Bonds hit .352 with six home runs and 13 stolen bases for Rutgers this past season.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49339137/mlb-draft-2026-barry-bonds-peyton-bonds-san-francisco-giants",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market",
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "From unranked in high school to summer league stan...",
+          "detail": "Once overlooked as recruits, these summer league rookies are proving why they were first-round draft picks.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:59:43+00:00",
+          "league": "NBA",
+          "source_name": "ESPN NBA",
+          "source_url": "https://www.espn.com/mens-college-basketball/story/_/id/49345173/nba-draft-first-round-picks-unranked-sc-next-100-high-school-recruits-summer-league-rookies",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market",
+            "historical_context"
+          ]
+        },
+        {
+          "headline": "NBA summer league: First impressions of rookies an...",
+          "detail": "2026 summer league is in full swing! Our NBA insiders break down first impressions of top rookie debuts.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:59:43+00:00",
+          "league": "NBA",
+          "source_name": "ESPN NBA",
+          "source_url": "https://www.espn.com/nba/story/_/id/49324634/2026-las-vegas-nba-summer-league-first-impressions-rookie-draft-class-aj-dybantsa-darryn-peterson-cameron-boozer",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ]
+        },
+        {
+          "headline": "Live updates: France, Spain meet with World Cup fi...",
+          "detail": "null",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:59:12+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Top Headlines",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
+          "confidence": "medium",
+          "relevance": [
+            "seasonality"
+          ]
+        }
+      ]
+    },
+    "this_week": {
+      "window_start": "2026-07-14",
+      "window_end": "2026-07-21",
+      "items": [
+        {
+          "headline": "MLBPA rips salary cap ad campaign as 'perverse'",
+          "detail": "MLB commissioner Rob Manfred and MLBPA head Bruce Meyer shared differing views on the league's \"Level the Field\" ad campaign expressing its desire for a salary cap.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49358929/mlbpa-head-criticizes-mlb-salary-cap-ad-campaign-perverse",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Sources: MLB in LA28 facing hurdles with MLBPA",
+          "detail": "Though support is growing for MLB to participate in the Olympics in 2028, it's complicated by disagreements with the MLBPA, according to sources.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49357692/issues-tickets-rooms-complicate-mlb-playing-olympics",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Signed presidential baseballs top $3M at auction",
+          "detail": "A set of 21 presidential autographed baseballs, featuring every president of the United States since Theodore Roosevelt, has sold via Hunt Auctions' MLB All-Star live auction for $3,055,000 during All-Star week.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49361242/set-21-signed-presidential-baseballs-sells-3055-million",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market",
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "Walker hopes Derby win stirs Black kids to play",
+          "detail": "Cardinals outfielder Jordan Walker wants to be a role model, and he hopes his victory in the Home Run Derby inspires more Black kids to play baseball.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49358712/jordan-walker-hopes-home-run-derby-win-inspires-black-kids",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Ohtani rookie card sells for a record $3.365M",
+          "detail": "A 1-of-1 rookie card of MLB star Shohei Ohtani has sold privately for a record $3.365 million.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49358926/unique-ohtani-rookie-card-sells-privately-record-3365m",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ]
+        },
+        {
+          "headline": "Walker walks it off: Cards slugger wins HR Derby",
+          "detail": "Jordan Walker homered on his last six swings to beat hometown favorite Kyle Schwarber, becoming the first Cardinal to win the Home Run Derby.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49355213/jordan-walker-homers-last-six-swings-win-home-run-derby",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ]
+        },
+        {
+          "headline": "Harper denies giving FanDuel consent for fan video...",
+          "detail": "Phillies star Bryce Harper said Monday that he did not know how FanDuel would use a personalized video he made for a customer, who has since accused the sportsbook in a lawsuit of taking advantage of his gambling addiction.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49352243/bryce-harper-denies-giving-fanduel-consent-video-customer",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Schwarber to lead off for NL; 3 new AL starters",
+          "detail": "The Phillies' Kyle Schwarber will lead off for the NL in the All-Star Game as the replacement for Shohei Ohtani, while Riley Greene, Ben Rice and Cody Bellinger will start for the AL.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49351976/phillies-kyle-schwarber-lead-nl-all-star-game",
+          "confidence": "medium",
+          "relevance": [
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "\ud83d\udc40 Giants draft Barry Bonds' nephew in 3rd round",
+          "detail": "Peyton Bonds hit .352 with six home runs and 13 stolen bases for Rutgers this past season.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49339137/mlb-draft-2026-barry-bonds-peyton-bonds-san-francisco-giants",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market",
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "From unranked in high school to summer league stan...",
+          "detail": "Once overlooked as recruits, these summer league rookies are proving why they were first-round draft picks.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:59:43+00:00",
+          "league": "NBA",
+          "source_name": "ESPN NBA",
+          "source_url": "https://www.espn.com/mens-college-basketball/story/_/id/49345173/nba-draft-first-round-picks-unranked-sc-next-100-high-school-recruits-summer-league-rookies",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market",
+            "historical_context"
+          ]
+        },
+        {
+          "headline": "NBA summer league: First impressions of rookies an...",
+          "detail": "2026 summer league is in full swing! Our NBA insiders break down first impressions of top rookie debuts.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:59:43+00:00",
+          "league": "NBA",
+          "source_name": "ESPN NBA",
+          "source_url": "https://www.espn.com/nba/story/_/id/49324634/2026-las-vegas-nba-summer-league-first-impressions-rookie-draft-class-aj-dybantsa-darryn-peterson-cameron-boozer",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ]
+        },
+        {
+          "headline": "Live updates: France, Spain meet with World Cup fi...",
+          "detail": "null",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:59:12+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Top Headlines",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
+          "confidence": "medium",
+          "relevance": [
+            "seasonality"
+          ]
+        }
+      ]
+    },
+    "this_month": {
+      "window_start": "2026-07-14",
+      "window_end": "2026-08-13",
+      "items": [
+        {
+          "headline": "MLBPA rips salary cap ad campaign as 'perverse'",
+          "detail": "MLB commissioner Rob Manfred and MLBPA head Bruce Meyer shared differing views on the league's \"Level the Field\" ad campaign expressing its desire for a salary cap.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49358929/mlbpa-head-criticizes-mlb-salary-cap-ad-campaign-perverse",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Sources: MLB in LA28 facing hurdles with MLBPA",
+          "detail": "Though support is growing for MLB to participate in the Olympics in 2028, it's complicated by disagreements with the MLBPA, according to sources.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49357692/issues-tickets-rooms-complicate-mlb-playing-olympics",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Signed presidential baseballs top $3M at auction",
+          "detail": "A set of 21 presidential autographed baseballs, featuring every president of the United States since Theodore Roosevelt, has sold via Hunt Auctions' MLB All-Star live auction for $3,055,000 during All-Star week.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49361242/set-21-signed-presidential-baseballs-sells-3055-million",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market",
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "Walker hopes Derby win stirs Black kids to play",
+          "detail": "Cardinals outfielder Jordan Walker wants to be a role model, and he hopes his victory in the Home Run Derby inspires more Black kids to play baseball.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49358712/jordan-walker-hopes-home-run-derby-win-inspires-black-kids",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Ohtani rookie card sells for a record $3.365M",
+          "detail": "A 1-of-1 rookie card of MLB star Shohei Ohtani has sold privately for a record $3.365 million.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49358926/unique-ohtani-rookie-card-sells-privately-record-3365m",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ]
+        },
+        {
+          "headline": "Walker walks it off: Cards slugger wins HR Derby",
+          "detail": "Jordan Walker homered on his last six swings to beat hometown favorite Kyle Schwarber, becoming the first Cardinal to win the Home Run Derby.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49355213/jordan-walker-homers-last-six-swings-win-home-run-derby",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ]
+        },
+        {
+          "headline": "Harper denies giving FanDuel consent for fan video...",
+          "detail": "Phillies star Bryce Harper said Monday that he did not know how FanDuel would use a personalized video he made for a customer, who has since accused the sportsbook in a lawsuit of taking advantage of his gambling addiction.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49352243/bryce-harper-denies-giving-fanduel-consent-video-customer",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ]
+        },
+        {
+          "headline": "Schwarber to lead off for NL; 3 new AL starters",
+          "detail": "The Phillies' Kyle Schwarber will lead off for the NL in the All-Star Game as the replacement for Shohei Ohtani, while Riley Greene, Ben Rice and Cody Bellinger will start for the AL.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49351976/phillies-kyle-schwarber-lead-nl-all-star-game",
+          "confidence": "medium",
+          "relevance": [
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "\ud83d\udc40 Giants draft Barry Bonds' nephew in 3rd round",
+          "detail": "Peyton Bonds hit .352 with six home runs and 13 stolen bases for Rutgers this past season.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T21:18:44+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49339137/mlb-draft-2026-barry-bonds-peyton-bonds-san-francisco-giants",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market",
+            "seasonality"
+          ]
+        },
+        {
+          "headline": "From unranked in high school to summer league stan...",
+          "detail": "Once overlooked as recruits, these summer league rookies are proving why they were first-round draft picks.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:59:43+00:00",
+          "league": "NBA",
+          "source_name": "ESPN NBA",
+          "source_url": "https://www.espn.com/mens-college-basketball/story/_/id/49345173/nba-draft-first-round-picks-unranked-sc-next-100-high-school-recruits-summer-league-rookies",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market",
+            "historical_context"
+          ]
+        },
+        {
+          "headline": "NBA summer league: First impressions of rookies an...",
+          "detail": "2026 summer league is in full swing! Our NBA insiders break down first impressions of top rookie debuts.",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:59:43+00:00",
+          "league": "NBA",
+          "source_name": "ESPN NBA",
+          "source_url": "https://www.espn.com/nba/story/_/id/49324634/2026-las-vegas-nba-summer-league-first-impressions-rookie-draft-class-aj-dybantsa-darryn-peterson-cameron-boozer",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ]
+        },
+        {
+          "headline": "Live updates: France, Spain meet with World Cup fi...",
+          "detail": "null",
+          "date": "2026-07-14",
+          "published_at": "2026-07-14T20:59:12+00:00",
+          "league": "Soccer",
+          "source_name": "ESPN Top Headlines",
+          "source_url": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
+          "confidence": "medium",
+          "relevance": [
+            "seasonality"
+          ]
+        }
+      ]
+    },
+    "next_month": {
+      "window_start": "2026-08-14",
+      "window_end": "2026-09-12",
+      "items": []
+    }
+  }
+}
