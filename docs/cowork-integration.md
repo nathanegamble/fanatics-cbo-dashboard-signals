@@ -57,10 +57,12 @@ The original brief represented each window as a direct array. v0.2 nests each wi
 
 This avoids ambiguity around what "this week" or "next month" means on any given run.
 
-Events now include `source_family`:
+Events now include `source_family` and `source_rank`:
 
-- `espn_rss`: precision/editorial baseline.
-- `yahoo_sports_rss`: broader sports-news discovery layer.
+- `espn_rss`: precision/editorial baseline, `source_rank: 2`.
+- `yahoo_sports_rss`: broader sports-news discovery layer, `source_rank: 1`.
+
+Cowork-requested provenance fields are preserved on event items: `source_name`, `source_url`, `source_family`, `source_rank`, `feed`/`feed_url`, `league`, and `published`/`published_at`. ESPN is ranked above Yahoo in dedupe and window ordering.
 
 Yahoo News sports is not included in v0.2 because validation showed weaker relevance and higher safety/noise risk for this dashboard use case. Browser scraping paths are excluded for now in favor of stable public RSS endpoints.
 

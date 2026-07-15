@@ -58,7 +58,7 @@ Each window is represented as:
 }
 ```
 
-Each item includes a `source_url`, `source_name`, `source_family`, `feed_url`, `league`, `confidence`, `relevance_score`, `relevance_reason`, and relevance tags. v0.2 uses ESPN RSS as a precision/editorial layer and Yahoo Sports RSS as a breadth/discovery layer. Yahoo News sports is excluded for now because validation showed weaker relevance and higher safety/noise risk for this use case.
+Each item includes `source_name`, `source_url`, `source_family`, `source_rank`, `feed`/`feed_url`, `league`, `published`/`published_at`, `confidence`, `relevance_score`, `relevance_reason`, and relevance tags. v0.2 uses ESPN RSS as a precision/editorial layer and Yahoo Sports RSS as a breadth/discovery layer. Yahoo News sports is excluded for now because validation showed weaker relevance and higher safety/noise risk for this use case.
 
 `report_date` and `data_date` are both included. `report_date` is the Cowork dashboard date; `data_date` is the prior-day business data represented by the component reports.
 

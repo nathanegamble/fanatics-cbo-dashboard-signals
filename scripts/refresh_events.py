@@ -58,6 +58,7 @@ LEAGUE_KEYWORDS = [
 
 NEGATIVE_TERMS = ["arrested", "charged", "lawsuit", "domestic violence", "murder", "death", "dies", "died", "killed", "racist message", "set her on fire"]
 POSITIVE_TERMS = ["world cup", "semifinal", "semi-final", "final", "championship", "playoff", "all-star", "home run derby", "jersey", "uniform", "alternate", "merch", "collectible", "memorabilia", "topps", "card", "collaboration", "drop", "nike", "adidas", "new era", "lids", "fanatics", "messi", "haaland", "kane", "bellingham", "ohtani", "yankees", "dodgers", "knicks", "wnba", "valkyries", "argentina", "england"]
+SOURCE_RANK = {"espn_rss": 2, "yahoo_sports_rss": 1}
 
 
 def utc_now() -> datetime:
@@ -182,10 +183,13 @@ def fetch_feed(feed: dict[str, Any], data_date: date) -> tuple[list[dict[str, An
             "headline": title,
             "detail": desc[:350],
             "date": str(published.date()),
+            "published": published.isoformat(),
             "published_at": published.isoformat(),
             "league": infer_league(title + " " + desc, feed.get("default_league", "multi")),
             "source_name": feed["name"],
             "source_family": feed["source_family"],
+            "source_rank": SOURCE_RANK.get(feed["source_family"], 0),
+            "feed": feed["url"],
             "feed_url": feed["url"],
             "source_url": link,
             "canonical_url": canonical_url(link),
@@ -198,9 +202,9 @@ def fetch_feed(feed: dict[str, Any], data_date: date) -> tuple[list[dict[str, An
 
 
 def dedupe_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    def priority(it: dict[str, Any]) -> tuple[float, int, str]:
-        source_bonus = 1 if it.get("source_family") == "espn_rss" else 0
-        return (float(it.get("relevance_score", 0)), source_bonus, it.get("published_at", ""))
+    def priority(it: dict[str, Any]) -> tuple[int, float, str]:
+        source_rank = int(it.get("source_rank") or SOURCE_RANK.get(str(it.get("source_family")), 0))
+        return (source_rank, float(it.get("relevance_score", 0)), it.get("published_at", ""))
     best: dict[str, dict[str, Any]] = {}
     for item in items:
         keys = [item.get("canonical_url") or item.get("source_url"), norm_title(item.get("headline", ""))]
@@ -211,7 +215,7 @@ def dedupe_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 best[existing_key] = item
         else:
             best[keys[0]] = item
-    return sorted(best.values(), key=lambda x: (x.get("date", ""), x.get("relevance_score", 0), x.get("published_at", "")), reverse=True)
+    return sorted(best.values(), key=lambda x: (x.get("date", ""), int(x.get("source_rank", 0)), x.get("relevance_score", 0), x.get("published_at", "")), reverse=True)
 
 
 def build_windows(items: list[dict[str, Any]], report_date: date, data_date: date) -> dict[str, Any]:
@@ -237,7 +241,7 @@ def build_windows(items: list[dict[str, Any]], report_date: date, data_date: dat
     windows["yesterday"] = dict(windows["data_date"])
     windows["today"] = dict(windows["report_date"])
     for w in windows.values():
-        w["items"] = sorted(w["items"], key=lambda x: (x.get("relevance_score", 0), x.get("published_at", "")), reverse=True)[:20]
+        w["items"] = sorted(w["items"], key=lambda x: (int(x.get("source_rank", 0)), x.get("relevance_score", 0), x.get("published_at", "")), reverse=True)[:20]
     return windows
 
 

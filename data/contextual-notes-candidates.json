@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T18:42:15.470640+00:00",
+  "generated_at": "2026-07-15T20:01:44.455636+00:00",
   "as_of": "2026-07-15",
   "report_date": "2026-07-15",
   "data_date": "2026-07-14",
@@ -16,132 +16,6 @@
   "intended_use": "Candidate Contextual Notes for the Fanatics CBO dashboard executive-intelligence layer.",
   "candidate_count": 30,
   "candidates": [
-    {
-      "id": "2026-07-15-england-weighing-man-marking-plan-to-stop-messi",
-      "generated_from": "sports-events.json",
-      "topic": "Soccer: England weighing man-marking plan to stop Messi",
-      "league": "Soccer",
-      "note_type": "historical_context",
-      "dashboard_slots": [
-        "bigger_picture",
-        "what_moving",
-        "today_read"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "report_date",
-      "window_start": "2026-07-15",
-      "window_end": "2026-07-15",
-      "summary": "England weighing man-marking plan to stop Messi",
-      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
-      "supporting_facts": [
-        "England coach Thomas Tuchel said he has considered man-marking Lionel Messi in Wednesday's World Cup semifinal against Argentina."
-      ],
-      "suggested_copy": "England weighing man-marking plan to stop Messi \u2014 England coach Thomas Tuchel said he has considered man-marking Lionel Messi in Wednesday's World Cup semifinal against Argentina.",
-      "confidence": "high",
-      "relevance": [
-        "historical_context",
-        "seasonality"
-      ],
-      "relevance_score": 0.75,
-      "relevance_reason": "ESPN precision source; matches world cup, semifinal, final, messi, argentina",
-      "source_family": "espn_rss",
-      "sources": [
-        {
-          "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/49363093/thomas-tuchel-england-lionel-messi-argentina-fifa-world-cup-2026",
-          "type": "article",
-          "source_family": "espn_rss",
-          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
-          "published_at": "2026-07-15T16:50:47+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-15-scaloni-argentina-not-as-bad-as-some-people-say",
-      "generated_from": "sports-events.json",
-      "topic": "Soccer: Scaloni: Argentina 'not as bad' as some people say...",
-      "league": "Soccer",
-      "note_type": "historical_context",
-      "dashboard_slots": [
-        "bigger_picture",
-        "what_moving",
-        "today_read"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "report_date",
-      "window_start": "2026-07-15",
-      "window_end": "2026-07-15",
-      "summary": "Scaloni: Argentina 'not as bad' as some people say...",
-      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
-      "supporting_facts": [
-        "Argentina manager Lionel Scaloni shut down criticism over the way his team has played throughout the FIFA World Cup ahead of the semifinal against England on Wednesday."
-      ],
-      "suggested_copy": "Scaloni: Argentina 'not as bad' as some people say... \u2014 Argentina manager Lionel Scaloni shut down criticism over the way his team has played throughout the FIFA World Cup ahead of the semifinal against England on Wednesday.",
-      "confidence": "high",
-      "relevance": [
-        "historical_context",
-        "seasonality"
-      ],
-      "relevance_score": 0.7,
-      "relevance_reason": "ESPN precision source; matches world cup, semifinal, final, argentina, england",
-      "source_family": "espn_rss",
-      "sources": [
-        {
-          "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/49363588/argentina-playing-bad-people-say",
-          "type": "article",
-          "source_family": "espn_rss",
-          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
-          "published_at": "2026-07-15T19:08:04+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-15-2026-world-cup-england-vs-argentina-official-line-ups-juventus-inter-and-como-st",
-      "generated_from": "sports-events.json",
-      "topic": "Soccer: 2026 World Cup: England vs. Argentina official line-ups, Juventus, Inter and Como stars benched",
-      "league": "Soccer",
-      "note_type": "historical_context",
-      "dashboard_slots": [
-        "bigger_picture",
-        "what_moving",
-        "today_read"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "report_date",
-      "window_start": "2026-07-15",
-      "window_end": "2026-07-15",
-      "summary": "2026 World Cup: England vs. Argentina official line-ups, Juventus, Inter and Como stars benched",
-      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
-      "supporting_facts": [
-        "Inter captain Lautaro Martinez, Juventus winger Nico Gonzalez and Como\u2019s Nico Paz are on the bench for Lionel Messi\u2019s Argentina against England in the World Cup semi-final.It kicks off in Atlanta ..."
-      ],
-      "suggested_copy": "2026 World Cup: England vs. Argentina official line-ups, Juventus, Inter and Como stars benched \u2014 Inter captain Lautaro Martinez, Juventus winger Nico Gonzalez and Como\u2019s Nico Paz are on the bench for Lionel Messi\u2019s Argentina against England in the World Cup semi-final.It kicks off in Atlanta ...",
-      "confidence": "medium",
-      "relevance": [
-        "historical_context",
-        "seasonality"
-      ],
-      "relevance_score": 0.68,
-      "relevance_reason": "Yahoo Sports breadth source; matches world cup, semi-final, final, messi, argentina",
-      "source_family": "yahoo_sports_rss",
-      "sources": [
-        {
-          "name": "Yahoo Sports Soccer",
-          "url": "https://sports.yahoo.com/articles/2026-world-cup-england-vs-174500422.html",
-          "type": "article",
-          "source_family": "yahoo_sports_rss",
-          "feed_url": "https://sports.yahoo.com/soccer/rss/",
-          "published_at": "2026-07-15T17:45:00+00:00"
-        }
-      ],
-      "warnings": []
-    },
     {
       "id": "2026-07-15-nfl-season-phase",
       "generated_from": "sports-facts.json",
@@ -422,9 +296,9 @@
       "warnings": []
     },
     {
-      "id": "2026-07-15-world-cup-daily-live-argentina-fans-take-over-atl",
+      "id": "2026-07-15-mbapp-critical-of-tactics-in-loss-by-sloppy-fra",
       "generated_from": "sports-events.json",
-      "topic": "Soccer: World Cup Daily live: Argentina fans take over Atl...",
+      "topic": "Soccer: Mbapp\u00e9 critical of tactics in loss by 'sloppy' Fra...",
       "league": "Soccer",
       "note_type": "historical_context",
       "dashboard_slots": [
@@ -437,36 +311,39 @@
       "window": "report_date",
       "window_start": "2026-07-15",
       "window_end": "2026-07-15",
-      "summary": "World Cup Daily live: Argentina fans take over Atl...",
+      "summary": "Mbapp\u00e9 critical of tactics in loss by 'sloppy' Fra...",
       "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
       "supporting_facts": [
-        "Enjoy all the features, news, video analysis and color from around the competition as England and Argentina battle for a place in the 2026 FIFA World Cup final."
+        "Kylian Mbapp\u00e9 seemed to question Didier Deschamps' approach and tactics after France's 2-0 defeat to Spain in the FIFA World Cup semifinal Tuesday."
       ],
-      "suggested_copy": "World Cup Daily live: Argentina fans take over Atl... \u2014 Enjoy all the features, news, video analysis and color from around the competition as England and Argentina battle for a place in the 2026 FIFA World Cup final.",
+      "suggested_copy": "Mbapp\u00e9 critical of tactics in loss by 'sloppy' Fra... \u2014 Kylian Mbapp\u00e9 seemed to question Didier Deschamps' approach and tactics after France's 2-0 defeat to Spain in the FIFA World Cup semifinal Tuesday.",
       "confidence": "medium",
       "relevance": [
         "historical_context",
         "seasonality"
       ],
-      "relevance_score": 0.64,
-      "relevance_reason": "ESPN precision source; matches world cup, final, argentina, england",
+      "relevance_score": 0.58,
+      "relevance_reason": "ESPN precision source; matches world cup, semifinal, final",
       "source_family": "espn_rss",
       "sources": [
         {
-          "name": "ESPN Top Headlines",
-          "url": "https://www.espn.com/soccer/story/_/id/49363385/world-cup-daily-live-argentina-fans-take-atlanta-england-game-spain-celebrates-reaching-final",
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49362319/kylian-mbappe-critical-tactics-sloppy-france-loss",
           "type": "article",
           "source_family": "espn_rss",
-          "feed_url": "https://www.espn.com/espn/rss/news",
-          "published_at": "2026-07-15T19:10:35+00:00"
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-15T20:31:09+00:00",
+          "published_at": "2026-07-15T20:31:09+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-15-fbi-declares-major-world-cup-security-risk-for-argentina-england-game",
+      "id": "2026-07-15-world-cup-stock-watch-who-has-impressed",
       "generated_from": "sports-events.json",
-      "topic": "Soccer: FBI declares major World Cup security risk for Argentina-England game",
+      "topic": "Soccer: \ud83d\udcc8 World Cup stock watch: Who has impressed?",
       "league": "Soccer",
       "note_type": "historical_context",
       "dashboard_slots": [
@@ -479,79 +356,82 @@
       "window": "report_date",
       "window_start": "2026-07-15",
       "window_end": "2026-07-15",
-      "summary": "FBI declares major World Cup security risk for Argentina-England game",
+      "summary": "\ud83d\udcc8 World Cup stock watch: Who has impressed?",
       "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
       "supporting_facts": [
-        "Argentina and England is posing a major 2026 World Cup security threat as the two countries battle for a place in the final against Spain. Lionel Messi and Argentina are aiming to earn a spot in the 2026 World Cup\u2026"
+        "The FIFA World Cup is into the semifinals, but which players have impressed and which have struggled during both tournaments?"
       ],
-      "suggested_copy": "FBI declares major World Cup security risk for Argentina-England game \u2014 Argentina and England is posing a major 2026 World Cup security threat as the two countries battle for a place in the final against Spain. Lionel Messi and Argentina are aiming to earn a spot in the 2026 World Cup\u2026",
+      "suggested_copy": "\ud83d\udcc8 World Cup stock watch: Who has impressed? \u2014 The FIFA World Cup is into the semifinals, but which players have impressed and which have struggled during both tournaments?",
       "confidence": "medium",
       "relevance": [
         "historical_context",
         "seasonality"
       ],
-      "relevance_score": 0.63,
-      "relevance_reason": "Yahoo Sports breadth source; matches world cup, final, messi, argentina, england",
-      "source_family": "yahoo_sports_rss",
+      "relevance_score": 0.58,
+      "relevance_reason": "ESPN precision source; matches world cup, semifinal, final",
+      "source_family": "espn_rss",
       "sources": [
         {
-          "name": "Yahoo Sports Top",
-          "url": "https://sports.yahoo.com/articles/fbi-declares-major-world-cup-183336209.html",
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49294190/2026-fifa-world-cup-stock-watch-which-players-starred-struggled",
           "type": "article",
-          "source_family": "yahoo_sports_rss",
-          "feed_url": "https://sports.yahoo.com/rss/",
-          "published_at": "2026-07-15T18:33:36+00:00"
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-15T20:30:50+00:00",
+          "published_at": "2026-07-15T20:30:50+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-15-men-s-world-cup-semifinal-live-blog-england-vs-argentina-lineups-out",
+      "id": "2026-07-15-dodgers-ohtani-will-be-available-against-yankees",
       "generated_from": "sports-events.json",
-      "topic": "Soccer: Men\u2019s World Cup Semifinal Live Blog: England vs. Argentina \u2014 Lineups out!",
-      "league": "Soccer",
+      "topic": "MLB: Dodgers' Ohtani will be available against Yankees",
+      "league": "MLB",
       "note_type": "roster_market_context",
       "dashboard_slots": [
         "what_moving",
-        "league_momentum",
-        "bigger_picture"
+        "league_momentum"
       ],
       "report_date": "2026-07-15",
       "data_date": "2026-07-14",
       "window": "report_date",
       "window_start": "2026-07-15",
       "window_end": "2026-07-15",
-      "summary": "Men\u2019s World Cup Semifinal Live Blog: England vs. Argentina \u2014 Lineups out!",
-      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "summary": "Dodgers' Ohtani will be available against Yankees",
+      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
       "supporting_facts": [
-        "Second semifinal kicks off today."
+        "Dodgers manager Dave Roberts says Shohei Ohtani will \"be in the lineup\" for this weekend's series against the Yankees in the Bronx after having fluid drained from his left knee."
       ],
-      "suggested_copy": "Men\u2019s World Cup Semifinal Live Blog: England vs. Argentina \u2014 Lineups out! \u2014 Second semifinal kicks off today.",
+      "suggested_copy": "Dodgers' Ohtani will be available against Yankees \u2014 Dodgers manager Dave Roberts says Shohei Ohtani will \"be in the lineup\" for this weekend's series against the Yankees in the Bronx after having fluid drained from his left knee.",
       "confidence": "medium",
       "relevance": [
-        "roster_market",
-        "historical_context",
-        "seasonality"
+        "roster_market"
       ],
-      "relevance_score": 0.63,
-      "relevance_reason": "Yahoo Sports breadth source; matches world cup, semifinal, final, argentina, england",
-      "source_family": "yahoo_sports_rss",
+      "relevance_score": 0.58,
+      "relevance_reason": "ESPN precision source; matches ohtani, yankees, dodgers",
+      "source_family": "espn_rss",
       "sources": [
         {
-          "name": "Yahoo Sports Top",
-          "url": "https://sports.yahoo.com/articles/men-world-cup-semifinal-live-160000144.html",
+          "name": "ESPN MLB",
+          "url": "https://www.espn.com/mlb/story/_/id/49361580/dodgers-ohtani-available-weekend-series-yankees",
           "type": "article",
-          "source_family": "yahoo_sports_rss",
-          "feed_url": "https://sports.yahoo.com/rss/",
-          "published_at": "2026-07-15T18:27:03+00:00"
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/mlb/news",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published": "2026-07-15T20:10:56+00:00",
+          "published_at": "2026-07-15T20:10:56+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-15-uk-journalist-notices-england-vs-argentina-detail-at-the-mercedes-benz-stadium-f",
+      "id": "2026-07-15-france-move-from-deschamps-to-zidane-wondering-wha",
       "generated_from": "sports-events.json",
-      "topic": "Soccer: UK journalist notices England vs Argentina detail at the Mercedes-Benz Stadium for FIFA World Cup semi-final",
+      "topic": "Soccer: France move from Deschamps to Zidane wondering wha...",
       "league": "Soccer",
       "note_type": "historical_context",
       "dashboard_slots": [
@@ -564,154 +444,31 @@
       "window": "report_date",
       "window_start": "2026-07-15",
       "window_end": "2026-07-15",
-      "summary": "UK journalist notices England vs Argentina detail at the Mercedes-Benz Stadium for FIFA World Cup semi-final",
+      "summary": "France move from Deschamps to Zidane wondering wha...",
       "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
       "supporting_facts": [
-        "Ahead of England\u2019s all-important semi-final clash with Argentina, one British journalist has noticed something a bit concerning. As the fans poured into the Mercedes-Benz Stadium in Atlanta, it became clear who was going to have the upper hand \u2014 at least in terms of fan support."
+        "France's Didier Deschamps era ended with a shock World Cup semifinal defeat to Spain. Is Zinedine Zidane better placed to get more out of this clearly talented group?"
       ],
-      "suggested_copy": "UK journalist notices England vs Argentina detail at the Mercedes-Benz Stadium for FIFA World Cup semi-final \u2014 Ahead of England\u2019s all-important semi-final clash with Argentina, one British journalist has noticed something a bit concerning. As the fans poured into the Mercedes-Benz Stadium in Atlanta, it became clear who was going",
+      "suggested_copy": "France move from Deschamps to Zidane wondering wha... \u2014 France's Didier Deschamps era ended with a shock World Cup semifinal defeat to Spain. Is Zinedine Zidane better placed to get more out of this clearly talented group?",
       "confidence": "medium",
       "relevance": [
         "historical_context",
         "seasonality"
       ],
-      "relevance_score": 0.63,
-      "relevance_reason": "Yahoo Sports breadth source; matches world cup, semi-final, final, argentina, england",
-      "source_family": "yahoo_sports_rss",
+      "relevance_score": 0.58,
+      "relevance_reason": "ESPN precision source; matches world cup, semifinal, final",
+      "source_family": "espn_rss",
       "sources": [
         {
-          "name": "Yahoo Sports Top",
-          "url": "https://sports.yahoo.com/articles/uk-journalist-notices-england-vs-182126147.html",
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49364445/france-move-deschamps-zidane-wondering-couldve-been",
           "type": "article",
-          "source_family": "yahoo_sports_rss",
-          "feed_url": "https://sports.yahoo.com/rss/",
-          "published_at": "2026-07-15T18:21:26+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-15-surprises-on-both-sides-england-s-argentina-s-xis-are-in",
-      "generated_from": "sports-events.json",
-      "topic": "Soccer: \ud83d\udea8 Surprises on both sides! England s & Argentina s XIs are in",
-      "league": "Soccer",
-      "note_type": "historical_context",
-      "dashboard_slots": [
-        "bigger_picture",
-        "what_moving",
-        "today_read"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "report_date",
-      "window_start": "2026-07-15",
-      "window_end": "2026-07-15",
-      "summary": "\ud83d\udea8 Surprises on both sides! England s & Argentina s XIs are in",
-      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
-      "supporting_facts": [
-        "The second World Cup semifinal between England and Argentina is being awaited with great excitement. A place in the final is at stake. Everyone is fired up for this clash, which has not taken place at..."
-      ],
-      "suggested_copy": "\ud83d\udea8 Surprises on both sides! England s & Argentina s XIs are in \u2014 The second World Cup semifinal between England and Argentina is being awaited with great excitement. A place in the final is at stake. Everyone is fired up for this clash, which has not taken place at...",
-      "confidence": "medium",
-      "relevance": [
-        "historical_context",
-        "seasonality"
-      ],
-      "relevance_score": 0.63,
-      "relevance_reason": "Yahoo Sports breadth source; matches world cup, semifinal, final, argentina, england",
-      "source_family": "yahoo_sports_rss",
-      "sources": [
-        {
-          "name": "Yahoo Sports Soccer",
-          "url": "https://sports.yahoo.com/articles/surprises-both-sides-englands-argentinas-180500107.html",
-          "type": "article",
-          "source_family": "yahoo_sports_rss",
-          "feed_url": "https://sports.yahoo.com/soccer/rss/",
-          "published_at": "2026-07-15T18:05:00+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-15-what-time-is-england-v-argentina-kick-off-tv-channel-and-how-to-watch-world-cup-",
-      "generated_from": "sports-events.json",
-      "topic": "Soccer: What time is England v Argentina kick-off? TV channel and how to watch World Cup semi-final",
-      "league": "Soccer",
-      "note_type": "historical_context",
-      "dashboard_slots": [
-        "bigger_picture",
-        "what_moving",
-        "today_read"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "report_date",
-      "window_start": "2026-07-15",
-      "window_end": "2026-07-15",
-      "summary": "What time is England v Argentina kick-off? TV channel and how to watch World Cup semi-final",
-      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
-      "supporting_facts": [
-        "England face Argentina in a blockbuster clash for a place in the World Cup final"
-      ],
-      "suggested_copy": "What time is England v Argentina kick-off? TV channel and how to watch World Cup semi-final \u2014 England face Argentina in a blockbuster clash for a place in the World Cup final",
-      "confidence": "medium",
-      "relevance": [
-        "historical_context",
-        "seasonality"
-      ],
-      "relevance_score": 0.63,
-      "relevance_reason": "Yahoo Sports breadth source; matches world cup, semi-final, final, argentina, england",
-      "source_family": "yahoo_sports_rss",
-      "sources": [
-        {
-          "name": "Yahoo Sports Soccer",
-          "url": "https://sports.yahoo.com/articles/time-england-v-argentina-kick-050727522.html",
-          "type": "article",
-          "source_family": "yahoo_sports_rss",
-          "feed_url": "https://sports.yahoo.com/soccer/rss/",
-          "published_at": "2026-07-15T17:44:28+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-15-england-v-argentina-confirmed-line-ups-who-starts-world-cup-semi-final",
-      "generated_from": "sports-events.json",
-      "topic": "Soccer: England v Argentina confirmed line-ups: Who starts World Cup semi-final?",
-      "league": "Soccer",
-      "note_type": "historical_context",
-      "dashboard_slots": [
-        "bigger_picture",
-        "what_moving",
-        "today_read"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "report_date",
-      "window_start": "2026-07-15",
-      "window_end": "2026-07-15",
-      "summary": "England v Argentina confirmed line-ups: Who starts World Cup semi-final?",
-      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
-      "supporting_facts": [
-        "Morgan Rogers, Reece James and Djed Spence are set to start for England against Argentina, with the winner advancing to play Spain in Sunday\u2019s final"
-      ],
-      "suggested_copy": "England v Argentina confirmed line-ups: Who starts World Cup semi-final? \u2014 Morgan Rogers, Reece James and Djed Spence are set to start for England against Argentina, with the winner advancing to play Spain in Sunday\u2019s final",
-      "confidence": "medium",
-      "relevance": [
-        "historical_context",
-        "seasonality"
-      ],
-      "relevance_score": 0.63,
-      "relevance_reason": "Yahoo Sports breadth source; matches world cup, semi-final, final, argentina, england",
-      "source_family": "yahoo_sports_rss",
-      "sources": [
-        {
-          "name": "Yahoo Sports Soccer",
-          "url": "https://sports.yahoo.com/articles/england-v-argentina-predicted-line-141115857.html",
-          "type": "article",
-          "source_family": "yahoo_sports_rss",
-          "feed_url": "https://sports.yahoo.com/soccer/rss/",
-          "published_at": "2026-07-15T17:43:02+00:00"
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-15T15:54:24+00:00",
+          "published_at": "2026-07-15T15:54:24+00:00"
         }
       ],
       "warnings": []
@@ -752,7 +509,10 @@
           "url": "https://www.espn.com/mlb/story/_/id/49354162/jacob-misiorowski-milwaukee-brewers-pokemon-all-star-game-2026-glove",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/mlb/news",
           "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published": "2026-07-14T23:22:06+00:00",
           "published_at": "2026-07-14T23:22:06+00:00"
         }
       ],
@@ -792,8 +552,279 @@
           "url": "https://www.espn.com/fantasy/womens-basketball/story/_/id/48444824/espn-wnba-fantasy-women-basketball-rankings-2026",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/wnba/news",
           "feed_url": "https://www.espn.com/espn/rss/wnba/news",
+          "published": "2026-07-14T19:53:53+00:00",
           "published_at": "2026-07-14T19:53:53+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-15-follow-live-argentina-england-battling-in-tense",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Follow live: Argentina, England battling in tense ...",
+      "league": "Soccer",
+      "note_type": "cultural_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "creative_programs"
+      ],
+      "report_date": "2026-07-15",
+      "data_date": "2026-07-14",
+      "window": "report_date",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "Follow live: Argentina, England battling in tense ...",
+      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
+      "supporting_facts": [
+        "null"
+      ],
+      "suggested_copy": "Follow live: Argentina, England battling in tense ... \u2014 null",
+      "confidence": "medium",
+      "relevance": [
+        "culture"
+      ],
+      "relevance_score": 0.52,
+      "relevance_reason": "ESPN precision source; matches argentina, england",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49363385/world-cup-daily-live-argentina-fans-take-atlanta-england-game-spain-celebrates-reaching-final",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-15T20:56:08+00:00",
+          "published_at": "2026-07-15T20:56:08+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-15-all-star-rosters-snubs-mvp-predictions-more",
+      "generated_from": "sports-events.json",
+      "topic": "WNBA: \ud83c\udfc0 All-Star rosters: Snubs, MVP predictions, more",
+      "league": "WNBA",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-15",
+      "data_date": "2026-07-14",
+      "window": "report_date",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "\ud83c\udfc0 All-Star rosters: Snubs, MVP predictions, more",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Who should have been named a WNBA All-Star? Who might be the first pick? Will there be a Bueckers-Malonga alley-oop?"
+      ],
+      "suggested_copy": "\ud83c\udfc0 All-Star rosters: Snubs, MVP predictions, more \u2014 Who should have been named a WNBA All-Star? Who might be the first pick? Will there be a Bueckers-Malonga alley-oop?",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.52,
+      "relevance_reason": "ESPN precision source; matches all-star, wnba",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN WNBA",
+          "url": "https://www.espn.com/wnba/story/_/id/49303218/wnba-all-star-game-2026-snubs-questions-predictions-roster-named-mvp",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/wnba/news",
+          "feed_url": "https://www.espn.com/espn/rss/wnba/news",
+          "published": "2026-07-15T20:32:26+00:00",
+          "published_at": "2026-07-15T20:32:26+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-15-fifa-defends-world-class-ref-after-france-critic",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: FIFA defends 'world-class' ref after France critic...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-15",
+      "data_date": "2026-07-14",
+      "window": "report_date",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "FIFA defends 'world-class' ref after France critic...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "FIFA's director of refereeing Pierluigi Collina defended the referee in Tuesday's semifinal between France and Spain following criticism from France coach Didier Deschamps."
+      ],
+      "suggested_copy": "FIFA defends 'world-class' ref after France critic... \u2014 FIFA's director of refereeing Pierluigi Collina defended the referee in Tuesday's semifinal between France and Spain following criticism from France coach Didier Deschamps.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.52,
+      "relevance_reason": "ESPN precision source; matches semifinal, final",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49368693/fifa-referee-france-didier-deschamps-spain-2026-world-cup-collina",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-15T20:30:50+00:00",
+          "published_at": "2026-07-15T20:30:50+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-15-al-3b-caminero-hit-by-pitch-exits-in-3rd-inning",
+      "generated_from": "sports-events.json",
+      "topic": "MLB: AL 3B Caminero hit by pitch, exits in 3rd inning",
+      "league": "MLB",
+      "note_type": "demand_signal",
+      "dashboard_slots": [
+        "what_moving",
+        "creative_programs",
+        "today_read"
+      ],
+      "report_date": "2026-07-15",
+      "data_date": "2026-07-14",
+      "window": "report_date",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "AL 3B Caminero hit by pitch, exits in 3rd inning",
+      "why_it_matters": "Potential demand signal for licensed merchandise, player/team interest, or creative programming.",
+      "supporting_facts": [
+        "In the third inning of Tuesday's All-Star Game, Cardinals reliever Riley O'Brien hit Rays third baseman Junior Caminero on the left hand with a 97.6 mph sinker. Though the 23-year-old star went right into the AL clubhouse, X-rays came back negative."
+      ],
+      "suggested_copy": "AL 3B Caminero hit by pitch, exits in 3rd inning \u2014 In the third inning of Tuesday's All-Star Game, Cardinals reliever Riley O'Brien hit Rays third baseman Junior Caminero on the left hand with a 97.6 mph sinker. Though the 23-year-old star went right into the AL clubhous",
+      "confidence": "medium",
+      "relevance": [
+        "merch_demand",
+        "seasonality"
+      ],
+      "relevance_score": 0.52,
+      "relevance_reason": "ESPN precision source; matches all-star, card",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN MLB",
+          "url": "https://www.espn.com/mlb/story/_/id/49363719/al-3b-junior-caminero-hit-pitch-exits-third-inning",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/mlb/news",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published": "2026-07-15T20:10:56+00:00",
+          "published_at": "2026-07-15T20:10:56+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-15-walker-hopes-derby-win-stirs-black-kids-to-play",
+      "generated_from": "sports-events.json",
+      "topic": "MLB: Walker hopes Derby win stirs Black kids to play",
+      "league": "MLB",
+      "note_type": "demand_signal",
+      "dashboard_slots": [
+        "what_moving",
+        "creative_programs",
+        "today_read"
+      ],
+      "report_date": "2026-07-15",
+      "data_date": "2026-07-14",
+      "window": "report_date",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "Walker hopes Derby win stirs Black kids to play",
+      "why_it_matters": "Potential demand signal for licensed merchandise, player/team interest, or creative programming.",
+      "supporting_facts": [
+        "Cardinals outfielder Jordan Walker wants to be a role model, and he hopes his victory in the Home Run Derby inspires more Black kids to play baseball."
+      ],
+      "suggested_copy": "Walker hopes Derby win stirs Black kids to play \u2014 Cardinals outfielder Jordan Walker wants to be a role model, and he hopes his victory in the Home Run Derby inspires more Black kids to play baseball.",
+      "confidence": "medium",
+      "relevance": [
+        "merch_demand",
+        "seasonality"
+      ],
+      "relevance_score": 0.52,
+      "relevance_reason": "ESPN precision source; matches home run derby, card",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN MLB",
+          "url": "https://www.espn.com/mlb/story/_/id/49358712/jordan-walker-hopes-home-run-derby-win-inspires-black-kids",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/mlb/news",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published": "2026-07-15T20:10:56+00:00",
+          "published_at": "2026-07-15T20:10:56+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-15-world-cup-favorites-france-unravel-as-spain-book-s",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: World Cup favorites France unravel as Spain book s...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-15",
+      "data_date": "2026-07-14",
+      "window": "report_date",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "World Cup favorites France unravel as Spain book s...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Spain have sealed their place in the 2026 World Cup final, but why did France collapse so easily?"
+      ],
+      "suggested_copy": "World Cup favorites France unravel as Spain book s... \u2014 Spain have sealed their place in the 2026 World Cup final, but why did France collapse so easily?",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.52,
+      "relevance_reason": "ESPN precision source; matches world cup, final",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Top Headlines",
+          "url": "https://www.espn.com/soccer/story/_/id/49361910/world-cup-favorites-france-unravel-spain-book-spot-final-ease",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/news",
+          "feed_url": "https://www.espn.com/espn/rss/news",
+          "published": "2026-07-15T17:42:57+00:00",
+          "published_at": "2026-07-15T17:42:57+00:00"
         }
       ],
       "warnings": []
@@ -832,7 +863,10 @@
           "url": "https://www.espn.com/mlb/story/_/id/49337954/mlb-2026-home-run-derby-predictions-live-updates-takeaways-analysis",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/mlb/news",
           "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published": "2026-07-14T23:23:44+00:00",
           "published_at": "2026-07-14T23:23:44+00:00"
         }
       ],
@@ -874,7 +908,10 @@
           "url": "https://www.espn.com/nba/story/_/id/49350739/inside-hopeful-resurrection-chicago-bulls-six-years-stasis",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/news",
           "feed_url": "https://www.espn.com/espn/rss/news",
+          "published": "2026-07-14T21:47:46+00:00",
           "published_at": "2026-07-14T21:47:46+00:00"
         }
       ],
@@ -914,7 +951,10 @@
           "url": "https://www.espn.com/fantasy/womens-basketball/story/_/id/48713412/espn-wnba-fantasy-womens-basketball-lineups-adds-drops-news-players",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/wnba/news",
           "feed_url": "https://www.espn.com/espn/rss/wnba/news",
+          "published": "2026-07-14T19:53:53+00:00",
           "published_at": "2026-07-14T19:53:53+00:00"
         }
       ],
@@ -954,46 +994,6 @@
       ]
     },
     {
-      "id": "2026-07-14-why-kansas-new-jersey-patch-partnerships-are-the-new-reality-of-college-athletic",
-      "generated_from": "sports-events.json",
-      "topic": "NCAA Basketball: Why Kansas New Jersey Patch Partnerships Are The New Reality Of College Athletics",
-      "league": "NCAA Basketball",
-      "note_type": "demand_signal",
-      "dashboard_slots": [
-        "what_moving",
-        "creative_programs"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "data_date",
-      "window_start": "2026-07-14",
-      "window_end": "2026-07-14",
-      "summary": "Why Kansas New Jersey Patch Partnerships Are The New Reality Of College Athletics",
-      "why_it_matters": "Potential demand signal for licensed merchandise, player/team interest, or creative programming.",
-      "supporting_facts": [
-        "Corporate logos are infiltrating iconic Jayhawk uniforms as Kansas leverages high-stakes partnerships with Ripple and Monster Energy to fund the modern era of revenue-sharing and NIL."
-      ],
-      "suggested_copy": "Why Kansas New Jersey Patch Partnerships Are The New Reality Of College Athletics \u2014 Corporate logos are infiltrating iconic Jayhawk uniforms as Kansas leverages high-stakes partnerships with Ripple and Monster Energy to fund the modern era of revenue-sharing and NIL.",
-      "confidence": "medium",
-      "relevance": [
-        "merch_demand"
-      ],
-      "relevance_score": 0.45,
-      "relevance_reason": "Yahoo Sports breadth source; matches jersey, uniform",
-      "source_family": "yahoo_sports_rss",
-      "sources": [
-        {
-          "name": "Yahoo Sports College Basketball",
-          "url": "https://sports.yahoo.com/articles/why-kansas-jersey-patch-partnerships-204504535.html",
-          "type": "article",
-          "source_family": "yahoo_sports_rss",
-          "feed_url": "https://sports.yahoo.com/college-basketball/rss/",
-          "published_at": "2026-07-14T20:45:04+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
       "id": "2026-07-14-a-timeline-of-warde-manuel-s-tenure-as-michigan-at",
       "generated_from": "sports-events.json",
       "topic": "NCAA Football: A timeline of Warde Manuel's tenure as Michigan at...",
@@ -1027,7 +1027,10 @@
           "url": "https://www.espn.com/college-football/story/_/id/49351177/2026-michigan-warde-manuel-athletic-department-tenure-line-investigation",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/ncf/news",
           "feed_url": "https://www.espn.com/espn/rss/ncf/news",
+          "published": "2026-07-14T18:45:25+00:00",
           "published_at": "2026-07-14T18:45:25+00:00"
         }
       ],
@@ -1067,7 +1070,10 @@
           "url": "https://www.espn.com/college-sports/story/_/id/49346524/michigan-regents-discuss-investigation-thursday",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/ncb/news",
           "feed_url": "https://www.espn.com/espn/rss/ncb/news",
+          "published": "2026-07-14T17:20:06+00:00",
           "published_at": "2026-07-14T17:20:06+00:00"
         }
       ],
@@ -1107,7 +1113,10 @@
           "url": "https://www.espn.com/nfl/story/_/id/49315416/ranking-nfl-top-10-quarterbacks-2026-execs-coaches-scouts",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/nfl/news",
           "feed_url": "https://www.espn.com/espn/rss/nfl/news",
+          "published": "2026-07-14T16:23:51+00:00",
           "published_at": "2026-07-14T16:23:51+00:00"
         }
       ],
@@ -1147,8 +1156,54 @@
           "url": "https://www.espn.com/nhl/story/_/id/49356690/nhl-27-cover-athlete-macklin-celebrini-sidney-crosby-lebron-james-warriors",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/nhl/news",
           "feed_url": "https://www.espn.com/espn/rss/nhl/news",
+          "published": "2026-07-14T16:05:22+00:00",
           "published_at": "2026-07-14T16:05:22+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-14-2026-recruiting-class-rankings-arkansas-leads-the",
+      "generated_from": "sports-events.json",
+      "topic": "NCAA Basketball: 2026 recruiting class rankings: Arkansas leads the...",
+      "league": "NCAA Basketball",
+      "note_type": "cultural_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "creative_programs"
+      ],
+      "report_date": "2026-07-15",
+      "data_date": "2026-07-14",
+      "window": "data_date",
+      "window_start": "2026-07-14",
+      "window_end": "2026-07-14",
+      "summary": "2026 recruiting class rankings: Arkansas leads the...",
+      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
+      "supporting_facts": [
+        "Recent reclassifications moved Texas into the top four, and brought Ohio State and Louisville into the top 25."
+      ],
+      "suggested_copy": "2026 recruiting class rankings: Arkansas leads the... \u2014 Recent reclassifications moved Texas into the top four, and brought Ohio State and Louisville into the top 25.",
+      "confidence": "medium",
+      "relevance": [
+        "culture"
+      ],
+      "relevance_score": 0.4,
+      "relevance_reason": "ESPN precision source",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN College Basketball",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/46535988/boys-high-school-basketball-recruiting-class-rankings-2026",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/ncb/news",
+          "feed_url": "https://www.espn.com/espn/rss/ncb/news",
+          "published": "2026-07-14T14:52:53+00:00",
+          "published_at": "2026-07-14T14:52:53+00:00"
         }
       ],
       "warnings": []

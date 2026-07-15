@@ -139,7 +139,10 @@ def event_note(item: dict[str, Any], window: str, window_start: str, window_end:
                 "url": item.get("source_url", ""),
                 "type": "article",
                 "source_family": item.get("source_family"),
+                "source_rank": item.get("source_rank"),
+                "feed": item.get("feed") or item.get("feed_url"),
                 "feed_url": item.get("feed_url"),
+                "published": item.get("published") or item.get("published_at"),
                 "published_at": item.get("published_at"),
             }
         ],
@@ -164,7 +167,7 @@ def refresh(input_dir: Path) -> dict[str, Any]:
         # Skip aliases to avoid duplicating the same data_date/report_date items.
         if window_name in {"yesterday", "today"}:
             continue
-        items = sorted(window.get("items", []), key=lambda x: (x.get("relevance_score") or 0, x.get("published_at", "")), reverse=True)
+        items = sorted(window.get("items", []), key=lambda x: (int(x.get("source_rank", 0)), x.get("relevance_score") or 0, x.get("published_at", "")), reverse=True)
         for item in items[:10]:
             if item.get("source_url"):
                 note = event_note(item, window_name, window.get("window_start", as_of), window.get("window_end", as_of), report_date, data_date)

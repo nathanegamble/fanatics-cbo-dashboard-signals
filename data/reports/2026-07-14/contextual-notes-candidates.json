@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T18:42:05.513023+00:00",
+  "generated_at": "2026-07-15T20:01:32.889400+00:00",
   "as_of": "2026-07-14",
   "report_date": "2026-07-14",
   "data_date": "2026-07-13",
@@ -331,7 +331,10 @@
           "url": "https://www.espn.com/mlb/story/_/id/49288476/2026-mlb-first-half-mvps-all-stars-playoff-odds-all-30-teams",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/mlb/news",
           "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published": "2026-07-13T16:27:41+00:00",
           "published_at": "2026-07-13T16:27:41+00:00"
         }
       ],
@@ -373,7 +376,10 @@
           "url": "https://www.espn.com/mlb/story/_/id/49354162/jacob-misiorowski-milwaukee-brewers-pokemon-all-star-game-2026-glove",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/mlb/news",
           "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published": "2026-07-14T23:22:06+00:00",
           "published_at": "2026-07-14T23:22:06+00:00"
         }
       ],
@@ -413,7 +419,10 @@
           "url": "https://www.espn.com/fantasy/womens-basketball/story/_/id/48444824/espn-wnba-fantasy-women-basketball-rankings-2026",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/wnba/news",
           "feed_url": "https://www.espn.com/espn/rss/wnba/news",
+          "published": "2026-07-14T19:53:53+00:00",
           "published_at": "2026-07-14T19:53:53+00:00"
         }
       ],
@@ -453,7 +462,10 @@
           "url": "https://www.espn.com/espn/betting/story/_/id/48417601/2026-wnba-championship-odds-playoffs-mvp",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/wnba/news",
           "feed_url": "https://www.espn.com/espn/rss/wnba/news",
+          "published": "2026-07-13T19:13:01+00:00",
           "published_at": "2026-07-13T19:13:01+00:00"
         }
       ],
@@ -493,7 +505,10 @@
           "url": "https://www.espn.com/mlb/story/_/id/49337954/mlb-2026-home-run-derby-predictions-live-updates-takeaways-analysis",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/mlb/news",
           "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published": "2026-07-14T23:23:44+00:00",
           "published_at": "2026-07-14T23:23:44+00:00"
         }
       ],
@@ -535,7 +550,10 @@
           "url": "https://www.espn.com/nba/story/_/id/49350739/inside-hopeful-resurrection-chicago-bulls-six-years-stasis",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/news",
           "feed_url": "https://www.espn.com/espn/rss/news",
+          "published": "2026-07-14T21:47:46+00:00",
           "published_at": "2026-07-14T21:47:46+00:00"
         }
       ],
@@ -575,7 +593,10 @@
           "url": "https://www.espn.com/fantasy/womens-basketball/story/_/id/48713412/espn-wnba-fantasy-womens-basketball-lineups-adds-drops-news-players",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/wnba/news",
           "feed_url": "https://www.espn.com/espn/rss/wnba/news",
+          "published": "2026-07-14T19:53:53+00:00",
           "published_at": "2026-07-14T19:53:53+00:00"
         }
       ],
@@ -615,46 +636,6 @@
       ]
     },
     {
-      "id": "2026-07-14-why-kansas-new-jersey-patch-partnerships-are-the-new-reality-of-college-athletic",
-      "generated_from": "sports-events.json",
-      "topic": "NCAA Basketball: Why Kansas New Jersey Patch Partnerships Are The New Reality Of College Athletics",
-      "league": "NCAA Basketball",
-      "note_type": "demand_signal",
-      "dashboard_slots": [
-        "what_moving",
-        "creative_programs"
-      ],
-      "report_date": "2026-07-14",
-      "data_date": "2026-07-13",
-      "window": "report_date",
-      "window_start": "2026-07-14",
-      "window_end": "2026-07-14",
-      "summary": "Why Kansas New Jersey Patch Partnerships Are The New Reality Of College Athletics",
-      "why_it_matters": "Potential demand signal for licensed merchandise, player/team interest, or creative programming.",
-      "supporting_facts": [
-        "Corporate logos are infiltrating iconic Jayhawk uniforms as Kansas leverages high-stakes partnerships with Ripple and Monster Energy to fund the modern era of revenue-sharing and NIL."
-      ],
-      "suggested_copy": "Why Kansas New Jersey Patch Partnerships Are The New Reality Of College Athletics \u2014 Corporate logos are infiltrating iconic Jayhawk uniforms as Kansas leverages high-stakes partnerships with Ripple and Monster Energy to fund the modern era of revenue-sharing and NIL.",
-      "confidence": "medium",
-      "relevance": [
-        "merch_demand"
-      ],
-      "relevance_score": 0.45,
-      "relevance_reason": "Yahoo Sports breadth source; matches jersey, uniform",
-      "source_family": "yahoo_sports_rss",
-      "sources": [
-        {
-          "name": "Yahoo Sports College Basketball",
-          "url": "https://sports.yahoo.com/articles/why-kansas-jersey-patch-partnerships-204504535.html",
-          "type": "article",
-          "source_family": "yahoo_sports_rss",
-          "feed_url": "https://sports.yahoo.com/college-basketball/rss/",
-          "published_at": "2026-07-14T20:45:04+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
       "id": "2026-07-13-sources-brown-hc-martin-becomes-u-m-assistant",
       "generated_from": "sports-events.json",
       "topic": "NCAA Basketball: Sources: Brown HC Martin becomes U-M assistant",
@@ -688,7 +669,10 @@
           "url": "https://www.espn.com/mens-college-basketball/story/_/id/49352528/sources-brown-hc-mike-martin-takes-job-michigan-assistant",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/ncb/news",
           "feed_url": "https://www.espn.com/espn/rss/ncb/news",
+          "published": "2026-07-13T21:44:08+00:00",
           "published_at": "2026-07-13T21:44:08+00:00"
         }
       ],
@@ -728,7 +712,10 @@
           "url": "https://www.espn.com/college-football/story/_/id/49215318/ranking-college-football-top-coaches-2026-cignetti-smart-kiffin-day-freeman-lanning-sarkisian",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/ncf/news",
           "feed_url": "https://www.espn.com/espn/rss/ncf/news",
+          "published": "2026-07-13T20:43:07+00:00",
           "published_at": "2026-07-13T20:43:07+00:00"
         }
       ],
@@ -768,7 +755,10 @@
           "url": "https://www.espn.com/fantasy/baseball/story/_/id/49350007/2026-fantasy-baseball-prospects-dynasty-leagues-rising-falling-mlb-futures",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/mlb/news",
           "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published": "2026-07-13T17:12:34+00:00",
           "published_at": "2026-07-13T17:12:34+00:00"
         }
       ],
@@ -808,7 +798,10 @@
           "url": "https://www.espn.com/college-football/story/_/id/49351177/2026-michigan-warde-manuel-athletic-department-tenure-line-investigation",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/ncf/news",
           "feed_url": "https://www.espn.com/espn/rss/ncf/news",
+          "published": "2026-07-14T18:45:25+00:00",
           "published_at": "2026-07-14T18:45:25+00:00"
         }
       ],
@@ -848,7 +841,10 @@
           "url": "https://www.espn.com/college-sports/story/_/id/49346524/michigan-regents-discuss-investigation-thursday",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/ncb/news",
           "feed_url": "https://www.espn.com/espn/rss/ncb/news",
+          "published": "2026-07-14T17:20:06+00:00",
           "published_at": "2026-07-14T17:20:06+00:00"
         }
       ],
@@ -888,7 +884,10 @@
           "url": "https://www.espn.com/nfl/story/_/id/49315416/ranking-nfl-top-10-quarterbacks-2026-execs-coaches-scouts",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/nfl/news",
           "feed_url": "https://www.espn.com/espn/rss/nfl/news",
+          "published": "2026-07-14T16:23:51+00:00",
           "published_at": "2026-07-14T16:23:51+00:00"
         }
       ],
@@ -928,8 +927,54 @@
           "url": "https://www.espn.com/nhl/story/_/id/49356690/nhl-27-cover-athlete-macklin-celebrini-sidney-crosby-lebron-james-warriors",
           "type": "article",
           "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/nhl/news",
           "feed_url": "https://www.espn.com/espn/rss/nhl/news",
+          "published": "2026-07-14T16:05:22+00:00",
           "published_at": "2026-07-14T16:05:22+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-14-2026-recruiting-class-rankings-arkansas-leads-the",
+      "generated_from": "sports-events.json",
+      "topic": "NCAA Basketball: 2026 recruiting class rankings: Arkansas leads the...",
+      "league": "NCAA Basketball",
+      "note_type": "cultural_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "creative_programs"
+      ],
+      "report_date": "2026-07-14",
+      "data_date": "2026-07-13",
+      "window": "report_date",
+      "window_start": "2026-07-14",
+      "window_end": "2026-07-14",
+      "summary": "2026 recruiting class rankings: Arkansas leads the...",
+      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
+      "supporting_facts": [
+        "Recent reclassifications moved Texas into the top four, and brought Ohio State and Louisville into the top 25."
+      ],
+      "suggested_copy": "2026 recruiting class rankings: Arkansas leads the... \u2014 Recent reclassifications moved Texas into the top four, and brought Ohio State and Louisville into the top 25.",
+      "confidence": "medium",
+      "relevance": [
+        "culture"
+      ],
+      "relevance_score": 0.4,
+      "relevance_reason": "ESPN precision source",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN College Basketball",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/46535988/boys-high-school-basketball-recruiting-class-rankings-2026",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/ncb/news",
+          "feed_url": "https://www.espn.com/espn/rss/ncb/news",
+          "published": "2026-07-14T14:52:53+00:00",
+          "published_at": "2026-07-14T14:52:53+00:00"
         }
       ],
       "warnings": []

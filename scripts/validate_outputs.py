@@ -52,12 +52,16 @@ def validate_events(obj: dict) -> None:
         win = obj["windows"][name]
         assert "window_start" in win and "window_end" in win and "items" in win, f"bad window {name}"
         for item in win["items"]:
-            for k in ["headline", "detail", "date", "league", "source_url"]:
+            for k in ["headline", "detail", "date", "league", "source_name", "source_url"]:
                 assert k in item, f"event item missing {k}"
             assert item["source_url"].startswith("http"), f"source_url not URL: {item['source_url']}"
             if obj.get("version") == "0.2":
                 assert item.get("source_family") in {"espn_rss", "yahoo_sports_rss"}, f"bad/missing source_family: {item.get('source_family')}"
+                assert isinstance(item.get("source_rank"), int), f"missing source_rank: {item.get('headline')}"
                 assert str(item.get("feed_url", "")).startswith("http"), f"missing feed_url: {item.get('headline')}"
+                assert item.get("feed") == item.get("feed_url"), f"feed/feed_url mismatch: {item.get('headline')}"
+                assert isinstance(item.get("published_at"), str) and item.get("published_at"), f"missing published_at: {item.get('headline')}"
+                assert item.get("published") == item.get("published_at"), f"published/published_at mismatch: {item.get('headline')}"
                 assert isinstance(item.get("relevance_score"), (int, float)), f"missing relevance_score: {item.get('headline')}"
 
 

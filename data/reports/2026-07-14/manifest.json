@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T18:42:05.519604+00:00",
+  "generated_at": "2026-07-15T20:01:32.895968+00:00",
   "status": "ok",
   "version": "0.2",
   "report_date": "2026-07-14",
@@ -43,7 +43,7 @@
     },
     "refresh_events.py": {
       "exit_code": 0,
-      "output": "{\n  \"wrote\": \"/Users/horatio/Projects/fanatics-cbo-dashboard-signals/data/_tmp/2026-07-14/sports-events.json\",\n  \"status\": \"partial\",\n  \"items_collected\": 415,\n  \"report_date\": \"2026-07-14\",\n  \"data_date\": \"2026-07-13\"\n}"
+      "output": "{\n  \"wrote\": \"/Users/horatio/Projects/fanatics-cbo-dashboard-signals/data/_tmp/2026-07-14/sports-events.json\",\n  \"status\": \"partial\",\n  \"items_collected\": 403,\n  \"report_date\": \"2026-07-14\",\n  \"data_date\": \"2026-07-13\"\n}"
     },
     "refresh_contextual_notes.py": {
       "exit_code": 0,
