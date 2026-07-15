@@ -1,0 +1,453 @@
+{
+  "generated_at": "2026-07-15T18:41:56.846236+00:00",
+  "as_of": "2026-07-13",
+  "report_date": "2026-07-13",
+  "data_date": "2026-07-12",
+  "report_date_basis": "Cowork dashboard report date follows receipt/publication date; underlying business data represents the prior day.",
+  "source": "Public ESPN RSS + Yahoo Sports RSS feeds",
+  "version": "0.2",
+  "status": "partial",
+  "warnings": [
+    "Backfill snapshots are best-effort from currently available RSS items; RSS feeds may not retain all items from the original report date.",
+    "No RSS items retained for data_date 2026-07-12; use report_date/this_week items as adjacent context only."
+  ],
+  "source_detail": {
+    "feeds_attempted": [
+      "ESPN Top Headlines",
+      "ESPN NFL",
+      "ESPN MLB",
+      "ESPN NBA",
+      "ESPN NHL",
+      "ESPN Soccer",
+      "ESPN College Football",
+      "ESPN College Basketball",
+      "ESPN WNBA",
+      "Yahoo Sports Top",
+      "Yahoo Sports NFL",
+      "Yahoo Sports MLB",
+      "Yahoo Sports NBA",
+      "Yahoo Sports WNBA",
+      "Yahoo Sports Soccer",
+      "Yahoo Sports NHL",
+      "Yahoo Sports College Football",
+      "Yahoo Sports College Basketball"
+    ],
+    "source_families": [
+      "espn_rss",
+      "yahoo_sports_rss"
+    ],
+    "items_collected_after_dedupe": 415,
+    "backfill_mode": "best_effort_from_current_rss",
+    "yahoo_news_sports": "excluded for v0.2 because quick validation showed lower relevance and higher safety/noise risk than Yahoo Sports RSS."
+  },
+  "windows": {
+    "data_date": {
+      "window_start": "2026-07-12",
+      "window_end": "2026-07-12",
+      "items": []
+    },
+    "report_date": {
+      "window_start": "2026-07-13",
+      "window_end": "2026-07-13",
+      "items": [
+        {
+          "headline": "Ohtani, Witt and ... Pete Alonso! First-half MVPs ...",
+          "detail": "We name each club's top performer so far -- and how many All-Stars they'd have in a perfect world.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T16:27:41+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49288476/2026-mlb-first-half-mvps-all-stars-playoff-odds-all-30-teams",
+          "canonical_url": "https://www.espn.com/mlb/story/_/id/49288476/2026-mlb-first-half-mvps-all-stars-playoff-odds-all-30-teams",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context",
+            "seasonality"
+          ],
+          "relevance_score": 0.52,
+          "relevance_reason": "ESPN precision source; matches all-star, ohtani"
+        },
+        {
+          "headline": "2026 WNBA championship odds: Lynx remain on top; V...",
+          "detail": "Entering the week at 17-7, the Golden State Valkyries now have the fourth-shortest odds to win the WNBA title.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T19:13:01+00:00",
+          "league": "WNBA",
+          "source_name": "ESPN WNBA",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/wnba/news",
+          "source_url": "https://www.espn.com/espn/betting/story/_/id/48417601/2026-wnba-championship-odds-playoffs-mvp",
+          "canonical_url": "https://www.espn.com/espn/betting/story/_/id/48417601/2026-wnba-championship-odds-playoffs-mvp",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ],
+          "relevance_score": 0.48,
+          "relevance_reason": "ESPN precision source; matches championship, wnba, valkyries; betting/fantasy noise risk"
+        },
+        {
+          "headline": "Sources: Brown HC Martin becomes U-M assistant",
+          "detail": "Mike Martin, the winningest basketball coach at Brown, is leaving the Bears to become an assistant on Mike Boynton's staff at Michigan, sources told ESPN.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T21:44:08+00:00",
+          "league": "NCAA Basketball",
+          "source_name": "ESPN College Basketball",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/ncb/news",
+          "source_url": "https://www.espn.com/mens-college-basketball/story/_/id/49352528/sources-brown-hc-mike-martin-takes-job-michigan-assistant",
+          "canonical_url": "https://www.espn.com/mens-college-basketball/story/_/id/49352528/sources-brown-hc-mike-martin-takes-job-michigan-assistant",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ],
+          "relevance_score": 0.4,
+          "relevance_reason": "ESPN precision source"
+        },
+        {
+          "headline": "Ranking top coaches: Can Curt Cignetti win this ti...",
+          "detail": "Our reporters make -- and defend -- their picks for the coaches they'd want to lead their team.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T20:43:07+00:00",
+          "league": "NCAA Football",
+          "source_name": "ESPN College Football",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/ncf/news",
+          "source_url": "https://www.espn.com/college-football/story/_/id/49215318/ranking-college-football-top-coaches-2026-cignetti-smart-kiffin-day-freeman-lanning-sarkisian",
+          "canonical_url": "https://www.espn.com/college-football/story/_/id/49215318/ranking-college-football-top-coaches-2026-cignetti-smart-kiffin-day-freeman-lanning-sarkisian",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ],
+          "relevance_score": 0.4,
+          "relevance_reason": "ESPN precision source"
+        },
+        {
+          "headline": "Prospects watch: The future is not quite now",
+          "detail": "Eric Karabell reports from the MLB draft and Futures Game to let fantasy managers know whose names you need to know.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T17:12:34+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "source_url": "https://www.espn.com/fantasy/baseball/story/_/id/49350007/2026-fantasy-baseball-prospects-dynasty-leagues-rising-falling-mlb-futures",
+          "canonical_url": "https://www.espn.com/fantasy/baseball/story/_/id/49350007/2026-fantasy-baseball-prospects-dynasty-leagues-rising-falling-mlb-futures",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market"
+          ],
+          "relevance_score": 0.4,
+          "relevance_reason": "ESPN precision source"
+        }
+      ]
+    },
+    "prior_day": {
+      "window_start": "2026-07-12",
+      "window_end": "2026-07-12",
+      "items": []
+    },
+    "this_week": {
+      "window_start": "2026-07-12",
+      "window_end": "2026-07-20",
+      "items": [
+        {
+          "headline": "Ohtani, Witt and ... Pete Alonso! First-half MVPs ...",
+          "detail": "We name each club's top performer so far -- and how many All-Stars they'd have in a perfect world.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T16:27:41+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49288476/2026-mlb-first-half-mvps-all-stars-playoff-odds-all-30-teams",
+          "canonical_url": "https://www.espn.com/mlb/story/_/id/49288476/2026-mlb-first-half-mvps-all-stars-playoff-odds-all-30-teams",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context",
+            "seasonality"
+          ],
+          "relevance_score": 0.52,
+          "relevance_reason": "ESPN precision source; matches all-star, ohtani"
+        },
+        {
+          "headline": "2026 WNBA championship odds: Lynx remain on top; V...",
+          "detail": "Entering the week at 17-7, the Golden State Valkyries now have the fourth-shortest odds to win the WNBA title.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T19:13:01+00:00",
+          "league": "WNBA",
+          "source_name": "ESPN WNBA",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/wnba/news",
+          "source_url": "https://www.espn.com/espn/betting/story/_/id/48417601/2026-wnba-championship-odds-playoffs-mvp",
+          "canonical_url": "https://www.espn.com/espn/betting/story/_/id/48417601/2026-wnba-championship-odds-playoffs-mvp",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ],
+          "relevance_score": 0.48,
+          "relevance_reason": "ESPN precision source; matches championship, wnba, valkyries; betting/fantasy noise risk"
+        },
+        {
+          "headline": "Sources: Brown HC Martin becomes U-M assistant",
+          "detail": "Mike Martin, the winningest basketball coach at Brown, is leaving the Bears to become an assistant on Mike Boynton's staff at Michigan, sources told ESPN.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T21:44:08+00:00",
+          "league": "NCAA Basketball",
+          "source_name": "ESPN College Basketball",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/ncb/news",
+          "source_url": "https://www.espn.com/mens-college-basketball/story/_/id/49352528/sources-brown-hc-mike-martin-takes-job-michigan-assistant",
+          "canonical_url": "https://www.espn.com/mens-college-basketball/story/_/id/49352528/sources-brown-hc-mike-martin-takes-job-michigan-assistant",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ],
+          "relevance_score": 0.4,
+          "relevance_reason": "ESPN precision source"
+        },
+        {
+          "headline": "Ranking top coaches: Can Curt Cignetti win this ti...",
+          "detail": "Our reporters make -- and defend -- their picks for the coaches they'd want to lead their team.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T20:43:07+00:00",
+          "league": "NCAA Football",
+          "source_name": "ESPN College Football",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/ncf/news",
+          "source_url": "https://www.espn.com/college-football/story/_/id/49215318/ranking-college-football-top-coaches-2026-cignetti-smart-kiffin-day-freeman-lanning-sarkisian",
+          "canonical_url": "https://www.espn.com/college-football/story/_/id/49215318/ranking-college-football-top-coaches-2026-cignetti-smart-kiffin-day-freeman-lanning-sarkisian",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ],
+          "relevance_score": 0.4,
+          "relevance_reason": "ESPN precision source"
+        },
+        {
+          "headline": "Prospects watch: The future is not quite now",
+          "detail": "Eric Karabell reports from the MLB draft and Futures Game to let fantasy managers know whose names you need to know.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T17:12:34+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "source_url": "https://www.espn.com/fantasy/baseball/story/_/id/49350007/2026-fantasy-baseball-prospects-dynasty-leagues-rising-falling-mlb-futures",
+          "canonical_url": "https://www.espn.com/fantasy/baseball/story/_/id/49350007/2026-fantasy-baseball-prospects-dynasty-leagues-rising-falling-mlb-futures",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market"
+          ],
+          "relevance_score": 0.4,
+          "relevance_reason": "ESPN precision source"
+        }
+      ]
+    },
+    "this_month": {
+      "window_start": "2026-07-12",
+      "window_end": "2026-08-12",
+      "items": [
+        {
+          "headline": "Ohtani, Witt and ... Pete Alonso! First-half MVPs ...",
+          "detail": "We name each club's top performer so far -- and how many All-Stars they'd have in a perfect world.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T16:27:41+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49288476/2026-mlb-first-half-mvps-all-stars-playoff-odds-all-30-teams",
+          "canonical_url": "https://www.espn.com/mlb/story/_/id/49288476/2026-mlb-first-half-mvps-all-stars-playoff-odds-all-30-teams",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context",
+            "seasonality"
+          ],
+          "relevance_score": 0.52,
+          "relevance_reason": "ESPN precision source; matches all-star, ohtani"
+        },
+        {
+          "headline": "2026 WNBA championship odds: Lynx remain on top; V...",
+          "detail": "Entering the week at 17-7, the Golden State Valkyries now have the fourth-shortest odds to win the WNBA title.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T19:13:01+00:00",
+          "league": "WNBA",
+          "source_name": "ESPN WNBA",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/wnba/news",
+          "source_url": "https://www.espn.com/espn/betting/story/_/id/48417601/2026-wnba-championship-odds-playoffs-mvp",
+          "canonical_url": "https://www.espn.com/espn/betting/story/_/id/48417601/2026-wnba-championship-odds-playoffs-mvp",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ],
+          "relevance_score": 0.48,
+          "relevance_reason": "ESPN precision source; matches championship, wnba, valkyries; betting/fantasy noise risk"
+        },
+        {
+          "headline": "Sources: Brown HC Martin becomes U-M assistant",
+          "detail": "Mike Martin, the winningest basketball coach at Brown, is leaving the Bears to become an assistant on Mike Boynton's staff at Michigan, sources told ESPN.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T21:44:08+00:00",
+          "league": "NCAA Basketball",
+          "source_name": "ESPN College Basketball",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/ncb/news",
+          "source_url": "https://www.espn.com/mens-college-basketball/story/_/id/49352528/sources-brown-hc-mike-martin-takes-job-michigan-assistant",
+          "canonical_url": "https://www.espn.com/mens-college-basketball/story/_/id/49352528/sources-brown-hc-mike-martin-takes-job-michigan-assistant",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ],
+          "relevance_score": 0.4,
+          "relevance_reason": "ESPN precision source"
+        },
+        {
+          "headline": "Ranking top coaches: Can Curt Cignetti win this ti...",
+          "detail": "Our reporters make -- and defend -- their picks for the coaches they'd want to lead their team.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T20:43:07+00:00",
+          "league": "NCAA Football",
+          "source_name": "ESPN College Football",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/ncf/news",
+          "source_url": "https://www.espn.com/college-football/story/_/id/49215318/ranking-college-football-top-coaches-2026-cignetti-smart-kiffin-day-freeman-lanning-sarkisian",
+          "canonical_url": "https://www.espn.com/college-football/story/_/id/49215318/ranking-college-football-top-coaches-2026-cignetti-smart-kiffin-day-freeman-lanning-sarkisian",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ],
+          "relevance_score": 0.4,
+          "relevance_reason": "ESPN precision source"
+        },
+        {
+          "headline": "Prospects watch: The future is not quite now",
+          "detail": "Eric Karabell reports from the MLB draft and Futures Game to let fantasy managers know whose names you need to know.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T17:12:34+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "source_url": "https://www.espn.com/fantasy/baseball/story/_/id/49350007/2026-fantasy-baseball-prospects-dynasty-leagues-rising-falling-mlb-futures",
+          "canonical_url": "https://www.espn.com/fantasy/baseball/story/_/id/49350007/2026-fantasy-baseball-prospects-dynasty-leagues-rising-falling-mlb-futures",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market"
+          ],
+          "relevance_score": 0.4,
+          "relevance_reason": "ESPN precision source"
+        }
+      ]
+    },
+    "next_month": {
+      "window_start": "2026-08-13",
+      "window_end": "2026-09-11",
+      "items": []
+    },
+    "yesterday": {
+      "window_start": "2026-07-12",
+      "window_end": "2026-07-12",
+      "items": []
+    },
+    "today": {
+      "window_start": "2026-07-13",
+      "window_end": "2026-07-13",
+      "items": [
+        {
+          "headline": "Ohtani, Witt and ... Pete Alonso! First-half MVPs ...",
+          "detail": "We name each club's top performer so far -- and how many All-Stars they'd have in a perfect world.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T16:27:41+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "source_url": "https://www.espn.com/mlb/story/_/id/49288476/2026-mlb-first-half-mvps-all-stars-playoff-odds-all-30-teams",
+          "canonical_url": "https://www.espn.com/mlb/story/_/id/49288476/2026-mlb-first-half-mvps-all-stars-playoff-odds-all-30-teams",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context",
+            "seasonality"
+          ],
+          "relevance_score": 0.52,
+          "relevance_reason": "ESPN precision source; matches all-star, ohtani"
+        },
+        {
+          "headline": "2026 WNBA championship odds: Lynx remain on top; V...",
+          "detail": "Entering the week at 17-7, the Golden State Valkyries now have the fourth-shortest odds to win the WNBA title.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T19:13:01+00:00",
+          "league": "WNBA",
+          "source_name": "ESPN WNBA",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/wnba/news",
+          "source_url": "https://www.espn.com/espn/betting/story/_/id/48417601/2026-wnba-championship-odds-playoffs-mvp",
+          "canonical_url": "https://www.espn.com/espn/betting/story/_/id/48417601/2026-wnba-championship-odds-playoffs-mvp",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ],
+          "relevance_score": 0.48,
+          "relevance_reason": "ESPN precision source; matches championship, wnba, valkyries; betting/fantasy noise risk"
+        },
+        {
+          "headline": "Sources: Brown HC Martin becomes U-M assistant",
+          "detail": "Mike Martin, the winningest basketball coach at Brown, is leaving the Bears to become an assistant on Mike Boynton's staff at Michigan, sources told ESPN.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T21:44:08+00:00",
+          "league": "NCAA Basketball",
+          "source_name": "ESPN College Basketball",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/ncb/news",
+          "source_url": "https://www.espn.com/mens-college-basketball/story/_/id/49352528/sources-brown-hc-mike-martin-takes-job-michigan-assistant",
+          "canonical_url": "https://www.espn.com/mens-college-basketball/story/_/id/49352528/sources-brown-hc-mike-martin-takes-job-michigan-assistant",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ],
+          "relevance_score": 0.4,
+          "relevance_reason": "ESPN precision source"
+        },
+        {
+          "headline": "Ranking top coaches: Can Curt Cignetti win this ti...",
+          "detail": "Our reporters make -- and defend -- their picks for the coaches they'd want to lead their team.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T20:43:07+00:00",
+          "league": "NCAA Football",
+          "source_name": "ESPN College Football",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/ncf/news",
+          "source_url": "https://www.espn.com/college-football/story/_/id/49215318/ranking-college-football-top-coaches-2026-cignetti-smart-kiffin-day-freeman-lanning-sarkisian",
+          "canonical_url": "https://www.espn.com/college-football/story/_/id/49215318/ranking-college-football-top-coaches-2026-cignetti-smart-kiffin-day-freeman-lanning-sarkisian",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ],
+          "relevance_score": 0.4,
+          "relevance_reason": "ESPN precision source"
+        },
+        {
+          "headline": "Prospects watch: The future is not quite now",
+          "detail": "Eric Karabell reports from the MLB draft and Futures Game to let fantasy managers know whose names you need to know.",
+          "date": "2026-07-13",
+          "published_at": "2026-07-13T17:12:34+00:00",
+          "league": "MLB",
+          "source_name": "ESPN MLB",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "source_url": "https://www.espn.com/fantasy/baseball/story/_/id/49350007/2026-fantasy-baseball-prospects-dynasty-leagues-rising-falling-mlb-futures",
+          "canonical_url": "https://www.espn.com/fantasy/baseball/story/_/id/49350007/2026-fantasy-baseball-prospects-dynasty-leagues-rising-falling-mlb-futures",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market"
+          ],
+          "relevance_score": 0.4,
+          "relevance_reason": "ESPN precision source"
+        }
+      ]
+    }
+  }
+}

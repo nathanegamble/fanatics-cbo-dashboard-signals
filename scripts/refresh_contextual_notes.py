@@ -7,6 +7,7 @@ hints and citations. Cowork should adapt, verify tone, and decide placement.
 """
 from __future__ import annotations
 
+import argparse
 import json
 import re
 from datetime import datetime, timezone
@@ -44,11 +45,11 @@ def slugify(text: str) -> str:
     return text[:80] or "note"
 
 
-def load_json(name: str) -> dict[str, Any]:
-    return json.loads((DATA / name).read_text())
+def load_json(directory: Path, name: str) -> dict[str, Any]:
+    return json.loads((directory / name).read_text())
 
 
-def phase_note(league: dict[str, Any], as_of: str) -> dict[str, Any] | None:
+def phase_note(league: dict[str, Any], as_of: str, report_date: str | None, data_date: str | None) -> dict[str, Any] | None:
     confidence = league.get("phase_confidence", "low")
     phase = str(league.get("season_phase") or "unknown")
     detail = league.get("phase_detail")
@@ -69,11 +70,15 @@ def phase_note(league: dict[str, Any], as_of: str) -> dict[str, Any] | None:
         "league": name,
         "note_type": "seasonality",
         "dashboard_slots": ["today_read", "league_momentum", "bigger_picture"],
+        "report_date": report_date,
+        "data_date": data_date,
         "summary": summary,
         "why_it_matters": why,
         "supporting_facts": [basis],
         "suggested_copy": f"Seasonality check: {name} is {phase.replace('-', ' ')} as of {as_of}; {basis[:180]}",
         "confidence": confidence,
+        "relevance_score": 0.45 if confidence == "low" else 0.65,
+        "relevance_reason": "derived season-phase guardrail for dashboard wording",
         "sources": [
             {
                 "name": league.get("source_detail", {}).get("provider", "api-sports.io"),
@@ -85,14 +90,12 @@ def phase_note(league: dict[str, Any], as_of: str) -> dict[str, Any] | None:
     }
 
 
-def event_note(item: dict[str, Any], window: str, window_start: str, window_end: str) -> dict[str, Any] | None:
+def event_note(item: dict[str, Any], window: str, window_start: str, window_end: str, report_date: str | None, data_date: str | None) -> dict[str, Any] | None:
     relevance = item.get("relevance") or ["culture"]
     headline = item.get("headline", "")
     detail = item.get("detail") or ""
     combined_low = f"{headline} {detail}".lower()
-    # Avoid pushing crime/legal tragedy into executive Contextual Note candidates
-    # unless a human explicitly asks for reputation-risk monitoring.
-    if any(term in combined_low for term in ["attempted murder", "charged with", "arrested", "domestic violence", "lawsuit", "death", "died"]):
+    if any(term in combined_low for term in ["attempted murder", "charged with", "arrested", "domestic violence", "lawsuit", "death", "died", "dies", "set her on fire", "racist message"]):
         return None
     slots: list[str] = []
     for tag in relevance:
@@ -101,14 +104,12 @@ def event_note(item: dict[str, Any], window: str, window_start: str, window_end:
                 slots.append(slot)
     note_type = NOTE_TYPE_BY_RELEVANCE.get(relevance[0], "cultural_context")
     league = item.get("league", "multi")
-    headline = item.get("headline", "")
-    detail = item.get("detail") or ""
     topic = f"{league}: {headline}"
     why = "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells."
     if "merch_demand" in relevance:
         why = "Potential demand signal for licensed merchandise, player/team interest, or creative programming."
     elif "historical_context" in relevance:
-        why = "Potential historical/cultural framing for an executive note, especially if linked to records, playoffs, titles, or milestones."
+        why = "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones."
     elif "seasonality" in relevance:
         why = "Potential timing cue for keeping commentary aligned to what is happening now or soon."
     return {
@@ -118,6 +119,8 @@ def event_note(item: dict[str, Any], window: str, window_start: str, window_end:
         "league": league,
         "note_type": note_type,
         "dashboard_slots": slots[:3],
+        "report_date": report_date,
+        "data_date": data_date,
         "window": window,
         "window_start": window_start,
         "window_end": window_end,
@@ -127,11 +130,16 @@ def event_note(item: dict[str, Any], window: str, window_start: str, window_end:
         "suggested_copy": f"{headline} — {detail[:220]}" if detail else headline,
         "confidence": item.get("confidence", "medium"),
         "relevance": relevance,
+        "relevance_score": item.get("relevance_score"),
+        "relevance_reason": item.get("relevance_reason"),
+        "source_family": item.get("source_family"),
         "sources": [
             {
                 "name": item.get("source_name", "source"),
                 "url": item.get("source_url", ""),
                 "type": "article",
+                "source_family": item.get("source_family"),
+                "feed_url": item.get("feed_url"),
                 "published_at": item.get("published_at"),
             }
         ],
@@ -139,31 +147,33 @@ def event_note(item: dict[str, Any], window: str, window_start: str, window_end:
     }
 
 
-def refresh() -> dict[str, Any]:
-    facts = load_json("sports-facts.json")
-    events = load_json("sports-events.json")
-    as_of = facts.get("as_of") or events.get("as_of") or datetime.now(timezone.utc).date().isoformat()
+def refresh(input_dir: Path) -> dict[str, Any]:
+    facts = load_json(input_dir, "sports-facts.json")
+    events = load_json(input_dir, "sports-events.json")
+    report_date = events.get("report_date") or facts.get("report_date") or events.get("as_of") or facts.get("as_of")
+    data_date = events.get("data_date") or facts.get("data_date")
+    as_of = report_date or facts.get("as_of") or datetime.now(timezone.utc).date().isoformat()
     notes: list[dict[str, Any]] = []
 
-    # Seasonality notes are compact and always useful to Cowork.
     for league in facts.get("leagues", []):
-        note = phase_note(league, as_of)
+        note = phase_note(league, as_of, report_date, data_date)
         if note:
             notes.append(note)
 
-    # Event notes: take top current/recent items, preserving source URLs.
     for window_name, window in events.get("windows", {}).items():
-        items = window.get("items", [])
-        for item in items[:8]:
+        # Skip aliases to avoid duplicating the same data_date/report_date items.
+        if window_name in {"yesterday", "today"}:
+            continue
+        items = sorted(window.get("items", []), key=lambda x: (x.get("relevance_score") or 0, x.get("published_at", "")), reverse=True)
+        for item in items[:10]:
             if item.get("source_url"):
-                note = event_note(item, window_name, window.get("window_start", as_of), window.get("window_end", as_of))
+                note = event_note(item, window_name, window.get("window_start", as_of), window.get("window_end", as_of), report_date, data_date)
                 if note:
                     notes.append(note)
 
-    # Dedupe by source URL/headline, cap for a concise daily feed.
     deduped: list[dict[str, Any]] = []
     seen: set[str] = set()
-    for note in notes:
+    for note in sorted(notes, key=lambda n: (n.get("relevance_score") or 0, n.get("confidence") == "high"), reverse=True):
         first_source = note.get("sources", [{}])[0]
         key = note["id"] if first_source.get("type") == "data_provider" else (first_source.get("url") or note["id"])
         if key in seen:
@@ -175,24 +185,42 @@ def refresh() -> dict[str, Any]:
     return {
         "generated_at": utc_now(),
         "as_of": as_of,
+        "report_date": report_date,
+        "data_date": data_date,
+        "report_date_basis": "Cowork dashboard report date follows receipt/publication date; underlying business data represents the prior day.",
         "source": "Derived from sports-facts.json and sports-events.json",
-        "version": "0.1",
+        "version": "0.2",
         "status": status,
         "warnings": [
             "These are candidate notes for Cowork to adapt, not final executive-dashboard prose.",
             "Cowork should verify tone, suppress low-confidence items where appropriate, and cite source URLs in final notes.",
             "Crime/legal tragedy items are filtered out of candidates by default; add a separate reputation-risk feed if needed.",
+            "Yahoo Sports RSS is a breadth/discovery layer; use official/ESPN sources for stronger factual sports-history claims when possible.",
         ],
         "intended_use": "Candidate Contextual Notes for the Fanatics CBO dashboard executive-intelligence layer.",
-        "candidate_count": len(deduped[:60]),
-        "candidates": deduped[:60],
+        "candidate_count": len(deduped[:80]),
+        "candidates": deduped[:80],
     }
 
 
 def main() -> int:
-    out = refresh()
-    (DATA / "contextual-notes-candidates.json").write_text(json.dumps(out, indent=2) + "\n")
-    print(json.dumps({"wrote": "data/contextual-notes-candidates.json", "status": out["status"], "candidate_count": out["candidate_count"]}, indent=2))
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--input-dir", default=str(DATA))
+    parser.add_argument("--output-dir", default=str(DATA))
+    parser.add_argument("--report-date")  # accepted for orchestration compatibility; source JSON carries truth
+    parser.add_argument("--data-date")
+    args = parser.parse_args()
+    input_dir = Path(args.input_dir)
+    output_dir = Path(args.output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    out = refresh(input_dir)
+    if args.report_date:
+        out["report_date"] = args.report_date
+        out["as_of"] = args.report_date
+    if args.data_date:
+        out["data_date"] = args.data_date
+    (output_dir / "contextual-notes-candidates.json").write_text(json.dumps(out, indent=2) + "\n")
+    print(json.dumps({"wrote": str(output_dir / "contextual-notes-candidates.json"), "status": out["status"], "candidate_count": out["candidate_count"], "report_date": out.get("report_date"), "data_date": out.get("data_date")}, indent=2))
     return 0 if out["status"] == "ok" else 1
 
 

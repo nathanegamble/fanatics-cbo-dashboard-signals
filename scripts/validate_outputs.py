@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Basic validation for public JSON outputs."""
+"""Validation for public JSON outputs and dated report snapshots."""
 from __future__ import annotations
 
 import json
@@ -14,7 +14,11 @@ SECRET_PATTERNS = [
     re.compile(r"gh[pousr]_[A-Za-z0-9_]{20,}"),
     re.compile(r"API[_-]?KEY", re.I),
 ]
-ALLOWLIST = {"raw.githubusercontent.com"}
+DISALLOWED_CANDIDATE_TERMS = ["attempted murder", "charged with", "arrested", "domestic violence", "set her on fire", "racist message"]
+
+
+def load(path: Path) -> dict:
+    return json.loads(path.read_text())
 
 
 def assert_no_obvious_secret(path: Path) -> None:
@@ -40,6 +44,9 @@ def validate_facts(obj: dict) -> None:
 def validate_events(obj: dict) -> None:
     for key in ["generated_at", "as_of", "status", "warnings", "windows"]:
         assert key in obj, f"sports-events missing {key}"
+    if obj.get("version") == "0.2":
+        for key in ["report_date", "data_date", "report_date_basis"]:
+            assert key in obj, f"sports-events missing {key}"
     for name in ["yesterday", "today", "this_week", "this_month", "next_month"]:
         assert name in obj["windows"], f"missing window {name}"
         win = obj["windows"][name]
@@ -48,6 +55,10 @@ def validate_events(obj: dict) -> None:
             for k in ["headline", "detail", "date", "league", "source_url"]:
                 assert k in item, f"event item missing {k}"
             assert item["source_url"].startswith("http"), f"source_url not URL: {item['source_url']}"
+            if obj.get("version") == "0.2":
+                assert item.get("source_family") in {"espn_rss", "yahoo_sports_rss"}, f"bad/missing source_family: {item.get('source_family')}"
+                assert str(item.get("feed_url", "")).startswith("http"), f"missing feed_url: {item.get('headline')}"
+                assert isinstance(item.get("relevance_score"), (int, float)), f"missing relevance_score: {item.get('headline')}"
 
 
 def validate_notes(obj: dict) -> None:
@@ -57,25 +68,47 @@ def validate_notes(obj: dict) -> None:
     for note in obj["candidates"]:
         for k in ["id", "topic", "note_type", "dashboard_slots", "summary", "why_it_matters", "confidence", "sources"]:
             assert k in note, f"candidate missing {k}"
+        text = json.dumps(note).lower()
+        for term in DISALLOWED_CANDIDATE_TERMS:
+            assert term not in text, f"disallowed safety term in candidate {note.get('id')}: {term}"
         assert isinstance(note["dashboard_slots"], list), f"dashboard_slots not list: {note.get('id')}"
         assert isinstance(note["sources"], list) and note["sources"], f"candidate missing sources: {note.get('id')}"
         for source in note["sources"]:
             assert source.get("url", "").startswith("http"), f"candidate source_url not URL: {note.get('id')}"
 
 
-def main() -> int:
-    facts_path = DATA / "sports-facts.json"
-    events_path = DATA / "sports-events.json"
-    notes_path = DATA / "contextual-notes-candidates.json"
-    manifest_path = DATA / "manifest.json"
+def validate_manifest(obj: dict, base: Path) -> None:
+    assert obj.get("status") in {"ok", "partial", "error"}, "manifest missing/bad status"
+    if obj.get("version") == "0.2":
+        for key in ["report_date", "data_date", "files"]:
+            assert key in obj, f"manifest missing {key}"
+    for file_info in obj.get("files", {}).values():
+        p = ROOT / file_info.get("path", "")
+        assert p.exists(), f"manifest points to missing file: {p}"
+        assert str(file_info.get("raw_url", "")).startswith("https://raw.githubusercontent.com/"), "manifest raw_url invalid"
+
+
+def validate_bundle(directory: Path) -> None:
+    facts_path = directory / "sports-facts.json"
+    events_path = directory / "sports-events.json"
+    notes_path = directory / "contextual-notes-candidates.json"
+    manifest_path = directory / "manifest.json"
     for path in [facts_path, events_path, notes_path, manifest_path]:
         assert path.exists(), f"missing {path}"
-        json.loads(path.read_text())
+        load(path)
         assert_no_obvious_secret(path)
-    validate_facts(json.loads(facts_path.read_text()))
-    validate_events(json.loads(events_path.read_text()))
-    validate_notes(json.loads(notes_path.read_text()))
-    print("validation ok")
+    validate_facts(load(facts_path))
+    validate_events(load(events_path))
+    validate_notes(load(notes_path))
+    validate_manifest(load(manifest_path), directory)
+
+
+def main() -> int:
+    validate_bundle(DATA)
+    reports = sorted((DATA / "reports").glob("*/manifest.json"))
+    for manifest in reports:
+        validate_bundle(manifest.parent)
+    print(f"validation ok ({1 + len(reports)} bundles)")
     return 0
 
 

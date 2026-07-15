@@ -1,0 +1,534 @@
+{
+  "generated_at": "2026-07-15T18:42:01.236940+00:00",
+  "as_of": "2026-07-13",
+  "report_date": "2026-07-13",
+  "data_date": "2026-07-12",
+  "report_date_basis": "Cowork dashboard report date follows receipt/publication date; underlying business data represents the prior day.",
+  "source": "Derived from sports-facts.json and sports-events.json",
+  "version": "0.2",
+  "status": "ok",
+  "warnings": [
+    "These are candidate notes for Cowork to adapt, not final executive-dashboard prose.",
+    "Cowork should verify tone, suppress low-confidence items where appropriate, and cite source URLs in final notes.",
+    "Crime/legal tragedy items are filtered out of candidates by default; add a separate reputation-risk feed if needed.",
+    "Yahoo Sports RSS is a breadth/discovery layer; use official/ESPN sources for stronger factual sports-history claims when possible."
+  ],
+  "intended_use": "Candidate Contextual Notes for the Fanatics CBO dashboard executive-intelligence layer.",
+  "candidate_count": 15,
+  "candidates": [
+    {
+      "id": "2026-07-13-nfl-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NFL",
+      "league": "NFL",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-13",
+      "data_date": "2026-07-12",
+      "summary": "NFL is currently marked off-season (pre-season-upcoming).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is 23 days before the next API-Sports season start."
+      ],
+      "suggested_copy": "Seasonality check: NFL is off season as of 2026-07-13; Current date is 23 days before the next API-Sports season start.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-13-ncaa-football-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NCAA Football",
+      "league": "NCAA Football",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-13",
+      "data_date": "2026-07-12",
+      "summary": "NCAA Football is currently marked off-season (pre-season-upcoming).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is 45 days before the next API-Sports season start."
+      ],
+      "suggested_copy": "Seasonality check: NCAA Football is off season as of 2026-07-13; Current date is 45 days before the next API-Sports season start.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-13-mlb-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "MLB",
+      "league": "MLB",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-13",
+      "data_date": "2026-07-12",
+      "summary": "MLB is currently marked in-season (regular-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
+      ],
+      "suggested_copy": "Seasonality check: MLB is in season as of 2026-07-13; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-13-nba-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NBA",
+      "league": "NBA",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-13",
+      "data_date": "2026-07-12",
+      "summary": "NBA is currently marked off-season (off-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is after the API-Sports season end and no active preseason competition was found."
+      ],
+      "suggested_copy": "Seasonality check: NBA is off season as of 2026-07-13; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-13-ncaa-basketball-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NCAA Basketball",
+      "league": "NCAA Basketball",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-13",
+      "data_date": "2026-07-12",
+      "summary": "NCAA Basketball is currently marked off-season (off-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is after the API-Sports season end and no active preseason competition was found."
+      ],
+      "suggested_copy": "Seasonality check: NCAA Basketball is off season as of 2026-07-13; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-13-ncaa-women-s-basketball-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NCAA Women's Basketball",
+      "league": "NCAA Women's Basketball",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-13",
+      "data_date": "2026-07-12",
+      "summary": "NCAA Women's Basketball is currently marked off-season (off-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is after the API-Sports season end and no active preseason competition was found."
+      ],
+      "suggested_copy": "Seasonality check: NCAA Women's Basketball is off season as of 2026-07-13; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-13-nhl-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NHL",
+      "league": "NHL",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-13",
+      "data_date": "2026-07-12",
+      "summary": "NHL is currently marked off-season (off-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is 67 days before the next API-Sports season start."
+      ],
+      "suggested_copy": "Seasonality check: NHL is off season as of 2026-07-13; Current date is 67 days before the next API-Sports season start.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-13-mls-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "MLS",
+      "league": "MLS",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-13",
+      "data_date": "2026-07-12",
+      "summary": "MLS is currently marked in-season (regular-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
+      ],
+      "suggested_copy": "Seasonality check: MLS is in season as of 2026-07-13; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-13-fifa-world-cup-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "FIFA World Cup",
+      "league": "FIFA World Cup",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-13",
+      "data_date": "2026-07-12",
+      "summary": "FIFA World Cup is currently marked in-season (regular-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
+      ],
+      "suggested_copy": "Seasonality check: FIFA World Cup is in season as of 2026-07-13; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-13-ohtani-witt-and-pete-alonso-first-half-mvps",
+      "generated_from": "sports-events.json",
+      "topic": "MLB: Ohtani, Witt and ... Pete Alonso! First-half MVPs ...",
+      "league": "MLB",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-13",
+      "data_date": "2026-07-12",
+      "window": "report_date",
+      "window_start": "2026-07-13",
+      "window_end": "2026-07-13",
+      "summary": "Ohtani, Witt and ... Pete Alonso! First-half MVPs ...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "We name each club's top performer so far -- and how many All-Stars they'd have in a perfect world."
+      ],
+      "suggested_copy": "Ohtani, Witt and ... Pete Alonso! First-half MVPs ... \u2014 We name each club's top performer so far -- and how many All-Stars they'd have in a perfect world.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.52,
+      "relevance_reason": "ESPN precision source; matches all-star, ohtani",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN MLB",
+          "url": "https://www.espn.com/mlb/story/_/id/49288476/2026-mlb-first-half-mvps-all-stars-playoff-odds-all-30-teams",
+          "type": "article",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published_at": "2026-07-13T16:27:41+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-13-2026-wnba-championship-odds-lynx-remain-on-top-v",
+      "generated_from": "sports-events.json",
+      "topic": "WNBA: 2026 WNBA championship odds: Lynx remain on top; V...",
+      "league": "WNBA",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving"
+      ],
+      "report_date": "2026-07-13",
+      "data_date": "2026-07-12",
+      "window": "report_date",
+      "window_start": "2026-07-13",
+      "window_end": "2026-07-13",
+      "summary": "2026 WNBA championship odds: Lynx remain on top; V...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Entering the week at 17-7, the Golden State Valkyries now have the fourth-shortest odds to win the WNBA title."
+      ],
+      "suggested_copy": "2026 WNBA championship odds: Lynx remain on top; V... \u2014 Entering the week at 17-7, the Golden State Valkyries now have the fourth-shortest odds to win the WNBA title.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context"
+      ],
+      "relevance_score": 0.48,
+      "relevance_reason": "ESPN precision source; matches championship, wnba, valkyries; betting/fantasy noise risk",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN WNBA",
+          "url": "https://www.espn.com/espn/betting/story/_/id/48417601/2026-wnba-championship-odds-playoffs-mvp",
+          "type": "article",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/wnba/news",
+          "published_at": "2026-07-13T19:13:01+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-13-wnba-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "WNBA",
+      "league": "WNBA",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-13",
+      "data_date": "2026-07-12",
+      "summary": "WNBA is currently marked in-season (regular-season).",
+      "why_it_matters": "Use cautiously: this is useful for avoiding obvious seasonality errors, but Cowork should phrase softly or verify before making a strong claim.",
+      "supporting_facts": [
+        "API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added."
+      ],
+      "suggested_copy": "Seasonality check: WNBA is in season as of 2026-07-13; API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added.",
+      "confidence": "low",
+      "relevance_score": 0.45,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "manual-public-calendar-seed",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": [
+        "API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added."
+      ]
+    },
+    {
+      "id": "2026-07-13-sources-brown-hc-martin-becomes-u-m-assistant",
+      "generated_from": "sports-events.json",
+      "topic": "NCAA Basketball: Sources: Brown HC Martin becomes U-M assistant",
+      "league": "NCAA Basketball",
+      "note_type": "cultural_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "creative_programs"
+      ],
+      "report_date": "2026-07-13",
+      "data_date": "2026-07-12",
+      "window": "report_date",
+      "window_start": "2026-07-13",
+      "window_end": "2026-07-13",
+      "summary": "Sources: Brown HC Martin becomes U-M assistant",
+      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
+      "supporting_facts": [
+        "Mike Martin, the winningest basketball coach at Brown, is leaving the Bears to become an assistant on Mike Boynton's staff at Michigan, sources told ESPN."
+      ],
+      "suggested_copy": "Sources: Brown HC Martin becomes U-M assistant \u2014 Mike Martin, the winningest basketball coach at Brown, is leaving the Bears to become an assistant on Mike Boynton's staff at Michigan, sources told ESPN.",
+      "confidence": "medium",
+      "relevance": [
+        "culture"
+      ],
+      "relevance_score": 0.4,
+      "relevance_reason": "ESPN precision source",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN College Basketball",
+          "url": "https://www.espn.com/mens-college-basketball/story/_/id/49352528/sources-brown-hc-mike-martin-takes-job-michigan-assistant",
+          "type": "article",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/ncb/news",
+          "published_at": "2026-07-13T21:44:08+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-13-ranking-top-coaches-can-curt-cignetti-win-this-ti",
+      "generated_from": "sports-events.json",
+      "topic": "NCAA Football: Ranking top coaches: Can Curt Cignetti win this ti...",
+      "league": "NCAA Football",
+      "note_type": "cultural_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "creative_programs"
+      ],
+      "report_date": "2026-07-13",
+      "data_date": "2026-07-12",
+      "window": "report_date",
+      "window_start": "2026-07-13",
+      "window_end": "2026-07-13",
+      "summary": "Ranking top coaches: Can Curt Cignetti win this ti...",
+      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
+      "supporting_facts": [
+        "Our reporters make -- and defend -- their picks for the coaches they'd want to lead their team."
+      ],
+      "suggested_copy": "Ranking top coaches: Can Curt Cignetti win this ti... \u2014 Our reporters make -- and defend -- their picks for the coaches they'd want to lead their team.",
+      "confidence": "medium",
+      "relevance": [
+        "culture"
+      ],
+      "relevance_score": 0.4,
+      "relevance_reason": "ESPN precision source",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN College Football",
+          "url": "https://www.espn.com/college-football/story/_/id/49215318/ranking-college-football-top-coaches-2026-cignetti-smart-kiffin-day-freeman-lanning-sarkisian",
+          "type": "article",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/ncf/news",
+          "published_at": "2026-07-13T20:43:07+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-13-prospects-watch-the-future-is-not-quite-now",
+      "generated_from": "sports-events.json",
+      "topic": "MLB: Prospects watch: The future is not quite now",
+      "league": "MLB",
+      "note_type": "roster_market_context",
+      "dashboard_slots": [
+        "what_moving",
+        "league_momentum"
+      ],
+      "report_date": "2026-07-13",
+      "data_date": "2026-07-12",
+      "window": "report_date",
+      "window_start": "2026-07-13",
+      "window_end": "2026-07-13",
+      "summary": "Prospects watch: The future is not quite now",
+      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
+      "supporting_facts": [
+        "Eric Karabell reports from the MLB draft and Futures Game to let fantasy managers know whose names you need to know."
+      ],
+      "suggested_copy": "Prospects watch: The future is not quite now \u2014 Eric Karabell reports from the MLB draft and Futures Game to let fantasy managers know whose names you need to know.",
+      "confidence": "medium",
+      "relevance": [
+        "roster_market"
+      ],
+      "relevance_score": 0.4,
+      "relevance_reason": "ESPN precision source",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN MLB",
+          "url": "https://www.espn.com/fantasy/baseball/story/_/id/49350007/2026-fantasy-baseball-prospects-dynasty-leagues-rising-falling-mlb-futures",
+          "type": "article",
+          "source_family": "espn_rss",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published_at": "2026-07-13T17:12:34+00:00"
+        }
+      ],
+      "warnings": []
+    }
+  ]
+}

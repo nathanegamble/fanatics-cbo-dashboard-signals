@@ -68,7 +68,29 @@ unless the underlying source explicitly includes those channels.
 
 ---
 
-## 3. Daily writing loop
+## 3. Report-date and source-family rules
+
+Cowork's dashboard date is the **report date**. The underlying component reports usually represent the **prior-day business data**.
+
+Example:
+
+- `report_date: 2026-07-15`
+- `data_date: 2026-07-14`
+
+Write commentary against the dashboard section and the represented business data, but be clear when external sports context is tied to the report-date window versus the prior-day data window.
+
+The public events feed uses two source families:
+
+- `espn_rss`: cleaner editorial baseline; stronger default source for factual sports context.
+- `yahoo_sports_rss`: broader discovery layer; useful for player/team/fan-culture signals but noisier.
+
+Do not confuse story volume with fact certainty. Yahoo Sports can help surface what fans may be seeing, but any strong historical, rivalry, injury, trade, record, or milestone claim should be verified against official sources, ESPN/AP/Reuters-level journalism, or omitted.
+
+Yahoo News sports is intentionally excluded for now because initial validation showed lower relevance and higher safety/noise risk for this dashboard use case.
+
+---
+
+## 4. Daily writing loop
 
 Use this loop for each daily report.
 
@@ -177,7 +199,7 @@ Avoid sounding like the writer is thinking aloud.
 
 ---
 
-## 4. Tone and phrasing rules
+## 5. Tone and phrasing rules
 
 ### Preferred voice
 
@@ -249,7 +271,7 @@ Prefer:
 
 ---
 
-## 5. Fact discipline for sports and culture
+## 6. Fact discipline for sports and culture
 
 Sports color is valuable only when accurate and relevant.
 
@@ -286,7 +308,7 @@ If a fact is not verified, omit it. A plausible but false sports detail is worse
 
 ---
 
-## 6. Section guidance
+## 7. Section guidance
 
 ### Daily Topline
 
@@ -402,7 +424,7 @@ Avoid:
 
 ---
 
-## 7. Final review checklist
+## 8. Final review checklist
 
 Before finalizing Contextual Notes, run this checklist.
 
@@ -442,7 +464,7 @@ Before finalizing Contextual Notes, run this checklist.
 
 ---
 
-## 8. Example patterns from the 2026-07-12 report
+## 9. Example patterns from the 2026-07-12 report
 
 These are examples of the desired approach. Do not copy blindly; update facts and context each day.
 
@@ -468,7 +490,7 @@ These are examples of the desired approach. Do not copy blindly; update facts an
 
 ---
 
-## 9. Output expectation
+## 10. Output expectation
 
 For each dashboard section, produce one concise Contextual Note, usually one or two paragraphs.
 

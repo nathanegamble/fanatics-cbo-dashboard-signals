@@ -1,6 +1,6 @@
 # Cowork integration notes
 
-This document explains the v0.1 enhancements beyond the original brief.
+This document explains the v0.2 public signal feed for Claude Cowork.
 
 ## Published files
 
@@ -14,17 +14,21 @@ Use raw GitHub URLs from `manifest.json` or the README.
 
 ## Enhancements vs original request
 
-### 1. Transparent status and freshness
+### 1. Transparent status, freshness, and report dating
 
-Both JSON files include:
+Files include:
 
 - `generated_at`
 - `as_of`
+- `report_date`
+- `data_date`
 - `status`
 - `warnings`
 - `version`
 
-This lets Cowork distinguish fresh complete data from partial/fallback data.
+`report_date` is the Cowork dashboard date. `data_date` is the underlying prior-day business data represented by the component reports. For example, the 2026-07-15 dashboard report represents 2026-07-14 business data.
+
+This lets Cowork distinguish fresh complete data from partial/fallback data and align external context to the dashboard date convention.
 
 ### 2. Derived season phase fields
 
@@ -39,9 +43,9 @@ Fields per league:
 
 Consumer guidance: use `season_phase` for simple language gates, and inspect `phase_confidence` before writing strong claims.
 
-### 3. Explicit event windows
+### 3. Explicit event windows and source families
 
-The original brief represented each window as a direct array. v0.1 nests each window so date boundaries are explicit:
+The original brief represented each window as a direct array. v0.2 nests each window so date boundaries are explicit:
 
 ```json
 "this_week": {
@@ -52,6 +56,13 @@ The original brief represented each window as a direct array. v0.1 nests each wi
 ```
 
 This avoids ambiguity around what "this week" or "next month" means on any given run.
+
+Events now include `source_family`:
+
+- `espn_rss`: precision/editorial baseline.
+- `yahoo_sports_rss`: broader sports-news discovery layer.
+
+Yahoo News sports is not included in v0.2 because validation showed weaker relevance and higher safety/noise risk for this dashboard use case. Yahoo Scout/browser scraping has been dropped for now in favor of stable public RSS endpoints.
 
 ### 4. Relevance tags for Contextual Notes
 
@@ -91,11 +102,27 @@ Important: these are candidates, not final dashboard copy. Cowork should adapt w
 - separate fast marketing levers from slower creative/campaign-dependent work;
 - preserve a senior, direct voice suitable for Cameron.
 
-## Known v0.1 limitations
+### 7. Dated report snapshots
 
-- WNBA is not confirmed in API-Sports basketball league search; v0.1 uses a low-confidence public seasonal calendar fallback.
+Latest files remain at `data/*.json`, but Cowork can also use durable dated snapshots:
+
+```text
+data/reports/YYYY-MM-DD/manifest.json
+data/reports/YYYY-MM-DD/sports-facts.json
+data/reports/YYYY-MM-DD/sports-events.json
+data/reports/YYYY-MM-DD/contextual-notes-candidates.json
+```
+
+`YYYY-MM-DD` is the dashboard `report_date`. The snapshot manifest includes `data_date` for the prior-day business data represented by the component reports.
+
+Use dated snapshots for backfills. If a snapshot has `status: partial`, inspect `warnings`; older RSS backfills may be best-effort because RSS feeds do not retain every item from the original report date.
+
+## Known v0.2 limitations
+
+- WNBA is not confirmed in API-Sports basketball league search; v0.2 uses a low-confidence public seasonal calendar fallback.
 - API-Sports provides broad season windows for some leagues; playoff/preseason detection depends on sampled game metadata and known separate competitions.
-- `sports-events.json` v0.1 uses public ESPN RSS feeds for stable automation and source URLs. Cowork requested Yahoo Scout/browser validation; this remains the next POC layer and can publish into the same schema.
+- ESPN RSS is the precision layer; Yahoo Sports RSS is a broader discovery layer and needs dedupe/filtering before final commentary use.
+- Older dated snapshots can be partial because RSS feeds may not retain all items from the original report date.
 - Standings are currently left as an empty array unless/until endpoint coverage is mapped per sport within the 100-request/day limit.
 
 ## Recommended use in dashboard commentary
@@ -104,6 +131,9 @@ Important: these are candidates, not final dashboard copy. Cowork should adapt w
 - If `phase_confidence` is `low`, phrase cautiously: "the available calendar suggests..." or omit phase-specific claims.
 - Use `warnings` to suppress unsupported/uncertain leagues.
 - For Contextual Notes, require `source_url` and prefer `relevance` tags that match the section.
+- For current daily runs, use the latest top-level files after the 5:45am ET refresh.
+- For backfills, use `data/reports/YYYY-MM-DD/manifest.json` where `YYYY-MM-DD` is the Cowork dashboard report date.
+- Treat `source_family: yahoo_sports_rss` as breadth/discovery and verify any strong historical or rivalry claim against official/ESPN/reliable journalism before final copy.
 
 ## Future additions Horatio recommends
 

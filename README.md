@@ -10,6 +10,10 @@ Public JSON feed for external sports/context signals consumed by Claude Cowork a
 - Contextual Notes playbook: https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/docs/contextual-notes-playbook.md
 - `manifest.json`: https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/manifest.json
 
+Dated report snapshots are also published under `data/reports/YYYY-MM-DD/`, where `YYYY-MM-DD` is the **Cowork dashboard report date**. Example:
+
+- 2026-07-15 manifest: https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/reports/2026-07-15/manifest.json
+
 ## Files
 
 ### `data/sports-facts.json`
@@ -54,7 +58,9 @@ Each window is represented as:
 }
 ```
 
-Each item includes a `source_url`, `source_name`, `league`, `confidence`, and relevance tags. v0.1 uses public ESPN RSS feeds for reliable automation and source URLs. The Yahoo Scout/browser path requested by Cowork is documented as a POC path to validate next; it can publish into the same schema without changing consumer code.
+Each item includes a `source_url`, `source_name`, `source_family`, `feed_url`, `league`, `confidence`, `relevance_score`, `relevance_reason`, and relevance tags. v0.2 uses ESPN RSS as a precision/editorial layer and Yahoo Sports RSS as a breadth/discovery layer. Yahoo News sports is excluded for now because validation showed weaker relevance and higher safety/noise risk for this use case.
+
+`report_date` and `data_date` are both included. `report_date` is the Cowork dashboard date; `data_date` is the prior-day business data represented by the component reports.
 
 ### `data/contextual-notes-candidates.json`
 
@@ -82,7 +88,11 @@ A Markdown guide for Claude Cowork to write final executive-ready Contextual Not
 
 ### `data/manifest.json`
 
-Small status/index file for consumers that want to check freshness and file status before reading the full payloads.
+Small status/index file for consumers that want to check freshness and file status before reading the full payloads. v0.2 includes `latest_report_date`, `latest_data_date`, source families, and `available_reports` entries pointing to dated snapshots.
+
+### `data/reports/YYYY-MM-DD/`
+
+Durable dated snapshots for Cowork backfills. The directory date is the dashboard `report_date`, not the underlying business `data_date`. For example, `data/reports/2026-07-15/` supports the dashboard report dated 2026-07-15 and carries `data_date: 2026-07-14`.
 
 ## Status values
 
@@ -116,8 +126,14 @@ The derivation is intentionally transparent via `phase_basis` and `phase_confide
 ## Local run
 
 ```bash
-python3 scripts/refresh_all.py
+python3 scripts/refresh_all.py --report-date YYYY-MM-DD --data-date YYYY-MM-DD
 python3 scripts/validate_outputs.py
+```
+
+Backfill snapshots can be generated without replacing the latest top-level files:
+
+```bash
+python3 scripts/refresh_all.py --report-date 2026-07-14 --data-date 2026-07-13 --backfill-mode best_effort_from_current_rss --snapshot-only
 ```
 
 ## Commit cadence
@@ -133,7 +149,9 @@ chore(signals): refresh YYYY-MM-DD
 Recommended consumption pattern:
 
 1. Fetch `manifest.json` first.
-2. If `status` is `ok` or `partial`, fetch `sports-facts.json` and `sports-events.json`.
-3. Use `phase_basis`, `phase_confidence`, and `warnings` to avoid overclaiming uncertain seasonality.
-4. Use `contextual-notes-candidates.json` as a shortlist of source-backed note ideas; adapt tone and placement rather than copying blindly.
-5. For Contextual Notes, prefer candidates/events with `confidence: high|medium`, a valid source URL, and dashboard slots matching the target section.
+2. Use `latest_report_date` / `latest_data_date` for the current daily dashboard run.
+3. For backfills, use `available_reports[]` and fetch `data/reports/YYYY-MM-DD/manifest.json`, where `YYYY-MM-DD` is the dashboard report date.
+4. If `status` is `ok` or `partial`, fetch `sports-facts.json`, `sports-events.json`, and `contextual-notes-candidates.json` from either latest or the dated snapshot.
+5. Use `phase_basis`, `phase_confidence`, and `warnings` to avoid overclaiming uncertain seasonality.
+6. Use `contextual-notes-candidates.json` as a shortlist of source-backed note ideas; adapt tone and placement rather than copying blindly.
+7. For Contextual Notes, prefer candidates/events with `confidence: high|medium`, a valid source URL, a relevant `source_family`, and dashboard slots matching the target section.
