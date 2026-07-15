@@ -62,7 +62,7 @@ Events now include `source_family`:
 - `espn_rss`: precision/editorial baseline.
 - `yahoo_sports_rss`: broader sports-news discovery layer.
 
-Yahoo News sports is not included in v0.2 because validation showed weaker relevance and higher safety/noise risk for this dashboard use case. Yahoo Scout/browser scraping has been dropped for now in favor of stable public RSS endpoints.
+Yahoo News sports is not included in v0.2 because validation showed weaker relevance and higher safety/noise risk for this dashboard use case. Browser scraping paths are excluded for now in favor of stable public RSS endpoints.
 
 ### 4. Relevance tags for Contextual Notes
 
