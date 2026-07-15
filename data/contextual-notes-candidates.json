@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-14T20:41:39.572972+00:00",
-  "as_of": "2026-07-14",
+  "generated_at": "2026-07-15T09:45:37.955339+00:00",
+  "as_of": "2026-07-15",
   "source": "Derived from sports-facts.json and sports-events.json",
   "version": "0.1",
   "status": "ok",
@@ -10,10 +10,10 @@
     "Crime/legal tragedy items are filtered out of candidates by default; add a separate reputation-risk feed if needed."
   ],
   "intended_use": "Candidate Contextual Notes for the Fanatics CBO dashboard executive-intelligence layer.",
-  "candidate_count": 23,
+  "candidate_count": 26,
   "candidates": [
     {
-      "id": "2026-07-14-nfl-season-phase",
+      "id": "2026-07-15-nfl-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "NFL",
       "league": "NFL",
@@ -26,9 +26,9 @@
       "summary": "NFL is currently marked off-season (pre-season-upcoming).",
       "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
       "supporting_facts": [
-        "Current date is 24 days before the next API-Sports season start."
+        "Current date is 23 days before the next API-Sports season start."
       ],
-      "suggested_copy": "Seasonality check: NFL is off season as of 2026-07-14; Current date is 24 days before the next API-Sports season start.",
+      "suggested_copy": "Seasonality check: NFL is off season as of 2026-07-15; Current date is 23 days before the next API-Sports season start.",
       "confidence": "medium",
       "sources": [
         {
@@ -40,7 +40,7 @@
       "warnings": []
     },
     {
-      "id": "2026-07-14-ncaa-football-season-phase",
+      "id": "2026-07-15-ncaa-football-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "NCAA Football",
       "league": "NCAA Football",
@@ -50,12 +50,12 @@
         "league_momentum",
         "bigger_picture"
       ],
-      "summary": "NCAA Football is currently marked off-season (off-season).",
+      "summary": "NCAA Football is currently marked off-season (pre-season-upcoming).",
       "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
       "supporting_facts": [
-        "Current date is 46 days before the next API-Sports season start."
+        "Current date is 45 days before the next API-Sports season start."
       ],
-      "suggested_copy": "Seasonality check: NCAA Football is off season as of 2026-07-14; Current date is 46 days before the next API-Sports season start.",
+      "suggested_copy": "Seasonality check: NCAA Football is off season as of 2026-07-15; Current date is 45 days before the next API-Sports season start.",
       "confidence": "medium",
       "sources": [
         {
@@ -67,7 +67,7 @@
       "warnings": []
     },
     {
-      "id": "2026-07-14-mlb-season-phase",
+      "id": "2026-07-15-mlb-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "MLB",
       "league": "MLB",
@@ -82,7 +82,7 @@
       "supporting_facts": [
         "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
       ],
-      "suggested_copy": "Seasonality check: MLB is in season as of 2026-07-14; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
+      "suggested_copy": "Seasonality check: MLB is in season as of 2026-07-15; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
       "confidence": "medium",
       "sources": [
         {
@@ -94,7 +94,7 @@
       "warnings": []
     },
     {
-      "id": "2026-07-14-nba-season-phase",
+      "id": "2026-07-15-nba-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "NBA",
       "league": "NBA",
@@ -109,7 +109,7 @@
       "supporting_facts": [
         "Current date is after the API-Sports season end and no active preseason competition was found."
       ],
-      "suggested_copy": "Seasonality check: NBA is off season as of 2026-07-14; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "suggested_copy": "Seasonality check: NBA is off season as of 2026-07-15; Current date is after the API-Sports season end and no active preseason competition was found.",
       "confidence": "medium",
       "sources": [
         {
@@ -121,7 +121,7 @@
       "warnings": []
     },
     {
-      "id": "2026-07-14-wnba-season-phase",
+      "id": "2026-07-15-wnba-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "WNBA",
       "league": "WNBA",
@@ -136,7 +136,7 @@
       "supporting_facts": [
         "API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added."
       ],
-      "suggested_copy": "Seasonality check: WNBA is in season as of 2026-07-14; API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added.",
+      "suggested_copy": "Seasonality check: WNBA is in season as of 2026-07-15; API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added.",
       "confidence": "low",
       "sources": [
         {
@@ -150,7 +150,7 @@
       ]
     },
     {
-      "id": "2026-07-14-ncaa-basketball-season-phase",
+      "id": "2026-07-15-ncaa-basketball-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "NCAA Basketball",
       "league": "NCAA Basketball",
@@ -165,7 +165,7 @@
       "supporting_facts": [
         "Current date is after the API-Sports season end and no active preseason competition was found."
       ],
-      "suggested_copy": "Seasonality check: NCAA Basketball is off season as of 2026-07-14; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "suggested_copy": "Seasonality check: NCAA Basketball is off season as of 2026-07-15; Current date is after the API-Sports season end and no active preseason competition was found.",
       "confidence": "medium",
       "sources": [
         {
@@ -177,7 +177,7 @@
       "warnings": []
     },
     {
-      "id": "2026-07-14-ncaa-women-s-basketball-season-phase",
+      "id": "2026-07-15-ncaa-women-s-basketball-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "NCAA Women's Basketball",
       "league": "NCAA Women's Basketball",
@@ -192,7 +192,7 @@
       "supporting_facts": [
         "Current date is after the API-Sports season end and no active preseason competition was found."
       ],
-      "suggested_copy": "Seasonality check: NCAA Women's Basketball is off season as of 2026-07-14; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "suggested_copy": "Seasonality check: NCAA Women's Basketball is off season as of 2026-07-15; Current date is after the API-Sports season end and no active preseason competition was found.",
       "confidence": "medium",
       "sources": [
         {
@@ -204,7 +204,7 @@
       "warnings": []
     },
     {
-      "id": "2026-07-14-nhl-season-phase",
+      "id": "2026-07-15-nhl-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "NHL",
       "league": "NHL",
@@ -217,9 +217,9 @@
       "summary": "NHL is currently marked off-season (off-season).",
       "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
       "supporting_facts": [
-        "Current date is 68 days before the next API-Sports season start."
+        "Current date is 67 days before the next API-Sports season start."
       ],
-      "suggested_copy": "Seasonality check: NHL is off season as of 2026-07-14; Current date is 68 days before the next API-Sports season start.",
+      "suggested_copy": "Seasonality check: NHL is off season as of 2026-07-15; Current date is 67 days before the next API-Sports season start.",
       "confidence": "medium",
       "sources": [
         {
@@ -231,7 +231,7 @@
       "warnings": []
     },
     {
-      "id": "2026-07-14-mls-season-phase",
+      "id": "2026-07-15-mls-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "MLS",
       "league": "MLS",
@@ -246,7 +246,7 @@
       "supporting_facts": [
         "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
       ],
-      "suggested_copy": "Seasonality check: MLS is in season as of 2026-07-14; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
+      "suggested_copy": "Seasonality check: MLS is in season as of 2026-07-15; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
       "confidence": "medium",
       "sources": [
         {
@@ -258,7 +258,7 @@
       "warnings": []
     },
     {
-      "id": "2026-07-14-fifa-world-cup-season-phase",
+      "id": "2026-07-15-fifa-world-cup-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "FIFA World Cup",
       "league": "FIFA World Cup",
@@ -273,7 +273,7 @@
       "supporting_facts": [
         "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
       ],
-      "suggested_copy": "Seasonality check: FIFA World Cup is in season as of 2026-07-14; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
+      "suggested_copy": "Seasonality check: FIFA World Cup is in season as of 2026-07-15; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
       "confidence": "medium",
       "sources": [
         {
@@ -285,374 +285,279 @@
       "warnings": []
     },
     {
-      "id": "2026-07-13-sources-brown-hc-martin-becomes-u-m-assistant",
+      "id": "2026-07-14-is-49ers-assistant-k-j-wright-the-next-demeco-rya",
       "generated_from": "sports-events.json",
-      "topic": "NCAA Basketball: Sources: Brown HC Martin becomes U-M assistant",
-      "league": "NCAA Basketball",
+      "topic": "NFL: Is 49ers assistant K.J. Wright the next DeMeco Rya...",
+      "league": "NFL",
       "note_type": "cultural_context",
       "dashboard_slots": [
         "bigger_picture",
         "creative_programs"
       ],
       "window": "yesterday",
-      "window_start": "2026-07-13",
-      "window_end": "2026-07-13",
-      "summary": "Sources: Brown HC Martin becomes U-M assistant",
+      "window_start": "2026-07-14",
+      "window_end": "2026-07-14",
+      "summary": "Is 49ers assistant K.J. Wright the next DeMeco Rya...",
       "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
       "supporting_facts": [
-        "Mike Martin, the winningest basketball coach at Brown, is leaving the Bears to become an assistant on Mike Boynton's staff at Michigan, sources told ESPN."
+        "The former Seahawks linebacker faced the 49ers many times ... but now he's coaching Fred Warner & Co."
       ],
-      "suggested_copy": "Sources: Brown HC Martin becomes U-M assistant \u2014 Mike Martin, the winningest basketball coach at Brown, is leaving the Bears to become an assistant on Mike Boynton's staff at Michigan, sources told ESPN.",
+      "suggested_copy": "Is 49ers assistant K.J. Wright the next DeMeco Rya... \u2014 The former Seahawks linebacker faced the 49ers many times ... but now he's coaching Fred Warner & Co.",
       "confidence": "medium",
       "relevance": [
         "culture"
       ],
       "sources": [
         {
-          "name": "ESPN College Basketball",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/49352528/sources-brown-hc-mike-martin-takes-job-michigan-assistant",
+          "name": "ESPN NFL",
+          "url": "https://www.espn.com/nfl/story/_/id/49351716/san-francisco-49ers-coach-kj-wright-coordinator-demeco-ryans-houston-texans-seattle-seahawks",
           "type": "article",
-          "published_at": "2026-07-13T21:44:08+00:00"
+          "published_at": "2026-07-14T23:39:04+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-13-ranking-top-coaches-can-curt-cignetti-win-this-ti",
+      "id": "2026-07-14-jordan-walker-is-your-2026-home-run-derby-champion",
       "generated_from": "sports-events.json",
-      "topic": "NCAA Football: Ranking top coaches: Can Curt Cignetti win this ti...",
-      "league": "NCAA Football",
-      "note_type": "cultural_context",
-      "dashboard_slots": [
-        "bigger_picture",
-        "creative_programs"
-      ],
-      "window": "yesterday",
-      "window_start": "2026-07-13",
-      "window_end": "2026-07-13",
-      "summary": "Ranking top coaches: Can Curt Cignetti win this ti...",
-      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
-      "supporting_facts": [
-        "Our reporters make -- and defend -- their picks for the coaches they'd want to lead their team."
-      ],
-      "suggested_copy": "Ranking top coaches: Can Curt Cignetti win this ti... \u2014 Our reporters make -- and defend -- their picks for the coaches they'd want to lead their team.",
-      "confidence": "medium",
-      "relevance": [
-        "culture"
-      ],
-      "sources": [
-        {
-          "name": "ESPN College Football",
-          "url": "https://www.espn.com/college-football/story/_/id/49215318/ranking-college-football-top-coaches-2026-cignetti-smart-kiffin-day-freeman-lanning-sarkisian",
-          "type": "article",
-          "published_at": "2026-07-13T20:43:07+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-13-2026-wnba-championship-odds-lynx-remain-on-top-v",
-      "generated_from": "sports-events.json",
-      "topic": "WNBA: 2026 WNBA championship odds: Lynx remain on top; V...",
-      "league": "WNBA",
-      "note_type": "historical_context",
-      "dashboard_slots": [
-        "bigger_picture",
-        "what_moving"
-      ],
-      "window": "yesterday",
-      "window_start": "2026-07-13",
-      "window_end": "2026-07-13",
-      "summary": "2026 WNBA championship odds: Lynx remain on top; V...",
-      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to records, playoffs, titles, or milestones.",
-      "supporting_facts": [
-        "Entering the week at 17-7, the Golden State Valkyries now have the fourth-shortest odds to win the WNBA title."
-      ],
-      "suggested_copy": "2026 WNBA championship odds: Lynx remain on top; V... \u2014 Entering the week at 17-7, the Golden State Valkyries now have the fourth-shortest odds to win the WNBA title.",
-      "confidence": "medium",
-      "relevance": [
-        "historical_context"
-      ],
-      "sources": [
-        {
-          "name": "ESPN WNBA",
-          "url": "https://www.espn.com/espn/betting/story/_/id/48417601/2026-wnba-championship-odds-playoffs-mvp",
-          "type": "article",
-          "published_at": "2026-07-13T19:13:01+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-13-prospects-watch-the-future-is-not-quite-now",
-      "generated_from": "sports-events.json",
-      "topic": "MLB: Prospects watch: The future is not quite now",
+      "topic": "MLB: Jordan Walker is your 2026 Home Run Derby champion...",
       "league": "MLB",
-      "note_type": "roster_market_context",
+      "note_type": "cultural_context",
       "dashboard_slots": [
-        "what_moving",
-        "league_momentum"
+        "bigger_picture",
+        "creative_programs"
       ],
       "window": "yesterday",
-      "window_start": "2026-07-13",
-      "window_end": "2026-07-13",
-      "summary": "Prospects watch: The future is not quite now",
+      "window_start": "2026-07-14",
+      "window_end": "2026-07-14",
+      "summary": "Jordan Walker is your 2026 Home Run Derby champion...",
       "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
       "supporting_facts": [
-        "Eric Karabell reports from the MLB draft and Futures Game to let fantasy managers know whose names you need to know."
+        "We have your one-stop shop for the most power-packed day of the baseball year as the 2026 Derby champion is crowned."
       ],
-      "suggested_copy": "Prospects watch: The future is not quite now \u2014 Eric Karabell reports from the MLB draft and Futures Game to let fantasy managers know whose names you need to know.",
+      "suggested_copy": "Jordan Walker is your 2026 Home Run Derby champion... \u2014 We have your one-stop shop for the most power-packed day of the baseball year as the 2026 Derby champion is crowned.",
       "confidence": "medium",
       "relevance": [
-        "roster_market"
+        "culture"
       ],
       "sources": [
         {
           "name": "ESPN MLB",
-          "url": "https://www.espn.com/fantasy/baseball/story/_/id/49350007/2026-fantasy-baseball-prospects-dynasty-leagues-rising-falling-mlb-futures",
+          "url": "https://www.espn.com/mlb/story/_/id/49337954/mlb-2026-home-run-derby-predictions-live-updates-takeaways-analysis",
           "type": "article",
-          "published_at": "2026-07-13T17:12:34+00:00"
+          "published_at": "2026-07-14T23:23:44+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-13-ohtani-witt-and-pete-alonso-first-half-mvps",
+      "id": "2026-07-14-the-perfect-trade-deadline-addition-for-every-mlb",
       "generated_from": "sports-events.json",
-      "topic": "MLB: Ohtani, Witt and ... Pete Alonso! First-half MVPs ...",
+      "topic": "MLB: The perfect trade deadline addition for every MLB ...",
       "league": "MLB",
-      "note_type": "historical_context",
+      "note_type": "roster_market_context",
       "dashboard_slots": [
-        "bigger_picture",
         "what_moving",
+        "league_momentum",
         "today_read"
       ],
       "window": "yesterday",
-      "window_start": "2026-07-13",
-      "window_end": "2026-07-13",
-      "summary": "Ohtani, Witt and ... Pete Alonso! First-half MVPs ...",
-      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to records, playoffs, titles, or milestones.",
+      "window_start": "2026-07-14",
+      "window_end": "2026-07-14",
+      "summary": "The perfect trade deadline addition for every MLB ...",
+      "why_it_matters": "Potential timing cue for keeping commentary aligned to what is happening now or soon.",
       "supporting_facts": [
-        "We name each club's top performer so far -- and how many All-Stars they'd have in a perfect world."
+        "Tairk Skubal to which elite team? An All-Star traded within the NL East!? We make dream moves for every World Series hopeful."
       ],
-      "suggested_copy": "Ohtani, Witt and ... Pete Alonso! First-half MVPs ... \u2014 We name each club's top performer so far -- and how many All-Stars they'd have in a perfect world.",
+      "suggested_copy": "The perfect trade deadline addition for every MLB ... \u2014 Tairk Skubal to which elite team? An All-Star traded within the NL East!? We make dream moves for every World Series hopeful.",
       "confidence": "medium",
       "relevance": [
-        "historical_context",
+        "roster_market",
         "seasonality"
       ],
       "sources": [
         {
           "name": "ESPN MLB",
-          "url": "https://www.espn.com/mlb/story/_/id/49288476/2026-mlb-first-half-mvps-all-stars-playoff-odds-all-30-teams",
+          "url": "https://www.espn.com/mlb/story/_/id/49306462/2026-mlb-trade-deadline-addition-top-contender-moves-dodgers-brewers-braves-yankees-phillies",
           "type": "article",
-          "published_at": "2026-07-13T16:27:41+00:00"
+          "published_at": "2026-07-14T23:23:13+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-14-live-updates-france-spain-meet-with-world-cup-fi",
+      "id": "2026-07-14-brewers-jacob-misiorowski-s-all-star-game-glove-i",
       "generated_from": "sports-events.json",
-      "topic": "Soccer: Live updates: France, Spain meet with World Cup fi...",
-      "league": "Soccer",
+      "topic": "MLB: Brewers' Jacob Misiorowski's All-Star Game glove i...",
+      "league": "MLB",
       "note_type": "seasonality",
       "dashboard_slots": [
         "today_read",
         "league_momentum"
       ],
-      "window": "today",
+      "window": "yesterday",
       "window_start": "2026-07-14",
       "window_end": "2026-07-14",
-      "summary": "Live updates: France, Spain meet with World Cup fi...",
+      "summary": "Brewers' Jacob Misiorowski's All-Star Game glove i...",
       "why_it_matters": "Potential timing cue for keeping commentary aligned to what is happening now or soon.",
       "supporting_facts": [
-        "null"
+        "The Milwaukee Brewers ace showed off a special Pok\u00e9mon-themed All-Star Game glove that includes a Charizard card inside of it."
       ],
-      "suggested_copy": "Live updates: France, Spain meet with World Cup fi... \u2014 null",
+      "suggested_copy": "Brewers' Jacob Misiorowski's All-Star Game glove i... \u2014 The Milwaukee Brewers ace showed off a special Pok\u00e9mon-themed All-Star Game glove that includes a Charizard card inside of it.",
       "confidence": "medium",
       "relevance": [
         "seasonality"
       ],
       "sources": [
         {
-          "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/49356289/world-cup-daily-live-norway-erling-haaland-latest-star-inspire-baby-name-boom",
+          "name": "ESPN MLB",
+          "url": "https://www.espn.com/mlb/story/_/id/49354162/jacob-misiorowski-milwaukee-brewers-pokemon-all-star-game-2026-glove",
           "type": "article",
-          "published_at": "2026-07-14T21:36:33+00:00"
+          "published_at": "2026-07-14T23:22:06+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-14-balogun-red-card-controversy-affected-usmnt",
+      "id": "2026-07-14-wnba-power-rankings-the-fever-are-running-hot",
       "generated_from": "sports-events.json",
-      "topic": "Soccer: Balogun: Red card 'controversy' affected USMNT",
-      "league": "Soccer",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum"
-      ],
-      "window": "today",
-      "window_start": "2026-07-14",
-      "window_end": "2026-07-14",
-      "summary": "Balogun: Red card 'controversy' affected USMNT",
-      "why_it_matters": "Potential timing cue for keeping commentary aligned to what is happening now or soon.",
-      "supporting_facts": [
-        "United States striker Folarin Balogun revealed that he predicted President Donald Trump's involvement in overturning his World Cup suspension would \"cause a lot of controversy.\""
-      ],
-      "suggested_copy": "Balogun: Red card 'controversy' affected USMNT \u2014 United States striker Folarin Balogun revealed that he predicted President Donald Trump's involvement in overturning his World Cup suspension would \"cause a lot of controversy.\"",
-      "confidence": "medium",
-      "relevance": [
-        "seasonality"
-      ],
-      "sources": [
-        {
-          "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/49358886/united-states-folarin-balogun-world-cup-ban-overturn-affected-teammates",
-          "type": "article",
-          "published_at": "2026-07-14T21:22:28+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-14-infantino-reported-to-ioc-over-trump-ties-at-wc",
-      "generated_from": "sports-events.json",
-      "topic": "Soccer: Infantino reported to IOC over Trump ties at WC",
-      "league": "Soccer",
+      "topic": "NBA: WNBA Power Rankings: The Fever are running hot",
+      "league": "NBA",
       "note_type": "cultural_context",
       "dashboard_slots": [
         "bigger_picture",
         "creative_programs"
       ],
-      "window": "today",
+      "window": "yesterday",
       "window_start": "2026-07-14",
       "window_end": "2026-07-14",
-      "summary": "Infantino reported to IOC over Trump ties at WC",
+      "summary": "WNBA Power Rankings: The Fever are running hot",
       "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
       "supporting_facts": [
-        "A complaint alleging FIFA president Gianni Infantino has breached rules on political neutrality in his dealings with President Donald Trump has been submitted to the International Olympic Committee."
+        "With Kelsey Mitchell posting her sixth straight game with 25 points or more, Indiana moves up to No. 4. Golden State holds on to the top spot."
       ],
-      "suggested_copy": "Infantino reported to IOC over Trump ties at WC \u2014 A complaint alleging FIFA president Gianni Infantino has breached rules on political neutrality in his dealings with President Donald Trump has been submitted to the International Olympic Committee.",
+      "suggested_copy": "WNBA Power Rankings: The Fever are running hot \u2014 With Kelsey Mitchell posting her sixth straight game with 25 points or more, Indiana moves up to No. 4. Golden State holds on to the top spot.",
       "confidence": "medium",
       "relevance": [
         "culture"
       ],
       "sources": [
         {
-          "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/49357803/gianni-infantino-reported-ioc-donald-trump-ties-world-cup",
+          "name": "ESPN Top Headlines",
+          "url": "https://www.espn.com/wnba/story/_/id/49349716/wnba-power-rankings-2026-fever-valkyries",
           "type": "article",
-          "published_at": "2026-07-14T21:22:28+00:00"
+          "published_at": "2026-07-14T23:10:12+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-14-man-united-sign-villa-s-tielemans-in-47m-deal",
+      "id": "2026-07-14-good-at-the-cost-of-great-how-one-of-the-nba-s-most-iconic-franchises-was-lost-t",
       "generated_from": "sports-events.json",
-      "topic": "Soccer: Man United sign Villa's Tielemans in $47M deal",
-      "league": "Soccer",
+      "topic": "NBA: 'Good at the cost of great': How one of the NBA's most iconic franchises was lost to mediocrity",
+      "league": "NBA",
       "note_type": "roster_market_context",
       "dashboard_slots": [
         "what_moving",
-        "league_momentum"
+        "league_momentum",
+        "structural_signals"
       ],
-      "window": "today",
+      "window": "yesterday",
       "window_start": "2026-07-14",
       "window_end": "2026-07-14",
-      "summary": "Man United sign Villa's Tielemans in $47M deal",
+      "summary": "'Good at the cost of great': How one of the NBA's most iconic franchises was lost to mediocrity",
       "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
       "supporting_facts": [
-        "Manchester United have announced the signing of midfielder Youri Tielemans from Aston Villa."
+        "The Bulls hired a new front office and coach and drafted at No. 4 in the draft, just like they did in 2020. Here's why they believe this is a new era -- not a repeat of the last."
       ],
-      "suggested_copy": "Man United sign Villa's Tielemans in $47M deal \u2014 Manchester United have announced the signing of midfielder Youri Tielemans from Aston Villa.",
+      "suggested_copy": "'Good at the cost of great': How one of the NBA's most iconic franchises was lost to mediocrity \u2014 The Bulls hired a new front office and coach and drafted at No. 4 in the draft, just like they did in 2020. Here's why they believe this is a new era -- not a repeat of the last.",
       "confidence": "medium",
       "relevance": [
+        "roster_market",
+        "competitor"
+      ],
+      "sources": [
+        {
+          "name": "ESPN NBA",
+          "url": "https://www.espn.com/nba/story/_/id/49350739/inside-hopeful-resurrection-chicago-bulls-six-years-stasis",
+          "type": "article",
+          "published_at": "2026-07-14T21:47:46+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-14-copy-of-psych-that-s-the-wrong-number-ja-morant-signs-ol",
+      "generated_from": "sports-events.json",
+      "topic": "NBA: Copy of Psych, that's the wrong number! Ja Morant signs ol...",
+      "league": "NBA",
+      "note_type": "demand_signal",
+      "dashboard_slots": [
+        "what_moving",
+        "creative_programs",
+        "league_momentum"
+      ],
+      "window": "yesterday",
+      "window_start": "2026-07-14",
+      "window_end": "2026-07-14",
+      "summary": "Copy of Psych, that's the wrong number! Ja Morant signs ol...",
+      "why_it_matters": "Potential demand signal for licensed merchandise, player/team interest, or creative programming.",
+      "supporting_facts": [
+        "The Portland Trail Blazers guard seemed to forget he had a new number when inking a jersey."
+      ],
+      "suggested_copy": "Copy of Psych, that's the wrong number! Ja Morant signs ol... \u2014 The Portland Trail Blazers guard seemed to forget he had a new number when inking a jersey.",
+      "confidence": "medium",
+      "relevance": [
+        "merch_demand",
         "roster_market"
       ],
       "sources": [
         {
-          "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/49356683/manchester-united-sign-midfielder-youri-tielemans-aston-villa",
+          "name": "ESPN NBA",
+          "url": "https://www.espn.com/nba/story/_/id/49335941/ja-morant-portland-trail-blazers-autographs-wrong-number",
           "type": "article",
-          "published_at": "2026-07-14T21:22:28+00:00"
+          "published_at": "2026-07-14T21:46:08+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-14-new-napoli-coach-allegri-regrets-collapse-at-milan",
+      "id": "2026-07-14-spurs-luke-kornet-makes-his-pitch-to-lebron-james",
       "generated_from": "sports-events.json",
-      "topic": "Soccer: New Napoli coach Allegri regrets collapse at Milan...",
-      "league": "Soccer",
+      "topic": "NBA: Spurs' Luke Kornet makes his pitch to LeBron James...",
+      "league": "NBA",
       "note_type": "cultural_context",
       "dashboard_slots": [
         "bigger_picture",
         "creative_programs"
       ],
-      "window": "today",
+      "window": "yesterday",
       "window_start": "2026-07-14",
       "window_end": "2026-07-14",
-      "summary": "New Napoli coach Allegri regrets collapse at Milan...",
+      "summary": "Spurs' Luke Kornet makes his pitch to LeBron James...",
       "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
       "supporting_facts": [
-        "Massimiliano Allegri is not looking for redemption at Napoli despite still being troubled by the end of his second spell in charge of AC Milan."
+        "The San Antonio Spurs center threw his hat into the ring to recruit LeBron James -- and the result is some legitimately excellent comedy."
       ],
-      "suggested_copy": "New Napoli coach Allegri regrets collapse at Milan... \u2014 Massimiliano Allegri is not looking for redemption at Napoli despite still being troubled by the end of his second spell in charge of AC Milan.",
+      "suggested_copy": "Spurs' Luke Kornet makes his pitch to LeBron James... \u2014 The San Antonio Spurs center threw his hat into the ring to recruit LeBron James -- and the result is some legitimately excellent comedy.",
       "confidence": "medium",
       "relevance": [
         "culture"
       ],
       "sources": [
         {
-          "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/49360634/napoli-coach-allegri-milan-collapse-weighed-me",
+          "name": "ESPN NBA",
+          "url": "https://www.espn.com/nba/story/_/id/49327978/luke-kornet-lebron-james-san-antonio-spurs-voice-memo",
           "type": "article",
-          "published_at": "2026-07-14T21:22:28+00:00"
+          "published_at": "2026-07-14T21:46:08+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-14-mac-allister-may-draw-on-pl-experience-vs-england",
+      "id": "2026-07-15-world-cup-daily-live-argentina-fans-take-over-atl",
       "generated_from": "sports-events.json",
-      "topic": "Soccer: Mac Allister may draw on PL experience vs England",
-      "league": "Soccer",
-      "note_type": "cultural_context",
-      "dashboard_slots": [
-        "bigger_picture",
-        "creative_programs"
-      ],
-      "window": "today",
-      "window_start": "2026-07-14",
-      "window_end": "2026-07-14",
-      "summary": "Mac Allister may draw on PL experience vs England",
-      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
-      "supporting_facts": [
-        "Argentina midfielder Alexis Mac Allister said playing in the Premier League with Liverpool may be helpful when facing England on Wednesday in Atlanta."
-      ],
-      "suggested_copy": "Mac Allister may draw on PL experience vs England \u2014 Argentina midfielder Alexis Mac Allister said playing in the Premier League with Liverpool may be helpful when facing England on Wednesday in Atlanta.",
-      "confidence": "medium",
-      "relevance": [
-        "culture"
-      ],
-      "sources": [
-        {
-          "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/49360330/experience-facing-england-premier-league-stars-help-world-cup-semifinal-alexis-mac-allister",
-          "type": "article",
-          "published_at": "2026-07-14T21:22:28+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-14-kane-england-can-t-focus-on-argentina-history",
-      "generated_from": "sports-events.json",
-      "topic": "Soccer: Kane: England can't focus on Argentina history",
+      "topic": "Soccer: World Cup Daily live: Argentina fans take over Atl...",
       "league": "Soccer",
       "note_type": "historical_context",
       "dashboard_slots": [
@@ -661,14 +566,14 @@
         "today_read"
       ],
       "window": "today",
-      "window_start": "2026-07-14",
-      "window_end": "2026-07-14",
-      "summary": "Kane: England can't focus on Argentina history",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "World Cup Daily live: Argentina fans take over Atl...",
       "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to records, playoffs, titles, or milestones.",
       "supporting_facts": [
-        "Harry Kane says a World Cup semifinal against historic rivals Argentina is \"as big as it gets\" but stressed England cannot be drawn into the emotional baggage surrounding the fixture."
+        "Enjoy all the features, news, video analysis and color from around the competition as England and Argentina battle for a place in the 2026 FIFA World Cup final."
       ],
-      "suggested_copy": "Kane: England can't focus on Argentina history \u2014 Harry Kane says a World Cup semifinal against historic rivals Argentina is \"as big as it gets\" but stressed England cannot be drawn into the emotional baggage surrounding the fixture.",
+      "suggested_copy": "World Cup Daily live: Argentina fans take over Atl... \u2014 Enjoy all the features, news, video analysis and color from around the competition as England and Argentina battle for a place in the 2026 FIFA World Cup final.",
       "confidence": "medium",
       "relevance": [
         "historical_context",
@@ -677,17 +582,17 @@
       "sources": [
         {
           "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/49358709/harry-kane-england-argentina-world-cup-2026-semifinal",
+          "url": "https://www.espn.com/soccer/story/_/id/49363385/world-cup-daily-live-argentina-fans-take-atlanta-england-game-spain-celebrates-reaching-final",
           "type": "article",
-          "published_at": "2026-07-14T21:22:28+00:00"
+          "published_at": "2026-07-15T10:00:10+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-14-sources-unimpressed-atleti-end-greenwood-talks",
+      "id": "2026-07-15-transfer-rumors-news-usmnt-striker-balogun-on-ju",
       "generated_from": "sports-events.json",
-      "topic": "Soccer: Sources: Unimpressed Atleti end Greenwood talks",
+      "topic": "Soccer: Transfer rumors, news: USMNT striker Balogun on Ju...",
       "league": "Soccer",
       "note_type": "cultural_context",
       "dashboard_slots": [
@@ -695,14 +600,14 @@
         "creative_programs"
       ],
       "window": "today",
-      "window_start": "2026-07-14",
-      "window_end": "2026-07-14",
-      "summary": "Sources: Unimpressed Atleti end Greenwood talks",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "Transfer rumors, news: USMNT striker Balogun on Ju...",
       "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
       "supporting_facts": [
-        "Marseille forward Mason Greenwood is nearing a four-year deal deal with Fenerbah\u00e7e after Atl\u00e9tico Madrid dropped their pursuit of the former Manchester United player -- saying he was unreachable, sources told ESPN."
+        "Juventus are considering a move for AS Monaco and USMNT striker Folarin Balogun. Transfer Talk has the latest."
       ],
-      "suggested_copy": "Sources: Unimpressed Atleti end Greenwood talks \u2014 Marseille forward Mason Greenwood is nearing a four-year deal deal with Fenerbah\u00e7e after Atl\u00e9tico Madrid dropped their pursuit of the former Manchester United player -- saying he was unreachable, sources told ESPN.",
+      "suggested_copy": "Transfer rumors, news: USMNT striker Balogun on Ju... \u2014 Juventus are considering a move for AS Monaco and USMNT striker Folarin Balogun. Transfer Talk has the latest.",
       "confidence": "medium",
       "relevance": [
         "culture"
@@ -710,9 +615,213 @@
       "sources": [
         {
           "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/49360000/mason-greenwood-agrees-deal-fenerbahce-atletico-madrid-drop-pursuit-sources",
+          "url": "https://www.espn.com/soccer/story/_/id/49365030/transfer-rumors-news-usmnt-striker-balogun-juventus-shortlist",
           "type": "article",
-          "published_at": "2026-07-14T21:22:28+00:00"
+          "published_at": "2026-07-15T09:10:25+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-15-france-move-from-deschamps-to-zidane-wondering-wha",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: France move from Deschamps to Zidane wondering wha...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "window": "today",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "France move from Deschamps to Zidane wondering wha...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "France's Didier Deschamps era ended with a shock World Cup semifinal defeat to Spain. Is Zinedine Zidane better placed to get more out of this clearly talented group?"
+      ],
+      "suggested_copy": "France move from Deschamps to Zidane wondering wha... \u2014 France's Didier Deschamps era ended with a shock World Cup semifinal defeat to Spain. Is Zinedine Zidane better placed to get more out of this clearly talented group?",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49364445/france-move-deschamps-zidane-wondering-couldve-been",
+          "type": "article",
+          "published_at": "2026-07-15T08:40:18+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-15-2026-world-cup-stock-watch-who-has-impressed-who",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: 2026 World Cup Stock Watch: Who has impressed? Who...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "window": "today",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "2026 World Cup Stock Watch: Who has impressed? Who...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "The FIFA World Cup is into the semifinals, but which players have impressed and which have struggled during both tournaments?"
+      ],
+      "suggested_copy": "2026 World Cup Stock Watch: Who has impressed? Who... \u2014 The FIFA World Cup is into the semifinals, but which players have impressed and which have struggled during both tournaments?",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49294190/2026-fifa-world-cup-stock-watch-which-players-starred-struggled",
+          "type": "article",
+          "published_at": "2026-07-15T08:35:22+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-15-who-should-be-the-usmnt-s-next-coach-here-are-11",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Who should be the USMNT's next coach? Here are 11 ...",
+      "league": "Soccer",
+      "note_type": "cultural_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "creative_programs"
+      ],
+      "window": "today",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "Who should be the USMNT's next coach? Here are 11 ...",
+      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
+      "supporting_facts": [
+        "If Mauricio Pochettino leaves the USMNT, the question is who could replace him. Well, here are 11 coaches U.S. Soccer could hire."
+      ],
+      "suggested_copy": "Who should be the USMNT's next coach? Here are 11 ... \u2014 If Mauricio Pochettino leaves the USMNT, the question is who could replace him. Well, here are 11 coaches U.S. Soccer could hire.",
+      "confidence": "medium",
+      "relevance": [
+        "culture"
+      ],
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49344382/who-new-usmnt-coach-11-candidates-pochettino-world-cup-2026",
+          "type": "article",
+          "published_at": "2026-07-15T08:10:23+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-15-30-players-who-could-represent-the-usmnt-at-the-20",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: 30 players who could represent the USMNT at the 20...",
+      "league": "Soccer",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum"
+      ],
+      "window": "today",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "30 players who could represent the USMNT at the 20...",
+      "why_it_matters": "Potential timing cue for keeping commentary aligned to what is happening now or soon.",
+      "supporting_facts": [
+        "The tears are barely dry from the USMNT's 2026 World Cup exit, but the page immediately turns to the 2030 World Cup. Here's who could represent the U.S. in four years."
+      ],
+      "suggested_copy": "30 players who could represent the USMNT at the 20... \u2014 The tears are barely dry from the USMNT's 2026 World Cup exit, but the page immediately turns to the 2030 World Cup. Here's who could represent the U.S. in four years.",
+      "confidence": "medium",
+      "relevance": [
+        "seasonality"
+      ],
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49344843/projecting-usmnt-2030-world-cup-roster-30-players-rep-us-four-years",
+          "type": "article",
+          "published_at": "2026-07-15T08:10:23+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-15-why-england-vs-argentina-is-world-cup-s-best-ang",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Why England vs. Argentina is World Cup's best, ang...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "window": "today",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "Why England vs. Argentina is World Cup's best, ang...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Wednesday will see England and Argentina meet for the first time since 2005, and it's a rivalry that has defined the World Cup thanks to some unforgettable encounters. Here's why this game is so compelling."
+      ],
+      "suggested_copy": "Why England vs. Argentina is World Cup's best, ang... \u2014 Wednesday will see England and Argentina meet for the first time since 2005, and it's a rivalry that has defined the World Cup thanks to some unforgettable encounters. Here's why this game is so compelling.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49353029/england-argentina-world-cup-rivalry-antonio-rattin-diego-maradona-hand-god-michael-owen-david-beckham",
+          "type": "article",
+          "published_at": "2026-07-15T08:08:58+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-15-how-harry-kane-became-one-of-england-s-great-capta",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: How Harry Kane became one of England's great capta...",
+      "league": "Soccer",
+      "note_type": "cultural_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "creative_programs"
+      ],
+      "window": "today",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "How Harry Kane became one of England's great capta...",
+      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
+      "supporting_facts": [
+        "Listen to Harry Kane's teammates, and they'll describe him as England's greatest player ever. He is one of their best-ever captains, too."
+      ],
+      "suggested_copy": "How Harry Kane became one of England's great capta... \u2014 Listen to Harry Kane's teammates, and they'll describe him as England's greatest player ever. He is one of their best-ever captains, too.",
+      "confidence": "medium",
+      "relevance": [
+        "culture"
+      ],
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49360500/how-harry-kane-changed-role-england-captain-world-cup-semifinal-argentina",
+          "type": "article",
+          "published_at": "2026-07-15T08:08:58+00:00"
         }
       ],
       "warnings": []

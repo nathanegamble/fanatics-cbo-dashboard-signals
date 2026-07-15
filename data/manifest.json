@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T20:41:39.576541+00:00",
+  "generated_at": "2026-07-15T09:45:37.961268+00:00",
   "status": "ok",
   "version": "0.1",
   "files": {
@@ -7,20 +7,20 @@
       "path": "data/sports-facts.json",
       "raw_url": "https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/sports-facts.json",
       "status": "ok",
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-15"
     },
     "sports_events": {
       "path": "data/sports-events.json",
       "raw_url": "https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/sports-events.json",
       "status": "ok",
-      "as_of": "2026-07-14"
+      "as_of": "2026-07-15"
     },
     "contextual_notes_candidates": {
       "path": "data/contextual-notes-candidates.json",
       "raw_url": "https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/contextual-notes-candidates.json",
       "status": "ok",
-      "as_of": "2026-07-14",
-      "candidate_count": 23
+      "as_of": "2026-07-15",
+      "candidate_count": 26
     }
   },
   "run_results": {
@@ -30,11 +30,11 @@
     },
     "refresh_events.py": {
       "exit_code": 0,
-      "output": "{\n  \"wrote\": \"data/sports-events.json\",\n  \"status\": \"ok\",\n  \"items_collected\": 149\n}"
+      "output": "{\n  \"wrote\": \"data/sports-events.json\",\n  \"status\": \"ok\",\n  \"items_collected\": 148\n}"
     },
     "refresh_contextual_notes.py": {
       "exit_code": 0,
-      "output": "{\n  \"wrote\": \"data/contextual-notes-candidates.json\",\n  \"status\": \"ok\",\n  \"candidate_count\": 23\n}"
+      "output": "{\n  \"wrote\": \"data/contextual-notes-candidates.json\",\n  \"status\": \"ok\",\n  \"candidate_count\": 26\n}"
     }
   },
   "consumer_notes": [

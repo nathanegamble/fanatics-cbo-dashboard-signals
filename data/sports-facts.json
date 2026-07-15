@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-14T20:41:35.074225+00:00",
-  "as_of": "2026-07-14",
+  "generated_at": "2026-07-15T09:45:31.779812+00:00",
+  "as_of": "2026-07-15",
   "source": "api-sports.io + documented fallbacks",
   "version": "0.1",
   "status": "ok",
@@ -16,7 +16,7 @@
       "season_phase": "off-season",
       "phase_detail": "pre-season-upcoming",
       "phase_confidence": "medium",
-      "phase_basis": "Current date is 24 days before the next API-Sports season start.",
+      "phase_basis": "Current date is 23 days before the next API-Sports season start.",
       "season": {
         "label": "2026",
         "start": "2026-08-07",
@@ -26,7 +26,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "american-football",
@@ -38,9 +38,9 @@
     {
       "league": "NCAA Football",
       "season_phase": "off-season",
-      "phase_detail": "off-season",
+      "phase_detail": "pre-season-upcoming",
       "phase_confidence": "medium",
-      "phase_basis": "Current date is 46 days before the next API-Sports season start.",
+      "phase_basis": "Current date is 45 days before the next API-Sports season start.",
       "season": {
         "label": "2026",
         "start": "2026-08-29",
@@ -50,7 +50,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "american-football",
@@ -76,7 +76,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "baseball",
@@ -100,7 +100,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "basketball",
@@ -124,7 +124,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "source_detail": {
         "provider": "manual-public-calendar-seed",
         "sport_api": null,
@@ -150,7 +150,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "basketball",
@@ -176,7 +176,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "basketball",
@@ -192,7 +192,7 @@
       "season_phase": "off-season",
       "phase_detail": "off-season",
       "phase_confidence": "medium",
-      "phase_basis": "Current date is 68 days before the next API-Sports season start.",
+      "phase_basis": "Current date is 67 days before the next API-Sports season start.",
       "season": {
         "label": "2026",
         "start": "2026-09-20",
@@ -202,7 +202,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "hockey",
@@ -226,7 +226,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "football",
@@ -250,7 +250,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-14",
+      "as_of": "2026-07-15",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "football",
