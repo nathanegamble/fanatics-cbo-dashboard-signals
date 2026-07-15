@@ -140,4 +140,4 @@ Use dated snapshots for backfills. If a snapshot has `status: partial`, inspect 
 1. X/social trend layer for player/team/league spikes, clearly separated from factual schedule/results data.
 2. Competitor and retail-watch feeds: Nike, Adidas, Lids, Dick's, league shops, collectible launches.
 3. More precise standings/results once we tune API request budget per league.
-4. Yahoo Scout/browser validation as a supplemental source for cultural context and richer source discovery.
+4. Additional stable public RSS/API sources if they preserve source URLs and pass the same noise/safety filters.
