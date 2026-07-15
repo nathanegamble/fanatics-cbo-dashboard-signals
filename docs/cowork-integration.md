@@ -7,6 +7,7 @@ This document explains the v0.1 enhancements beyond the original brief.
 - Facts: `data/sports-facts.json`
 - Events: `data/sports-events.json`
 - Contextual Note candidates: `data/contextual-notes-candidates.json`
+- Contextual Notes playbook: `docs/contextual-notes-playbook.md`
 - Status/index: `data/manifest.json`
 
 Use raw GitHub URLs from `manifest.json` or the README.
@@ -79,6 +80,16 @@ These are intended to help map external signals to dashboard Contextual Note slo
 - `sources`
 
 Important: these are candidates, not final dashboard copy. Cowork should adapt wording, suppress low-confidence items, and decide whether a note belongs in the dashboard.
+
+### 6. Contextual Notes playbook
+
+`docs/contextual-notes-playbook.md` documents the repeatable writing/review approach for final Contextual Notes. Use it together with the candidate feed and the private dashboard report data to:
+
+- keep commentary scoped to the reported business lines;
+- avoid overclaiming beyond Fanatics.com, wholesale, and IVR/events;
+- distinguish active sports moments from residual, evergreen, player-led, and product/drop demand;
+- separate fast marketing levers from slower creative/campaign-dependent work;
+- preserve a senior, direct voice suitable for Cameron.
 
 ## Known v0.1 limitations
 

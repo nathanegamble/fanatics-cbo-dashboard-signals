@@ -7,6 +7,7 @@ Public JSON feed for external sports/context signals consumed by Claude Cowork a
 - `sports-facts.json`: https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/sports-facts.json
 - `sports-events.json`: https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/sports-events.json
 - `contextual-notes-candidates.json`: https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/contextual-notes-candidates.json
+- Contextual Notes playbook: https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/docs/contextual-notes-playbook.md
 - `manifest.json`: https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/manifest.json
 
 ## Files
@@ -74,6 +75,10 @@ Each candidate includes:
 - `warnings`
 
 Dashboard slot hints currently include values such as `today_read`, `league_momentum`, `bigger_picture`, `what_moving`, `creative_programs`, and `structural_signals`.
+
+### `docs/contextual-notes-playbook.md`
+
+A Markdown guide for Claude Cowork to write final executive-ready Contextual Notes from dashboard data and the public signal feeds. It documents the repeatable commentary loop, reported-scope guardrails, sports fact-checking rules, tone/phrasing standards, fast-vs-slower marketing levers, and section-by-section review checklist.
 
 ### `data/manifest.json`
 
