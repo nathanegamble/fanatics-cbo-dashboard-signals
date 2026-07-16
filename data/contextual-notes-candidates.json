@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-15T20:01:44.455636+00:00",
-  "as_of": "2026-07-15",
-  "report_date": "2026-07-15",
-  "data_date": "2026-07-14",
+  "generated_at": "2026-07-16T09:46:07.445041+00:00",
+  "as_of": "2026-07-16",
+  "report_date": "2026-07-16",
+  "data_date": "2026-07-15",
   "report_date_basis": "Cowork dashboard report date follows receipt/publication date; underlying business data represents the prior day.",
   "source": "Derived from sports-facts.json and sports-events.json",
   "version": "0.2",
@@ -17,7 +17,232 @@
   "candidate_count": 30,
   "candidates": [
     {
-      "id": "2026-07-15-nfl-season-phase",
+      "id": "2026-07-16-messi-argentina-stun-england-late-to-reach-final",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Messi, Argentina stun England late to reach final",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
+      "window": "report_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "Messi, Argentina stun England late to reach final",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Argentina sealed a dramatic semifinal comeback against England at Mercedes-Benz Stadium with two goals in the final five minutes to clinch a 2-1 win and book a World Cup final clash with Spain on Sunday."
+      ],
+      "suggested_copy": "Messi, Argentina stun England late to reach final \u2014 Argentina sealed a dramatic semifinal comeback against England at Mercedes-Benz Stadium with two goals in the final five minutes to clinch a 2-1 win and book a World Cup final clash with Spain on Sunday.",
+      "confidence": "high",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.75,
+      "relevance_reason": "ESPN precision source; matches world cup, semifinal, final, messi, argentina",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49369105/england-argentina-2026-fifa-world-cup-semifinal-final",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-16T10:25:23+00:00",
+          "published_at": "2026-07-16T10:25:23+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-messi-win-over-england-a-gift-for-maradona",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Messi: Win over England 'a gift for Maradona'",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
+      "window": "report_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "Messi: Win over England 'a gift for Maradona'",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Lionel Messi dedicated Argentina's World Cup semifinal win over England to the late Diego Maradona."
+      ],
+      "suggested_copy": "Messi: Win over England 'a gift for Maradona' \u2014 Lionel Messi dedicated Argentina's World Cup semifinal win over England to the late Diego Maradona.",
+      "confidence": "high",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.75,
+      "relevance_reason": "ESPN precision source; matches world cup, semifinal, final, messi, argentina",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49374635/lionel-messi-argentina-world-cup-win-england-gift-maradona",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-16T10:25:23+00:00",
+          "published_at": "2026-07-16T10:25:23+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-kane-too-soon-to-decide-if-26-wc-was-my-last",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Kane: 'Too soon' to decide if '26 WC was my last",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
+      "window": "report_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "Kane: 'Too soon' to decide if '26 WC was my last",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Harry Kane said it's too soon to make a call on whether this is his last World Cup with England, adding that Tuesday's 2-1 World Cup semifinal loss to Argentina was a similar story to other past near-misses."
+      ],
+      "suggested_copy": "Kane: 'Too soon' to decide if '26 WC was my last \u2014 Harry Kane said it's too soon to make a call on whether this is his last World Cup with England, adding that Tuesday's 2-1 World Cup semifinal loss to Argentina was a similar story to other past near-misses.",
+      "confidence": "high",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.75,
+      "relevance_reason": "ESPN precision source; matches world cup, semifinal, final, kane, argentina",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49370835/harry-kane-world-cup-last-game-argentina-england-world-cup",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-16T10:25:23+00:00",
+          "published_at": "2026-07-16T10:25:23+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-messi-win-over-england-meant-most-to-our-fans",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Messi: Win over England meant most to our fans",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
+      "window": "report_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "Messi: Win over England meant most to our fans",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Lionel Messi set up two goals in the dying minutes of Argentina's semifinal against England at Mercedes-Benz Stadium on Wednesday to snatch a 2-1 win and a spot in the final Sunday against Spain."
+      ],
+      "suggested_copy": "Messi: Win over England meant most to our fans \u2014 Lionel Messi set up two goals in the dying minutes of Argentina's semifinal against England at Mercedes-Benz Stadium on Wednesday to snatch a 2-1 win and a spot in the final Sunday against Spain.",
+      "confidence": "high",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.7,
+      "relevance_reason": "ESPN precision source; matches semifinal, final, messi, argentina, england",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Top Headlines",
+          "url": "https://www.espn.com/soccer/story/_/id/49371461/lionel-messi-win-england-meant-most-fans",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/news",
+          "feed_url": "https://www.espn.com/espn/rss/news",
+          "published": "2026-07-16T06:04:14+00:00",
+          "published_at": "2026-07-16T06:04:14+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-tuchel-vows-to-stay-england-boss-defends-tactics",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Tuchel vows to stay England boss, defends tactics",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
+      "window": "report_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "Tuchel vows to stay England boss, defends tactics",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Thomas Tuchel vowed to stay on as England boss until Euro 2028 and defended his tactical adjustments in their World Cup semifinal loss to Argentina."
+      ],
+      "suggested_copy": "Tuchel vows to stay England boss, defends tactics \u2014 Thomas Tuchel vowed to stay on as England boss until Euro 2028 and defended his tactical adjustments in their World Cup semifinal loss to Argentina.",
+      "confidence": "high",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.7,
+      "relevance_reason": "ESPN precision source; matches world cup, semifinal, final, argentina, england",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Top Headlines",
+          "url": "https://www.espn.com/soccer/story/_/id/49371265/thomas-tuchel-england-argentina-tactics-2026-world-cup-future",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/news",
+          "feed_url": "https://www.espn.com/espn/rss/news",
+          "published": "2026-07-16T06:04:14+00:00",
+          "published_at": "2026-07-16T06:04:14+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-nfl-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "NFL",
       "league": "NFL",
@@ -27,14 +252,14 @@
         "league_momentum",
         "bigger_picture"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
       "summary": "NFL is currently marked off-season (pre-season-upcoming).",
       "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
       "supporting_facts": [
-        "Current date is 23 days before the next API-Sports season start."
+        "Current date is 22 days before the next API-Sports season start."
       ],
-      "suggested_copy": "Seasonality check: NFL is off season as of 2026-07-15; Current date is 23 days before the next API-Sports season start.",
+      "suggested_copy": "Seasonality check: NFL is off season as of 2026-07-16; Current date is 22 days before the next API-Sports season start.",
       "confidence": "medium",
       "relevance_score": 0.65,
       "relevance_reason": "derived season-phase guardrail for dashboard wording",
@@ -48,7 +273,7 @@
       "warnings": []
     },
     {
-      "id": "2026-07-15-ncaa-football-season-phase",
+      "id": "2026-07-16-ncaa-football-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "NCAA Football",
       "league": "NCAA Football",
@@ -58,14 +283,14 @@
         "league_momentum",
         "bigger_picture"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
       "summary": "NCAA Football is currently marked off-season (pre-season-upcoming).",
       "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
       "supporting_facts": [
-        "Current date is 45 days before the next API-Sports season start."
+        "Current date is 44 days before the next API-Sports season start."
       ],
-      "suggested_copy": "Seasonality check: NCAA Football is off season as of 2026-07-15; Current date is 45 days before the next API-Sports season start.",
+      "suggested_copy": "Seasonality check: NCAA Football is off season as of 2026-07-16; Current date is 44 days before the next API-Sports season start.",
       "confidence": "medium",
       "relevance_score": 0.65,
       "relevance_reason": "derived season-phase guardrail for dashboard wording",
@@ -79,7 +304,7 @@
       "warnings": []
     },
     {
-      "id": "2026-07-15-mlb-season-phase",
+      "id": "2026-07-16-mlb-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "MLB",
       "league": "MLB",
@@ -89,14 +314,14 @@
         "league_momentum",
         "bigger_picture"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
       "summary": "MLB is currently marked in-season (regular-season).",
       "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
       "supporting_facts": [
         "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
       ],
-      "suggested_copy": "Seasonality check: MLB is in season as of 2026-07-15; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
+      "suggested_copy": "Seasonality check: MLB is in season as of 2026-07-16; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
       "confidence": "medium",
       "relevance_score": 0.65,
       "relevance_reason": "derived season-phase guardrail for dashboard wording",
@@ -110,7 +335,7 @@
       "warnings": []
     },
     {
-      "id": "2026-07-15-nba-season-phase",
+      "id": "2026-07-16-nba-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "NBA",
       "league": "NBA",
@@ -120,14 +345,14 @@
         "league_momentum",
         "bigger_picture"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
       "summary": "NBA is currently marked off-season (off-season).",
       "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
       "supporting_facts": [
         "Current date is after the API-Sports season end and no active preseason competition was found."
       ],
-      "suggested_copy": "Seasonality check: NBA is off season as of 2026-07-15; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "suggested_copy": "Seasonality check: NBA is off season as of 2026-07-16; Current date is after the API-Sports season end and no active preseason competition was found.",
       "confidence": "medium",
       "relevance_score": 0.65,
       "relevance_reason": "derived season-phase guardrail for dashboard wording",
@@ -141,7 +366,7 @@
       "warnings": []
     },
     {
-      "id": "2026-07-15-ncaa-basketball-season-phase",
+      "id": "2026-07-16-ncaa-basketball-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "NCAA Basketball",
       "league": "NCAA Basketball",
@@ -151,14 +376,14 @@
         "league_momentum",
         "bigger_picture"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
       "summary": "NCAA Basketball is currently marked off-season (off-season).",
       "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
       "supporting_facts": [
         "Current date is after the API-Sports season end and no active preseason competition was found."
       ],
-      "suggested_copy": "Seasonality check: NCAA Basketball is off season as of 2026-07-15; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "suggested_copy": "Seasonality check: NCAA Basketball is off season as of 2026-07-16; Current date is after the API-Sports season end and no active preseason competition was found.",
       "confidence": "medium",
       "relevance_score": 0.65,
       "relevance_reason": "derived season-phase guardrail for dashboard wording",
@@ -172,7 +397,7 @@
       "warnings": []
     },
     {
-      "id": "2026-07-15-ncaa-women-s-basketball-season-phase",
+      "id": "2026-07-16-ncaa-women-s-basketball-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "NCAA Women's Basketball",
       "league": "NCAA Women's Basketball",
@@ -182,14 +407,14 @@
         "league_momentum",
         "bigger_picture"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
       "summary": "NCAA Women's Basketball is currently marked off-season (off-season).",
       "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
       "supporting_facts": [
         "Current date is after the API-Sports season end and no active preseason competition was found."
       ],
-      "suggested_copy": "Seasonality check: NCAA Women's Basketball is off season as of 2026-07-15; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "suggested_copy": "Seasonality check: NCAA Women's Basketball is off season as of 2026-07-16; Current date is after the API-Sports season end and no active preseason competition was found.",
       "confidence": "medium",
       "relevance_score": 0.65,
       "relevance_reason": "derived season-phase guardrail for dashboard wording",
@@ -203,7 +428,7 @@
       "warnings": []
     },
     {
-      "id": "2026-07-15-nhl-season-phase",
+      "id": "2026-07-16-nhl-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "NHL",
       "league": "NHL",
@@ -213,14 +438,14 @@
         "league_momentum",
         "bigger_picture"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
       "summary": "NHL is currently marked off-season (off-season).",
       "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
       "supporting_facts": [
-        "Current date is 67 days before the next API-Sports season start."
+        "Current date is 66 days before the next API-Sports season start."
       ],
-      "suggested_copy": "Seasonality check: NHL is off season as of 2026-07-15; Current date is 67 days before the next API-Sports season start.",
+      "suggested_copy": "Seasonality check: NHL is off season as of 2026-07-16; Current date is 66 days before the next API-Sports season start.",
       "confidence": "medium",
       "relevance_score": 0.65,
       "relevance_reason": "derived season-phase guardrail for dashboard wording",
@@ -234,7 +459,7 @@
       "warnings": []
     },
     {
-      "id": "2026-07-15-mls-season-phase",
+      "id": "2026-07-16-mls-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "MLS",
       "league": "MLS",
@@ -244,14 +469,14 @@
         "league_momentum",
         "bigger_picture"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
       "summary": "MLS is currently marked in-season (regular-season).",
       "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
       "supporting_facts": [
         "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
       ],
-      "suggested_copy": "Seasonality check: MLS is in season as of 2026-07-15; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
+      "suggested_copy": "Seasonality check: MLS is in season as of 2026-07-16; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
       "confidence": "medium",
       "relevance_score": 0.65,
       "relevance_reason": "derived season-phase guardrail for dashboard wording",
@@ -265,7 +490,7 @@
       "warnings": []
     },
     {
-      "id": "2026-07-15-fifa-world-cup-season-phase",
+      "id": "2026-07-16-fifa-world-cup-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "FIFA World Cup",
       "league": "FIFA World Cup",
@@ -275,14 +500,14 @@
         "league_momentum",
         "bigger_picture"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "summary": "FIFA World Cup is currently marked in-season (regular-season).",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
+      "summary": "FIFA World Cup is currently marked off-season (off-season).",
       "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
       "supporting_facts": [
-        "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
+        "Current date is after the API-Sports season end and no active preseason competition was found."
       ],
-      "suggested_copy": "Seasonality check: FIFA World Cup is in season as of 2026-07-15; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
+      "suggested_copy": "Seasonality check: FIFA World Cup is off season as of 2026-07-16; Current date is after the API-Sports season end and no active preseason competition was found.",
       "confidence": "medium",
       "relevance_score": 0.65,
       "relevance_reason": "derived season-phase guardrail for dashboard wording",
@@ -296,9 +521,9 @@
       "warnings": []
     },
     {
-      "id": "2026-07-15-mbapp-critical-of-tactics-in-loss-by-sloppy-fra",
+      "id": "2026-07-16-top-reaction-to-stunning-argentina-comeback",
       "generated_from": "sports-events.json",
-      "topic": "Soccer: Mbapp\u00e9 critical of tactics in loss by 'sloppy' Fra...",
+      "topic": "Soccer: \ud83d\udcf1Top reaction to stunning Argentina comeback",
       "league": "Soccer",
       "note_type": "historical_context",
       "dashboard_slots": [
@@ -306,44 +531,44 @@
         "what_moving",
         "today_read"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
       "window": "report_date",
-      "window_start": "2026-07-15",
-      "window_end": "2026-07-15",
-      "summary": "Mbapp\u00e9 critical of tactics in loss by 'sloppy' Fra...",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "\ud83d\udcf1Top reaction to stunning Argentina comeback",
       "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
       "supporting_facts": [
-        "Kylian Mbapp\u00e9 seemed to question Didier Deschamps' approach and tactics after France's 2-0 defeat to Spain in the FIFA World Cup semifinal Tuesday."
+        "The sports world was thrilled by Argentina's dramatic 2-1 comeback win over England to advance to the World Cup Final."
       ],
-      "suggested_copy": "Mbapp\u00e9 critical of tactics in loss by 'sloppy' Fra... \u2014 Kylian Mbapp\u00e9 seemed to question Didier Deschamps' approach and tactics after France's 2-0 defeat to Spain in the FIFA World Cup semifinal Tuesday.",
+      "suggested_copy": "\ud83d\udcf1Top reaction to stunning Argentina comeback \u2014 The sports world was thrilled by Argentina's dramatic 2-1 comeback win over England to advance to the World Cup Final.",
       "confidence": "medium",
       "relevance": [
         "historical_context",
         "seasonality"
       ],
-      "relevance_score": 0.58,
-      "relevance_reason": "ESPN precision source; matches world cup, semifinal, final",
+      "relevance_score": 0.64,
+      "relevance_reason": "ESPN precision source; matches world cup, final, argentina, england",
       "source_family": "espn_rss",
       "sources": [
         {
           "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/49362319/kylian-mbappe-critical-tactics-sloppy-france-loss",
+          "url": "https://www.espn.com/soccer/story/_/id/49369871/2026-fifa-world-cup-semifinal-comeback-argentina-england-social-media-reaction",
           "type": "article",
           "source_family": "espn_rss",
           "source_rank": 2,
           "feed": "https://www.espn.com/espn/rss/soccer/news",
           "feed_url": "https://www.espn.com/espn/rss/soccer/news",
-          "published": "2026-07-15T20:31:09+00:00",
-          "published_at": "2026-07-15T20:31:09+00:00"
+          "published": "2026-07-16T10:25:23+00:00",
+          "published_at": "2026-07-16T10:25:23+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-15-world-cup-stock-watch-who-has-impressed",
+      "id": "2026-07-16-copy-of-scaloni-s-argentina-smelt-blood-to-book-wc-final",
       "generated_from": "sports-events.json",
-      "topic": "Soccer: \ud83d\udcc8 World Cup stock watch: Who has impressed?",
+      "topic": "Soccer: Copy of Scaloni's Argentina 'smelt blood' to book WC final...",
       "league": "Soccer",
       "note_type": "historical_context",
       "dashboard_slots": [
@@ -351,36 +576,171 @@
         "what_moving",
         "today_read"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
       "window": "report_date",
-      "window_start": "2026-07-15",
-      "window_end": "2026-07-15",
-      "summary": "\ud83d\udcc8 World Cup stock watch: Who has impressed?",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "Copy of Scaloni's Argentina 'smelt blood' to book WC final...",
       "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
       "supporting_facts": [
-        "The FIFA World Cup is into the semifinals, but which players have impressed and which have struggled during both tournaments?"
+        "Lionel Scaloni said Argentina \"smelt blood\" when England retreated to defend their lead to seize the opportunity to mount a dramatic comeback and secure a place in the World Cup final."
       ],
-      "suggested_copy": "\ud83d\udcc8 World Cup stock watch: Who has impressed? \u2014 The FIFA World Cup is into the semifinals, but which players have impressed and which have struggled during both tournaments?",
+      "suggested_copy": "Copy of Scaloni's Argentina 'smelt blood' to book WC final... \u2014 Lionel Scaloni said Argentina \"smelt blood\" when England retreated to defend their lead to seize the opportunity to mount a dramatic comeback and secure a place in the World Cup final.",
       "confidence": "medium",
       "relevance": [
         "historical_context",
         "seasonality"
       ],
-      "relevance_score": 0.58,
-      "relevance_reason": "ESPN precision source; matches world cup, semifinal, final",
+      "relevance_score": 0.64,
+      "relevance_reason": "ESPN precision source; matches world cup, final, argentina, england",
       "source_family": "espn_rss",
       "sources": [
         {
           "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/49294190/2026-fifa-world-cup-stock-watch-which-players-starred-struggled",
+          "url": "https://www.espn.com/soccer/story/_/id/49372122/scaloni-argentina-smell-blood-england-reach-world-cup-final",
           "type": "article",
           "source_family": "espn_rss",
           "source_rank": 2,
           "feed": "https://www.espn.com/espn/rss/soccer/news",
           "feed_url": "https://www.espn.com/espn/rss/soccer/news",
-          "published": "2026-07-15T20:30:50+00:00",
-          "published_at": "2026-07-15T20:30:50+00:00"
+          "published": "2026-07-16T10:25:23+00:00",
+          "published_at": "2026-07-16T10:25:23+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-argentina-show-why-they-re-reigning-world-cup-cham",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Argentina show why they're reigning World Cup cham...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
+      "window": "report_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "Argentina show why they're reigning World Cup cham...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Argentina flipped the script yet again with two late goals to stun England, sending them to the World Cup final with a chance to repeat as champions vs. Spain."
+      ],
+      "suggested_copy": "Argentina show why they're reigning World Cup cham... \u2014 Argentina flipped the script yet again with two late goals to stun England, sending them to the World Cup final with a chance to repeat as champions vs. Spain.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.64,
+      "relevance_reason": "ESPN precision source; matches world cup, final, argentina, england",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Top Headlines",
+          "url": "https://www.espn.com/soccer/story/_/id/49368783/argentina-show-why-world-cup-champs-epic-comeback-england",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/news",
+          "feed_url": "https://www.espn.com/espn/rss/news",
+          "published": "2026-07-16T10:22:08+00:00",
+          "published_at": "2026-07-16T10:22:08+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-player-ratings-messi-gets-9-10-as-argentina-beat",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Player ratings: Messi gets 9/10 as Argentina beat ...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
+      "window": "report_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "Player ratings: Messi gets 9/10 as Argentina beat ...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Lionel Messi provided the decisive cross in stoppage time that helped Argentina to the World Cup final."
+      ],
+      "suggested_copy": "Player ratings: Messi gets 9/10 as Argentina beat ... \u2014 Lionel Messi provided the decisive cross in stoppage time that helped Argentina to the World Cup final.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.64,
+      "relevance_reason": "ESPN precision source; matches world cup, final, messi, argentina",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49368108/player-ratings-lionel-messi-gets-9-10-argentina-beat-england-reach-world-cup-final",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-16T10:22:08+00:00",
+          "published_at": "2026-07-16T10:22:08+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-messi-s-world-cup-farewell-with-argentina-comes-fu",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Messi's World Cup farewell with Argentina comes fu...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
+      "window": "report_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "Messi's World Cup farewell with Argentina comes fu...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Spain once wanted Lionel Messi over 20 years ago. Now, the reigning European champions must stop him in what could be his final World Cup game for Argentina."
+      ],
+      "suggested_copy": "Messi's World Cup farewell with Argentina comes fu... \u2014 Spain once wanted Lionel Messi over 20 years ago. Now, the reigning European champions must stop him in what could be his final World Cup game for Argentina.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.64,
+      "relevance_reason": "ESPN precision source; matches world cup, final, messi, argentina",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49373339/messis-world-cup-farewell-comes-full-circle-spain",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-16T08:19:31+00:00",
+          "published_at": "2026-07-16T08:19:31+00:00"
         }
       ],
       "warnings": []
@@ -395,9 +755,9 @@
         "what_moving",
         "league_momentum"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "report_date",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
+      "window": "data_date",
       "window_start": "2026-07-15",
       "window_end": "2026-07-15",
       "summary": "Dodgers' Ohtani will be available against Yankees",
@@ -422,319 +782,8 @@
           "source_rank": 2,
           "feed": "https://www.espn.com/espn/rss/mlb/news",
           "feed_url": "https://www.espn.com/espn/rss/mlb/news",
-          "published": "2026-07-15T20:10:56+00:00",
-          "published_at": "2026-07-15T20:10:56+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-15-france-move-from-deschamps-to-zidane-wondering-wha",
-      "generated_from": "sports-events.json",
-      "topic": "Soccer: France move from Deschamps to Zidane wondering wha...",
-      "league": "Soccer",
-      "note_type": "historical_context",
-      "dashboard_slots": [
-        "bigger_picture",
-        "what_moving",
-        "today_read"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "report_date",
-      "window_start": "2026-07-15",
-      "window_end": "2026-07-15",
-      "summary": "France move from Deschamps to Zidane wondering wha...",
-      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
-      "supporting_facts": [
-        "France's Didier Deschamps era ended with a shock World Cup semifinal defeat to Spain. Is Zinedine Zidane better placed to get more out of this clearly talented group?"
-      ],
-      "suggested_copy": "France move from Deschamps to Zidane wondering wha... \u2014 France's Didier Deschamps era ended with a shock World Cup semifinal defeat to Spain. Is Zinedine Zidane better placed to get more out of this clearly talented group?",
-      "confidence": "medium",
-      "relevance": [
-        "historical_context",
-        "seasonality"
-      ],
-      "relevance_score": 0.58,
-      "relevance_reason": "ESPN precision source; matches world cup, semifinal, final",
-      "source_family": "espn_rss",
-      "sources": [
-        {
-          "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/49364445/france-move-deschamps-zidane-wondering-couldve-been",
-          "type": "article",
-          "source_family": "espn_rss",
-          "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/soccer/news",
-          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
-          "published": "2026-07-15T15:54:24+00:00",
-          "published_at": "2026-07-15T15:54:24+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-14-brewers-jacob-misiorowski-s-all-star-game-glove-i",
-      "generated_from": "sports-events.json",
-      "topic": "MLB: Brewers' Jacob Misiorowski's All-Star Game glove i...",
-      "league": "MLB",
-      "note_type": "demand_signal",
-      "dashboard_slots": [
-        "what_moving",
-        "creative_programs",
-        "today_read"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "data_date",
-      "window_start": "2026-07-14",
-      "window_end": "2026-07-14",
-      "summary": "Brewers' Jacob Misiorowski's All-Star Game glove i...",
-      "why_it_matters": "Potential demand signal for licensed merchandise, player/team interest, or creative programming.",
-      "supporting_facts": [
-        "The Milwaukee Brewers ace showed off a special Pok\u00e9mon-themed All-Star Game glove that includes a Charizard card inside of it."
-      ],
-      "suggested_copy": "Brewers' Jacob Misiorowski's All-Star Game glove i... \u2014 The Milwaukee Brewers ace showed off a special Pok\u00e9mon-themed All-Star Game glove that includes a Charizard card inside of it.",
-      "confidence": "medium",
-      "relevance": [
-        "merch_demand",
-        "seasonality"
-      ],
-      "relevance_score": 0.52,
-      "relevance_reason": "ESPN precision source; matches all-star, card",
-      "source_family": "espn_rss",
-      "sources": [
-        {
-          "name": "ESPN MLB",
-          "url": "https://www.espn.com/mlb/story/_/id/49354162/jacob-misiorowski-milwaukee-brewers-pokemon-all-star-game-2026-glove",
-          "type": "article",
-          "source_family": "espn_rss",
-          "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/mlb/news",
-          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
-          "published": "2026-07-14T23:22:06+00:00",
-          "published_at": "2026-07-14T23:22:06+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-14-updated-rankings-marina-mabrey-moves-into-top-10",
-      "generated_from": "sports-events.json",
-      "topic": "WNBA: Updated rankings: Marina Mabrey moves into top 10",
-      "league": "WNBA",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "data_date",
-      "window_start": "2026-07-14",
-      "window_end": "2026-07-14",
-      "summary": "Updated rankings: Marina Mabrey moves into top 10",
-      "why_it_matters": "Potential timing cue for keeping commentary aligned to what is happening now or soon.",
-      "supporting_facts": [
-        "As we approach the WNBA All-Star break, here are the updated Fantasy Women's Basketball rankings."
-      ],
-      "suggested_copy": "Updated rankings: Marina Mabrey moves into top 10 \u2014 As we approach the WNBA All-Star break, here are the updated Fantasy Women's Basketball rankings.",
-      "confidence": "medium",
-      "relevance": [
-        "seasonality"
-      ],
-      "relevance_score": 0.52,
-      "relevance_reason": "ESPN precision source; matches all-star, wnba",
-      "source_family": "espn_rss",
-      "sources": [
-        {
-          "name": "ESPN WNBA",
-          "url": "https://www.espn.com/fantasy/womens-basketball/story/_/id/48444824/espn-wnba-fantasy-women-basketball-rankings-2026",
-          "type": "article",
-          "source_family": "espn_rss",
-          "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/wnba/news",
-          "feed_url": "https://www.espn.com/espn/rss/wnba/news",
-          "published": "2026-07-14T19:53:53+00:00",
-          "published_at": "2026-07-14T19:53:53+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-15-follow-live-argentina-england-battling-in-tense",
-      "generated_from": "sports-events.json",
-      "topic": "Soccer: Follow live: Argentina, England battling in tense ...",
-      "league": "Soccer",
-      "note_type": "cultural_context",
-      "dashboard_slots": [
-        "bigger_picture",
-        "creative_programs"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "report_date",
-      "window_start": "2026-07-15",
-      "window_end": "2026-07-15",
-      "summary": "Follow live: Argentina, England battling in tense ...",
-      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
-      "supporting_facts": [
-        "null"
-      ],
-      "suggested_copy": "Follow live: Argentina, England battling in tense ... \u2014 null",
-      "confidence": "medium",
-      "relevance": [
-        "culture"
-      ],
-      "relevance_score": 0.52,
-      "relevance_reason": "ESPN precision source; matches argentina, england",
-      "source_family": "espn_rss",
-      "sources": [
-        {
-          "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/49363385/world-cup-daily-live-argentina-fans-take-atlanta-england-game-spain-celebrates-reaching-final",
-          "type": "article",
-          "source_family": "espn_rss",
-          "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/soccer/news",
-          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
-          "published": "2026-07-15T20:56:08+00:00",
-          "published_at": "2026-07-15T20:56:08+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-15-all-star-rosters-snubs-mvp-predictions-more",
-      "generated_from": "sports-events.json",
-      "topic": "WNBA: \ud83c\udfc0 All-Star rosters: Snubs, MVP predictions, more",
-      "league": "WNBA",
-      "note_type": "historical_context",
-      "dashboard_slots": [
-        "bigger_picture",
-        "what_moving",
-        "today_read"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "report_date",
-      "window_start": "2026-07-15",
-      "window_end": "2026-07-15",
-      "summary": "\ud83c\udfc0 All-Star rosters: Snubs, MVP predictions, more",
-      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
-      "supporting_facts": [
-        "Who should have been named a WNBA All-Star? Who might be the first pick? Will there be a Bueckers-Malonga alley-oop?"
-      ],
-      "suggested_copy": "\ud83c\udfc0 All-Star rosters: Snubs, MVP predictions, more \u2014 Who should have been named a WNBA All-Star? Who might be the first pick? Will there be a Bueckers-Malonga alley-oop?",
-      "confidence": "medium",
-      "relevance": [
-        "historical_context",
-        "seasonality"
-      ],
-      "relevance_score": 0.52,
-      "relevance_reason": "ESPN precision source; matches all-star, wnba",
-      "source_family": "espn_rss",
-      "sources": [
-        {
-          "name": "ESPN WNBA",
-          "url": "https://www.espn.com/wnba/story/_/id/49303218/wnba-all-star-game-2026-snubs-questions-predictions-roster-named-mvp",
-          "type": "article",
-          "source_family": "espn_rss",
-          "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/wnba/news",
-          "feed_url": "https://www.espn.com/espn/rss/wnba/news",
-          "published": "2026-07-15T20:32:26+00:00",
-          "published_at": "2026-07-15T20:32:26+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-15-fifa-defends-world-class-ref-after-france-critic",
-      "generated_from": "sports-events.json",
-      "topic": "Soccer: FIFA defends 'world-class' ref after France critic...",
-      "league": "Soccer",
-      "note_type": "historical_context",
-      "dashboard_slots": [
-        "bigger_picture",
-        "what_moving",
-        "today_read"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "report_date",
-      "window_start": "2026-07-15",
-      "window_end": "2026-07-15",
-      "summary": "FIFA defends 'world-class' ref after France critic...",
-      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
-      "supporting_facts": [
-        "FIFA's director of refereeing Pierluigi Collina defended the referee in Tuesday's semifinal between France and Spain following criticism from France coach Didier Deschamps."
-      ],
-      "suggested_copy": "FIFA defends 'world-class' ref after France critic... \u2014 FIFA's director of refereeing Pierluigi Collina defended the referee in Tuesday's semifinal between France and Spain following criticism from France coach Didier Deschamps.",
-      "confidence": "medium",
-      "relevance": [
-        "historical_context",
-        "seasonality"
-      ],
-      "relevance_score": 0.52,
-      "relevance_reason": "ESPN precision source; matches semifinal, final",
-      "source_family": "espn_rss",
-      "sources": [
-        {
-          "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/49368693/fifa-referee-france-didier-deschamps-spain-2026-world-cup-collina",
-          "type": "article",
-          "source_family": "espn_rss",
-          "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/soccer/news",
-          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
-          "published": "2026-07-15T20:30:50+00:00",
-          "published_at": "2026-07-15T20:30:50+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-15-al-3b-caminero-hit-by-pitch-exits-in-3rd-inning",
-      "generated_from": "sports-events.json",
-      "topic": "MLB: AL 3B Caminero hit by pitch, exits in 3rd inning",
-      "league": "MLB",
-      "note_type": "demand_signal",
-      "dashboard_slots": [
-        "what_moving",
-        "creative_programs",
-        "today_read"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "report_date",
-      "window_start": "2026-07-15",
-      "window_end": "2026-07-15",
-      "summary": "AL 3B Caminero hit by pitch, exits in 3rd inning",
-      "why_it_matters": "Potential demand signal for licensed merchandise, player/team interest, or creative programming.",
-      "supporting_facts": [
-        "In the third inning of Tuesday's All-Star Game, Cardinals reliever Riley O'Brien hit Rays third baseman Junior Caminero on the left hand with a 97.6 mph sinker. Though the 23-year-old star went right into the AL clubhouse, X-rays came back negative."
-      ],
-      "suggested_copy": "AL 3B Caminero hit by pitch, exits in 3rd inning \u2014 In the third inning of Tuesday's All-Star Game, Cardinals reliever Riley O'Brien hit Rays third baseman Junior Caminero on the left hand with a 97.6 mph sinker. Though the 23-year-old star went right into the AL clubhous",
-      "confidence": "medium",
-      "relevance": [
-        "merch_demand",
-        "seasonality"
-      ],
-      "relevance_score": 0.52,
-      "relevance_reason": "ESPN precision source; matches all-star, card",
-      "source_family": "espn_rss",
-      "sources": [
-        {
-          "name": "ESPN MLB",
-          "url": "https://www.espn.com/mlb/story/_/id/49363719/al-3b-junior-caminero-hit-pitch-exits-third-inning",
-          "type": "article",
-          "source_family": "espn_rss",
-          "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/mlb/news",
-          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
-          "published": "2026-07-15T20:10:56+00:00",
-          "published_at": "2026-07-15T20:10:56+00:00"
+          "published": "2026-07-15T23:16:31+00:00",
+          "published_at": "2026-07-15T23:16:31+00:00"
         }
       ],
       "warnings": []
@@ -750,9 +799,9 @@
         "creative_programs",
         "today_read"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "report_date",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
+      "window": "data_date",
       "window_start": "2026-07-15",
       "window_end": "2026-07-15",
       "summary": "Walker hopes Derby win stirs Black kids to play",
@@ -778,8 +827,53 @@
           "source_rank": 2,
           "feed": "https://www.espn.com/espn/rss/mlb/news",
           "feed_url": "https://www.espn.com/espn/rss/mlb/news",
-          "published": "2026-07-15T20:10:56+00:00",
-          "published_at": "2026-07-15T20:10:56+00:00"
+          "published": "2026-07-15T23:16:31+00:00",
+          "published_at": "2026-07-15T23:16:31+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-15-al-3b-caminero-hit-by-pitch-exits-in-3rd-inning",
+      "generated_from": "sports-events.json",
+      "topic": "MLB: AL 3B Caminero hit by pitch, exits in 3rd inning",
+      "league": "MLB",
+      "note_type": "demand_signal",
+      "dashboard_slots": [
+        "what_moving",
+        "creative_programs",
+        "today_read"
+      ],
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
+      "window": "data_date",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "AL 3B Caminero hit by pitch, exits in 3rd inning",
+      "why_it_matters": "Potential demand signal for licensed merchandise, player/team interest, or creative programming.",
+      "supporting_facts": [
+        "In the third inning of Tuesday's All-Star Game, Cardinals reliever Riley O'Brien hit Rays third baseman Junior Caminero on the left hand with a 97.6 mph sinker. Though the 23-year-old star went right into the AL clubhouse, X-rays came back negative."
+      ],
+      "suggested_copy": "AL 3B Caminero hit by pitch, exits in 3rd inning \u2014 In the third inning of Tuesday's All-Star Game, Cardinals reliever Riley O'Brien hit Rays third baseman Junior Caminero on the left hand with a 97.6 mph sinker. Though the 23-year-old star went right into the AL clubhous",
+      "confidence": "medium",
+      "relevance": [
+        "merch_demand",
+        "seasonality"
+      ],
+      "relevance_score": 0.52,
+      "relevance_reason": "ESPN precision source; matches all-star, card",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN MLB",
+          "url": "https://www.espn.com/mlb/story/_/id/49363719/al-3b-junior-caminero-hit-pitch-exits-third-inning",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/mlb/news",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published": "2026-07-15T23:16:30+00:00",
+          "published_at": "2026-07-15T23:16:30+00:00"
         }
       ],
       "warnings": []
@@ -795,9 +889,9 @@
         "what_moving",
         "today_read"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "report_date",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
+      "window": "data_date",
       "window_start": "2026-07-15",
       "window_end": "2026-07-15",
       "summary": "World Cup favorites France unravel as Spain book s...",
@@ -816,128 +910,40 @@
       "source_family": "espn_rss",
       "sources": [
         {
-          "name": "ESPN Top Headlines",
+          "name": "ESPN Soccer",
           "url": "https://www.espn.com/soccer/story/_/id/49361910/world-cup-favorites-france-unravel-spain-book-spot-final-ease",
           "type": "article",
           "source_family": "espn_rss",
           "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/news",
-          "feed_url": "https://www.espn.com/espn/rss/news",
-          "published": "2026-07-15T17:42:57+00:00",
-          "published_at": "2026-07-15T17:42:57+00:00"
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-15T22:19:00+00:00",
+          "published_at": "2026-07-15T22:19:00+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-14-jordan-walker-is-your-2026-home-run-derby-champion",
+      "id": "2026-07-15-cease-10-al-relievers-silence-nl-in-15-k-shutout",
       "generated_from": "sports-events.json",
-      "topic": "MLB: Jordan Walker is your 2026 Home Run Derby champion...",
+      "topic": "MLB: Cease, 10 AL relievers silence NL in 15-K shutout",
       "league": "MLB",
       "note_type": "seasonality",
       "dashboard_slots": [
         "today_read",
         "league_momentum"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
       "window": "data_date",
-      "window_start": "2026-07-14",
-      "window_end": "2026-07-14",
-      "summary": "Jordan Walker is your 2026 Home Run Derby champion...",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "Cease, 10 AL relievers silence NL in 15-K shutout",
       "why_it_matters": "Potential timing cue for keeping commentary aligned to what is happening now or soon.",
       "supporting_facts": [
-        "We have your one-stop shop for the most power-packed day of the baseball year as the 2026 Derby champion is crowned."
+        "Starting pitcher Dylan Cease combined with 10 relievers in a dominant three-hit, 15-strikeout shutout of the National League in a 4-0 win in Tuesday night's All-Star Game."
       ],
-      "suggested_copy": "Jordan Walker is your 2026 Home Run Derby champion... \u2014 We have your one-stop shop for the most power-packed day of the baseball year as the 2026 Derby champion is crowned.",
-      "confidence": "medium",
-      "relevance": [
-        "seasonality"
-      ],
-      "relevance_score": 0.46,
-      "relevance_reason": "ESPN precision source; matches home run derby",
-      "source_family": "espn_rss",
-      "sources": [
-        {
-          "name": "ESPN MLB",
-          "url": "https://www.espn.com/mlb/story/_/id/49337954/mlb-2026-home-run-derby-predictions-live-updates-takeaways-analysis",
-          "type": "article",
-          "source_family": "espn_rss",
-          "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/mlb/news",
-          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
-          "published": "2026-07-14T23:23:44+00:00",
-          "published_at": "2026-07-14T23:23:44+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-14-good-at-the-cost-of-great-how-one-of-the-nba-s-most-iconic-franchises-was-lost-t",
-      "generated_from": "sports-events.json",
-      "topic": "NFL: 'Good at the cost of great': How one of the NBA's most iconic franchises was lost to mediocrity",
-      "league": "NFL",
-      "note_type": "roster_market_context",
-      "dashboard_slots": [
-        "what_moving",
-        "league_momentum",
-        "structural_signals"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "data_date",
-      "window_start": "2026-07-14",
-      "window_end": "2026-07-14",
-      "summary": "'Good at the cost of great': How one of the NBA's most iconic franchises was lost to mediocrity",
-      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
-      "supporting_facts": [
-        "The Bulls hired a new front office and coach and drafted at No. 4 in the draft, just like they did in 2020. Here's why they believe this is a new era -- not a repeat of the last."
-      ],
-      "suggested_copy": "'Good at the cost of great': How one of the NBA's most iconic franchises was lost to mediocrity \u2014 The Bulls hired a new front office and coach and drafted at No. 4 in the draft, just like they did in 2020. Here's why they believe this is a new era -- not a repeat of the last.",
-      "confidence": "medium",
-      "relevance": [
-        "roster_market",
-        "competitor"
-      ],
-      "relevance_score": 0.46,
-      "relevance_reason": "ESPN precision source; matches new era",
-      "source_family": "espn_rss",
-      "sources": [
-        {
-          "name": "ESPN Top Headlines",
-          "url": "https://www.espn.com/nba/story/_/id/49350739/inside-hopeful-resurrection-chicago-bulls-six-years-stasis",
-          "type": "article",
-          "source_family": "espn_rss",
-          "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/news",
-          "feed_url": "https://www.espn.com/espn/rss/news",
-          "published": "2026-07-14T21:47:46+00:00",
-          "published_at": "2026-07-14T21:47:46+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-14-megan-gustafson-moves-into-consistent-scoring-role",
-      "generated_from": "sports-events.json",
-      "topic": "WNBA: Megan Gustafson moves into consistent scoring role...",
-      "league": "WNBA",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "data_date",
-      "window_start": "2026-07-14",
-      "window_end": "2026-07-14",
-      "summary": "Megan Gustafson moves into consistent scoring role...",
-      "why_it_matters": "Potential timing cue for keeping commentary aligned to what is happening now or soon.",
-      "supporting_facts": [
-        "With one full week left before the All-Star break, here are four players to help you win your weekly matchup."
-      ],
-      "suggested_copy": "Megan Gustafson moves into consistent scoring role... \u2014 With one full week left before the All-Star break, here are four players to help you win your weekly matchup.",
+      "suggested_copy": "Cease, 10 AL relievers silence NL in 15-K shutout \u2014 Starting pitcher Dylan Cease combined with 10 relievers in a dominant three-hit, 15-strikeout shutout of the National League in a 4-0 win in Tuesday night's All-Star Game.",
       "confidence": "medium",
       "relevance": [
         "seasonality"
@@ -947,21 +953,152 @@
       "source_family": "espn_rss",
       "sources": [
         {
-          "name": "ESPN WNBA",
-          "url": "https://www.espn.com/fantasy/womens-basketball/story/_/id/48713412/espn-wnba-fantasy-womens-basketball-lineups-adds-drops-news-players",
+          "name": "ESPN MLB",
+          "url": "https://www.espn.com/mlb/story/_/id/49364253/cease-bullpen-silence-nl-15-k-shutout-al-wins-all-star-game",
           "type": "article",
           "source_family": "espn_rss",
           "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/wnba/news",
-          "feed_url": "https://www.espn.com/espn/rss/wnba/news",
-          "published": "2026-07-14T19:53:53+00:00",
-          "published_at": "2026-07-14T19:53:53+00:00"
+          "feed": "https://www.espn.com/espn/rss/mlb/news",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published": "2026-07-15T23:16:31+00:00",
+          "published_at": "2026-07-15T23:16:31+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-15-wnba-season-phase",
+      "id": "2026-07-15-acc-title-game-tiebreaker-rewards-body-of-work",
+      "generated_from": "sports-events.json",
+      "topic": "NCAA Football: ACC title game tiebreaker rewards 'body of work'",
+      "league": "NCAA Football",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving"
+      ],
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
+      "window": "data_date",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "ACC title game tiebreaker rewards 'body of work'",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "The ACC has a new tiebreaker policy for its football championship game in a move that commissioner Jim Phillips said allows the league to feature its two best teams."
+      ],
+      "suggested_copy": "ACC title game tiebreaker rewards 'body of work' \u2014 The ACC has a new tiebreaker policy for its football championship game in a move that commissioner Jim Phillips said allows the league to feature its two best teams.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context"
+      ],
+      "relevance_score": 0.46,
+      "relevance_reason": "ESPN precision source; matches championship",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN College Football",
+          "url": "https://www.espn.com/college-football/story/_/id/49366844/acc-implements-new-tiebreaker-policy-football-title-game",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/ncf/news",
+          "feed_url": "https://www.espn.com/espn/rss/ncf/news",
+          "published": "2026-07-15T22:27:28+00:00",
+          "published_at": "2026-07-15T22:27:28+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-15-the-perfect-trade-deadline-addition-for-every-mlb",
+      "generated_from": "sports-events.json",
+      "topic": "MLB: The perfect trade deadline addition for every MLB ...",
+      "league": "MLB",
+      "note_type": "roster_market_context",
+      "dashboard_slots": [
+        "what_moving",
+        "league_momentum",
+        "today_read"
+      ],
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
+      "window": "data_date",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "The perfect trade deadline addition for every MLB ...",
+      "why_it_matters": "Potential timing cue for keeping commentary aligned to what is happening now or soon.",
+      "supporting_facts": [
+        "Tairk Skubal to which elite team? An All-Star traded within the NL East!? We make dream moves for every World Series hopeful."
+      ],
+      "suggested_copy": "The perfect trade deadline addition for every MLB ... \u2014 Tairk Skubal to which elite team? An All-Star traded within the NL East!? We make dream moves for every World Series hopeful.",
+      "confidence": "medium",
+      "relevance": [
+        "roster_market",
+        "seasonality"
+      ],
+      "relevance_score": 0.46,
+      "relevance_reason": "ESPN precision source; matches all-star",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN MLB",
+          "url": "https://www.espn.com/mlb/story/_/id/49306462/2026-mlb-trade-deadline-addition-top-contender-moves-dodgers-brewers-braves-yankees-phillies",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/mlb/news",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published": "2026-07-15T16:15:42+00:00",
+          "published_at": "2026-07-15T16:15:42+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-15-the-al-shuts-out-the-nl-to-win-the-all-star-game",
+      "generated_from": "sports-events.json",
+      "topic": "MLB: The AL shuts out the NL to win the All-Star Game! ...",
+      "league": "MLB",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum"
+      ],
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
+      "window": "data_date",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "The AL shuts out the NL to win the All-Star Game! ...",
+      "why_it_matters": "Potential timing cue for keeping commentary aligned to what is happening now or soon.",
+      "supporting_facts": [
+        "Relive all the action from the American League's dominant victory over the National League."
+      ],
+      "suggested_copy": "The AL shuts out the NL to win the All-Star Game! ... \u2014 Relive all the action from the American League's dominant victory over the National League.",
+      "confidence": "medium",
+      "relevance": [
+        "seasonality"
+      ],
+      "relevance_score": 0.46,
+      "relevance_reason": "ESPN precision source; matches all-star",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN MLB",
+          "url": "https://www.espn.com/mlb/story/_/id/49355726/mlb-all-star-game-2026-predictions-live-updates-analysis-takeaways",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/mlb/news",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published": "2026-07-15T04:54:17+00:00",
+          "published_at": "2026-07-15T04:54:17+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-wnba-season-phase",
       "generated_from": "sports-facts.json",
       "topic": "WNBA",
       "league": "WNBA",
@@ -971,14 +1108,14 @@
         "league_momentum",
         "bigger_picture"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
       "summary": "WNBA is currently marked in-season (regular-season).",
       "why_it_matters": "Use cautiously: this is useful for avoiding obvious seasonality errors, but Cowork should phrase softly or verify before making a strong claim.",
       "supporting_facts": [
         "API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added."
       ],
-      "suggested_copy": "Seasonality check: WNBA is in season as of 2026-07-15; API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added.",
+      "suggested_copy": "Seasonality check: WNBA is in season as of 2026-07-16; API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added.",
       "confidence": "low",
       "relevance_score": 0.45,
       "relevance_reason": "derived season-phase guardrail for dashboard wording",
@@ -994,198 +1131,71 @@
       ]
     },
     {
-      "id": "2026-07-14-a-timeline-of-warde-manuel-s-tenure-as-michigan-at",
+      "id": "2026-07-15-reports-no-1-pick-cholowsky-gets-record-bonus",
       "generated_from": "sports-events.json",
-      "topic": "NCAA Football: A timeline of Warde Manuel's tenure as Michigan at...",
-      "league": "NCAA Football",
-      "note_type": "cultural_context",
-      "dashboard_slots": [
-        "bigger_picture",
-        "creative_programs"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "data_date",
-      "window_start": "2026-07-14",
-      "window_end": "2026-07-14",
-      "summary": "A timeline of Warde Manuel's tenure as Michigan at...",
-      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
-      "supporting_facts": [
-        "Manuel's eventful decade in Ann Arbor has been marked by athletic successes and marred by controversy."
-      ],
-      "suggested_copy": "A timeline of Warde Manuel's tenure as Michigan at... \u2014 Manuel's eventful decade in Ann Arbor has been marked by athletic successes and marred by controversy.",
-      "confidence": "medium",
-      "relevance": [
-        "culture"
-      ],
-      "relevance_score": 0.4,
-      "relevance_reason": "ESPN precision source",
-      "source_family": "espn_rss",
-      "sources": [
-        {
-          "name": "ESPN College Football",
-          "url": "https://www.espn.com/college-football/story/_/id/49351177/2026-michigan-warde-manuel-athletic-department-tenure-line-investigation",
-          "type": "article",
-          "source_family": "espn_rss",
-          "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/ncf/news",
-          "feed_url": "https://www.espn.com/espn/rss/ncf/news",
-          "published": "2026-07-14T18:45:25+00:00",
-          "published_at": "2026-07-14T18:45:25+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-14-sources-u-m-regents-to-meet-mull-ad-manuel-fate",
-      "generated_from": "sports-events.json",
-      "topic": "NCAA Basketball: Sources: U-M regents to meet, mull AD Manuel fate",
-      "league": "NCAA Basketball",
-      "note_type": "cultural_context",
-      "dashboard_slots": [
-        "bigger_picture",
-        "creative_programs"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "data_date",
-      "window_start": "2026-07-14",
-      "window_end": "2026-07-14",
-      "summary": "Sources: U-M regents to meet, mull AD Manuel fate",
-      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
-      "supporting_facts": [
-        "The University of Michigan regents are expected to discuss an investigation into the culture of its athletic department on Thursday, sources told ESPN, and as part of the review, a decision on the future of AD Warde Manuel is expected in the coming days."
-      ],
-      "suggested_copy": "Sources: U-M regents to meet, mull AD Manuel fate \u2014 The University of Michigan regents are expected to discuss an investigation into the culture of its athletic department on Thursday, sources told ESPN, and as part of the review, a decision on the future of AD Warde Manu",
-      "confidence": "medium",
-      "relevance": [
-        "culture"
-      ],
-      "relevance_score": 0.4,
-      "relevance_reason": "ESPN precision source",
-      "source_family": "espn_rss",
-      "sources": [
-        {
-          "name": "ESPN College Basketball",
-          "url": "https://www.espn.com/college-sports/story/_/id/49346524/michigan-regents-discuss-investigation-thursday",
-          "type": "article",
-          "source_family": "espn_rss",
-          "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/ncb/news",
-          "feed_url": "https://www.espn.com/espn/rss/ncb/news",
-          "published": "2026-07-14T17:20:06+00:00",
-          "published_at": "2026-07-14T17:20:06+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-14-let-s-rank-the-top-10-quarterbacks-in-the-nfl-jos",
-      "generated_from": "sports-events.json",
-      "topic": "NFL: Let's rank the top 10 quarterbacks in the NFL: Jos...",
-      "league": "NFL",
+      "topic": "MLB: Reports: No. 1 pick Cholowsky gets record bonus",
+      "league": "MLB",
       "note_type": "roster_market_context",
       "dashboard_slots": [
         "what_moving",
-        "league_momentum"
+        "league_momentum",
+        "bigger_picture"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
       "window": "data_date",
-      "window_start": "2026-07-14",
-      "window_end": "2026-07-14",
-      "summary": "Let's rank the top 10 quarterbacks in the NFL: Jos...",
-      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "Reports: No. 1 pick Cholowsky gets record bonus",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
       "supporting_facts": [
-        "Who are the elite QBs in the NFL right now? Which passer ranks No. 1? And where do multiple top names from the 2024 draft class land on our top-10 list?"
+        "Roch Cholowsky, the No. 1 pick in the MLB draft, has reportedly agreed to a contract with the White Sox that includes a record-breaking $10.35M signing bonus."
       ],
-      "suggested_copy": "Let's rank the top 10 quarterbacks in the NFL: Jos... \u2014 Who are the elite QBs in the NFL right now? Which passer ranks No. 1? And where do multiple top names from the 2024 draft class land on our top-10 list?",
+      "suggested_copy": "Reports: No. 1 pick Cholowsky gets record bonus \u2014 Roch Cholowsky, the No. 1 pick in the MLB draft, has reportedly agreed to a contract with the White Sox that includes a record-breaking $10.35M signing bonus.",
       "confidence": "medium",
       "relevance": [
-        "roster_market"
+        "roster_market",
+        "historical_context"
       ],
       "relevance_score": 0.4,
       "relevance_reason": "ESPN precision source",
       "source_family": "espn_rss",
       "sources": [
         {
-          "name": "ESPN NFL",
-          "url": "https://www.espn.com/nfl/story/_/id/49315416/ranking-nfl-top-10-quarterbacks-2026-execs-coaches-scouts",
+          "name": "ESPN MLB",
+          "url": "https://www.espn.com/mlb/story/_/id/49361630/no-1-pick-roch-cholowsky-gets-record-1035m-bonus-white-sox",
           "type": "article",
           "source_family": "espn_rss",
           "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/nfl/news",
-          "feed_url": "https://www.espn.com/espn/rss/nfl/news",
-          "published": "2026-07-14T16:23:51+00:00",
-          "published_at": "2026-07-14T16:23:51+00:00"
+          "feed": "https://www.espn.com/espn/rss/mlb/news",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published": "2026-07-15T23:16:31+00:00",
+          "published_at": "2026-07-15T23:16:31+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-14-macklin-celebrini-on-sharks-contract-talks-sidney",
+      "id": "2026-07-15-mlbpa-rips-salary-cap-ad-campaign-as-perverse",
       "generated_from": "sports-events.json",
-      "topic": "NHL: Macklin Celebrini on Sharks contract talks, Sidney...",
-      "league": "NHL",
-      "note_type": "roster_market_context",
-      "dashboard_slots": [
-        "what_moving",
-        "league_momentum"
-      ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
-      "window": "data_date",
-      "window_start": "2026-07-14",
-      "window_end": "2026-07-14",
-      "summary": "Macklin Celebrini on Sharks contract talks, Sidney...",
-      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
-      "supporting_facts": [
-        "The 20-year-old superstar was revealed as the next cover athlete of the EA Sports NHL series."
-      ],
-      "suggested_copy": "Macklin Celebrini on Sharks contract talks, Sidney... \u2014 The 20-year-old superstar was revealed as the next cover athlete of the EA Sports NHL series.",
-      "confidence": "medium",
-      "relevance": [
-        "roster_market"
-      ],
-      "relevance_score": 0.4,
-      "relevance_reason": "ESPN precision source",
-      "source_family": "espn_rss",
-      "sources": [
-        {
-          "name": "ESPN NHL",
-          "url": "https://www.espn.com/nhl/story/_/id/49356690/nhl-27-cover-athlete-macklin-celebrini-sidney-crosby-lebron-james-warriors",
-          "type": "article",
-          "source_family": "espn_rss",
-          "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/nhl/news",
-          "feed_url": "https://www.espn.com/espn/rss/nhl/news",
-          "published": "2026-07-14T16:05:22+00:00",
-          "published_at": "2026-07-14T16:05:22+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-14-2026-recruiting-class-rankings-arkansas-leads-the",
-      "generated_from": "sports-events.json",
-      "topic": "NCAA Basketball: 2026 recruiting class rankings: Arkansas leads the...",
-      "league": "NCAA Basketball",
+      "topic": "MLB: MLBPA rips salary cap ad campaign as 'perverse'",
+      "league": "MLB",
       "note_type": "cultural_context",
       "dashboard_slots": [
         "bigger_picture",
         "creative_programs"
       ],
-      "report_date": "2026-07-15",
-      "data_date": "2026-07-14",
+      "report_date": "2026-07-16",
+      "data_date": "2026-07-15",
       "window": "data_date",
-      "window_start": "2026-07-14",
-      "window_end": "2026-07-14",
-      "summary": "2026 recruiting class rankings: Arkansas leads the...",
+      "window_start": "2026-07-15",
+      "window_end": "2026-07-15",
+      "summary": "MLBPA rips salary cap ad campaign as 'perverse'",
       "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
       "supporting_facts": [
-        "Recent reclassifications moved Texas into the top four, and brought Ohio State and Louisville into the top 25."
+        "MLB commissioner Rob Manfred and MLBPA head Bruce Meyer shared differing views on the league's \"Level the Field\" ad campaign expressing its desire for a salary cap."
       ],
-      "suggested_copy": "2026 recruiting class rankings: Arkansas leads the... \u2014 Recent reclassifications moved Texas into the top four, and brought Ohio State and Louisville into the top 25.",
+      "suggested_copy": "MLBPA rips salary cap ad campaign as 'perverse' \u2014 MLB commissioner Rob Manfred and MLBPA head Bruce Meyer shared differing views on the league's \"Level the Field\" ad campaign expressing its desire for a salary cap.",
       "confidence": "medium",
       "relevance": [
         "culture"
@@ -1195,15 +1205,15 @@
       "source_family": "espn_rss",
       "sources": [
         {
-          "name": "ESPN College Basketball",
-          "url": "https://www.espn.com/mens-college-basketball/story/_/id/46535988/boys-high-school-basketball-recruiting-class-rankings-2026",
+          "name": "ESPN MLB",
+          "url": "https://www.espn.com/mlb/story/_/id/49358929/mlbpa-head-criticizes-mlb-salary-cap-ad-campaign-perverse",
           "type": "article",
           "source_family": "espn_rss",
           "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/ncb/news",
-          "feed_url": "https://www.espn.com/espn/rss/ncb/news",
-          "published": "2026-07-14T14:52:53+00:00",
-          "published_at": "2026-07-14T14:52:53+00:00"
+          "feed": "https://www.espn.com/espn/rss/mlb/news",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published": "2026-07-15T23:16:30+00:00",
+          "published_at": "2026-07-15T23:16:30+00:00"
         }
       ],
       "warnings": []
