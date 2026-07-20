@@ -134,7 +134,7 @@ def main() -> int:
     exit_code = 0
 
     # API-Sports facts remain latest/public sports metadata. We annotate report_date/data_date after generation.
-    facts_args = [sys.executable, str(ROOT / "scripts" / "refresh_api_sports.py")]
+    facts_args = [sys.executable, str(ROOT / "scripts" / "refresh_api_sports.py"), "--as-of-date", str(report_date)]
     if args.snapshot_only:
         facts_args.extend(["--output-dir", str(out_dir)])
     code, output = run(facts_args)

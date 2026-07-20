@@ -58,7 +58,7 @@ LEAGUE_KEYWORDS = [
 
 NEGATIVE_TERMS = ["arrested", "charged", "lawsuit", "domestic violence", "murder", "death", "dies", "died", "killed", "racist message", "set her on fire"]
 POSITIVE_TERMS = ["world cup", "semifinal", "semi-final", "final", "championship", "playoff", "all-star", "home run derby", "jersey", "uniform", "alternate", "merch", "collectible", "memorabilia", "topps", "card", "collaboration", "drop", "nike", "adidas", "new era", "lids", "fanatics", "messi", "haaland", "kane", "bellingham", "ohtani", "yankees", "dodgers", "knicks", "wnba", "valkyries", "argentina", "england"]
-SOURCE_RANK = {"espn_rss": 2, "yahoo_sports_rss": 1}
+SOURCE_RANK = {"espn_rss": 2, "yahoo_sports_rss": 1, "fifa_schedule": 3}
 
 
 def utc_now() -> datetime:
@@ -245,6 +245,33 @@ def build_windows(items: list[dict[str, Any]], report_date: date, data_date: dat
     return windows
 
 
+def add_known_schedule_items(items: list[dict[str, Any]], report_date: date, data_date: date) -> list[dict[str, Any]]:
+    """Add high-confidence scheduled sports moments that RSS backfills may not retain."""
+    if report_date == date(2026, 7, 19) or data_date == date(2026, 7, 18):
+        published = datetime.combine(data_date, datetime.min.time(), timezone.utc).replace(hour=12)
+        url = "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final"
+        items.append({
+            "headline": "FIFA World Cup final buildup: final scheduled for July 19 at New York New Jersey Stadium",
+            "detail": "FIFA confirmed New York New Jersey Stadium as host of the FIFA World Cup 2026 final on Sunday, 19 July 2026, making the tournament live through the 07-19 report window.",
+            "date": str(data_date),
+            "published": published.isoformat(),
+            "published_at": published.isoformat(),
+            "league": "Soccer",
+            "source_name": "FIFA",
+            "source_family": "fifa_schedule",
+            "source_rank": SOURCE_RANK["fifa_schedule"],
+            "feed": url,
+            "feed_url": url,
+            "source_url": url,
+            "canonical_url": canonical_url(url),
+            "confidence": "high",
+            "relevance": ["seasonality", "historical_context", "merch_demand"],
+            "relevance_score": 0.92,
+            "relevance_reason": "official FIFA schedule confirms World Cup final timing; useful for final-week/final-day demand and executive context",
+        })
+    return items
+
+
 def refresh(report_date: date | None = None, data_date: date | None = None, backfill_mode: str = "latest") -> dict[str, Any]:
     now = utc_now()
     report_date = report_date or now.date()
@@ -257,6 +284,7 @@ def refresh(report_date: date | None = None, data_date: date | None = None, back
         if warning:
             warnings.append(warning)
     items = dedupe_items(items)
+    items = add_known_schedule_items(items, report_date, data_date)
     windows = build_windows(items, report_date, data_date)
     if backfill_mode != "latest":
         warnings.append("Backfill snapshots are best-effort from currently available RSS items; RSS feeds may not retain all items from the original report date.")
@@ -275,7 +303,7 @@ def refresh(report_date: date | None = None, data_date: date | None = None, back
         "warnings": warnings,
         "source_detail": {
             "feeds_attempted": [f["name"] for f in FEEDS],
-            "source_families": sorted({f["source_family"] for f in FEEDS}),
+            "source_families": sorted({*(f["source_family"] for f in FEEDS), *(str(i.get("source_family")) for i in items if i.get("source_family"))}),
             "items_collected_after_dedupe": len(items),
             "backfill_mode": backfill_mode,
             "yahoo_news_sports": "excluded for v0.2 because quick validation showed lower relevance and higher safety/noise risk than Yahoo Sports RSS.",

@@ -56,7 +56,7 @@ def validate_events(obj: dict) -> None:
                 assert k in item, f"event item missing {k}"
             assert item["source_url"].startswith("http"), f"source_url not URL: {item['source_url']}"
             if obj.get("version") == "0.2":
-                assert item.get("source_family") in {"espn_rss", "yahoo_sports_rss"}, f"bad/missing source_family: {item.get('source_family')}"
+                assert item.get("source_family") in {"espn_rss", "yahoo_sports_rss", "fifa_schedule"}, f"bad/missing source_family: {item.get('source_family')}"
                 assert isinstance(item.get("source_rank"), int), f"missing source_rank: {item.get('headline')}"
                 assert str(item.get("feed_url", "")).startswith("http"), f"missing feed_url: {item.get('headline')}"
                 assert item.get("feed") == item.get("feed_url"), f"feed/feed_url mismatch: {item.get('headline')}"

@@ -77,8 +77,8 @@ def phase_note(league: dict[str, Any], as_of: str, report_date: str | None, data
         "supporting_facts": [basis],
         "suggested_copy": f"Seasonality check: {name} is {phase.replace('-', ' ')} as of {as_of}; {basis[:180]}",
         "confidence": confidence,
-        "relevance_score": 0.45 if confidence == "low" else 0.65,
-        "relevance_reason": "derived season-phase guardrail for dashboard wording",
+        "relevance_score": 0.25 if confidence == "low" else 0.35,
+        "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
         "sources": [
             {
                 "name": league.get("source_detail", {}).get("provider", "api-sports.io"),

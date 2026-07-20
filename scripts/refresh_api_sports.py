@@ -113,10 +113,13 @@ def season_label(season: dict[str, Any], field: str) -> str:
 def pick_relevant_season(seasons: list[dict[str, Any]], today: date, field: str) -> dict[str, Any] | None:
     if not seasons:
         return None
-    def key(s: dict[str, Any]) -> tuple[int, str]:
+    def key(s: dict[str, Any]) -> tuple[int, int, int, str]:
         start, end = parse_date(s.get("start")), parse_date(s.get("end"))
-        active = int(bool(start and end and start <= today <= end) or bool(s.get("current")))
-        return (active, season_label(s, field))
+        in_window = bool(start and end and start <= today <= end)
+        upcoming = bool(start and today < start)
+        current_hint = bool(s.get("current"))
+        # Date-window truth wins over provider "current" flags; those can lag after a tournament ends.
+        return (int(in_window), int(upcoming), int(current_hint), season_label(s, field))
     return sorted(seasons, key=key, reverse=True)[0]
 
 
@@ -200,6 +203,8 @@ def derive_phase(league: ApiLeague, season: dict[str, Any] | None, games: list[d
     if any(token in game_text for token in ["preseason", "pre-season", "spring training", "training"]):
         return {"season_phase": "pre-season", "phase_detail": "preseason", "phase_confidence": "medium", "phase_basis": "Recent/scheduled API game metadata contains preseason/training markers."}
     if start and end and start <= today <= end:
+        if league.display == "FIFA World Cup" and today == end:
+            return {"season_phase": "in-season", "phase_detail": "final-day", "phase_confidence": "high", "phase_basis": "Current report date is the FIFA World Cup final date in the API-Sports season window."}
         return {"season_phase": "in-season", "phase_detail": "regular-season", "phase_confidence": "medium", "phase_basis": "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."}
     if start and today < start:
         days = (start - today).days
@@ -216,10 +221,10 @@ def build_fallback_season(league: ApiLeague, today: date) -> dict[str, Any]:
     return {"season": "unknown", "start": None, "end": None, "is_current": False}
 
 
-def refresh() -> dict[str, Any]:
+def refresh(as_of_date: date | None = None) -> dict[str, Any]:
     key = load_key()
     now = utc_now()
-    today = now.date()
+    today = as_of_date or now.date()
     warnings: list[str] = []
     if not key:
         return {"generated_at": now.isoformat(), "as_of": str(today), "source": "api-sports.io", "version": "0.1", "status": "error", "warnings": ["API_SPORTS_KEY missing"], "leagues": []}
@@ -254,7 +259,7 @@ def refresh() -> dict[str, Any]:
             "label": season_id or fallback_season.get("season"),
             "start": (season or fallback_season).get("start"),
             "end": (season or fallback_season).get("end"),
-            "is_current": bool((season or {}).get("current")) or bool(fallback_season.get("is_current")) or bool(season_start and season_end and season_start <= today <= season_end),
+            "is_current": bool(season_start and season_end and season_start <= today <= season_end) or bool(fallback_season.get("is_current")),
         }
         league_warnings: list[str] = []
         if spec.fallback_calendar:
@@ -297,10 +302,12 @@ def refresh() -> dict[str, Any]:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output-dir", default=str(DATA_DIR))
+    parser.add_argument("--as-of-date", help="Compute season phases as of this YYYY-MM-DD date")
     args = parser.parse_args()
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
-    out = refresh()
+    as_of_date = date.fromisoformat(args.as_of_date) if args.as_of_date else None
+    out = refresh(as_of_date)
     output_path = output_dir / "sports-facts.json"
     output_path.write_text(json.dumps(out, indent=2, sort_keys=False) + "\n")
     wrote = str(output_path.relative_to(ROOT)) if output_path.is_relative_to(ROOT) else str(output_path)

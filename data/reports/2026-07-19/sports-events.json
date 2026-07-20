@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T15:57:41.684880+00:00",
+  "generated_at": "2026-07-20T16:26:20.304498+00:00",
   "as_of": "2026-07-19",
   "report_date": "2026-07-19",
   "data_date": "2026-07-18",
@@ -33,9 +33,10 @@
     ],
     "source_families": [
       "espn_rss",
+      "fifa_schedule",
       "yahoo_sports_rss"
     ],
-    "items_collected_after_dedupe": 425,
+    "items_collected_after_dedupe": 426,
     "backfill_mode": "best_effort_from_current_rss",
     "yahoo_news_sports": "excluded for v0.2 because quick validation showed lower relevance and higher safety/noise risk than Yahoo Sports RSS."
   },
@@ -44,6 +45,29 @@
       "window_start": "2026-07-18",
       "window_end": "2026-07-18",
       "items": [
+        {
+          "headline": "FIFA World Cup final buildup: final scheduled for July 19 at New York New Jersey Stadium",
+          "detail": "FIFA confirmed New York New Jersey Stadium as host of the FIFA World Cup 2026 final on Sunday, 19 July 2026, making the tournament live through the 07-19 report window.",
+          "date": "2026-07-18",
+          "published": "2026-07-18T12:00:00+00:00",
+          "published_at": "2026-07-18T12:00:00+00:00",
+          "league": "Soccer",
+          "source_name": "FIFA",
+          "source_family": "fifa_schedule",
+          "source_rank": 3,
+          "feed": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "feed_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "canonical_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "confidence": "high",
+          "relevance": [
+            "seasonality",
+            "historical_context",
+            "merch_demand"
+          ],
+          "relevance_score": 0.92,
+          "relevance_reason": "official FIFA schedule confirms World Cup final timing; useful for final-week/final-day demand and executive context"
+        },
         {
           "headline": "WNBA All-Star roster breakdown: Snubs, MVP predict...",
           "detail": "Who should have been named a WNBA All-Star? Who might be the first pick? Will there be a Bueckers-Malonga alley-oop?",
@@ -445,27 +469,6 @@
           "feed_url": "https://sports.yahoo.com/college-basketball/rss/",
           "source_url": "https://sports.yahoo.com/articles/kentuckys-la-familia-takes-game-190204769.html",
           "canonical_url": "https://sports.yahoo.com/articles/kentuckys-la-familia-takes-game-190204769.html",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ],
-          "relevance_score": 0.33,
-          "relevance_reason": "Yahoo Sports breadth source"
-        },
-        {
-          "headline": "Five-star point guard reclassifies to 2026, will join Arkansas",
-          "detail": "John Calipari will get a new weapon to campus earlier than expected.",
-          "date": "2026-07-18",
-          "published": "2026-07-18T17:20:35+00:00",
-          "published_at": "2026-07-18T17:20:35+00:00",
-          "league": "NCAA Basketball",
-          "source_name": "Yahoo Sports College Basketball",
-          "source_family": "yahoo_sports_rss",
-          "source_rank": 1,
-          "feed": "https://sports.yahoo.com/college-basketball/rss/",
-          "feed_url": "https://sports.yahoo.com/college-basketball/rss/",
-          "source_url": "https://sports.yahoo.com/articles/five-star-point-guard-reclassifies-172035645.html",
-          "canonical_url": "https://sports.yahoo.com/articles/five-star-point-guard-reclassifies-172035645.html",
           "confidence": "medium",
           "relevance": [
             "culture"
@@ -912,6 +915,29 @@
       "window_end": "2026-07-18",
       "items": [
         {
+          "headline": "FIFA World Cup final buildup: final scheduled for July 19 at New York New Jersey Stadium",
+          "detail": "FIFA confirmed New York New Jersey Stadium as host of the FIFA World Cup 2026 final on Sunday, 19 July 2026, making the tournament live through the 07-19 report window.",
+          "date": "2026-07-18",
+          "published": "2026-07-18T12:00:00+00:00",
+          "published_at": "2026-07-18T12:00:00+00:00",
+          "league": "Soccer",
+          "source_name": "FIFA",
+          "source_family": "fifa_schedule",
+          "source_rank": 3,
+          "feed": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "feed_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "canonical_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "confidence": "high",
+          "relevance": [
+            "seasonality",
+            "historical_context",
+            "merch_demand"
+          ],
+          "relevance_score": 0.92,
+          "relevance_reason": "official FIFA schedule confirms World Cup final timing; useful for final-week/final-day demand and executive context"
+        },
+        {
           "headline": "WNBA All-Star roster breakdown: Snubs, MVP predict...",
           "detail": "Who should have been named a WNBA All-Star? Who might be the first pick? Will there be a Bueckers-Malonga alley-oop?",
           "date": "2026-07-18",
@@ -1318,27 +1344,6 @@
           ],
           "relevance_score": 0.33,
           "relevance_reason": "Yahoo Sports breadth source"
-        },
-        {
-          "headline": "Five-star point guard reclassifies to 2026, will join Arkansas",
-          "detail": "John Calipari will get a new weapon to campus earlier than expected.",
-          "date": "2026-07-18",
-          "published": "2026-07-18T17:20:35+00:00",
-          "published_at": "2026-07-18T17:20:35+00:00",
-          "league": "NCAA Basketball",
-          "source_name": "Yahoo Sports College Basketball",
-          "source_family": "yahoo_sports_rss",
-          "source_rank": 1,
-          "feed": "https://sports.yahoo.com/college-basketball/rss/",
-          "feed_url": "https://sports.yahoo.com/college-basketball/rss/",
-          "source_url": "https://sports.yahoo.com/articles/five-star-point-guard-reclassifies-172035645.html",
-          "canonical_url": "https://sports.yahoo.com/articles/five-star-point-guard-reclassifies-172035645.html",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ],
-          "relevance_score": 0.33,
-          "relevance_reason": "Yahoo Sports breadth source"
         }
       ]
     },
@@ -1346,6 +1351,29 @@
       "window_start": "2026-07-18",
       "window_end": "2026-07-26",
       "items": [
+        {
+          "headline": "FIFA World Cup final buildup: final scheduled for July 19 at New York New Jersey Stadium",
+          "detail": "FIFA confirmed New York New Jersey Stadium as host of the FIFA World Cup 2026 final on Sunday, 19 July 2026, making the tournament live through the 07-19 report window.",
+          "date": "2026-07-18",
+          "published": "2026-07-18T12:00:00+00:00",
+          "published_at": "2026-07-18T12:00:00+00:00",
+          "league": "Soccer",
+          "source_name": "FIFA",
+          "source_family": "fifa_schedule",
+          "source_rank": 3,
+          "feed": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "feed_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "canonical_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "confidence": "high",
+          "relevance": [
+            "seasonality",
+            "historical_context",
+            "merch_demand"
+          ],
+          "relevance_score": 0.92,
+          "relevance_reason": "official FIFA schedule confirms World Cup final timing; useful for final-week/final-day demand and executive context"
+        },
         {
           "headline": "We got a Scorigami! How England's 6-4 win vs. Fran...",
           "detail": "In the 103rd and penultimate game of the 2026 World Cup, a Scorigami finally happened, but what is it?",
@@ -1750,27 +1778,6 @@
           "relevance": [
             "roster_market",
             "seasonality"
-          ],
-          "relevance_score": 0.4,
-          "relevance_reason": "ESPN precision source"
-        },
-        {
-          "headline": "Flyers, Drysdale agree to 4-year, $26 million deal...",
-          "detail": "The Flyers have agreed to terms with defenseman Jamie Drysdale on a four-year contract worth $26 million.",
-          "date": "2026-07-18",
-          "published": "2026-07-18T23:03:00+00:00",
-          "published_at": "2026-07-18T23:03:00+00:00",
-          "league": "NHL",
-          "source_name": "ESPN NHL",
-          "source_family": "espn_rss",
-          "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/nhl/news",
-          "feed_url": "https://www.espn.com/espn/rss/nhl/news",
-          "source_url": "https://www.espn.com/nhl/story/_/id/49386166/flyers-jamie-drysdale-agree-4-year-26-million-deal",
-          "canonical_url": "https://www.espn.com/nhl/story/_/id/49386166/flyers-jamie-drysdale-agree-4-year-26-million-deal",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market"
           ],
           "relevance_score": 0.4,
           "relevance_reason": "ESPN precision source"
@@ -1782,6 +1789,29 @@
       "window_end": "2026-08-18",
       "items": [
         {
+          "headline": "FIFA World Cup final buildup: final scheduled for July 19 at New York New Jersey Stadium",
+          "detail": "FIFA confirmed New York New Jersey Stadium as host of the FIFA World Cup 2026 final on Sunday, 19 July 2026, making the tournament live through the 07-19 report window.",
+          "date": "2026-07-18",
+          "published": "2026-07-18T12:00:00+00:00",
+          "published_at": "2026-07-18T12:00:00+00:00",
+          "league": "Soccer",
+          "source_name": "FIFA",
+          "source_family": "fifa_schedule",
+          "source_rank": 3,
+          "feed": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "feed_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "canonical_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "confidence": "high",
+          "relevance": [
+            "seasonality",
+            "historical_context",
+            "merch_demand"
+          ],
+          "relevance_score": 0.92,
+          "relevance_reason": "official FIFA schedule confirms World Cup final timing; useful for final-week/final-day demand and executive context"
+        },
+        {
           "headline": "We got a Scorigami! How England's 6-4 win vs. Fran...",
           "detail": "In the 103rd and penultimate game of the 2026 World Cup, a Scorigami finally happened, but what is it?",
           "date": "2026-07-19",
@@ -2185,27 +2215,6 @@
           "relevance": [
             "roster_market",
             "seasonality"
-          ],
-          "relevance_score": 0.4,
-          "relevance_reason": "ESPN precision source"
-        },
-        {
-          "headline": "Flyers, Drysdale agree to 4-year, $26 million deal...",
-          "detail": "The Flyers have agreed to terms with defenseman Jamie Drysdale on a four-year contract worth $26 million.",
-          "date": "2026-07-18",
-          "published": "2026-07-18T23:03:00+00:00",
-          "published_at": "2026-07-18T23:03:00+00:00",
-          "league": "NHL",
-          "source_name": "ESPN NHL",
-          "source_family": "espn_rss",
-          "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/nhl/news",
-          "feed_url": "https://www.espn.com/espn/rss/nhl/news",
-          "source_url": "https://www.espn.com/nhl/story/_/id/49386166/flyers-jamie-drysdale-agree-4-year-26-million-deal",
-          "canonical_url": "https://www.espn.com/nhl/story/_/id/49386166/flyers-jamie-drysdale-agree-4-year-26-million-deal",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market"
           ],
           "relevance_score": 0.4,
           "relevance_reason": "ESPN precision source"
@@ -2222,6 +2231,29 @@
       "window_end": "2026-07-18",
       "items": [
         {
+          "headline": "FIFA World Cup final buildup: final scheduled for July 19 at New York New Jersey Stadium",
+          "detail": "FIFA confirmed New York New Jersey Stadium as host of the FIFA World Cup 2026 final on Sunday, 19 July 2026, making the tournament live through the 07-19 report window.",
+          "date": "2026-07-18",
+          "published": "2026-07-18T12:00:00+00:00",
+          "published_at": "2026-07-18T12:00:00+00:00",
+          "league": "Soccer",
+          "source_name": "FIFA",
+          "source_family": "fifa_schedule",
+          "source_rank": 3,
+          "feed": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "feed_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "source_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "canonical_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "confidence": "high",
+          "relevance": [
+            "seasonality",
+            "historical_context",
+            "merch_demand"
+          ],
+          "relevance_score": 0.92,
+          "relevance_reason": "official FIFA schedule confirms World Cup final timing; useful for final-week/final-day demand and executive context"
+        },
+        {
           "headline": "WNBA All-Star roster breakdown: Snubs, MVP predict...",
           "detail": "Who should have been named a WNBA All-Star? Who might be the first pick? Will there be a Bueckers-Malonga alley-oop?",
           "date": "2026-07-18",
@@ -2622,27 +2654,6 @@
           "feed_url": "https://sports.yahoo.com/college-basketball/rss/",
           "source_url": "https://sports.yahoo.com/articles/kentuckys-la-familia-takes-game-190204769.html",
           "canonical_url": "https://sports.yahoo.com/articles/kentuckys-la-familia-takes-game-190204769.html",
-          "confidence": "medium",
-          "relevance": [
-            "culture"
-          ],
-          "relevance_score": 0.33,
-          "relevance_reason": "Yahoo Sports breadth source"
-        },
-        {
-          "headline": "Five-star point guard reclassifies to 2026, will join Arkansas",
-          "detail": "John Calipari will get a new weapon to campus earlier than expected.",
-          "date": "2026-07-18",
-          "published": "2026-07-18T17:20:35+00:00",
-          "published_at": "2026-07-18T17:20:35+00:00",
-          "league": "NCAA Basketball",
-          "source_name": "Yahoo Sports College Basketball",
-          "source_family": "yahoo_sports_rss",
-          "source_rank": 1,
-          "feed": "https://sports.yahoo.com/college-basketball/rss/",
-          "feed_url": "https://sports.yahoo.com/college-basketball/rss/",
-          "source_url": "https://sports.yahoo.com/articles/five-star-point-guard-reclassifies-172035645.html",
-          "canonical_url": "https://sports.yahoo.com/articles/five-star-point-guard-reclassifies-172035645.html",
           "confidence": "medium",
           "relevance": [
             "culture"

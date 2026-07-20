@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T15:57:45.750032+00:00",
+  "generated_at": "2026-07-20T16:26:24.344058+00:00",
   "as_of": "2026-07-19",
   "report_date": "2026-07-19",
   "data_date": "2026-07-18",
@@ -17,10 +17,10 @@
   "candidate_count": 30,
   "candidates": [
     {
-      "id": "2026-07-19-nfl-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "NFL",
-      "league": "NFL",
+      "id": "2026-07-18-fifa-world-cup-final-buildup-final-scheduled-for-july-19-at-new-york-new-jersey-",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: FIFA World Cup final buildup: final scheduled for July 19 at New York New Jersey Stadium",
+      "league": "Soccer",
       "note_type": "seasonality",
       "dashboard_slots": [
         "today_read",
@@ -29,268 +29,35 @@
       ],
       "report_date": "2026-07-19",
       "data_date": "2026-07-18",
-      "summary": "NFL is currently marked off-season (pre-season-upcoming).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "window": "data_date",
+      "window_start": "2026-07-18",
+      "window_end": "2026-07-18",
+      "summary": "FIFA World Cup final buildup: final scheduled for July 19 at New York New Jersey Stadium",
+      "why_it_matters": "Potential demand signal for licensed merchandise, player/team interest, or creative programming.",
       "supporting_facts": [
-        "Current date is 18 days before the next API-Sports season start."
+        "FIFA confirmed New York New Jersey Stadium as host of the FIFA World Cup 2026 final on Sunday, 19 July 2026, making the tournament live through the 07-19 report window."
       ],
-      "suggested_copy": "Seasonality check: NFL is off season as of 2026-07-19; Current date is 18 days before the next API-Sports season start.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "suggested_copy": "FIFA World Cup final buildup: final scheduled for July 19 at New York New Jersey Stadium \u2014 FIFA confirmed New York New Jersey Stadium as host of the FIFA World Cup 2026 final on Sunday, 19 July 2026, making the tournament live through the 07-19 report window.",
+      "confidence": "high",
+      "relevance": [
+        "seasonality",
+        "historical_context",
+        "merch_demand"
+      ],
+      "relevance_score": 0.92,
+      "relevance_reason": "official FIFA schedule confirms World Cup final timing; useful for final-week/final-day demand and executive context",
+      "source_family": "fifa_schedule",
       "sources": [
         {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-19-ncaa-football-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "NCAA Football",
-      "league": "NCAA Football",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-19",
-      "data_date": "2026-07-18",
-      "summary": "NCAA Football is currently marked off-season (pre-season-upcoming).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
-      "supporting_facts": [
-        "Current date is 40 days before the next API-Sports season start."
-      ],
-      "suggested_copy": "Seasonality check: NCAA Football is off season as of 2026-07-19; Current date is 40 days before the next API-Sports season start.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-19-mlb-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "MLB",
-      "league": "MLB",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-19",
-      "data_date": "2026-07-18",
-      "summary": "MLB is currently marked in-season (regular-season).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
-      "supporting_facts": [
-        "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
-      ],
-      "suggested_copy": "Seasonality check: MLB is in season as of 2026-07-19; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-19-nba-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "NBA",
-      "league": "NBA",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-19",
-      "data_date": "2026-07-18",
-      "summary": "NBA is currently marked off-season (off-season).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
-      "supporting_facts": [
-        "Current date is after the API-Sports season end and no active preseason competition was found."
-      ],
-      "suggested_copy": "Seasonality check: NBA is off season as of 2026-07-19; Current date is after the API-Sports season end and no active preseason competition was found.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-19-ncaa-basketball-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "NCAA Basketball",
-      "league": "NCAA Basketball",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-19",
-      "data_date": "2026-07-18",
-      "summary": "NCAA Basketball is currently marked off-season (off-season).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
-      "supporting_facts": [
-        "Current date is after the API-Sports season end and no active preseason competition was found."
-      ],
-      "suggested_copy": "Seasonality check: NCAA Basketball is off season as of 2026-07-19; Current date is after the API-Sports season end and no active preseason competition was found.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-19-ncaa-women-s-basketball-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "NCAA Women's Basketball",
-      "league": "NCAA Women's Basketball",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-19",
-      "data_date": "2026-07-18",
-      "summary": "NCAA Women's Basketball is currently marked off-season (off-season).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
-      "supporting_facts": [
-        "Current date is after the API-Sports season end and no active preseason competition was found."
-      ],
-      "suggested_copy": "Seasonality check: NCAA Women's Basketball is off season as of 2026-07-19; Current date is after the API-Sports season end and no active preseason competition was found.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-19-nhl-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "NHL",
-      "league": "NHL",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-19",
-      "data_date": "2026-07-18",
-      "summary": "NHL is currently marked off-season (off-season).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
-      "supporting_facts": [
-        "Current date is 62 days before the next API-Sports season start."
-      ],
-      "suggested_copy": "Seasonality check: NHL is off season as of 2026-07-19; Current date is 62 days before the next API-Sports season start.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-19-mls-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "MLS",
-      "league": "MLS",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-19",
-      "data_date": "2026-07-18",
-      "summary": "MLS is currently marked in-season (regular-season).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
-      "supporting_facts": [
-        "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
-      ],
-      "suggested_copy": "Seasonality check: MLS is in season as of 2026-07-19; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-19-fifa-world-cup-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "FIFA World Cup",
-      "league": "FIFA World Cup",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-19",
-      "data_date": "2026-07-18",
-      "summary": "FIFA World Cup is currently marked off-season (off-season).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
-      "supporting_facts": [
-        "Current date is after the API-Sports season end and no active preseason competition was found."
-      ],
-      "suggested_copy": "Seasonality check: FIFA World Cup is off season as of 2026-07-19; Current date is after the API-Sports season end and no active preseason competition was found.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
+          "name": "FIFA",
+          "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "type": "article",
+          "source_family": "fifa_schedule",
+          "source_rank": 3,
+          "feed": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "feed_url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/new-york-new-jersey-stadium-host-world-cup-2026-final",
+          "published": "2026-07-18T12:00:00+00:00",
+          "published_at": "2026-07-18T12:00:00+00:00"
         }
       ],
       "warnings": []
@@ -654,39 +421,6 @@
       "warnings": []
     },
     {
-      "id": "2026-07-19-wnba-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "WNBA",
-      "league": "WNBA",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-19",
-      "data_date": "2026-07-18",
-      "summary": "WNBA is currently marked in-season (regular-season).",
-      "why_it_matters": "Use cautiously: this is useful for avoiding obvious seasonality errors, but Cowork should phrase softly or verify before making a strong claim.",
-      "supporting_facts": [
-        "API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added."
-      ],
-      "suggested_copy": "Seasonality check: WNBA is in season as of 2026-07-19; API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added.",
-      "confidence": "low",
-      "relevance_score": 0.45,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "manual-public-calendar-seed",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": [
-        "API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added."
-      ]
-    },
-    {
       "id": "2026-07-18-blackhawks-bedard-agree-to-5-year-75m-deal",
       "generated_from": "sports-events.json",
       "topic": "NHL: Blackhawks, Bedard agree to 5-year, $75M deal",
@@ -990,51 +724,6 @@
       "warnings": []
     },
     {
-      "id": "2026-07-18-offseason-trade-grades-trocheck-nurse-more",
-      "generated_from": "sports-events.json",
-      "topic": "NHL: \ud83c\udfd2 Offseason trade grades: Trocheck, Nurse, more",
-      "league": "NHL",
-      "note_type": "roster_market_context",
-      "dashboard_slots": [
-        "what_moving",
-        "league_momentum",
-        "today_read"
-      ],
-      "report_date": "2026-07-19",
-      "data_date": "2026-07-18",
-      "window": "data_date",
-      "window_start": "2026-07-18",
-      "window_end": "2026-07-18",
-      "summary": "\ud83c\udfd2 Offseason trade grades: Trocheck, Nurse, more",
-      "why_it_matters": "Potential timing cue for keeping commentary aligned to what is happening now or soon.",
-      "supporting_facts": [
-        "The summer trade season is officially on fire! Find grades for each GM involved in all the big swaps here."
-      ],
-      "suggested_copy": "\ud83c\udfd2 Offseason trade grades: Trocheck, Nurse, more \u2014 The summer trade season is officially on fire! Find grades for each GM involved in all the big swaps here.",
-      "confidence": "medium",
-      "relevance": [
-        "roster_market",
-        "seasonality"
-      ],
-      "relevance_score": 0.4,
-      "relevance_reason": "ESPN precision source",
-      "source_family": "espn_rss",
-      "sources": [
-        {
-          "name": "ESPN NHL",
-          "url": "https://www.espn.com/nhl/story/_/id/49116941/nhl-2026-offseason-trade-grades-deals-report-cards-top-players-prospects-biggest-deals",
-          "type": "article",
-          "source_family": "espn_rss",
-          "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/nhl/news",
-          "feed_url": "https://www.espn.com/espn/rss/nhl/news",
-          "published": "2026-07-18T23:02:59+00:00",
-          "published_at": "2026-07-18T23:02:59+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
       "id": "2026-07-19-dream-s-reese-exits-win-vs-sky-with-leg-injury",
       "generated_from": "sports-events.json",
       "topic": "WNBA: Dream's Reese exits win vs. Sky with leg injury",
@@ -1205,6 +894,318 @@
         }
       ],
       "warnings": []
+    },
+    {
+      "id": "2026-07-19-fifa-world-cup-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "FIFA World Cup",
+      "league": "FIFA World Cup",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-19",
+      "data_date": "2026-07-18",
+      "summary": "FIFA World Cup is currently marked in-season (final-day).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current report date is the FIFA World Cup final date in the API-Sports season window."
+      ],
+      "suggested_copy": "Seasonality check: FIFA World Cup is in season as of 2026-07-19; Current report date is the FIFA World Cup final date in the API-Sports season window.",
+      "confidence": "high",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-19-nfl-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NFL",
+      "league": "NFL",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-19",
+      "data_date": "2026-07-18",
+      "summary": "NFL is currently marked off-season (pre-season-upcoming).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is 19 days before the next API-Sports season start."
+      ],
+      "suggested_copy": "Seasonality check: NFL is off season as of 2026-07-19; Current date is 19 days before the next API-Sports season start.",
+      "confidence": "medium",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-19-ncaa-football-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NCAA Football",
+      "league": "NCAA Football",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-19",
+      "data_date": "2026-07-18",
+      "summary": "NCAA Football is currently marked off-season (pre-season-upcoming).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is 41 days before the next API-Sports season start."
+      ],
+      "suggested_copy": "Seasonality check: NCAA Football is off season as of 2026-07-19; Current date is 41 days before the next API-Sports season start.",
+      "confidence": "medium",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-19-mlb-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "MLB",
+      "league": "MLB",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-19",
+      "data_date": "2026-07-18",
+      "summary": "MLB is currently marked in-season (regular-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
+      ],
+      "suggested_copy": "Seasonality check: MLB is in season as of 2026-07-19; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
+      "confidence": "medium",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-19-nba-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NBA",
+      "league": "NBA",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-19",
+      "data_date": "2026-07-18",
+      "summary": "NBA is currently marked off-season (off-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is after the API-Sports season end and no active preseason competition was found."
+      ],
+      "suggested_copy": "Seasonality check: NBA is off season as of 2026-07-19; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "confidence": "medium",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-19-ncaa-basketball-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NCAA Basketball",
+      "league": "NCAA Basketball",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-19",
+      "data_date": "2026-07-18",
+      "summary": "NCAA Basketball is currently marked off-season (off-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is after the API-Sports season end and no active preseason competition was found."
+      ],
+      "suggested_copy": "Seasonality check: NCAA Basketball is off season as of 2026-07-19; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "confidence": "medium",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-19-ncaa-women-s-basketball-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NCAA Women's Basketball",
+      "league": "NCAA Women's Basketball",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-19",
+      "data_date": "2026-07-18",
+      "summary": "NCAA Women's Basketball is currently marked off-season (off-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is after the API-Sports season end and no active preseason competition was found."
+      ],
+      "suggested_copy": "Seasonality check: NCAA Women's Basketball is off season as of 2026-07-19; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "confidence": "medium",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-19-nhl-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NHL",
+      "league": "NHL",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-19",
+      "data_date": "2026-07-18",
+      "summary": "NHL is currently marked off-season (off-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is 63 days before the next API-Sports season start."
+      ],
+      "suggested_copy": "Seasonality check: NHL is off season as of 2026-07-19; Current date is 63 days before the next API-Sports season start.",
+      "confidence": "medium",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-19-mls-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "MLS",
+      "league": "MLS",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-19",
+      "data_date": "2026-07-18",
+      "summary": "MLS is currently marked in-season (regular-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
+      ],
+      "suggested_copy": "Seasonality check: MLS is in season as of 2026-07-19; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
+      "confidence": "medium",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-19-wnba-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "WNBA",
+      "league": "WNBA",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-19",
+      "data_date": "2026-07-18",
+      "summary": "WNBA is currently marked in-season (regular-season).",
+      "why_it_matters": "Use cautiously: this is useful for avoiding obvious seasonality errors, but Cowork should phrase softly or verify before making a strong claim.",
+      "supporting_facts": [
+        "API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added."
+      ],
+      "suggested_copy": "Seasonality check: WNBA is in season as of 2026-07-19; API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added.",
+      "confidence": "low",
+      "relevance_score": 0.25,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "manual-public-calendar-seed",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": [
+        "API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added."
+      ]
     }
   ]
 }

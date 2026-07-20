@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T15:10:51.252613+00:00",
+  "generated_at": "2026-07-20T16:26:33.400548+00:00",
   "status": "ok",
   "version": "0.2",
   "report_date": "2026-07-20",
@@ -12,7 +12,7 @@
   "files": {
     "sports_facts": {
       "path": "data/reports/2026-07-20/sports-facts.json",
-      "raw_url": "https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/reports/2026-07-20/sports-facts.json",
+      "raw_url": "https://github.com/nathanegamble/fanatics-cbo-dashboard-signals/raw/refs/heads/main/data/reports/2026-07-20/sports-facts.json",
       "status": "ok",
       "as_of": "2026-07-20",
       "report_date": "2026-07-20",
@@ -20,7 +20,7 @@
     },
     "sports_events": {
       "path": "data/reports/2026-07-20/sports-events.json",
-      "raw_url": "https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/reports/2026-07-20/sports-events.json",
+      "raw_url": "https://github.com/nathanegamble/fanatics-cbo-dashboard-signals/raw/refs/heads/main/data/reports/2026-07-20/sports-events.json",
       "status": "ok",
       "as_of": "2026-07-20",
       "report_date": "2026-07-20",
@@ -28,7 +28,7 @@
     },
     "contextual_notes_candidates": {
       "path": "data/reports/2026-07-20/contextual-notes-candidates.json",
-      "raw_url": "https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/reports/2026-07-20/contextual-notes-candidates.json",
+      "raw_url": "https://github.com/nathanegamble/fanatics-cbo-dashboard-signals/raw/refs/heads/main/data/reports/2026-07-20/contextual-notes-candidates.json",
       "status": "ok",
       "as_of": "2026-07-20",
       "report_date": "2026-07-20",
@@ -43,7 +43,7 @@
     },
     "refresh_events.py": {
       "exit_code": 0,
-      "output": "{\n  \"wrote\": \"/Users/horatio/Projects/fanatics-cbo-dashboard-signals/data/sports-events.json\",\n  \"status\": \"ok\",\n  \"items_collected\": 430,\n  \"report_date\": \"2026-07-20\",\n  \"data_date\": \"2026-07-19\"\n}"
+      "output": "{\n  \"wrote\": \"/Users/horatio/Projects/fanatics-cbo-dashboard-signals/data/sports-events.json\",\n  \"status\": \"ok\",\n  \"items_collected\": 425,\n  \"report_date\": \"2026-07-20\",\n  \"data_date\": \"2026-07-19\"\n}"
     },
     "refresh_contextual_notes.py": {
       "exit_code": 0,

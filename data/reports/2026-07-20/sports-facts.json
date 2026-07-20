@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T15:10:42.522853+00:00",
+  "generated_at": "2026-07-20T16:26:24.416408+00:00",
   "as_of": "2026-07-20",
   "source": "api-sports.io + documented fallbacks",
   "version": "0.1",
@@ -245,7 +245,7 @@
         "label": "2026",
         "start": "2026-06-11",
         "end": "2026-07-19",
-        "is_current": true
+        "is_current": false
       },
       "key_dates": [],
       "recent_results": [],

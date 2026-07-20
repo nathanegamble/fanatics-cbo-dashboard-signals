@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T15:10:51.244105+00:00",
+  "generated_at": "2026-07-20T16:26:33.390633+00:00",
   "as_of": "2026-07-20",
   "report_date": "2026-07-20",
   "data_date": "2026-07-19",
@@ -16,285 +16,6 @@
   "intended_use": "Candidate Contextual Notes for the Fanatics CBO dashboard executive-intelligence layer.",
   "candidate_count": 30,
   "candidates": [
-    {
-      "id": "2026-07-20-nfl-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "NFL",
-      "league": "NFL",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-20",
-      "data_date": "2026-07-19",
-      "summary": "NFL is currently marked off-season (pre-season-upcoming).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
-      "supporting_facts": [
-        "Current date is 18 days before the next API-Sports season start."
-      ],
-      "suggested_copy": "Seasonality check: NFL is off season as of 2026-07-20; Current date is 18 days before the next API-Sports season start.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-20-ncaa-football-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "NCAA Football",
-      "league": "NCAA Football",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-20",
-      "data_date": "2026-07-19",
-      "summary": "NCAA Football is currently marked off-season (pre-season-upcoming).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
-      "supporting_facts": [
-        "Current date is 40 days before the next API-Sports season start."
-      ],
-      "suggested_copy": "Seasonality check: NCAA Football is off season as of 2026-07-20; Current date is 40 days before the next API-Sports season start.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-20-mlb-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "MLB",
-      "league": "MLB",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-20",
-      "data_date": "2026-07-19",
-      "summary": "MLB is currently marked in-season (regular-season).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
-      "supporting_facts": [
-        "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
-      ],
-      "suggested_copy": "Seasonality check: MLB is in season as of 2026-07-20; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-20-nba-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "NBA",
-      "league": "NBA",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-20",
-      "data_date": "2026-07-19",
-      "summary": "NBA is currently marked off-season (off-season).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
-      "supporting_facts": [
-        "Current date is after the API-Sports season end and no active preseason competition was found."
-      ],
-      "suggested_copy": "Seasonality check: NBA is off season as of 2026-07-20; Current date is after the API-Sports season end and no active preseason competition was found.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-20-ncaa-basketball-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "NCAA Basketball",
-      "league": "NCAA Basketball",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-20",
-      "data_date": "2026-07-19",
-      "summary": "NCAA Basketball is currently marked off-season (off-season).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
-      "supporting_facts": [
-        "Current date is after the API-Sports season end and no active preseason competition was found."
-      ],
-      "suggested_copy": "Seasonality check: NCAA Basketball is off season as of 2026-07-20; Current date is after the API-Sports season end and no active preseason competition was found.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-20-ncaa-women-s-basketball-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "NCAA Women's Basketball",
-      "league": "NCAA Women's Basketball",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-20",
-      "data_date": "2026-07-19",
-      "summary": "NCAA Women's Basketball is currently marked off-season (off-season).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
-      "supporting_facts": [
-        "Current date is after the API-Sports season end and no active preseason competition was found."
-      ],
-      "suggested_copy": "Seasonality check: NCAA Women's Basketball is off season as of 2026-07-20; Current date is after the API-Sports season end and no active preseason competition was found.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-20-nhl-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "NHL",
-      "league": "NHL",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-20",
-      "data_date": "2026-07-19",
-      "summary": "NHL is currently marked off-season (off-season).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
-      "supporting_facts": [
-        "Current date is 62 days before the next API-Sports season start."
-      ],
-      "suggested_copy": "Seasonality check: NHL is off season as of 2026-07-20; Current date is 62 days before the next API-Sports season start.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-20-mls-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "MLS",
-      "league": "MLS",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-20",
-      "data_date": "2026-07-19",
-      "summary": "MLS is currently marked in-season (regular-season).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
-      "supporting_facts": [
-        "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
-      ],
-      "suggested_copy": "Seasonality check: MLS is in season as of 2026-07-20; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-20-fifa-world-cup-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "FIFA World Cup",
-      "league": "FIFA World Cup",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-20",
-      "data_date": "2026-07-19",
-      "summary": "FIFA World Cup is currently marked off-season (off-season).",
-      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
-      "supporting_facts": [
-        "Current date is after the API-Sports season end and no active preseason competition was found."
-      ],
-      "suggested_copy": "Seasonality check: FIFA World Cup is off season as of 2026-07-20; Current date is after the API-Sports season end and no active preseason competition was found.",
-      "confidence": "medium",
-      "relevance_score": 0.65,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "api-sports.io",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": []
-    },
     {
       "id": "2026-07-20-messi-in-tears-future-unclear-after-wc-final-loss",
       "generated_from": "sports-events.json",
@@ -334,16 +55,16 @@
           "source_rank": 2,
           "feed": "https://www.espn.com/espn/rss/news",
           "feed_url": "https://www.espn.com/espn/rss/news",
-          "published": "2026-07-20T15:57:36+00:00",
-          "published_at": "2026-07-20T15:57:36+00:00"
+          "published": "2026-07-20T16:45:16+00:00",
+          "published_at": "2026-07-20T16:45:16+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-20-player-ratings-lionel-messi-3-10-as-spain-beat-ar",
+      "id": "2026-07-20-not-even-messi-s-magic-could-will-argentina-to-bac",
       "generated_from": "sports-events.json",
-      "topic": "Soccer: Player ratings: Lionel Messi 3/10 as Spain beat Ar...",
+      "topic": "Soccer: Not even Messi's magic could will Argentina to bac...",
       "league": "Soccer",
       "note_type": "historical_context",
       "dashboard_slots": [
@@ -356,57 +77,12 @@
       "window": "report_date",
       "window_start": "2026-07-20",
       "window_end": "2026-07-20",
-      "summary": "Player ratings: Lionel Messi 3/10 as Spain beat Ar...",
+      "summary": "Not even Messi's magic could will Argentina to bac...",
       "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
       "supporting_facts": [
-        "Lionel Messi had little impact as Argentina barely approached Spain's goal in a one-sided World Cup final."
+        "Argentina lost to Spain in the World Cup final, but the defending champs were also battling against history."
       ],
-      "suggested_copy": "Player ratings: Lionel Messi 3/10 as Spain beat Ar... \u2014 Lionel Messi had little impact as Argentina barely approached Spain's goal in a one-sided World Cup final.",
-      "confidence": "medium",
-      "relevance": [
-        "historical_context",
-        "seasonality"
-      ],
-      "relevance_score": 0.64,
-      "relevance_reason": "ESPN precision source; matches world cup, final, messi, argentina",
-      "source_family": "espn_rss",
-      "sources": [
-        {
-          "name": "ESPN Top Headlines",
-          "url": "https://www.espn.com/soccer/story/_/id/49403553/player-ratings-lionel-messi-3-10-spain-beat-argentina-world-cup-final",
-          "type": "article",
-          "source_family": "espn_rss",
-          "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/news",
-          "feed_url": "https://www.espn.com/espn/rss/news",
-          "published": "2026-07-20T15:56:51+00:00",
-          "published_at": "2026-07-20T15:56:51+00:00"
-        }
-      ],
-      "warnings": []
-    },
-    {
-      "id": "2026-07-20-messi-scaloni-got-the-most-they-could-out-of-this",
-      "generated_from": "sports-events.json",
-      "topic": "Soccer: Messi, Scaloni got the most they could out of this...",
-      "league": "Soccer",
-      "note_type": "historical_context",
-      "dashboard_slots": [
-        "bigger_picture",
-        "what_moving",
-        "today_read"
-      ],
-      "report_date": "2026-07-20",
-      "data_date": "2026-07-19",
-      "window": "report_date",
-      "window_start": "2026-07-20",
-      "window_end": "2026-07-20",
-      "summary": "Messi, Scaloni got the most they could out of this...",
-      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
-      "supporting_facts": [
-        "The futures of both Argentina's star and their coach are up in the air after their World Cup final loss. This might be the moment to leave the stage."
-      ],
-      "suggested_copy": "Messi, Scaloni got the most they could out of this... \u2014 The futures of both Argentina's star and their coach are up in the air after their World Cup final loss. This might be the moment to leave the stage.",
+      "suggested_copy": "Not even Messi's magic could will Argentina to bac... \u2014 Argentina lost to Spain in the World Cup final, but the defending champs were also battling against history.",
       "confidence": "medium",
       "relevance": [
         "historical_context",
@@ -418,14 +94,14 @@
       "sources": [
         {
           "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/49407412/messi-scaloni-got-most-of-argentina-team-2026-world-cup",
+          "url": "https://www.espn.com/soccer/story/_/id/49409980/not-even-lionel-messi-magic-argentina-back-back-fifa-world-cup",
           "type": "article",
           "source_family": "espn_rss",
           "source_rank": 2,
           "feed": "https://www.espn.com/espn/rss/soccer/news",
           "feed_url": "https://www.espn.com/espn/rss/soccer/news",
-          "published": "2026-07-20T14:37:28+00:00",
-          "published_at": "2026-07-20T14:37:28+00:00"
+          "published": "2026-07-20T16:40:32+00:00",
+          "published_at": "2026-07-20T16:40:32+00:00"
         }
       ],
       "warnings": []
@@ -476,9 +152,9 @@
       "warnings": []
     },
     {
-      "id": "2026-07-20-france-s-mbapp-wins-golden-boot-ahead-of-messi",
+      "id": "2026-07-20-messi-struggled-in-the-world-cup-final-so-what-h",
       "generated_from": "sports-events.json",
-      "topic": "Soccer: France's Mbapp\u00e9 wins Golden Boot ahead of Messi",
+      "topic": "Soccer: Messi struggled in the World Cup final: So what? H...",
       "league": "Soccer",
       "note_type": "historical_context",
       "dashboard_slots": [
@@ -491,12 +167,12 @@
       "window": "report_date",
       "window_start": "2026-07-20",
       "window_end": "2026-07-20",
-      "summary": "France's Mbapp\u00e9 wins Golden Boot ahead of Messi",
+      "summary": "Messi struggled in the World Cup final: So what? H...",
       "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
       "supporting_facts": [
-        "Kylian Mbapp\u00e9 has won the 2026 World Cup Golden Boot with 10 goals after Lionel Messi failed to score in Sunday's final against Spain."
+        "It's unlikely Lionel Messi will play in a World Cup final again, and although he disappointed against Spain, it will be forgotten due to his dazzling career."
       ],
-      "suggested_copy": "France's Mbapp\u00e9 wins Golden Boot ahead of Messi \u2014 Kylian Mbapp\u00e9 has won the 2026 World Cup Golden Boot with 10 goals after Lionel Messi failed to score in Sunday's final against Spain.",
+      "suggested_copy": "Messi struggled in the World Cup final: So what? H... \u2014 It's unlikely Lionel Messi will play in a World Cup final again, and although he disappointed against Spain, it will be forgotten due to his dazzling career.",
       "confidence": "medium",
       "relevance": [
         "historical_context",
@@ -508,14 +184,14 @@
       "sources": [
         {
           "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/49397919/kylian-mbappe-wins-golden-boot-2026-world-cup-lionel-messi-goalless-final",
+          "url": "https://www.espn.com/soccer/story/_/id/49405864/messi-played-poorly-world-cup-final-vs-spain-the-goat",
           "type": "article",
           "source_family": "espn_rss",
           "source_rank": 2,
           "feed": "https://www.espn.com/espn/rss/soccer/news",
           "feed_url": "https://www.espn.com/espn/rss/soccer/news",
-          "published": "2026-07-20T15:59:54+00:00",
-          "published_at": "2026-07-20T15:59:54+00:00"
+          "published": "2026-07-20T16:40:32+00:00",
+          "published_at": "2026-07-20T16:40:32+00:00"
         }
       ],
       "warnings": []
@@ -559,16 +235,16 @@
           "source_rank": 2,
           "feed": "https://www.espn.com/espn/rss/soccer/news",
           "feed_url": "https://www.espn.com/espn/rss/soccer/news",
-          "published": "2026-07-20T15:59:54+00:00",
-          "published_at": "2026-07-20T15:59:54+00:00"
+          "published": "2026-07-20T16:18:47+00:00",
+          "published_at": "2026-07-20T16:18:47+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-20-messi-played-poorly-in-the-world-cup-final-so-wha",
+      "id": "2026-07-20-france-s-mbapp-wins-golden-boot-ahead-of-messi",
       "generated_from": "sports-events.json",
-      "topic": "Soccer: Messi played poorly in the World Cup final: So wha...",
+      "topic": "Soccer: France's Mbapp\u00e9 wins Golden Boot ahead of Messi",
       "league": "Soccer",
       "note_type": "historical_context",
       "dashboard_slots": [
@@ -581,12 +257,12 @@
       "window": "report_date",
       "window_start": "2026-07-20",
       "window_end": "2026-07-20",
-      "summary": "Messi played poorly in the World Cup final: So wha...",
+      "summary": "France's Mbapp\u00e9 wins Golden Boot ahead of Messi",
       "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
       "supporting_facts": [
-        "It's unlikely Messi will play in a World Cup final again, and although he disappointed against Spain, it will be forgotten due to his dazzling career."
+        "Kylian Mbapp\u00e9 has won the 2026 World Cup Golden Boot with 10 goals after Lionel Messi failed to score in Sunday's final against Spain."
       ],
-      "suggested_copy": "Messi played poorly in the World Cup final: So wha... \u2014 It's unlikely Messi will play in a World Cup final again, and although he disappointed against Spain, it will be forgotten due to his dazzling career.",
+      "suggested_copy": "France's Mbapp\u00e9 wins Golden Boot ahead of Messi \u2014 Kylian Mbapp\u00e9 has won the 2026 World Cup Golden Boot with 10 goals after Lionel Messi failed to score in Sunday's final against Spain.",
       "confidence": "medium",
       "relevance": [
         "historical_context",
@@ -597,15 +273,15 @@
       "source_family": "espn_rss",
       "sources": [
         {
-          "name": "ESPN Top Headlines",
-          "url": "https://www.espn.com/soccer/story/_/id/49405864/messi-played-poorly-world-cup-final-vs-spain-the-goat",
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49397919/kylian-mbappe-wins-golden-boot-2026-world-cup-lionel-messi-goalless-final",
           "type": "article",
           "source_family": "espn_rss",
           "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/news",
-          "feed_url": "https://www.espn.com/espn/rss/news",
-          "published": "2026-07-20T15:56:51+00:00",
-          "published_at": "2026-07-20T15:56:51+00:00"
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-20T16:18:47+00:00",
+          "published_at": "2026-07-20T16:18:47+00:00"
         }
       ],
       "warnings": []
@@ -792,6 +468,51 @@
       "warnings": []
     },
     {
+      "id": "2026-07-20-spain-s-torres-on-wc-winner-destiny-was-written",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Spain's Torres on WC winner: 'Destiny was written'...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-20",
+      "data_date": "2026-07-19",
+      "window": "report_date",
+      "window_start": "2026-07-20",
+      "window_end": "2026-07-20",
+      "summary": "Spain's Torres on WC winner: 'Destiny was written'...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Spain forward Ferran Torres said \"destiny was written\" after firing his country to World Cup glory against Argentina."
+      ],
+      "suggested_copy": "Spain's Torres on WC winner: 'Destiny was written'... \u2014 Spain forward Ferran Torres said \"destiny was written\" after firing his country to World Cup glory against Argentina.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.52,
+      "relevance_reason": "ESPN precision source; matches world cup, argentina",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Top Headlines",
+          "url": "https://www.espn.com/soccer/story/_/id/49405801/spain-hero-ferran-torres-world-cup-2026-winning-goal-destiny-was-written-argentina",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/news",
+          "feed_url": "https://www.espn.com/espn/rss/news",
+          "published": "2026-07-20T16:45:16+00:00",
+          "published_at": "2026-07-20T16:45:16+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
       "id": "2026-07-20-argentina-fa-president-tributes-messi-scaloni",
       "generated_from": "sports-events.json",
       "topic": "Soccer: Argentina FA president tributes Messi, Scaloni",
@@ -828,8 +549,8 @@
           "source_rank": 2,
           "feed": "https://www.espn.com/espn/rss/soccer/news",
           "feed_url": "https://www.espn.com/espn/rss/soccer/news",
-          "published": "2026-07-20T15:59:54+00:00",
-          "published_at": "2026-07-20T15:59:54+00:00"
+          "published": "2026-07-20T16:18:47+00:00",
+          "published_at": "2026-07-20T16:18:47+00:00"
         }
       ],
       "warnings": []
@@ -873,16 +594,16 @@
           "source_rank": 2,
           "feed": "https://www.espn.com/espn/rss/soccer/news",
           "feed_url": "https://www.espn.com/espn/rss/soccer/news",
-          "published": "2026-07-20T15:59:34+00:00",
-          "published_at": "2026-07-20T15:59:34+00:00"
+          "published": "2026-07-20T16:18:47+00:00",
+          "published_at": "2026-07-20T16:18:47+00:00"
         }
       ],
       "warnings": []
     },
     {
-      "id": "2026-07-20-spain-s-torres-on-wc-winner-destiny-was-written",
+      "id": "2026-07-20-spain-s-persistence-pays-off-to-win-2026-world-cup",
       "generated_from": "sports-events.json",
-      "topic": "Soccer: Spain's Torres on WC winner: 'Destiny was written'...",
+      "topic": "Soccer: Spain's persistence pays off to win 2026 World Cup...",
       "league": "Soccer",
       "note_type": "historical_context",
       "dashboard_slots": [
@@ -895,12 +616,12 @@
       "window": "report_date",
       "window_start": "2026-07-20",
       "window_end": "2026-07-20",
-      "summary": "Spain's Torres on WC winner: 'Destiny was written'...",
+      "summary": "Spain's persistence pays off to win 2026 World Cup...",
       "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
       "supporting_facts": [
-        "Spain forward Ferran Torres said \"destiny was written\" after firing his country to World Cup glory against Argentina."
+        "So that's it! The 2026 World Cup is over and Spain have been crowned champions. Here's how they won it, how Argentina lost it, and everything in-between."
       ],
-      "suggested_copy": "Spain's Torres on WC winner: 'Destiny was written'... \u2014 Spain forward Ferran Torres said \"destiny was written\" after firing his country to World Cup glory against Argentina.",
+      "suggested_copy": "Spain's persistence pays off to win 2026 World Cup... \u2014 So that's it! The 2026 World Cup is over and Spain have been crowned champions. Here's how they won it, how Argentina lost it, and everything in-between.",
       "confidence": "medium",
       "relevance": [
         "historical_context",
@@ -911,15 +632,15 @@
       "source_family": "espn_rss",
       "sources": [
         {
-          "name": "ESPN Top Headlines",
-          "url": "https://www.espn.com/soccer/story/_/id/49405801/spain-hero-ferran-torres-world-cup-2026-winning-goal-destiny-was-written-argentina",
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49402253/world-cup-spain-win-lionel-messi-argentina-reaction-analysis-ferran-torres",
           "type": "article",
           "source_family": "espn_rss",
           "source_rank": 2,
-          "feed": "https://www.espn.com/espn/rss/news",
-          "feed_url": "https://www.espn.com/espn/rss/news",
-          "published": "2026-07-20T15:57:36+00:00",
-          "published_at": "2026-07-20T15:57:36+00:00"
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-20T15:37:33+00:00",
+          "published_at": "2026-07-20T15:37:33+00:00"
         }
       ],
       "warnings": []
@@ -1011,39 +732,6 @@
         }
       ],
       "warnings": []
-    },
-    {
-      "id": "2026-07-20-wnba-season-phase",
-      "generated_from": "sports-facts.json",
-      "topic": "WNBA",
-      "league": "WNBA",
-      "note_type": "seasonality",
-      "dashboard_slots": [
-        "today_read",
-        "league_momentum",
-        "bigger_picture"
-      ],
-      "report_date": "2026-07-20",
-      "data_date": "2026-07-19",
-      "summary": "WNBA is currently marked in-season (regular-season).",
-      "why_it_matters": "Use cautiously: this is useful for avoiding obvious seasonality errors, but Cowork should phrase softly or verify before making a strong claim.",
-      "supporting_facts": [
-        "API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added."
-      ],
-      "suggested_copy": "Seasonality check: WNBA is in season as of 2026-07-20; API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added.",
-      "confidence": "low",
-      "relevance_score": 0.45,
-      "relevance_reason": "derived season-phase guardrail for dashboard wording",
-      "sources": [
-        {
-          "name": "manual-public-calendar-seed",
-          "url": "https://www.api-sports.io/",
-          "type": "data_provider"
-        }
-      ],
-      "warnings": [
-        "API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added."
-      ]
     },
     {
       "id": "2026-07-19-dream-s-reese-exits-win-vs-sky-with-leg-injury",
@@ -1216,6 +904,318 @@
         }
       ],
       "warnings": []
+    },
+    {
+      "id": "2026-07-20-nfl-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NFL",
+      "league": "NFL",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-20",
+      "data_date": "2026-07-19",
+      "summary": "NFL is currently marked off-season (pre-season-upcoming).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is 18 days before the next API-Sports season start."
+      ],
+      "suggested_copy": "Seasonality check: NFL is off season as of 2026-07-20; Current date is 18 days before the next API-Sports season start.",
+      "confidence": "medium",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-20-ncaa-football-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NCAA Football",
+      "league": "NCAA Football",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-20",
+      "data_date": "2026-07-19",
+      "summary": "NCAA Football is currently marked off-season (pre-season-upcoming).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is 40 days before the next API-Sports season start."
+      ],
+      "suggested_copy": "Seasonality check: NCAA Football is off season as of 2026-07-20; Current date is 40 days before the next API-Sports season start.",
+      "confidence": "medium",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-20-mlb-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "MLB",
+      "league": "MLB",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-20",
+      "data_date": "2026-07-19",
+      "summary": "MLB is currently marked in-season (regular-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
+      ],
+      "suggested_copy": "Seasonality check: MLB is in season as of 2026-07-20; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
+      "confidence": "medium",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-20-nba-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NBA",
+      "league": "NBA",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-20",
+      "data_date": "2026-07-19",
+      "summary": "NBA is currently marked off-season (off-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is after the API-Sports season end and no active preseason competition was found."
+      ],
+      "suggested_copy": "Seasonality check: NBA is off season as of 2026-07-20; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "confidence": "medium",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-20-ncaa-basketball-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NCAA Basketball",
+      "league": "NCAA Basketball",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-20",
+      "data_date": "2026-07-19",
+      "summary": "NCAA Basketball is currently marked off-season (off-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is after the API-Sports season end and no active preseason competition was found."
+      ],
+      "suggested_copy": "Seasonality check: NCAA Basketball is off season as of 2026-07-20; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "confidence": "medium",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-20-ncaa-women-s-basketball-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NCAA Women's Basketball",
+      "league": "NCAA Women's Basketball",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-20",
+      "data_date": "2026-07-19",
+      "summary": "NCAA Women's Basketball is currently marked off-season (off-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is after the API-Sports season end and no active preseason competition was found."
+      ],
+      "suggested_copy": "Seasonality check: NCAA Women's Basketball is off season as of 2026-07-20; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "confidence": "medium",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-20-nhl-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NHL",
+      "league": "NHL",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-20",
+      "data_date": "2026-07-19",
+      "summary": "NHL is currently marked off-season (off-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is 62 days before the next API-Sports season start."
+      ],
+      "suggested_copy": "Seasonality check: NHL is off season as of 2026-07-20; Current date is 62 days before the next API-Sports season start.",
+      "confidence": "medium",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-20-mls-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "MLS",
+      "league": "MLS",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-20",
+      "data_date": "2026-07-19",
+      "summary": "MLS is currently marked in-season (regular-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
+      ],
+      "suggested_copy": "Seasonality check: MLS is in season as of 2026-07-20; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
+      "confidence": "medium",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-20-fifa-world-cup-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "FIFA World Cup",
+      "league": "FIFA World Cup",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-20",
+      "data_date": "2026-07-19",
+      "summary": "FIFA World Cup is currently marked off-season (off-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is after the API-Sports season end and no active preseason competition was found."
+      ],
+      "suggested_copy": "Seasonality check: FIFA World Cup is off season as of 2026-07-20; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "confidence": "medium",
+      "relevance_score": 0.35,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-20-wnba-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "WNBA",
+      "league": "WNBA",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-20",
+      "data_date": "2026-07-19",
+      "summary": "WNBA is currently marked in-season (regular-season).",
+      "why_it_matters": "Use cautiously: this is useful for avoiding obvious seasonality errors, but Cowork should phrase softly or verify before making a strong claim.",
+      "supporting_facts": [
+        "API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added."
+      ],
+      "suggested_copy": "Seasonality check: WNBA is in season as of 2026-07-20; API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added.",
+      "confidence": "low",
+      "relevance_score": 0.25,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording; intentionally lower-ranked than sourced event candidates",
+      "sources": [
+        {
+          "name": "manual-public-calendar-seed",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": [
+        "API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added."
+      ]
     }
   ]
 }
