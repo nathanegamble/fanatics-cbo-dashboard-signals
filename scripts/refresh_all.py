@@ -157,6 +157,8 @@ def main() -> int:
         write_json(DATA / "contextual-notes-candidates.json", notes)
 
     snapshot_manifest = write_snapshot(report_date, data_date, facts, events, notes, results)
+    if args.snapshot_only:
+        shutil.rmtree(out_dir, ignore_errors=True)
 
     # Latest manifest indexes all available dated snapshots.
     available = []
