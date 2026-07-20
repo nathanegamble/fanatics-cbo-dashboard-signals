@@ -89,7 +89,7 @@ def validate_manifest(obj: dict, base: Path) -> None:
     for file_info in obj.get("files", {}).values():
         p = ROOT / file_info.get("path", "")
         assert p.exists(), f"manifest points to missing file: {p}"
-        assert str(file_info.get("raw_url", "")).startswith("https://raw.githubusercontent.com/"), "manifest raw_url invalid"
+        assert str(file_info.get("raw_url", "")).startswith(("https://raw.githubusercontent.com/", "https://github.com/")), "manifest raw_url invalid"
 
     if base == DATA:
         required_report_files = ["manifest.json", "sports-facts.json", "sports-events.json", "contextual-notes-candidates.json"]

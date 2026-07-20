@@ -42,7 +42,7 @@ def add_report_metadata(obj: dict, report_date: date, data_date: date) -> dict:
 
 
 def build_manifest(report_date: date, data_date: date, facts: dict, events: dict, notes: dict, results: dict, snapshot_rel: str | None = None) -> dict:
-    raw_base = "https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data"
+    raw_base = "https://github.com/nathanegamble/fanatics-cbo-dashboard-signals/raw/refs/heads/main/data"
     ok_statuses = {"ok", "partial"}
     path_prefix = f"{snapshot_rel}/" if snapshot_rel else ""
     raw_prefix = f"{raw_base}/{snapshot_rel}" if snapshot_rel else raw_base
