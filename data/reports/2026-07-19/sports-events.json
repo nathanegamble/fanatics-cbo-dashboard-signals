@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T15:21:20.759811+00:00",
+  "generated_at": "2026-07-20T15:57:41.684880+00:00",
   "as_of": "2026-07-19",
   "report_date": "2026-07-19",
   "data_date": "2026-07-18",
@@ -35,7 +35,7 @@
       "espn_rss",
       "yahoo_sports_rss"
     ],
-    "items_collected_after_dedupe": 423,
+    "items_collected_after_dedupe": 425,
     "backfill_mode": "best_effort_from_current_rss",
     "yahoo_news_sports": "excluded for v0.2 because quick validation showed lower relevance and higher safety/noise risk than Yahoo Sports RSS."
   },
@@ -280,6 +280,29 @@
           "relevance_reason": "ESPN precision source"
         },
         {
+          "headline": "Chicago Blackhawks star Connor Bedard agrees to a five-year, $75 million contract",
+          "detail": "The deal was finalized 10 days after Bedard had surgery on his left shoulder.",
+          "date": "2026-07-18",
+          "published": "2026-07-18T23:56:10+00:00",
+          "published_at": "2026-07-18T23:56:10+00:00",
+          "league": "NHL",
+          "source_name": "Yahoo Sports NHL",
+          "source_family": "yahoo_sports_rss",
+          "source_rank": 1,
+          "feed": "https://sports.yahoo.com/nhl/rss/",
+          "feed_url": "https://sports.yahoo.com/nhl/rss/",
+          "source_url": "https://sports.yahoo.com/articles/chicago-blackhawks-star-connor-bedard-235610972.html",
+          "canonical_url": "https://sports.yahoo.com/articles/chicago-blackhawks-star-connor-bedard-235610972.html",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market",
+            "historical_context",
+            "seasonality"
+          ],
+          "relevance_score": 0.39,
+          "relevance_reason": "Yahoo Sports breadth source; matches final"
+        },
+        {
           "headline": "Chicago Blackhawks star Connor Bedard agrees to a $75 million, five-year contract",
           "detail": "The deal was finalized 10 days after Bedard had surgery on his left shoulder.",
           "date": "2026-07-18",
@@ -301,27 +324,6 @@
           ],
           "relevance_score": 0.39,
           "relevance_reason": "Yahoo Sports breadth source; matches final"
-        },
-        {
-          "headline": "On This Day: Red Wings Named Ken Holland GM, Launching One of Hockeytown s Greatest Eras",
-          "detail": "Fresh off a 1997 title, Detroit secured its future by promoting a scouting visionary who delivered three more Stanley Cups and anchored a legendary 25-year playoff streak.",
-          "date": "2026-07-18",
-          "published": "2026-07-18T21:45:17+00:00",
-          "published_at": "2026-07-18T21:45:17+00:00",
-          "league": "NHL",
-          "source_name": "Yahoo Sports NHL",
-          "source_family": "yahoo_sports_rss",
-          "source_rank": 1,
-          "feed": "https://sports.yahoo.com/nhl/rss/",
-          "feed_url": "https://sports.yahoo.com/nhl/rss/",
-          "source_url": "https://sports.yahoo.com/articles/day-red-wings-named-ken-214517091.html",
-          "canonical_url": "https://sports.yahoo.com/articles/day-red-wings-named-ken-214517091.html",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context"
-          ],
-          "relevance_score": 0.39,
-          "relevance_reason": "Yahoo Sports breadth source; matches playoff"
         },
         {
           "headline": "The center of it all: UConn s Emeka Okafor (SN Archive \u2014 2004)",
@@ -388,27 +390,6 @@
           "relevance_reason": "Yahoo Sports breadth source"
         },
         {
-          "headline": "Blackhawks Connor Bedard agrees to massive five-year contract",
-          "detail": "The Chicago Blackhawks and Connor Bedard agreed to a five-year, $75 million contract as he rehabs from shoulder surgery.",
-          "date": "2026-07-18",
-          "published": "2026-07-18T21:11:55+00:00",
-          "published_at": "2026-07-18T21:11:55+00:00",
-          "league": "NHL",
-          "source_name": "Yahoo Sports NHL",
-          "source_family": "yahoo_sports_rss",
-          "source_rank": 1,
-          "feed": "https://sports.yahoo.com/nhl/rss/",
-          "feed_url": "https://sports.yahoo.com/nhl/rss/",
-          "source_url": "https://sports.yahoo.com/articles/blackhawks-connor-bedard-agrees-lucrative-211155639.html",
-          "canonical_url": "https://sports.yahoo.com/articles/blackhawks-connor-bedard-agrees-lucrative-211155639.html",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market"
-          ],
-          "relevance_score": 0.33,
-          "relevance_reason": "Yahoo Sports breadth source"
-        },
-        {
           "headline": "Contract Details Released For New UW Men s Basketball Assistant",
           "detail": "The Washington Huskies men s basketball program landed one of the more well-established assistant coaches to a school-friendly deal.",
           "date": "2026-07-18",
@@ -464,6 +445,27 @@
           "feed_url": "https://sports.yahoo.com/college-basketball/rss/",
           "source_url": "https://sports.yahoo.com/articles/kentuckys-la-familia-takes-game-190204769.html",
           "canonical_url": "https://sports.yahoo.com/articles/kentuckys-la-familia-takes-game-190204769.html",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ],
+          "relevance_score": 0.33,
+          "relevance_reason": "Yahoo Sports breadth source"
+        },
+        {
+          "headline": "Five-star point guard reclassifies to 2026, will join Arkansas",
+          "detail": "John Calipari will get a new weapon to campus earlier than expected.",
+          "date": "2026-07-18",
+          "published": "2026-07-18T17:20:35+00:00",
+          "published_at": "2026-07-18T17:20:35+00:00",
+          "league": "NCAA Basketball",
+          "source_name": "Yahoo Sports College Basketball",
+          "source_family": "yahoo_sports_rss",
+          "source_rank": 1,
+          "feed": "https://sports.yahoo.com/college-basketball/rss/",
+          "feed_url": "https://sports.yahoo.com/college-basketball/rss/",
+          "source_url": "https://sports.yahoo.com/articles/five-star-point-guard-reclassifies-172035645.html",
+          "canonical_url": "https://sports.yahoo.com/articles/five-star-point-guard-reclassifies-172035645.html",
           "confidence": "medium",
           "relevance": [
             "culture"
@@ -820,49 +822,6 @@
           "relevance_reason": "ESPN precision source"
         },
         {
-          "headline": "Ex-Lakers star Pau Gasol cheers on home country at World Cup final",
-          "detail": "Just moments before the World Cup final between Spain and Argentina was set to kick off, a Lakers champion revealed he is at the game. Pau Gasol posted a photo...",
-          "date": "2026-07-19",
-          "published": "2026-07-19T21:08:07+00:00",
-          "published_at": "2026-07-19T21:08:07+00:00",
-          "league": "NBA",
-          "source_name": "Yahoo Sports NBA",
-          "source_family": "yahoo_sports_rss",
-          "source_rank": 1,
-          "feed": "https://sports.yahoo.com/nba/rss/",
-          "feed_url": "https://sports.yahoo.com/nba/rss/",
-          "source_url": "https://sports.yahoo.com/articles/ex-lakers-star-pau-gasol-210807370.html",
-          "canonical_url": "https://sports.yahoo.com/articles/ex-lakers-star-pau-gasol-210807370.html",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context",
-            "seasonality"
-          ],
-          "relevance_score": 0.51,
-          "relevance_reason": "Yahoo Sports breadth source; matches world cup, final, argentina"
-        },
-        {
-          "headline": "Karl-Anthony Towns talks Knicks, Call of Duty, and why he\u2019s already chasing another championship",
-          "detail": "Gaming and championship reflections from the city\u2019s favorite big man.",
-          "date": "2026-07-19",
-          "published": "2026-07-19T20:00:00+00:00",
-          "published_at": "2026-07-19T20:00:00+00:00",
-          "league": "NBA",
-          "source_name": "Yahoo Sports NBA",
-          "source_family": "yahoo_sports_rss",
-          "source_rank": 1,
-          "feed": "https://sports.yahoo.com/nba/rss/",
-          "feed_url": "https://sports.yahoo.com/nba/rss/",
-          "source_url": "https://sports.yahoo.com/articles/karl-anthony-towns-talks-knicks-200000428.html",
-          "canonical_url": "https://sports.yahoo.com/articles/karl-anthony-towns-talks-knicks-200000428.html",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context"
-          ],
-          "relevance_score": 0.45,
-          "relevance_reason": "Yahoo Sports breadth source; matches championship, knicks"
-        },
-        {
           "headline": "Could the Canadiens Use Kane?",
           "detail": "Should the Montreal Canadiens bringing Patrick Kane in?",
           "date": "2026-07-19",
@@ -903,6 +862,48 @@
           ],
           "relevance_score": 0.39,
           "relevance_reason": "Yahoo Sports breadth source; matches playoff"
+        },
+        {
+          "headline": "Recognition a long time coming for John Calipari (SN Archive \u2014 2012)",
+          "detail": "SN s Mike DeCourcy looks at Kentucky s championship game win over Kansas, as John Calipari convinced a team of freshmen that their best shot at the title would come through each player mattering a little on offense and a lot on defense.",
+          "date": "2026-07-19",
+          "published": "2026-07-19T14:43:03+00:00",
+          "published_at": "2026-07-19T14:43:03+00:00",
+          "league": "NCAA Basketball",
+          "source_name": "Yahoo Sports College Basketball",
+          "source_family": "yahoo_sports_rss",
+          "source_rank": 1,
+          "feed": "https://sports.yahoo.com/college-basketball/rss/",
+          "feed_url": "https://sports.yahoo.com/college-basketball/rss/",
+          "source_url": "https://sports.yahoo.com/articles/recognition-long-time-coming-john-144303845.html",
+          "canonical_url": "https://sports.yahoo.com/articles/recognition-long-time-coming-john-144303845.html",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ],
+          "relevance_score": 0.39,
+          "relevance_reason": "Yahoo Sports breadth source; matches championship"
+        },
+        {
+          "headline": "The Hockey News Sunday Recap: Columbus Blue Jackets",
+          "detail": "Did you miss anything from the past week at The Hockey News - Columbus Blue Jackets? If you did, we have you covered with the Sunday Recap. Click on each card below to read the stories from the past week.",
+          "date": "2026-07-19",
+          "published": "2026-07-19T13:28:11+00:00",
+          "published_at": "2026-07-19T13:28:11+00:00",
+          "league": "NHL",
+          "source_name": "Yahoo Sports NHL",
+          "source_family": "yahoo_sports_rss",
+          "source_rank": 1,
+          "feed": "https://sports.yahoo.com/nhl/rss/",
+          "feed_url": "https://sports.yahoo.com/nhl/rss/",
+          "source_url": "https://sports.yahoo.com/articles/hockey-news-sunday-recap-columbus-132811429.html",
+          "canonical_url": "https://sports.yahoo.com/articles/hockey-news-sunday-recap-columbus-132811429.html",
+          "confidence": "medium",
+          "relevance": [
+            "merch_demand"
+          ],
+          "relevance_score": 0.39,
+          "relevance_reason": "Yahoo Sports breadth source; matches card"
         }
       ]
     },
@@ -1146,6 +1147,29 @@
           "relevance_reason": "ESPN precision source"
         },
         {
+          "headline": "Chicago Blackhawks star Connor Bedard agrees to a five-year, $75 million contract",
+          "detail": "The deal was finalized 10 days after Bedard had surgery on his left shoulder.",
+          "date": "2026-07-18",
+          "published": "2026-07-18T23:56:10+00:00",
+          "published_at": "2026-07-18T23:56:10+00:00",
+          "league": "NHL",
+          "source_name": "Yahoo Sports NHL",
+          "source_family": "yahoo_sports_rss",
+          "source_rank": 1,
+          "feed": "https://sports.yahoo.com/nhl/rss/",
+          "feed_url": "https://sports.yahoo.com/nhl/rss/",
+          "source_url": "https://sports.yahoo.com/articles/chicago-blackhawks-star-connor-bedard-235610972.html",
+          "canonical_url": "https://sports.yahoo.com/articles/chicago-blackhawks-star-connor-bedard-235610972.html",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market",
+            "historical_context",
+            "seasonality"
+          ],
+          "relevance_score": 0.39,
+          "relevance_reason": "Yahoo Sports breadth source; matches final"
+        },
+        {
           "headline": "Chicago Blackhawks star Connor Bedard agrees to a $75 million, five-year contract",
           "detail": "The deal was finalized 10 days after Bedard had surgery on his left shoulder.",
           "date": "2026-07-18",
@@ -1167,27 +1191,6 @@
           ],
           "relevance_score": 0.39,
           "relevance_reason": "Yahoo Sports breadth source; matches final"
-        },
-        {
-          "headline": "On This Day: Red Wings Named Ken Holland GM, Launching One of Hockeytown s Greatest Eras",
-          "detail": "Fresh off a 1997 title, Detroit secured its future by promoting a scouting visionary who delivered three more Stanley Cups and anchored a legendary 25-year playoff streak.",
-          "date": "2026-07-18",
-          "published": "2026-07-18T21:45:17+00:00",
-          "published_at": "2026-07-18T21:45:17+00:00",
-          "league": "NHL",
-          "source_name": "Yahoo Sports NHL",
-          "source_family": "yahoo_sports_rss",
-          "source_rank": 1,
-          "feed": "https://sports.yahoo.com/nhl/rss/",
-          "feed_url": "https://sports.yahoo.com/nhl/rss/",
-          "source_url": "https://sports.yahoo.com/articles/day-red-wings-named-ken-214517091.html",
-          "canonical_url": "https://sports.yahoo.com/articles/day-red-wings-named-ken-214517091.html",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context"
-          ],
-          "relevance_score": 0.39,
-          "relevance_reason": "Yahoo Sports breadth source; matches playoff"
         },
         {
           "headline": "The center of it all: UConn s Emeka Okafor (SN Archive \u2014 2004)",
@@ -1254,27 +1257,6 @@
           "relevance_reason": "Yahoo Sports breadth source"
         },
         {
-          "headline": "Blackhawks Connor Bedard agrees to massive five-year contract",
-          "detail": "The Chicago Blackhawks and Connor Bedard agreed to a five-year, $75 million contract as he rehabs from shoulder surgery.",
-          "date": "2026-07-18",
-          "published": "2026-07-18T21:11:55+00:00",
-          "published_at": "2026-07-18T21:11:55+00:00",
-          "league": "NHL",
-          "source_name": "Yahoo Sports NHL",
-          "source_family": "yahoo_sports_rss",
-          "source_rank": 1,
-          "feed": "https://sports.yahoo.com/nhl/rss/",
-          "feed_url": "https://sports.yahoo.com/nhl/rss/",
-          "source_url": "https://sports.yahoo.com/articles/blackhawks-connor-bedard-agrees-lucrative-211155639.html",
-          "canonical_url": "https://sports.yahoo.com/articles/blackhawks-connor-bedard-agrees-lucrative-211155639.html",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market"
-          ],
-          "relevance_score": 0.33,
-          "relevance_reason": "Yahoo Sports breadth source"
-        },
-        {
           "headline": "Contract Details Released For New UW Men s Basketball Assistant",
           "detail": "The Washington Huskies men s basketball program landed one of the more well-established assistant coaches to a school-friendly deal.",
           "date": "2026-07-18",
@@ -1330,6 +1312,27 @@
           "feed_url": "https://sports.yahoo.com/college-basketball/rss/",
           "source_url": "https://sports.yahoo.com/articles/kentuckys-la-familia-takes-game-190204769.html",
           "canonical_url": "https://sports.yahoo.com/articles/kentuckys-la-familia-takes-game-190204769.html",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ],
+          "relevance_score": 0.33,
+          "relevance_reason": "Yahoo Sports breadth source"
+        },
+        {
+          "headline": "Five-star point guard reclassifies to 2026, will join Arkansas",
+          "detail": "John Calipari will get a new weapon to campus earlier than expected.",
+          "date": "2026-07-18",
+          "published": "2026-07-18T17:20:35+00:00",
+          "published_at": "2026-07-18T17:20:35+00:00",
+          "league": "NCAA Basketball",
+          "source_name": "Yahoo Sports College Basketball",
+          "source_family": "yahoo_sports_rss",
+          "source_rank": 1,
+          "feed": "https://sports.yahoo.com/college-basketball/rss/",
+          "feed_url": "https://sports.yahoo.com/college-basketball/rss/",
+          "source_url": "https://sports.yahoo.com/articles/five-star-point-guard-reclassifies-172035645.html",
+          "canonical_url": "https://sports.yahoo.com/articles/five-star-point-guard-reclassifies-172035645.html",
           "confidence": "medium",
           "relevance": [
             "culture"
@@ -2454,6 +2457,29 @@
           "relevance_reason": "ESPN precision source"
         },
         {
+          "headline": "Chicago Blackhawks star Connor Bedard agrees to a five-year, $75 million contract",
+          "detail": "The deal was finalized 10 days after Bedard had surgery on his left shoulder.",
+          "date": "2026-07-18",
+          "published": "2026-07-18T23:56:10+00:00",
+          "published_at": "2026-07-18T23:56:10+00:00",
+          "league": "NHL",
+          "source_name": "Yahoo Sports NHL",
+          "source_family": "yahoo_sports_rss",
+          "source_rank": 1,
+          "feed": "https://sports.yahoo.com/nhl/rss/",
+          "feed_url": "https://sports.yahoo.com/nhl/rss/",
+          "source_url": "https://sports.yahoo.com/articles/chicago-blackhawks-star-connor-bedard-235610972.html",
+          "canonical_url": "https://sports.yahoo.com/articles/chicago-blackhawks-star-connor-bedard-235610972.html",
+          "confidence": "medium",
+          "relevance": [
+            "roster_market",
+            "historical_context",
+            "seasonality"
+          ],
+          "relevance_score": 0.39,
+          "relevance_reason": "Yahoo Sports breadth source; matches final"
+        },
+        {
           "headline": "Chicago Blackhawks star Connor Bedard agrees to a $75 million, five-year contract",
           "detail": "The deal was finalized 10 days after Bedard had surgery on his left shoulder.",
           "date": "2026-07-18",
@@ -2475,27 +2501,6 @@
           ],
           "relevance_score": 0.39,
           "relevance_reason": "Yahoo Sports breadth source; matches final"
-        },
-        {
-          "headline": "On This Day: Red Wings Named Ken Holland GM, Launching One of Hockeytown s Greatest Eras",
-          "detail": "Fresh off a 1997 title, Detroit secured its future by promoting a scouting visionary who delivered three more Stanley Cups and anchored a legendary 25-year playoff streak.",
-          "date": "2026-07-18",
-          "published": "2026-07-18T21:45:17+00:00",
-          "published_at": "2026-07-18T21:45:17+00:00",
-          "league": "NHL",
-          "source_name": "Yahoo Sports NHL",
-          "source_family": "yahoo_sports_rss",
-          "source_rank": 1,
-          "feed": "https://sports.yahoo.com/nhl/rss/",
-          "feed_url": "https://sports.yahoo.com/nhl/rss/",
-          "source_url": "https://sports.yahoo.com/articles/day-red-wings-named-ken-214517091.html",
-          "canonical_url": "https://sports.yahoo.com/articles/day-red-wings-named-ken-214517091.html",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context"
-          ],
-          "relevance_score": 0.39,
-          "relevance_reason": "Yahoo Sports breadth source; matches playoff"
         },
         {
           "headline": "The center of it all: UConn s Emeka Okafor (SN Archive \u2014 2004)",
@@ -2562,27 +2567,6 @@
           "relevance_reason": "Yahoo Sports breadth source"
         },
         {
-          "headline": "Blackhawks Connor Bedard agrees to massive five-year contract",
-          "detail": "The Chicago Blackhawks and Connor Bedard agreed to a five-year, $75 million contract as he rehabs from shoulder surgery.",
-          "date": "2026-07-18",
-          "published": "2026-07-18T21:11:55+00:00",
-          "published_at": "2026-07-18T21:11:55+00:00",
-          "league": "NHL",
-          "source_name": "Yahoo Sports NHL",
-          "source_family": "yahoo_sports_rss",
-          "source_rank": 1,
-          "feed": "https://sports.yahoo.com/nhl/rss/",
-          "feed_url": "https://sports.yahoo.com/nhl/rss/",
-          "source_url": "https://sports.yahoo.com/articles/blackhawks-connor-bedard-agrees-lucrative-211155639.html",
-          "canonical_url": "https://sports.yahoo.com/articles/blackhawks-connor-bedard-agrees-lucrative-211155639.html",
-          "confidence": "medium",
-          "relevance": [
-            "roster_market"
-          ],
-          "relevance_score": 0.33,
-          "relevance_reason": "Yahoo Sports breadth source"
-        },
-        {
           "headline": "Contract Details Released For New UW Men s Basketball Assistant",
           "detail": "The Washington Huskies men s basketball program landed one of the more well-established assistant coaches to a school-friendly deal.",
           "date": "2026-07-18",
@@ -2638,6 +2622,27 @@
           "feed_url": "https://sports.yahoo.com/college-basketball/rss/",
           "source_url": "https://sports.yahoo.com/articles/kentuckys-la-familia-takes-game-190204769.html",
           "canonical_url": "https://sports.yahoo.com/articles/kentuckys-la-familia-takes-game-190204769.html",
+          "confidence": "medium",
+          "relevance": [
+            "culture"
+          ],
+          "relevance_score": 0.33,
+          "relevance_reason": "Yahoo Sports breadth source"
+        },
+        {
+          "headline": "Five-star point guard reclassifies to 2026, will join Arkansas",
+          "detail": "John Calipari will get a new weapon to campus earlier than expected.",
+          "date": "2026-07-18",
+          "published": "2026-07-18T17:20:35+00:00",
+          "published_at": "2026-07-18T17:20:35+00:00",
+          "league": "NCAA Basketball",
+          "source_name": "Yahoo Sports College Basketball",
+          "source_family": "yahoo_sports_rss",
+          "source_rank": 1,
+          "feed": "https://sports.yahoo.com/college-basketball/rss/",
+          "feed_url": "https://sports.yahoo.com/college-basketball/rss/",
+          "source_url": "https://sports.yahoo.com/articles/five-star-point-guard-reclassifies-172035645.html",
+          "canonical_url": "https://sports.yahoo.com/articles/five-star-point-guard-reclassifies-172035645.html",
           "confidence": "medium",
           "relevance": [
             "culture"
@@ -2994,49 +2999,6 @@
           "relevance_reason": "ESPN precision source"
         },
         {
-          "headline": "Ex-Lakers star Pau Gasol cheers on home country at World Cup final",
-          "detail": "Just moments before the World Cup final between Spain and Argentina was set to kick off, a Lakers champion revealed he is at the game. Pau Gasol posted a photo...",
-          "date": "2026-07-19",
-          "published": "2026-07-19T21:08:07+00:00",
-          "published_at": "2026-07-19T21:08:07+00:00",
-          "league": "NBA",
-          "source_name": "Yahoo Sports NBA",
-          "source_family": "yahoo_sports_rss",
-          "source_rank": 1,
-          "feed": "https://sports.yahoo.com/nba/rss/",
-          "feed_url": "https://sports.yahoo.com/nba/rss/",
-          "source_url": "https://sports.yahoo.com/articles/ex-lakers-star-pau-gasol-210807370.html",
-          "canonical_url": "https://sports.yahoo.com/articles/ex-lakers-star-pau-gasol-210807370.html",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context",
-            "seasonality"
-          ],
-          "relevance_score": 0.51,
-          "relevance_reason": "Yahoo Sports breadth source; matches world cup, final, argentina"
-        },
-        {
-          "headline": "Karl-Anthony Towns talks Knicks, Call of Duty, and why he\u2019s already chasing another championship",
-          "detail": "Gaming and championship reflections from the city\u2019s favorite big man.",
-          "date": "2026-07-19",
-          "published": "2026-07-19T20:00:00+00:00",
-          "published_at": "2026-07-19T20:00:00+00:00",
-          "league": "NBA",
-          "source_name": "Yahoo Sports NBA",
-          "source_family": "yahoo_sports_rss",
-          "source_rank": 1,
-          "feed": "https://sports.yahoo.com/nba/rss/",
-          "feed_url": "https://sports.yahoo.com/nba/rss/",
-          "source_url": "https://sports.yahoo.com/articles/karl-anthony-towns-talks-knicks-200000428.html",
-          "canonical_url": "https://sports.yahoo.com/articles/karl-anthony-towns-talks-knicks-200000428.html",
-          "confidence": "medium",
-          "relevance": [
-            "historical_context"
-          ],
-          "relevance_score": 0.45,
-          "relevance_reason": "Yahoo Sports breadth source; matches championship, knicks"
-        },
-        {
           "headline": "Could the Canadiens Use Kane?",
           "detail": "Should the Montreal Canadiens bringing Patrick Kane in?",
           "date": "2026-07-19",
@@ -3077,6 +3039,48 @@
           ],
           "relevance_score": 0.39,
           "relevance_reason": "Yahoo Sports breadth source; matches playoff"
+        },
+        {
+          "headline": "Recognition a long time coming for John Calipari (SN Archive \u2014 2012)",
+          "detail": "SN s Mike DeCourcy looks at Kentucky s championship game win over Kansas, as John Calipari convinced a team of freshmen that their best shot at the title would come through each player mattering a little on offense and a lot on defense.",
+          "date": "2026-07-19",
+          "published": "2026-07-19T14:43:03+00:00",
+          "published_at": "2026-07-19T14:43:03+00:00",
+          "league": "NCAA Basketball",
+          "source_name": "Yahoo Sports College Basketball",
+          "source_family": "yahoo_sports_rss",
+          "source_rank": 1,
+          "feed": "https://sports.yahoo.com/college-basketball/rss/",
+          "feed_url": "https://sports.yahoo.com/college-basketball/rss/",
+          "source_url": "https://sports.yahoo.com/articles/recognition-long-time-coming-john-144303845.html",
+          "canonical_url": "https://sports.yahoo.com/articles/recognition-long-time-coming-john-144303845.html",
+          "confidence": "medium",
+          "relevance": [
+            "historical_context"
+          ],
+          "relevance_score": 0.39,
+          "relevance_reason": "Yahoo Sports breadth source; matches championship"
+        },
+        {
+          "headline": "The Hockey News Sunday Recap: Columbus Blue Jackets",
+          "detail": "Did you miss anything from the past week at The Hockey News - Columbus Blue Jackets? If you did, we have you covered with the Sunday Recap. Click on each card below to read the stories from the past week.",
+          "date": "2026-07-19",
+          "published": "2026-07-19T13:28:11+00:00",
+          "published_at": "2026-07-19T13:28:11+00:00",
+          "league": "NHL",
+          "source_name": "Yahoo Sports NHL",
+          "source_family": "yahoo_sports_rss",
+          "source_rank": 1,
+          "feed": "https://sports.yahoo.com/nhl/rss/",
+          "feed_url": "https://sports.yahoo.com/nhl/rss/",
+          "source_url": "https://sports.yahoo.com/articles/hockey-news-sunday-recap-columbus-132811429.html",
+          "canonical_url": "https://sports.yahoo.com/articles/hockey-news-sunday-recap-columbus-132811429.html",
+          "confidence": "medium",
+          "relevance": [
+            "merch_demand"
+          ],
+          "relevance_score": 0.39,
+          "relevance_reason": "Yahoo Sports breadth source; matches card"
         }
       ]
     }

@@ -6,6 +6,7 @@ written to output. Output is public, non-sensitive sports metadata.
 """
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import re
@@ -294,10 +295,16 @@ def refresh() -> dict[str, Any]:
 
 
 def main() -> int:
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output-dir", default=str(DATA_DIR))
+    args = parser.parse_args()
+    output_dir = Path(args.output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
     out = refresh()
-    (DATA_DIR / "sports-facts.json").write_text(json.dumps(out, indent=2, sort_keys=False) + "\n")
-    print(json.dumps({"wrote": "data/sports-facts.json", "status": out["status"], "leagues": len(out["leagues"]), "request_count": out.get("source_detail", {}).get("request_count")}, indent=2))
+    output_path = output_dir / "sports-facts.json"
+    output_path.write_text(json.dumps(out, indent=2, sort_keys=False) + "\n")
+    wrote = str(output_path.relative_to(ROOT)) if output_path.is_relative_to(ROOT) else str(output_path)
+    print(json.dumps({"wrote": wrote, "status": out["status"], "leagues": len(out["leagues"]), "request_count": out.get("source_detail", {}).get("request_count")}, indent=2))
     return 0 if out["status"] in {"ok", "partial"} else 1
 
 

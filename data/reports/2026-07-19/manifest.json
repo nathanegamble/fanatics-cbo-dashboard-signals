@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T15:21:24.846897+00:00",
+  "generated_at": "2026-07-20T15:57:45.757538+00:00",
   "status": "ok",
   "version": "0.2",
   "report_date": "2026-07-19",
@@ -39,15 +39,15 @@
   "run_results": {
     "refresh_api_sports.py": {
       "exit_code": 0,
-      "output": "reused latest sports-facts.json for dated snapshot"
+      "output": "{\n  \"wrote\": \"data/reports/2026-07-19/sports-facts.json\",\n  \"status\": \"ok\",\n  \"leagues\": 10,\n  \"request_count\": 19\n}"
     },
     "refresh_events.py": {
       "exit_code": 0,
-      "output": "{\n  \"wrote\": \"/Users/horatio/Projects/fanatics-cbo-dashboard-signals/data/_tmp/2026-07-19/sports-events.json\",\n  \"status\": \"partial\",\n  \"items_collected\": 423,\n  \"report_date\": \"2026-07-19\",\n  \"data_date\": \"2026-07-18\"\n}"
+      "output": "{\n  \"wrote\": \"/Users/horatio/Projects/fanatics-cbo-dashboard-signals/data/reports/2026-07-19/sports-events.json\",\n  \"status\": \"partial\",\n  \"items_collected\": 425,\n  \"report_date\": \"2026-07-19\",\n  \"data_date\": \"2026-07-18\"\n}"
     },
     "refresh_contextual_notes.py": {
       "exit_code": 0,
-      "output": "{\n  \"wrote\": \"/Users/horatio/Projects/fanatics-cbo-dashboard-signals/data/_tmp/2026-07-19/contextual-notes-candidates.json\",\n  \"status\": \"ok\",\n  \"candidate_count\": 30,\n  \"report_date\": \"2026-07-19\",\n  \"data_date\": \"2026-07-18\"\n}"
+      "output": "{\n  \"wrote\": \"/Users/horatio/Projects/fanatics-cbo-dashboard-signals/data/reports/2026-07-19/contextual-notes-candidates.json\",\n  \"status\": \"ok\",\n  \"candidate_count\": 30,\n  \"report_date\": \"2026-07-19\",\n  \"data_date\": \"2026-07-18\"\n}"
     }
   },
   "consumer_notes": [

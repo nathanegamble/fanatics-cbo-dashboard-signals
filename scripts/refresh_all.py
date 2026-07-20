@@ -98,6 +98,21 @@ def write_snapshot(report_date: date, data_date: date, facts: dict, events: dict
     return manifest
 
 
+def normalize_result_paths(results: dict[str, dict], staging_dir: Path, report_date: date) -> dict[str, dict]:
+    """Keep manifests consumer-facing: do not expose transient staging paths."""
+    published_dir = DATA / "reports" / str(report_date)
+    staging_rel = f"data/_tmp/{report_date}"
+    published_rel = f"data/reports/{report_date}"
+    normalized: dict[str, dict] = {}
+    for name, result in results.items():
+        updated = dict(result)
+        output = updated.get("output")
+        if isinstance(output, str):
+            updated["output"] = output.replace(str(staging_dir), str(published_dir)).replace(staging_rel, published_rel)
+        normalized[name] = updated
+    return normalized
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--report-date")
@@ -119,22 +134,13 @@ def main() -> int:
     exit_code = 0
 
     # API-Sports facts remain latest/public sports metadata. We annotate report_date/data_date after generation.
+    facts_args = [sys.executable, str(ROOT / "scripts" / "refresh_api_sports.py")]
     if args.snapshot_only:
-        # Reuse latest facts for backfill to preserve API quota and avoid pretending API state is historical.
-        src_facts = DATA / "sports-facts.json"
-        if not src_facts.exists():
-            code, output = run([sys.executable, str(ROOT / "scripts" / "refresh_api_sports.py")])
-            results["refresh_api_sports.py"] = {"exit_code": code, "output": output[-2000:]}
-            if code != 0:
-                exit_code = code
-        else:
-            shutil.copy2(src_facts, out_dir / "sports-facts.json")
-            results["refresh_api_sports.py"] = {"exit_code": 0, "output": "reused latest sports-facts.json for dated snapshot"}
-    else:
-        code, output = run([sys.executable, str(ROOT / "scripts" / "refresh_api_sports.py")])
-        results["refresh_api_sports.py"] = {"exit_code": code, "output": output[-2000:]}
-        if code != 0:
-            exit_code = code
+        facts_args.extend(["--output-dir", str(out_dir)])
+    code, output = run(facts_args)
+    results["refresh_api_sports.py"] = {"exit_code": code, "output": output[-2000:]}
+    if code != 0:
+        exit_code = code
 
     event_args = [sys.executable, str(ROOT / "scripts" / "refresh_events.py"), "--report-date", str(report_date), "--data-date", str(data_date), "--output-dir", str(out_dir), "--backfill-mode", args.backfill_mode]
     code, output = run(event_args)
@@ -150,6 +156,8 @@ def main() -> int:
     facts = add_report_metadata(load(out_dir / "sports-facts.json"), report_date, data_date)
     events = add_report_metadata(load(out_dir / "sports-events.json"), report_date, data_date)
     notes = add_report_metadata(load(out_dir / "contextual-notes-candidates.json"), report_date, data_date)
+    if args.snapshot_only:
+        results = normalize_result_paths(results, out_dir, report_date)
 
     if not args.snapshot_only:
         write_json(DATA / "sports-facts.json", facts)
