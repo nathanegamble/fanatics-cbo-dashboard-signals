@@ -91,6 +91,24 @@ def validate_manifest(obj: dict, base: Path) -> None:
         assert p.exists(), f"manifest points to missing file: {p}"
         assert str(file_info.get("raw_url", "")).startswith("https://raw.githubusercontent.com/"), "manifest raw_url invalid"
 
+    if base == DATA:
+        required_report_files = ["manifest.json", "sports-facts.json", "sports-events.json", "contextual-notes-candidates.json"]
+        for report in obj.get("available_reports", []):
+            report_date = report.get("report_date")
+            assert report_date, "available_reports entry missing report_date"
+            report_dir = DATA / "reports" / report_date
+            for name in required_report_files:
+                assert (report_dir / name).exists(), f"available report {report_date} missing {name}"
+            path = report.get("path")
+            assert path == f"data/reports/{report_date}/manifest.json", f"available report path mismatch: {path}"
+        dated = obj.get("dated_snapshot", {})
+        latest = obj.get("latest_report_date") or obj.get("report_date")
+        if latest:
+            expected = f"data/reports/{latest}/manifest.json"
+            assert dated.get("path") == expected, f"dated_snapshot path mismatch: {dated.get('path')} != {expected}"
+            for name in required_report_files:
+                assert (DATA / "reports" / latest / name).exists(), f"latest report {latest} missing {name}"
+
 
 def validate_bundle(directory: Path) -> None:
     facts_path = directory / "sports-facts.json"

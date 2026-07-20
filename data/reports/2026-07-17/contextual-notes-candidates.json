@@ -1,0 +1,1230 @@
+{
+  "generated_at": "2026-07-17T09:45:26.138636+00:00",
+  "as_of": "2026-07-17",
+  "report_date": "2026-07-17",
+  "data_date": "2026-07-16",
+  "report_date_basis": "Cowork dashboard report date follows receipt/publication date; underlying business data represents the prior day.",
+  "source": "Derived from sports-facts.json and sports-events.json",
+  "version": "0.2",
+  "status": "ok",
+  "warnings": [
+    "These are candidate notes for Cowork to adapt, not final executive-dashboard prose.",
+    "Cowork should verify tone, suppress low-confidence items where appropriate, and cite source URLs in final notes.",
+    "Crime/legal tragedy items are filtered out of candidates by default; add a separate reputation-risk feed if needed.",
+    "Yahoo Sports RSS is a breadth/discovery layer; use official/ESPN sources for stronger factual sports-history claims when possible."
+  ],
+  "intended_use": "Candidate Contextual Notes for the Fanatics CBO dashboard executive-intelligence layer.",
+  "candidate_count": 30,
+  "candidates": [
+    {
+      "id": "2026-07-17-bellingham-explains-messi-debate-at-world-cup",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Bellingham explains Messi debate at World Cup",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "report_date",
+      "window_start": "2026-07-17",
+      "window_end": "2026-07-17",
+      "summary": "Bellingham explains Messi debate at World Cup",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Jude Bellingham has played down what appeared to be an animated discussion with Lionel Messi during the World Cup semifinal."
+      ],
+      "suggested_copy": "Bellingham explains Messi debate at World Cup \u2014 Jude Bellingham has played down what appeared to be an animated discussion with Lionel Messi during the World Cup semifinal.",
+      "confidence": "high",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.7,
+      "relevance_reason": "ESPN precision source; matches world cup, semifinal, final, messi, bellingham",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49375757/jude-bellingham-explains-lionel-messi-conversation-world-cup-semifinal",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-17T01:12:37+00:00",
+          "published_at": "2026-07-17T01:12:37+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-nfl-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NFL",
+      "league": "NFL",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "summary": "NFL is currently marked off-season (pre-season-upcoming).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is 21 days before the next API-Sports season start."
+      ],
+      "suggested_copy": "Seasonality check: NFL is off season as of 2026-07-17; Current date is 21 days before the next API-Sports season start.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-ncaa-football-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NCAA Football",
+      "league": "NCAA Football",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "summary": "NCAA Football is currently marked off-season (pre-season-upcoming).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is 43 days before the next API-Sports season start."
+      ],
+      "suggested_copy": "Seasonality check: NCAA Football is off season as of 2026-07-17; Current date is 43 days before the next API-Sports season start.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-mlb-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "MLB",
+      "league": "MLB",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "summary": "MLB is currently marked in-season (regular-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
+      ],
+      "suggested_copy": "Seasonality check: MLB is in season as of 2026-07-17; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-nba-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NBA",
+      "league": "NBA",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "summary": "NBA is currently marked off-season (off-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is after the API-Sports season end and no active preseason competition was found."
+      ],
+      "suggested_copy": "Seasonality check: NBA is off season as of 2026-07-17; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-ncaa-basketball-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NCAA Basketball",
+      "league": "NCAA Basketball",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "summary": "NCAA Basketball is currently marked off-season (off-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is after the API-Sports season end and no active preseason competition was found."
+      ],
+      "suggested_copy": "Seasonality check: NCAA Basketball is off season as of 2026-07-17; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-ncaa-women-s-basketball-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NCAA Women's Basketball",
+      "league": "NCAA Women's Basketball",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "summary": "NCAA Women's Basketball is currently marked off-season (off-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is after the API-Sports season end and no active preseason competition was found."
+      ],
+      "suggested_copy": "Seasonality check: NCAA Women's Basketball is off season as of 2026-07-17; Current date is after the API-Sports season end and no active preseason competition was found.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-nhl-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "NHL",
+      "league": "NHL",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "summary": "NHL is currently marked off-season (off-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date is 65 days before the next API-Sports season start."
+      ],
+      "suggested_copy": "Seasonality check: NHL is off season as of 2026-07-17; Current date is 65 days before the next API-Sports season start.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-mls-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "MLS",
+      "league": "MLS",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "summary": "MLS is currently marked in-season (regular-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
+      ],
+      "suggested_copy": "Seasonality check: MLS is in season as of 2026-07-17; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-fifa-world-cup-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "FIFA World Cup",
+      "league": "FIFA World Cup",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "summary": "FIFA World Cup is currently marked in-season (regular-season).",
+      "why_it_matters": "Use this to keep dashboard language seasonally accurate; avoid saying a league is starting, peaking, or finished unless the phase supports it.",
+      "supporting_facts": [
+        "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata."
+      ],
+      "suggested_copy": "Seasonality check: FIFA World Cup is in season as of 2026-07-17; Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
+      "confidence": "medium",
+      "relevance_score": 0.65,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "api-sports.io",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-argentina-show-why-they-re-reigning-world-cup-cham",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Argentina show why they're reigning World Cup cham...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "data_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "Argentina show why they're reigning World Cup cham...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Argentina flipped the script yet again with two late goals to stun England, sending them to the World Cup final with a chance to repeat as champions vs. Spain."
+      ],
+      "suggested_copy": "Argentina show why they're reigning World Cup cham... \u2014 Argentina flipped the script yet again with two late goals to stun England, sending them to the World Cup final with a chance to repeat as champions vs. Spain.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.64,
+      "relevance_reason": "ESPN precision source; matches world cup, final, argentina, england",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49368783/argentina-show-why-world-cup-champs-epic-comeback-england",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-16T19:47:44+00:00",
+          "published_at": "2026-07-16T19:47:44+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-player-ratings-messi-gets-9-10-as-argentina-beat",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Player ratings: Messi gets 9/10 as Argentina beat ...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "data_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "Player ratings: Messi gets 9/10 as Argentina beat ...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Lionel Messi provided the decisive cross in stoppage time that helped Argentina to the World Cup final."
+      ],
+      "suggested_copy": "Player ratings: Messi gets 9/10 as Argentina beat ... \u2014 Lionel Messi provided the decisive cross in stoppage time that helped Argentina to the World Cup final.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.64,
+      "relevance_reason": "ESPN precision source; matches world cup, final, messi, argentina",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49368108/player-ratings-lionel-messi-gets-9-10-argentina-beat-england-reach-world-cup-final",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-16T10:22:08+00:00",
+          "published_at": "2026-07-16T10:22:08+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-messi-and-the-forgotten-tape-how-argentina-raced",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Messi and the forgotten tape: How Argentina raced ...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "report_date",
+      "window_start": "2026-07-17",
+      "window_end": "2026-07-17",
+      "summary": "Messi and the forgotten tape: How Argentina raced ...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "As Lionel Messi prepares to lead Argentina against Spain in Sunday's World Cup final, ESPN spoke to those who shaped his international career."
+      ],
+      "suggested_copy": "Messi and the forgotten tape: How Argentina raced ... \u2014 As Lionel Messi prepares to lead Argentina against Spain in Sunday's World Cup final, ESPN spoke to those who shaped his international career.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.64,
+      "relevance_reason": "ESPN precision source; matches world cup, final, messi, argentina",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/48636037/lionel-messi-forgotten-vhs-tape-oral-history-argentina-spain-recruit-barcelona-world-cup",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-17T10:23:38+00:00",
+          "published_at": "2026-07-17T10:23:38+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-tuchel-s-retreat-set-up-england-s-world-cup-exit-a",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Tuchel's retreat set up England's World Cup exit a...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "report_date",
+      "window_start": "2026-07-17",
+      "window_end": "2026-07-17",
+      "summary": "Tuchel's retreat set up England's World Cup exit a...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Just 10 days ago, Thomas Tuchel was being hailed as a tactical genius. England's semifinal capitulation, however, has the spotlight firmly on the Three Lions boss."
+      ],
+      "suggested_copy": "Tuchel's retreat set up England's World Cup exit a... \u2014 Just 10 days ago, Thomas Tuchel was being hailed as a tactical genius. England's semifinal capitulation, however, has the spotlight firmly on the Three Lions boss.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.64,
+      "relevance_reason": "ESPN precision source; matches world cup, semifinal, final, england",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49373334/tuchel-retreat-set-england-world-cup-exit-argentina-smelt-blood",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-17T09:45:08+00:00",
+          "published_at": "2026-07-17T09:45:08+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-yamal-porro-train-apart-from-spain-teammates",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Yamal, Porro train apart from Spain teammates",
+      "league": "Soccer",
+      "note_type": "demand_signal",
+      "dashboard_slots": [
+        "what_moving",
+        "creative_programs",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "report_date",
+      "window_start": "2026-07-17",
+      "window_end": "2026-07-17",
+      "summary": "Yamal, Porro train apart from Spain teammates",
+      "why_it_matters": "Potential demand signal for licensed merchandise, player/team interest, or creative programming.",
+      "supporting_facts": [
+        "Spain stars Lamine Yamal and Pedro Porro trained separately from their teammates on Thursday during the team's first training session in New Jersey but are expected to be fit for Sunday's World Cup final vs. Argentina at MetLife Stadium."
+      ],
+      "suggested_copy": "Yamal, Porro train apart from Spain teammates \u2014 Spain stars Lamine Yamal and Pedro Porro trained separately from their teammates on Thursday during the team's first training session in New Jersey but are expected to be fit for Sunday's World Cup final vs. Argentina at",
+      "confidence": "medium",
+      "relevance": [
+        "merch_demand",
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.64,
+      "relevance_reason": "ESPN precision source; matches world cup, final, jersey, argentina",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49378610/spain-lamine-yamal-pedro-porro-train-apart-fit-argentina-world-cup-final",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-17T01:12:37+00:00",
+          "published_at": "2026-07-17T01:12:37+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-messi-first-met-yamal-as-a-baby-their-next-meetin",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Messi first met Yamal as a baby. Their next meetin...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "report_date",
+      "window_start": "2026-07-17",
+      "window_end": "2026-07-17",
+      "summary": "Messi first met Yamal as a baby. Their next meetin...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Little did Lionel Messi know when he picked up the baby Lamine Yamal two decades ago that he was holding a future World Cup final opponent in his arms."
+      ],
+      "suggested_copy": "Messi first met Yamal as a baby. Their next meetin... \u2014 Little did Lionel Messi know when he picked up the baby Lamine Yamal two decades ago that he was holding a future World Cup final opponent in his arms.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.58,
+      "relevance_reason": "ESPN precision source; matches world cup, final, messi",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/40532807/lionel-messi-baby-lamine-yamal-barcelona-spain-argentina-world-cup-final",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-17T10:22:42+00:00",
+          "published_at": "2026-07-17T10:22:42+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-new-york-s-big-week-lebron-at-fanatics-fest",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: \ud83d\uddfd New York's big week: LeBron at Fanatics Fest",
+      "league": "Soccer",
+      "note_type": "demand_signal",
+      "dashboard_slots": [
+        "what_moving",
+        "creative_programs",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "report_date",
+      "window_start": "2026-07-17",
+      "window_end": "2026-07-17",
+      "summary": "\ud83d\uddfd New York's big week: LeBron at Fanatics Fest",
+      "why_it_matters": "Potential demand signal for licensed merchandise, player/team interest, or creative programming.",
+      "supporting_facts": [
+        "Follow our live coverage as the Sports Humanitarian Awards, ESPYS, Fanatics Fest, World Cup final and more turn the Big Apple into the center of the sports world."
+      ],
+      "suggested_copy": "\ud83d\uddfd New York's big week: LeBron at Fanatics Fest \u2014 Follow our live coverage as the Sports Humanitarian Awards, ESPYS, Fanatics Fest, World Cup final and more turn the Big Apple into the center of the sports world.",
+      "confidence": "medium",
+      "relevance": [
+        "merch_demand",
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.58,
+      "relevance_reason": "ESPN precision source; matches world cup, final, fanatics",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Top Headlines",
+          "url": "https://www.espn.com/espys/story/_/id/49311497/2026-sports-humanitarian-awards-espys-fanatics-fest-world-cup-final-new-york",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/news",
+          "feed_url": "https://www.espn.com/espn/rss/news",
+          "published": "2026-07-17T02:44:09+00:00",
+          "published_at": "2026-07-17T02:44:09+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-pel-s-1958-world-cup-final-jersey-sells-for-4-9m",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Pel\u00e9's 1958 World Cup final jersey sells for $4.9M...",
+      "league": "Soccer",
+      "note_type": "demand_signal",
+      "dashboard_slots": [
+        "what_moving",
+        "creative_programs",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "report_date",
+      "window_start": "2026-07-17",
+      "window_end": "2026-07-17",
+      "summary": "Pel\u00e9's 1958 World Cup final jersey sells for $4.9M...",
+      "why_it_matters": "Potential demand signal for licensed merchandise, player/team interest, or creative programming.",
+      "supporting_facts": [
+        "The jersey Pel\u00e9 wore during Brazil's 5-2 victory over Sweden in the 1958 FIFA World Cup final sold at Sotheby's for $4.88 million on Thursday."
+      ],
+      "suggested_copy": "Pel\u00e9's 1958 World Cup final jersey sells for $4.9M... \u2014 The jersey Pel\u00e9 wore during Brazil's 5-2 victory over Sweden in the 1958 FIFA World Cup final sold at Sotheby's for $4.88 million on Thursday.",
+      "confidence": "medium",
+      "relevance": [
+        "merch_demand",
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.58,
+      "relevance_reason": "ESPN precision source; matches world cup, final, jersey",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49379130/pele-1958-world-cup-final-brazil-jersey-auction-price",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-17T01:12:37+00:00",
+          "published_at": "2026-07-17T01:12:37+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-world-cup-daily-argentina-fans-party-after-dramat",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: World Cup daily: Argentina fans party after dramat...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "data_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "World Cup daily: Argentina fans party after dramat...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Enjoy all the features, news, video analysis and color from around the competition as the 2026 FIFA World Cup is nearing its end."
+      ],
+      "suggested_copy": "World Cup daily: Argentina fans party after dramat... \u2014 Enjoy all the features, news, video analysis and color from around the competition as the 2026 FIFA World Cup is nearing its end.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.52,
+      "relevance_reason": "ESPN precision source; matches world cup, argentina",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Top Headlines",
+          "url": "https://www.espn.com/soccer/story/_/id/49373548/world-cup-daily-argentina-fans-party-dramatic-world-cup-semifinal-win",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/news",
+          "feed_url": "https://www.espn.com/espn/rss/news",
+          "published": "2026-07-16T20:49:04+00:00",
+          "published_at": "2026-07-16T20:49:04+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-brewers-jacob-misiorowski-s-all-star-game-glove-i",
+      "generated_from": "sports-events.json",
+      "topic": "MLB: Brewers' Jacob Misiorowski's All-Star Game glove i...",
+      "league": "MLB",
+      "note_type": "demand_signal",
+      "dashboard_slots": [
+        "what_moving",
+        "creative_programs",
+        "today_read"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "data_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "Brewers' Jacob Misiorowski's All-Star Game glove i...",
+      "why_it_matters": "Potential demand signal for licensed merchandise, player/team interest, or creative programming.",
+      "supporting_facts": [
+        "The Milwaukee Brewers ace showed off a special Pok\u00e9mon-themed All-Star Game glove that includes a Charizard card inside of it."
+      ],
+      "suggested_copy": "Brewers' Jacob Misiorowski's All-Star Game glove i... \u2014 The Milwaukee Brewers ace showed off a special Pok\u00e9mon-themed All-Star Game glove that includes a Charizard card inside of it.",
+      "confidence": "medium",
+      "relevance": [
+        "merch_demand",
+        "seasonality"
+      ],
+      "relevance_score": 0.52,
+      "relevance_reason": "ESPN precision source; matches all-star, card",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN MLB",
+          "url": "https://www.espn.com/mlb/story/_/id/49354162/jacob-misiorowski-milwaukee-brewers-pokemon-all-star-game-2026-glove",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/mlb/news",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published": "2026-07-16T13:46:56+00:00",
+          "published_at": "2026-07-16T13:46:56+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-world-cup-daily-world-cup-winners-and-fans-to",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: World Cup Daily: World Cup winners (and fans!) to ...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "report_date",
+      "window_start": "2026-07-17",
+      "window_end": "2026-07-17",
+      "summary": "World Cup Daily: World Cup winners (and fans!) to ...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Enjoy all the features, news, video analysis and color from around the competition as we enter the final weekend of the 2026 World Cup."
+      ],
+      "suggested_copy": "World Cup Daily: World Cup winners (and fans!) to ... \u2014 Enjoy all the features, news, video analysis and color from around the competition as we enter the final weekend of the 2026 World Cup.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.52,
+      "relevance_reason": "ESPN precision source; matches world cup, final",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49380811/world-cup-daily-world-cup-winners-spain-argentina-fans-championship-rings",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-17T10:23:43+00:00",
+          "published_at": "2026-07-17T10:23:43+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-get-ready-for-the-world-cup-final-what-you-need-t",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Get ready for the World Cup final! What you need t...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "report_date",
+      "window_start": "2026-07-17",
+      "window_end": "2026-07-17",
+      "summary": "Get ready for the World Cup final! What you need t...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "We're down to the final of the 2026 FIFA World Cup, as there are now just two teams still harboring dreams of becoming world champions."
+      ],
+      "suggested_copy": "Get ready for the World Cup final! What you need t... \u2014 We're down to the final of the 2026 FIFA World Cup, as there are now just two teams still harboring dreams of becoming world champions.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.52,
+      "relevance_reason": "ESPN precision source; matches world cup, final",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49370934/fifa-world-cup-final-argentina-vs-spain-need-know-predictions-odds",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-17T10:22:42+00:00",
+          "published_at": "2026-07-17T10:22:42+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-why-messi-is-the-best-player-at-the-world-cup-a",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Why Messi is the best player at the World Cup -- a...",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "report_date",
+      "window_start": "2026-07-17",
+      "window_end": "2026-07-17",
+      "summary": "Why Messi is the best player at the World Cup -- a...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "Lionel Messi has long been considered the greatest soccer player ever, but he's so much more than that. He's the best male athlete, in any sport, in history."
+      ],
+      "suggested_copy": "Why Messi is the best player at the World Cup -- a... \u2014 Lionel Messi has long been considered the greatest soccer player ever, but he's so much more than that. He's the best male athlete, in any sport, in history.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.52,
+      "relevance_reason": "ESPN precision source; matches world cup, messi",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/49379413/messi-best-player-2026-world-cup-best-male-athlete-ever",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/soccer/news",
+          "feed_url": "https://www.espn.com/espn/rss/soccer/news",
+          "published": "2026-07-17T10:21:19+00:00",
+          "published_at": "2026-07-17T10:21:19+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-mlb-second-half-preview-is-your-team-a-world-seri",
+      "generated_from": "sports-events.json",
+      "topic": "MLB: MLB second-half preview: Is your team a World Seri...",
+      "league": "MLB",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "data_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "MLB second-half preview: Is your team a World Seri...",
+      "why_it_matters": "Potential timing cue for keeping commentary aligned to what is happening now or soon.",
+      "supporting_facts": [
+        "Who will rule the rest of the season? Here's everything you need to know coming out of the All-Star break."
+      ],
+      "suggested_copy": "MLB second-half preview: Is your team a World Seri... \u2014 Who will rule the rest of the season? Here's everything you need to know coming out of the All-Star break.",
+      "confidence": "medium",
+      "relevance": [
+        "seasonality"
+      ],
+      "relevance_score": 0.46,
+      "relevance_reason": "ESPN precision source; matches all-star",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Top Headlines",
+          "url": "https://www.espn.com/mlb/story/_/id/49352481/mlb-2026-second-half-preview-rankings-projections-playoff-odds-all-30-teams",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/news",
+          "feed_url": "https://www.espn.com/espn/rss/news",
+          "published": "2026-07-16T23:08:31+00:00",
+          "published_at": "2026-07-16T23:08:31+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-canes-to-raise-cup-banner-sept-29-vs-panthers",
+      "generated_from": "sports-events.json",
+      "topic": "NHL: Canes to raise Cup banner Sept. 29 vs. Panthers",
+      "league": "NHL",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "data_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "Canes to raise Cup banner Sept. 29 vs. Panthers",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "The Hurricanes will raise their second Stanley Cup championship banner Sept. 29 before hosting the Panthers to kick off the NHL season."
+      ],
+      "suggested_copy": "Canes to raise Cup banner Sept. 29 vs. Panthers \u2014 The Hurricanes will raise their second Stanley Cup championship banner Sept. 29 before hosting the Panthers to kick off the NHL season.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.46,
+      "relevance_reason": "ESPN precision source; matches championship",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN NHL",
+          "url": "https://www.espn.com/nhl/story/_/id/49367105/champion-hurricanes-open-nhl-season-panthers",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/nhl/news",
+          "feed_url": "https://www.espn.com/espn/rss/nhl/news",
+          "published": "2026-07-16T22:49:19+00:00",
+          "published_at": "2026-07-16T22:49:19+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-why-the-world-cup-should-provide-the-road-map-for-cfp-expansion",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: Why the World Cup should provide the road map for CFP expansion",
+      "league": "Soccer",
+      "note_type": "historical_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "what_moving",
+        "today_read"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "data_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "Why the World Cup should provide the road map for CFP expansion",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "World Cup expansion had its critics, but access was a goal. That hasn't been the thing for the CFP."
+      ],
+      "suggested_copy": "Why the World Cup should provide the road map for CFP expansion \u2014 World Cup expansion had its critics, but access was a goal. That hasn't been the thing for the CFP.",
+      "confidence": "medium",
+      "relevance": [
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.46,
+      "relevance_reason": "ESPN precision source; matches world cup",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Top Headlines",
+          "url": "https://www.espn.com/college-football/story/_/id/49359428/world-cup-2026-expansion-college-football-playoff",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/news",
+          "feed_url": "https://www.espn.com/espn/rss/news",
+          "published": "2026-07-16T16:34:29+00:00",
+          "published_at": "2026-07-16T16:34:29+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-ranking-the-wnba-s-top-10-rim-protectors-of-all-ti",
+      "generated_from": "sports-events.json",
+      "topic": "WNBA: Ranking the WNBA's top 10 rim protectors of all ti...",
+      "league": "WNBA",
+      "note_type": "cultural_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "creative_programs"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "data_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "Ranking the WNBA's top 10 rim protectors of all ti...",
+      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
+      "supporting_facts": [
+        "A'ja Wilson, Brittney Griner and Breanna Stewart already rank among the best shot blockers, rebounders and post presences."
+      ],
+      "suggested_copy": "Ranking the WNBA's top 10 rim protectors of all ti... \u2014 A'ja Wilson, Brittney Griner and Breanna Stewart already rank among the best shot blockers, rebounders and post presences.",
+      "confidence": "medium",
+      "relevance": [
+        "culture"
+      ],
+      "relevance_score": 0.46,
+      "relevance_reason": "ESPN precision source; matches wnba",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN WNBA",
+          "url": "https://www.espn.com/wnba/story/_/id/49372575/wnba-2026-shot-blockers-rebounders-rim-protectors-history-30th-season-aja-wilson-brittney-griner",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/wnba/news",
+          "feed_url": "https://www.espn.com/espn/rss/wnba/news",
+          "published": "2026-07-16T13:52:33+00:00",
+          "published_at": "2026-07-16T13:52:33+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-dodgers-to-give-away-bobblehead-celebrating-pages",
+      "generated_from": "sports-events.json",
+      "topic": "MLB: Dodgers to give away bobblehead celebrating Pages ...",
+      "league": "MLB",
+      "note_type": "cultural_context",
+      "dashboard_slots": [
+        "bigger_picture",
+        "creative_programs"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "data_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "Dodgers to give away bobblehead celebrating Pages ...",
+      "why_it_matters": "Potential context note because it is a recent, sourced signal in a league/category Fanatics sells.",
+      "supporting_facts": [
+        "The Los Angeles Dodgers' newest bobblehead giveaway will pay homage to one of the more unconventional and greatest catches in MLB history."
+      ],
+      "suggested_copy": "Dodgers to give away bobblehead celebrating Pages ... \u2014 The Los Angeles Dodgers' newest bobblehead giveaway will pay homage to one of the more unconventional and greatest catches in MLB history.",
+      "confidence": "medium",
+      "relevance": [
+        "culture"
+      ],
+      "relevance_score": 0.46,
+      "relevance_reason": "ESPN precision source; matches dodgers",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN MLB",
+          "url": "https://www.espn.com/mlb/story/_/id/49370285/los-angeles-dodgers-bobblehead-andy-pages-enrique-hernandez",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/mlb/news",
+          "feed_url": "https://www.espn.com/espn/rss/mlb/news",
+          "published": "2026-07-16T13:46:56+00:00",
+          "published_at": "2026-07-16T13:46:56+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-16-usmnt-s-world-cup-over-pochettino-s-contract-done",
+      "generated_from": "sports-events.json",
+      "topic": "Soccer: USMNT's World Cup over, Pochettino's contract done...",
+      "league": "Soccer",
+      "note_type": "roster_market_context",
+      "dashboard_slots": [
+        "what_moving",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "window": "data_date",
+      "window_start": "2026-07-16",
+      "window_end": "2026-07-16",
+      "summary": "USMNT's World Cup over, Pochettino's contract done...",
+      "why_it_matters": "Potential historical/cultural framing for an executive note, especially if linked to verified records, playoffs, titles, or milestones.",
+      "supporting_facts": [
+        "If Mauricio Pochettino leaves the USMNT, the question is who could replace him."
+      ],
+      "suggested_copy": "USMNT's World Cup over, Pochettino's contract done... \u2014 If Mauricio Pochettino leaves the USMNT, the question is who could replace him.",
+      "confidence": "medium",
+      "relevance": [
+        "roster_market",
+        "historical_context",
+        "seasonality"
+      ],
+      "relevance_score": 0.46,
+      "relevance_reason": "ESPN precision source; matches world cup",
+      "source_family": "espn_rss",
+      "sources": [
+        {
+          "name": "ESPN Top Headlines",
+          "url": "https://www.espn.com/soccer/story/_/id/49344382/who-new-usmnt-coach-11-candidates-pochettino-world-cup-2026",
+          "type": "article",
+          "source_family": "espn_rss",
+          "source_rank": 2,
+          "feed": "https://www.espn.com/espn/rss/news",
+          "feed_url": "https://www.espn.com/espn/rss/news",
+          "published": "2026-07-16T13:40:50+00:00",
+          "published_at": "2026-07-16T13:40:50+00:00"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "2026-07-17-wnba-season-phase",
+      "generated_from": "sports-facts.json",
+      "topic": "WNBA",
+      "league": "WNBA",
+      "note_type": "seasonality",
+      "dashboard_slots": [
+        "today_read",
+        "league_momentum",
+        "bigger_picture"
+      ],
+      "report_date": "2026-07-17",
+      "data_date": "2026-07-16",
+      "summary": "WNBA is currently marked in-season (regular-season).",
+      "why_it_matters": "Use cautiously: this is useful for avoiding obvious seasonality errors, but Cowork should phrase softly or verify before making a strong claim.",
+      "supporting_facts": [
+        "API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added."
+      ],
+      "suggested_copy": "Seasonality check: WNBA is in season as of 2026-07-17; API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added.",
+      "confidence": "low",
+      "relevance_score": 0.45,
+      "relevance_reason": "derived season-phase guardrail for dashboard wording",
+      "sources": [
+        {
+          "name": "manual-public-calendar-seed",
+          "url": "https://www.api-sports.io/",
+          "type": "data_provider"
+        }
+      ],
+      "warnings": [
+        "API-Sports basketball search did not expose WNBA in POC checks; derive from public WNBA seasonal norms until a licensed endpoint is added."
+      ]
+    }
+  ]
+}

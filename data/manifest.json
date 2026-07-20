@@ -103,6 +103,13 @@
       "raw_url": "https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/reports/2026-07-18/manifest.json"
     },
     {
+      "report_date": "2026-07-19",
+      "data_date": "2026-07-18",
+      "status": "ok",
+      "path": "data/reports/2026-07-19/manifest.json",
+      "raw_url": "https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/reports/2026-07-19/manifest.json"
+    },
+    {
       "report_date": "2026-07-20",
       "data_date": "2026-07-19",
       "status": "ok",

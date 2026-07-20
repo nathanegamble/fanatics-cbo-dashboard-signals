@@ -70,6 +70,18 @@ def build_manifest(report_date: date, data_date: date, facts: dict, events: dict
     }
 
 
+REQUIRED_REPORT_FILES = [
+    "manifest.json",
+    "sports-facts.json",
+    "sports-events.json",
+    "contextual-notes-candidates.json",
+]
+
+
+def report_bundle_complete(report_dir: Path) -> bool:
+    return all((report_dir / name).exists() for name in REQUIRED_REPORT_FILES)
+
+
 def write_snapshot(report_date: date, data_date: date, facts: dict, events: dict, notes: dict, results: dict) -> dict:
     snapshot_rel = f"reports/{report_date}"
     snapshot_dir = DATA / snapshot_rel
@@ -81,6 +93,8 @@ def write_snapshot(report_date: date, data_date: date, facts: dict, events: dict
     write_json(snapshot_dir / "contextual-notes-candidates.json", notes_s)
     manifest = build_manifest(report_date, data_date, facts_s, events_s, notes_s, results, snapshot_rel=snapshot_rel)
     write_json(snapshot_dir / "manifest.json", manifest)
+    if not report_bundle_complete(snapshot_dir):
+        raise RuntimeError(f"incomplete dated snapshot bundle: {snapshot_dir}")
     return manifest
 
 
@@ -148,6 +162,8 @@ def main() -> int:
     available = []
     for p in sorted((DATA / "reports").glob("*/manifest.json")):
         try:
+            if not report_bundle_complete(p.parent):
+                continue
             m = load(p)
             available.append({
                 "report_date": m.get("report_date"),
