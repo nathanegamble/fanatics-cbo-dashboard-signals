@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T09:45:29.865754+00:00",
-  "as_of": "2026-07-18",
+  "generated_at": "2026-07-20T15:10:42.522853+00:00",
+  "as_of": "2026-07-20",
   "source": "api-sports.io + documented fallbacks",
   "version": "0.1",
   "status": "ok",
@@ -16,7 +16,7 @@
       "season_phase": "off-season",
       "phase_detail": "pre-season-upcoming",
       "phase_confidence": "medium",
-      "phase_basis": "Current date is 20 days before the next API-Sports season start.",
+      "phase_basis": "Current date is 18 days before the next API-Sports season start.",
       "season": {
         "label": "2026",
         "start": "2026-08-07",
@@ -26,7 +26,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-18",
+      "as_of": "2026-07-20",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "american-football",
@@ -40,7 +40,7 @@
       "season_phase": "off-season",
       "phase_detail": "pre-season-upcoming",
       "phase_confidence": "medium",
-      "phase_basis": "Current date is 42 days before the next API-Sports season start.",
+      "phase_basis": "Current date is 40 days before the next API-Sports season start.",
       "season": {
         "label": "2026",
         "start": "2026-08-29",
@@ -50,7 +50,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-18",
+      "as_of": "2026-07-20",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "american-football",
@@ -76,7 +76,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-18",
+      "as_of": "2026-07-20",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "baseball",
@@ -100,7 +100,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-18",
+      "as_of": "2026-07-20",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "basketball",
@@ -124,7 +124,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-18",
+      "as_of": "2026-07-20",
       "source_detail": {
         "provider": "manual-public-calendar-seed",
         "sport_api": null,
@@ -150,7 +150,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-18",
+      "as_of": "2026-07-20",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "basketball",
@@ -176,7 +176,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-18",
+      "as_of": "2026-07-20",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "basketball",
@@ -192,7 +192,7 @@
       "season_phase": "off-season",
       "phase_detail": "off-season",
       "phase_confidence": "medium",
-      "phase_basis": "Current date is 64 days before the next API-Sports season start.",
+      "phase_basis": "Current date is 62 days before the next API-Sports season start.",
       "season": {
         "label": "2026",
         "start": "2026-09-20",
@@ -202,7 +202,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-18",
+      "as_of": "2026-07-20",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "hockey",
@@ -226,7 +226,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-18",
+      "as_of": "2026-07-20",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "football",
@@ -237,10 +237,10 @@
     },
     {
       "league": "FIFA World Cup",
-      "season_phase": "in-season",
-      "phase_detail": "regular-season",
+      "season_phase": "off-season",
+      "phase_detail": "off-season",
       "phase_confidence": "medium",
-      "phase_basis": "Current date falls inside API-Sports league season window; no playoff/preseason markers detected in sampled game metadata.",
+      "phase_basis": "Current date is after the API-Sports season end and no active preseason competition was found.",
       "season": {
         "label": "2026",
         "start": "2026-06-11",
@@ -250,7 +250,7 @@
       "key_dates": [],
       "recent_results": [],
       "standings_top": [],
-      "as_of": "2026-07-18",
+      "as_of": "2026-07-20",
       "source_detail": {
         "provider": "api-sports.io",
         "sport_api": "football",
@@ -262,7 +262,7 @@
       "warnings": []
     }
   ],
-  "report_date": "2026-07-18",
-  "data_date": "2026-07-17",
+  "report_date": "2026-07-20",
+  "data_date": "2026-07-19",
   "report_date_basis": "Cowork dashboard report date follows receipt/publication date; underlying business data represents the prior day."
 }
