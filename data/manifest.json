@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-22T09:45:15.403232+00:00",
+  "generated_at": "2026-07-23T09:45:57.934696+00:00",
   "status": "ok",
   "version": "0.2",
-  "report_date": "2026-07-22",
-  "data_date": "2026-07-21",
+  "report_date": "2026-07-23",
+  "data_date": "2026-07-22",
   "report_date_basis": "Cowork dashboard report date follows receipt/publication date; underlying business data represents the prior day.",
   "source_families": [
     "espn_rss",
@@ -14,25 +14,25 @@
       "path": "data/sports-facts.json",
       "raw_url": "https://github.com/nathanegamble/fanatics-cbo-dashboard-signals/raw/refs/heads/main/data/sports-facts.json",
       "status": "ok",
-      "as_of": "2026-07-22",
-      "report_date": "2026-07-22",
-      "data_date": "2026-07-21"
+      "as_of": "2026-07-23",
+      "report_date": "2026-07-23",
+      "data_date": "2026-07-22"
     },
     "sports_events": {
       "path": "data/sports-events.json",
       "raw_url": "https://github.com/nathanegamble/fanatics-cbo-dashboard-signals/raw/refs/heads/main/data/sports-events.json",
       "status": "ok",
-      "as_of": "2026-07-22",
-      "report_date": "2026-07-22",
-      "data_date": "2026-07-21"
+      "as_of": "2026-07-23",
+      "report_date": "2026-07-23",
+      "data_date": "2026-07-22"
     },
     "contextual_notes_candidates": {
       "path": "data/contextual-notes-candidates.json",
       "raw_url": "https://github.com/nathanegamble/fanatics-cbo-dashboard-signals/raw/refs/heads/main/data/contextual-notes-candidates.json",
       "status": "ok",
-      "as_of": "2026-07-22",
-      "report_date": "2026-07-22",
-      "data_date": "2026-07-21",
+      "as_of": "2026-07-23",
+      "report_date": "2026-07-23",
+      "data_date": "2026-07-22",
       "candidate_count": 30
     }
   },
@@ -43,11 +43,11 @@
     },
     "refresh_events.py": {
       "exit_code": 0,
-      "output": "{\n  \"wrote\": \"/Users/horatio/Projects/fanatics-cbo-dashboard-signals/data/sports-events.json\",\n  \"status\": \"ok\",\n  \"items_collected\": 444,\n  \"report_date\": \"2026-07-22\",\n  \"data_date\": \"2026-07-21\"\n}"
+      "output": "{\n  \"wrote\": \"/Users/horatio/Projects/fanatics-cbo-dashboard-signals/data/sports-events.json\",\n  \"status\": \"ok\",\n  \"items_collected\": 420,\n  \"report_date\": \"2026-07-23\",\n  \"data_date\": \"2026-07-22\"\n}"
     },
     "refresh_contextual_notes.py": {
       "exit_code": 0,
-      "output": "{\n  \"wrote\": \"/Users/horatio/Projects/fanatics-cbo-dashboard-signals/data/contextual-notes-candidates.json\",\n  \"status\": \"ok\",\n  \"candidate_count\": 30,\n  \"report_date\": \"2026-07-22\",\n  \"data_date\": \"2026-07-21\"\n}"
+      "output": "{\n  \"wrote\": \"/Users/horatio/Projects/fanatics-cbo-dashboard-signals/data/contextual-notes-candidates.json\",\n  \"status\": \"ok\",\n  \"candidate_count\": 30,\n  \"report_date\": \"2026-07-23\",\n  \"data_date\": \"2026-07-22\"\n}"
     }
   },
   "consumer_notes": [
@@ -57,8 +57,8 @@
     "contextual-notes-candidates.json provides source-backed candidate notes and dashboard-slot hints for Cowork to adapt, not final prose.",
     "All committed outputs are public sports facts/news references; no API keys or credentials are written."
   ],
-  "latest_report_date": "2026-07-22",
-  "latest_data_date": "2026-07-21",
+  "latest_report_date": "2026-07-23",
+  "latest_data_date": "2026-07-22",
   "available_reports": [
     {
       "report_date": "2026-07-13",
@@ -129,11 +129,18 @@
       "status": "ok",
       "path": "data/reports/2026-07-22/manifest.json",
       "raw_url": "https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/reports/2026-07-22/manifest.json"
+    },
+    {
+      "report_date": "2026-07-23",
+      "data_date": "2026-07-22",
+      "status": "ok",
+      "path": "data/reports/2026-07-23/manifest.json",
+      "raw_url": "https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/reports/2026-07-23/manifest.json"
     }
   ],
   "dated_snapshot": {
-    "path": "data/reports/2026-07-22/manifest.json",
-    "raw_url": "https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/reports/2026-07-22/manifest.json",
+    "path": "data/reports/2026-07-23/manifest.json",
+    "raw_url": "https://raw.githubusercontent.com/nathanegamble/fanatics-cbo-dashboard-signals/main/data/reports/2026-07-23/manifest.json",
     "status": "ok"
   }
 }
