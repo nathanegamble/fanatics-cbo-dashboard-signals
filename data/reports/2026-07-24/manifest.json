@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-07-24T09:45:43.907293+00:00",
+  "status": "ok",
+  "version": "0.2",
+  "report_date": "2026-07-24",
+  "data_date": "2026-07-23",
+  "report_date_basis": "Cowork dashboard report date follows receipt/publication date; underlying business data represents the prior day.",
+  "source_families": [
+    "espn_rss",
+    "yahoo_sports_rss"
+  ],
+  "files": {
+    "sports_facts": {
+      "path": "data/reports/2026-07-24/sports-facts.json",
+      "raw_url": "https://github.com/nathanegamble/fanatics-cbo-dashboard-signals/raw/refs/heads/main/data/reports/2026-07-24/sports-facts.json",
+      "status": "ok",
+      "as_of": "2026-07-24",
+      "report_date": "2026-07-24",
+      "data_date": "2026-07-23"
+    },
+    "sports_events": {
+      "path": "data/reports/2026-07-24/sports-events.json",
+      "raw_url": "https://github.com/nathanegamble/fanatics-cbo-dashboard-signals/raw/refs/heads/main/data/reports/2026-07-24/sports-events.json",
+      "status": "ok",
+      "as_of": "2026-07-24",
+      "report_date": "2026-07-24",
+      "data_date": "2026-07-23"
+    },
+    "contextual_notes_candidates": {
+      "path": "data/reports/2026-07-24/contextual-notes-candidates.json",
+      "raw_url": "https://github.com/nathanegamble/fanatics-cbo-dashboard-signals/raw/refs/heads/main/data/reports/2026-07-24/contextual-notes-candidates.json",
+      "status": "ok",
+      "as_of": "2026-07-24",
+      "report_date": "2026-07-24",
+      "data_date": "2026-07-23",
+      "candidate_count": 30
+    }
+  },
+  "run_results": {
+    "refresh_api_sports.py": {
+      "exit_code": 0,
+      "output": "{\n  \"wrote\": \"data/sports-facts.json\",\n  \"status\": \"ok\",\n  \"leagues\": 10,\n  \"request_count\": 19\n}"
+    },
+    "refresh_events.py": {
+      "exit_code": 0,
+      "output": "{\n  \"wrote\": \"/Users/horatio/Projects/fanatics-cbo-dashboard-signals/data/sports-events.json\",\n  \"status\": \"ok\",\n  \"items_collected\": 434,\n  \"report_date\": \"2026-07-24\",\n  \"data_date\": \"2026-07-23\"\n}"
+    },
+    "refresh_contextual_notes.py": {
+      "exit_code": 0,
+      "output": "{\n  \"wrote\": \"/Users/horatio/Projects/fanatics-cbo-dashboard-signals/data/contextual-notes-candidates.json\",\n  \"status\": \"ok\",\n  \"candidate_count\": 30,\n  \"report_date\": \"2026-07-24\",\n  \"data_date\": \"2026-07-23\"\n}"
+    }
+  },
+  "consumer_notes": [
+    "sports-facts.json includes derived season_phase plus phase_detail, phase_basis, and phase_confidence.",
+    "sports-events.json uses ESPN RSS as a precision layer and Yahoo Sports RSS as a breadth/discovery layer.",
+    "sports-events.json keeps Cowork's window concept and adds report_date/data_date for the dashboard date convention.",
+    "contextual-notes-candidates.json provides source-backed candidate notes and dashboard-slot hints for Cowork to adapt, not final prose.",
+    "All committed outputs are public sports facts/news references; no API keys or credentials are written."
+  ]
+}
